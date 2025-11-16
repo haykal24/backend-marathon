@@ -1,0 +1,27 @@
+{
+  "image": "Soekarno_Run_Bandung_2025_2025-06-08.jpg",
+  "judul": "Soekarno Run Bandung 2025",
+  "isi_informasi": "Soekarno Run Bandung adalah acara lari santai sejauh 5 kilometer yang diadakan untuk memperingati Bulan Bung Karno. Acara ini berlangsung pada 8 Juni 2025 di Balai Kota Bandung, dengan rute melewati lokasi-lokasi bersejarah terkait Bung Karno. Kegiatan ini bertujuan untuk mengenang dan memahami peran penting Bandung dalam sejarah Indonesia.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB",
+    "Komik Bung Karno Bapak Bangsa"
+  ],
+  "lokasi": "Balai Kota Bandung, Jl. Wastukancana No. 2 Bandung, Jawa Barat",
+  "kota": "Bandung",
+  "tanggal_event": "2025-06-08",
+  "kontak_event": {
+    "Instagram": [
+      "@soekarnofest"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 150.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

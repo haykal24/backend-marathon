@@ -1,0 +1,31 @@
+{
+  "image": "Charity_Run_for_Palestine_2024_2024-12-15.jpg",
+  "judul": "Charity Run for Palestine 2024",
+  "isi_informasi": "Charity Run for Palestine 2024 adalah acara lari amal untuk mendukung rakyat Palestina. Acara ini mengajak masyarakat berpartisipasi dalam lari sambil memberikan kontribusi untuk bantuan kemanusiaan. Terdapat dua kategori jarak, yaitu 3.6K dan 7K, yang terbuka untuk semua kalangan tanpa batasan usia atau kebugaran. Tujuan utama acara ini adalah menggalang dana untuk kebutuhan mendesak di Palestina dan mempererat solidaritas global melalui olahraga. Acara ini berlangsung di Balai Pemuda Kota Surabaya, menciptakan suasana semangat dan kebersamaan.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali",
+    "Nomor BIB",
+    "Donasi",
+    "Doorprize"
+  ],
+  "lokasi": "LMI Surabaya, Gedung Sehati, Jl. Barata Jaya XXII No.20, Baratajaya, Kec. Gubeng, Surabaya",
+  "kota": "Surabaya",
+  "tanggal_event": "2024-12-15",
+  "kontak_event": {
+    "Instagram": [
+      "@funrunforpalestine"
+    ],
+    "WhatsApp": "0851 6168 0291"
+  },
+  "biaya_registrasi": {
+    "3.6K": "IDR 180.000",
+    "7K": "IDR 200.000",
+    "Virtual Run": "IDR 180.000"
+  },
+  "kategori": [
+    "3.6K",
+    "7K"
+  ],
+  "jenis_event": "road run"
+}

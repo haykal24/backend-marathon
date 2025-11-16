@@ -1,0 +1,38 @@
+{
+  "image": "Indonesia_Womens_Run_2025_Bandung_Series_2025-10-05.jpg",
+  "judul": "Indonesia Women's Run 2025 Bandung Series",
+  "isi_informasi": "Indonesia Women's Run (IWR) Bandung Series adalah lomba lari jalan raya khusus untuk perempuan dan anak perempuan yang diselenggarakan di Bandung. Pertama kali diadakan pada 8 Maret 2020 untuk memperingati Hari Perempuan Internasional, acara ini telah menjadi kegiatan tahunan yang mempromosikan gaya hidup sehat dan meningkatkan kesadaran tentang isu kesehatan perempuan, seperti kanker payudara dan kanker serviks.",
+  "benefit_peserta": [
+    "Race Jersey Brand Brooks",
+    "BIB Number",
+    "Medali Penamat",
+    "Freebies",
+    "Tote Bag",
+    "Asuransi pada hari lomba",
+    "Rok Tutu untuk kategori 2KM Mummy+Me dan 100M Princess Dash"
+  ],
+  "lokasi": "Hotel Santika Bandung, Jl. Sumatra 52-54 Bandung",
+  "kota": "Bandung",
+  "tanggal_event": "2025-10-05",
+  "kontak_event": {
+    "Instagram": [
+      "@indonesiawomens_run"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 325.000",
+    "10K": "IDR 400.000",
+    "20K Team Mixed Duo": "IDR 900.000",
+    "2K Mum + Me": "IDR 625.000",
+    "100M Princess Dash": "IDR 300.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "20K Team Mixed Duo",
+    "2K Mum + Me",
+    "100M Princess Dash"
+  ],
+  "jenis_event": "road run"
+}

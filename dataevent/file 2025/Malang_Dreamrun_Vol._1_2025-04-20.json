@@ -1,0 +1,31 @@
+{
+  "image": "Malang_Dreamrun_Vol._1_2025-04-20.jpg",
+  "judul": "Malang Dreamrun Vol. 1",
+  "isi_informasi": "Bergabunglah dalam Malang DreamRun Vol. 1, sebuah Fun Trail Run yang menawarkan pemandangan pegunungan dan kebun jeruk yang indah pada hari Minggu, 20 April 2025, mulai pukul 05.00 WIB di Wisata Malang Dreamland, Poncokusumo, Kabupaten Malang. Pendaftaran gratis dan parkir juga gratis. Terdapat podium untuk juara 1 hingga 3 di semua kategori. Kuota terbatas, jadi daftarlah segera sebelum kehabisan tiket! Fasilitas yang disediakan termasuk BIB, medali finisher, jersey, refreshment, voucher wahana, dan voucher penginapan.",
+  "benefit_peserta": [
+    "BIB",
+    "Medali Finisher",
+    "Jersey",
+    "Refreshment",
+    "Voucher Wahana",
+    "Voucher Penginapan"
+  ],
+  "lokasi": "Wisata Malang Dreamland, Poncokusumo, Kab. Malang, Jawa Timur",
+  "kota": "Malang",
+  "tanggal_event": "2025-04-20",
+  "kontak_event": {
+    "Instagram": [
+      "@malangdreamrun"
+    ],
+    "WhatsApp": "0822 6419 4906"
+  },
+  "biaya_registrasi": {
+    "5K (Early Bird 1)": "IDR 140.000",
+    "5K (Early Bird 2)": "IDR 160.000",
+    "5K (Normal Price)": "IDR 185.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "trail run"
+}

@@ -1,0 +1,32 @@
+{
+  "image": "Runphoria_2025_2025-11-22.png",
+  "judul": "Runphoria 2025",
+  "isi_informasi": "Runphoria 2025 adalah event fun run yang menggabungkan olahraga, hiburan, dan kreativitas dalam suasana penuh warna dan kebersamaan. Dengan tema 'Not just a movement, but a revival of the colors of life', acara ini menawarkan pengalaman sportainment yang positif, mendorong gaya hidup sehat, dan memperkuat interaksi sosial. Peserta dapat memilih antara kategori 3K dan 5K. Tempat terbatas, segera daftar sebelum kehabisan!",
+  "benefit_peserta": [
+    "Jersey*",
+    "Medali Finisher",
+    "BIB Number",
+    "E-Sertifikat",
+    "Refreshment",
+    "Undian Doorprize"
+  ],
+  "lokasi": "Lapangan Parkir Stadion Mandala Krida, Kota Yogyakarta, DI Yogyakarta",
+  "kota": "Yogyakarta",
+  "tanggal_event": "2025-11-22",
+  "kontak_event": {
+    "Instagram": [
+      "@runphoria.uny2025"
+    ],
+    "WhatsApp": "0812 2224 0943"
+  },
+  "biaya_registrasi": {
+    "3K (Tanpa Jersey)": "IDR 120.000",
+    "3K (+ Jersey)": "IDR 140.000",
+    "5K (+ Jersey)": "IDR 155.000"
+  },
+  "kategori": [
+    "3K",
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

@@ -1,0 +1,35 @@
+{
+  "image": "Sari_Ater_Trail_Race_2025_2025-10-25.jpg",
+  "judul": "Sari Ater Trail Race 2025",
+  "isi_informasi": "Sari Ater Trail Race 2025 kembali hadir dengan tema 'Discover Your Adventure' untuk tahun keempat. Event ini menawarkan pengalaman lari lintas alam di kawasan Sari Ater Hot Spring Resort, Subang, dengan rute yang melintasi tujuh curug eksotis. Terdapat tiga kategori jarak: 21K (Half Marathon Trail), 10K (Short Trail), dan 5K (Fun Trail). Peserta akan mendapatkan berbagai keuntungan seperti medali finisher, jersey, dan tiket masuk kolam air panas.",
+  "benefit_peserta": [
+    "Medali Finisher",
+    "BIB Number",
+    "Jersey",
+    "Timing Chip",
+    "Tiket Masuk Kolam Air Panas",
+    "Tiket Masuk Air Terjun",
+    "Tote Bag",
+    "Asuransi Jiwa"
+  ],
+  "lokasi": "Lobby Sariater Hot Spring Hotel and Resort, Jawa Barat",
+  "kota": "Subang",
+  "tanggal_event": "2025-10-25",
+  "kontak_event": {
+    "Instagram": [
+      "@sariater.trailrace"
+    ],
+    "WhatsApp": "+62 877-1182-8195"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 350.000",
+    "10K": "IDR 450.000",
+    "21K": "IDR 650.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "trail run"
+}

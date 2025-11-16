@@ -1,0 +1,30 @@
+{
+  "image": "BAF_Lions_Run_2025_2025-08-31.png",
+  "judul": "BAF Lions Run 2025",
+  "isi_informasi": "BAF Lions Run 2025 adalah acara lari amal dengan misi 'Run For Children', bertujuan untuk meningkatkan kesadaran dan menggalang dana bagi anak-anak penderita kanker. Peserta berkontribusi dalam menyediakan perawatan dan akomodasi bagi mereka selama pengobatan. Setiap langkah yang diambil dalam acara ini membantu mengubah hidup anak-anak tersebut.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Number"
+  ],
+  "lokasi": "Parkir Timur Selatan GBK, Senayan, Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta Pusat",
+  "tanggal_event": "2025-08-31",
+  "kontak_event": {
+    "Instagram": [
+      "@lionsrunindonesia"
+    ],
+    "WhatsApp": "081 9751 3123"
+  },
+  "biaya_registrasi": {
+    "2.5K": "IDR 249.000",
+    "5K": "IDR 299.000",
+    "10K": "IDR 399.000"
+  },
+  "kategori": [
+    "2.5K",
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

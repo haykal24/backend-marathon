@@ -1,0 +1,29 @@
+{
+  "image": "Jelajah_Timur_2024_2024-10-24.png",
+  "judul": "Jelajah Timur 2024",
+  "isi_informasi": "Jelajah Timur - Run for Equality adalah acara lari amal yang diadakan oleh Yayasan Plan International Indonesia sejak 2019, bertujuan untuk menyediakan akses air bersih di Nusa Tenggara Timur. Pada tahun keenam, acara ini mengajak peserta menjelajahi keindahan alam dari Sembalun hingga Kuta, Nusa Tenggara Barat, sambil mendukung akses air bersih.",
+  "benefit_peserta": [
+    "Akomodasi 3 hari 2 malam",
+    "Makan & minum 3x sehari",
+    "Fasilitas lomba lengkap",
+    "Jersey, medali finisher, dan race pack"
+  ],
+  "lokasi": "Sembalun hingga Kuta, Nusa Tenggara Barat",
+  "kota": "Lombok",
+  "tanggal_event": "2024-10-24",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "+62 858-8012-8108"
+  },
+  "biaya_registrasi": {
+    "100K": "IDR 2.500.000",
+    "50K": "IDR 2.500.000",
+    "12K": "IDR 2.500.000"
+  },
+  "kategori": [
+    "12K",
+    "50K",
+    "100K"
+  ],
+  "jenis_event": "road run"
+}

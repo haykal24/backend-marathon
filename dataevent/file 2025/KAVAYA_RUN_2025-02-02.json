@@ -1,0 +1,31 @@
+{
+  "image": "KAVAYA_RUN_2025-02-02.png",
+  "judul": "KAVAYA RUN",
+  "isi_informasi": "Kavaya Production akan mengadakan event lari 'Kavaya Run' di Batam untuk mempromosikan gaya hidup sehat dan mendukung pengembangan sport wisata di kota tersebut.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medal",
+    "BIB Number",
+    "Drawstring Bag",
+    "Lucky Draw",
+    "Refreshment"
+  ],
+  "lokasi": "Alun Alun Engku Putri, Batam Center, Kota Batam, Kepulauan Riau",
+  "kota": "Batam",
+  "tanggal_event": "2025-02-02",
+  "kontak_event": {
+    "Instagram": [
+      "@kavayakreatif.id"
+    ],
+    "WhatsApp": "0812 8870 0025"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 200.000",
+    "10K": "IDR 200.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

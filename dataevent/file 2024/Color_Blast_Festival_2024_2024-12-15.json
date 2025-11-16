@@ -1,0 +1,28 @@
+{
+  "image": "Color_Blast_Festival_2024_2024-12-15.jpg",
+  "judul": "Color Blast Festival 2024",
+  "isi_informasi": "Color Blast Festival 2024 mengajak peserta untuk berlari dengan cara yang menyenangkan sambil meningkatkan kesadaran akan gaya hidup sehat. Acara ini menawarkan racepack, talkshow, Bazar UMKM, dan penampilan spesial dari Zain Music Performance & Godil.",
+  "benefit_peserta": [
+    "BIB Number",
+    "Sunglasses",
+    "String Bag",
+    "Jersey",
+    "Finisher Medal"
+  ],
+  "lokasi": "Thamrin 10, Kebon Sirih, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta Pusat",
+  "tanggal_event": "2024-12-15",
+  "kontak_event": {
+    "Instagram": [
+      "@colorblast.fest"
+    ],
+    "WhatsApp": "0858 6771 8942"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 175.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

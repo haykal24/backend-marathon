@@ -1,0 +1,58 @@
+{
+  "image": "BDG100_Ultra_Trail_2025_2025-09-12.png",
+  "judul": "BDG100 Ultra Trail 2025",
+  "isi_informasi": "Bergabunglah dalam edisi ke-6 BDG100, lomba lari ultra trail terbesar di Bandung yang diselenggarakan oleh BDG Explorer. Nikmati keindahan alam pegunungan utara Bandung melalui jalur Palasari, Manglayang, Pangparang, Bukit Tunggul, Tangkuban Perahu, dan Burangrang. Lomba ini memiliki enam kategori yang terakreditasi oleh ITRA, menjadikannya ajang kualifikasi untuk UTMB. Daftar sekarang dan hadapi tantangan di BDG100!",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "Finisher Jersey",
+    "BIB",
+    "Refreshment",
+    "Goodie Bag"
+  ],
+  "lokasi": "Villa Istana Bunga, Bandung Barat, Jawa Barat",
+  "kota": "Bandung Barat",
+  "tanggal_event": "2025-09-12",
+  "kontak_event": {
+    "Instagram": [
+      "@bdg100_official",
+      "@bdg_explorer"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "13K": {
+      "WNI": "Rp 700K",
+      "WNA": "Rp 1.000K"
+    },
+    "27K": {
+      "WNI": "Rp 1.200K",
+      "WNA": "Rp 1.400K"
+    },
+    "42K": {
+      "WNI": "Rp 1.400K",
+      "WNA": "Rp 1.600K"
+    },
+    "70K": {
+      "WNI": "Rp 1.600K",
+      "WNA": "Rp 1.850K"
+    },
+    "100K": {
+      "WNI": "Rp 1.900K",
+      "WNA": "Rp 2.150K"
+    },
+    "163K": {
+      "WNI": "Rp 2.400K",
+      "WNA": "Rp 2.700K"
+    }
+  },
+  "kategori": [
+    "13K",
+    "27K",
+    "42K",
+    "70K",
+    "100K",
+    "163K"
+  ],
+  "jenis_event": "trail run"
+}

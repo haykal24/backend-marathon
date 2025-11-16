@@ -1,0 +1,32 @@
+{
+  "image": "Smartfren_Run_2025_2025-06-08.jpg",
+  "judul": "Smartfren Run 2025",
+  "isi_informasi": "Smartfren Run kembali diadakan pada tahun 2025 dengan semangat baru untuk mengajak masyarakat berlari bersama, merayakan keberagaman, dan mempererat kebersamaan. Mengusung tema '100% untuk Indonesia Menyatukan yang Berbeda', event ini menawarkan rute menarik, hiburan, dan hadiah ratusan juta rupiah. Penyelenggaraan dilakukan oleh IdeaRun dengan standar lomba bersertifikasi PASI dan RRCA.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB",
+    "Refreshment",
+    "Finisher Jersey* (Only HM)"
+  ],
+  "lokasi": "Plaza Timur Gelora Bung Karno (GBK), Senayan, Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta Pusat",
+  "tanggal_event": "2025-06-08",
+  "kontak_event": {
+    "Instagram": [
+      "@smartfrenrun"
+    ],
+    "WhatsApp": "0888 0210 2016"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 199.000",
+    "10K": "IDR 299.000",
+    "Half Marathon": "IDR 399.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "Half Marathon"
+  ],
+  "jenis_event": "road run"
+}

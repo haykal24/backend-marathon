@@ -1,0 +1,29 @@
+{
+  "image": "KedokteRun_2025_2025-11-23.png",
+  "judul": "KedokteRun 2025",
+  "isi_informasi": "KedokteRun 2025 adalah acara lari yang diselenggarakan oleh Ikatan Alumni Fakultas Kedokteran Universitas Indonesia. Dengan tema 'Run With Purpose', acara ini tidak hanya tentang perlombaan, tetapi juga berkontribusi pada pembangunan fasilitas kesehatan di Cianjur, Jawa Barat. Bergabunglah untuk merayakan kesehatan dan kebersamaan dengan pelari lainnya.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB Number",
+    "Asuransi",
+    "Medali"
+  ],
+  "lokasi": "Boulevard RS Universitas Indonesia, Pondok Cina, Kec. Beji, Depok, Jawa Barat",
+  "kota": "Depok",
+  "tanggal_event": "2025-11-23",
+  "kontak_event": {
+    "Instagram": [
+      "@ui.kedokterun2025"
+    ],
+    "WhatsApp": "+6282211129942"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 350.000",
+    "10K": "IDR 450.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,34 @@
+{
+  "image": "OXY_Fun_Run_2025_2025-01-05.png",
+  "judul": "OXY Fun Run 2025",
+  "isi_informasi": "OXY Parfume Jombang bekerja sama dengan ASPALA mengadakan OXY Fun Run 2025 dengan tema \"Sehat Mewangi Bersama OXY\" pada hari Minggu, 5 Januari 2025, di Lapangan Tenis Indoor Jombang. Acara ini akan dimeriahkan oleh artis lokal seperti Ajeng Febria, Ronald, Viki Vida, Shanty Salsa, dan Bedjo MC. Peserta akan mendapatkan racepack yang berisi jersey, parfum, doorprize, medali finisher, hadiah untuk pelari tercepat, voucher Food Fest, permainan seru, OXY goodie bag, refreshment, dan dokumentasi.",
+  "benefit_peserta": [
+    "Jersey",
+    "Parfum",
+    "Doorprize",
+    "Medali Finisher",
+    "Hadiah Pelari Tercepat",
+    "Voucher Food Fest",
+    "Fun Games",
+    "OXY Goodie Bag",
+    "Refreshment",
+    "Dokumentasi"
+  ],
+  "lokasi": "Lapangan Tenis Indoor Jombang, Jawa Timur",
+  "kota": "Jombang",
+  "tanggal_event": "2025-01-05",
+  "kontak_event": {
+    "Instagram": [
+      "@oxyparfume"
+    ],
+    "WhatsApp": "+62 857-8426-1732"
+  },
+  "biaya_registrasi": {
+    "5K (Member OXY)": "IDR 129.000",
+    "5K (Non Member)": "IDR 149.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

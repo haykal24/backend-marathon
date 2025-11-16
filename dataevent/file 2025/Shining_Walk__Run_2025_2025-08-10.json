@@ -1,0 +1,29 @@
+{
+  "image": "Shining_Walk__Run_2025_2025-08-10.jpg",
+  "judul": "Shining Walk & Run 2025",
+  "isi_informasi": "Pendaftaran untuk Shining Walk & Run 2025 telah dibuka. Segera daftarkan diri Anda karena tempat terbatas! Peserta akan mendapatkan jersey, medali finisher, dan nomor BIB.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali Finisher",
+    "Nomor BIB"
+  ],
+  "lokasi": "The Caribbean Grande, Pakuwon City, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-08-10",
+  "kontak_event": {
+    "Instagram": [
+      "@shiningwalkrun2025",
+      "@lionsclubsurabayashining"
+    ],
+    "WhatsApp": "0895 1535 6888"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 125.000",
+    "10K": "IDR 150.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

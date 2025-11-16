@@ -1,0 +1,31 @@
+{
+  "image": "910Nineten_Race_2025_2025-11-09.jpg",
+  "judul": "910Nineten Race 2025",
+  "isi_informasi": "910Nineten Race 2025 akan berlangsung pada 9 November 2025 di ICE BSD, menawarkan tiga kategori lari: Half Marathon, 10K, dan 5K. Pendaftaran dapat dilakukan melalui aplikasi 910Nineten di Playstore atau Appstore. Peserta akan mendapatkan jersey atau singlet, drawstring bag, race bib, dan finisher medal. Terdapat hadiah untuk juara di setiap kategori.",
+  "benefit_peserta": [
+    "Jersey atau Singlet",
+    "Drawstring Bag",
+    "Race Bib",
+    "Finisher Medal"
+  ],
+  "lokasi": "ICE BSD, BSD City, Pagedangan, Tangerang, Banten",
+  "kota": "Tangerang",
+  "tanggal_event": "2025-11-09",
+  "kontak_event": {
+    "Instagram": [
+      "@910ninetenrace_"
+    ],
+    "WhatsApp": "081386466891"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 350.000",
+    "10K": "IDR 450.000",
+    "Half Marathon": "IDR 650.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "Half Marathon"
+  ],
+  "jenis_event": "road run"
+}

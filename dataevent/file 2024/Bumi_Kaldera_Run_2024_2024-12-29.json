@@ -1,0 +1,32 @@
+{
+  "image": "Bumi_Kaldera_Run_2024_2024-12-29.jpg",
+  "judul": "Bumi Kaldera Run 2024",
+  "isi_informasi": "Bumi Kaldera Run 2024 adalah event lari yang menggabungkan olahraga dengan keindahan alam Danau Toba. Diselenggarakan oleh yayasan dan alumni SMA Budi Mulia, acara ini bertujuan untuk mendukung pariwisata, kesehatan, dan ekonomi lokal.",
+  "benefit_peserta": [
+    "Mendukung pariwisata lokal",
+    "Meningkatkan kesehatan",
+    "Memperkenalkan keindahan Danau Toba"
+  ],
+  "lokasi": "Kaldera Toba, Sumatera Utara",
+  "kota": "Toba",
+  "tanggal_event": "2024-12-29",
+  "kontak_event": {
+    "Instagram": [
+      "@bumikalderarun"
+    ],
+    "WhatsApp": "081313915594"
+  },
+  "biaya_registrasi": {
+    "10K Umum": "IDR 200.000",
+    "10K Master": "IDR 200.000",
+    "5K Umum": "IDR 150.000",
+    "5K Pelajar": "IDR 125.000",
+    "2.5K Family": "IDR 275.000"
+  },
+  "kategori": [
+    "2.5K",
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

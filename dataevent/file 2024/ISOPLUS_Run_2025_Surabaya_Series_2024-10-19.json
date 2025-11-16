@@ -1,0 +1,35 @@
+{
+  "image": "ISOPLUS_Run_2025_Surabaya_Series_2024-10-19.jpg",
+  "judul": "ISOPLUS Run 2025 Surabaya Series",
+  "isi_informasi": "ISOPLUS Run 2025 Surabaya Series bertujuan untuk mempromosikan gaya hidup sehat melalui olahraga lari dan memberikan pengalaman menyenangkan bagi peserta dari berbagai usia. Acara ini menawarkan berbagai kategori lari, mulai dari kompetisi hingga fun run, untuk menginspirasi masyarakat agar lebih aktif secara fisik. Event ini juga menjadi ajang berkumpulnya komunitas pelari dengan rute yang diatur secara profesional, memberikan suasana kompetisi yang positif di lingkungan asri Surabaya.",
+  "benefit_peserta": [
+    "Race Tee",
+    "Nomor Dada",
+    "Refreshment",
+    "Medali Finisher"
+  ],
+  "lokasi": "Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2024-10-19",
+  "kontak_event": {
+    "Instagram": [
+      "@isoplus7ion"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "Kids Dash": "IDR 150.000",
+    "5K": "IDR 300.000",
+    "10K": "IDR 400.000",
+    "Half Marathon": "IDR 575.000",
+    "Full Marathon": "IDR 850.000"
+  },
+  "kategori": [
+    "Kids Dash",
+    "5K",
+    "10K",
+    "21K",
+    "42K"
+  ],
+  "jenis_event": "road run"
+}

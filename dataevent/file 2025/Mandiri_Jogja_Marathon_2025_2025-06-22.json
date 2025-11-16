@@ -1,0 +1,45 @@
+{
+  "image": "Mandiri_Jogja_Marathon_2025_2025-06-22.jpg",
+  "judul": "Mandiri Jogja Marathon 2025",
+  "isi_informasi": "Mandiri Jogja Marathon adalah acara lari tahunan yang diadakan oleh Bank Mandiri sejak 2017 di Yogyakarta. Selain kompetisi olahraga, acara ini juga menawarkan pengalaman sport tourism, memungkinkan peserta menikmati keindahan alam dan kuliner khas Yogyakarta. Pada tahun 2025, acara ini akan berlangsung pada 22 Juni di Prambanan, Yogyakarta, dengan kategori lomba seperti Marathon, Half Marathon, 10K, dan 5K Fun Run.",
+  "benefit_peserta": [
+    "BIB Number",
+    "Jersey",
+    "Medali Finisher",
+    "Finisher Tee (Half Marathon dan Marathon Saja)"
+  ],
+  "lokasi": "Candi Prambanan, Sleman, Yogyakarta",
+  "kota": "Yogyakarta",
+  "tanggal_event": "2025-06-22",
+  "kontak_event": {
+    "Instagram": [
+      "@mandiri_jogmar"
+    ],
+    "WhatsApp": "0821 1337 7303 (WA Only)"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "Closed": "Rp 450K",
+      "Open": "Rp 450K"
+    },
+    "10K": {
+      "Closed": "Rp 650K",
+      "Open": "Rp 800K"
+    },
+    "Half Marathon": {
+      "Closed": "Rp 800K",
+      "Open": "Rp 900K"
+    },
+    "Marathon": {
+      "Closed": "Rp 1.000K",
+      "Open": "Rp 1.200K"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "Half Marathon",
+    "Marathon"
+  ],
+  "jenis_event": "road run"
+}

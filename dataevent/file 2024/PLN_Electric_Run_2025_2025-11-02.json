@@ -1,0 +1,37 @@
+{
+  "image": "PLN_Electric_Run_2025_2025-11-02.jpg",
+  "judul": "PLN Electric Run 2025",
+  "isi_informasi": "PLN Electric Run 2025 adalah event lari yang mendukung energi terbarukan dengan pilihan jarak 5K, 10K, dan 21K. Dengan tema #RechargeAsOne, acara ini mengajak peserta untuk berkontribusi dalam mengurangi emisi sambil berolahraga. Peserta akan mendapatkan nomor dada dengan chip waktu, e-sertifikat, racepack, jersey, asuransi, serta medali finisher bagi yang menyelesaikan lomba. Hadiah menarik juga disediakan untuk pemenang di setiap kategori.",
+  "benefit_peserta": [
+    "Nomor Dada (BIB) dengan timing chip",
+    "E-Sertifikat",
+    "Racepack",
+    "Jersey",
+    "Asuransi",
+    "Water station",
+    "Refreshment",
+    "Medali Finisher",
+    "Kupon Doorprize"
+  ],
+  "lokasi": "Indonesia Convention Exhibition (ICE), BSD City, Tangerang, Banten",
+  "kota": "Tangerang",
+  "tanggal_event": "2025-11-02",
+  "kontak_event": {
+    "Instagram": [
+      "@plnelectricrun"
+    ],
+    "WhatsApp": "Tidak tercantum",
+    "Email": "info@plnelectricrun.com"
+  },
+  "biaya_registrasi": {
+    "Half Marathon": "IDR 500.000",
+    "10K": "IDR 400.000",
+    "5K": "IDR 300.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "road run"
+}

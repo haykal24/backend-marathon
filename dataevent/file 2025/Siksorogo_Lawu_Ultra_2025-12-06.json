@@ -1,0 +1,59 @@
+{
+  "image": "Siksorogo_Lawu_Ultra_2025-12-06.jpg",
+  "judul": "Siksorogo Lawu Ultra",
+  "isi_informasi": "Siksorogo Lawu Ultra akan berlangsung pada 6-7 Desember 2025, menawarkan tantangan di jalur pegunungan Lawu dengan kategori Fun Trail 7K, 15K, 30K, serta ultra 50K, 80K, dan 120K. Pendaftaran dibuka hingga 11 Oktober 2025 atau sampai kuota terpenuhi. Setiap kategori ultra memiliki syarat kualifikasi khusus. Peserta akan mendapatkan Finisher Medal, Goodie Bag, Race Jacket, Finisher Jersey, Refreshments, Post-Race Meal, BIB Number with Timing Chip, dan Race Insurance.",
+  "benefit_peserta": [
+    "Finisher Medal",
+    "Goodie Bag",
+    "Race Jacket",
+    "Finisher Jersey",
+    "Refreshments",
+    "Post-Race Meal",
+    "BIB Number with Timing Chip",
+    "Race Insurance"
+  ],
+  "lokasi": "Sekipan, Tawangmangu, Karanganyar, Jawa Tengah",
+  "kota": "Karanganyar",
+  "tanggal_event": "2025-12-06",
+  "kontak_event": {
+    "Instagram": [
+      "@siksorogolawuultra"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "7K": {
+      "Indonesia": "Rp 450K",
+      "Foreigner": "Rp 550K"
+    },
+    "15K": {
+      "Indonesia": "Rp 750K",
+      "Foreigner": "Rp 850K"
+    },
+    "30K": {
+      "Indonesia": "Rp 950K",
+      "Foreigner": "Rp 1.050K"
+    },
+    "50K": {
+      "Indonesia": "Rp 1.300K",
+      "Foreigner": "Rp 1.400K"
+    },
+    "80K": {
+      "Indonesia": "Rp 1.650K",
+      "Foreigner": "Rp 1.800K"
+    },
+    "120K": {
+      "Indonesia": "Rp 1.900K",
+      "Foreigner": "Rp 2.000K"
+    }
+  },
+  "kategori": [
+    "7K",
+    "15K",
+    "30K",
+    "50K",
+    "80K",
+    "120K"
+  ],
+  "jenis_event": "trail run"
+}

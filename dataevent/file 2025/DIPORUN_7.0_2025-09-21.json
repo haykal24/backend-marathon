@@ -1,0 +1,30 @@
+{
+  "image": "DIPORUN_7.0_2025-09-21.png",
+  "judul": "DIPORUN 7.0",
+  "isi_informasi": "DIPORUN 7.0 terbuka untuk semua yang ingin berolahraga dan bersenang-senang di Semarang. Nikmati lari santai, kumpulkan momen seru, dan raih hadiah menarik. Daftar sekarang untuk merasakan pengalaman seru bersama peserta lainnya!",
+  "benefit_peserta": [
+    "Finisher Medal",
+    "Jersey",
+    "Refreshment",
+    "Water Station",
+    "Doorprize",
+    "String Bag",
+    "Documentation"
+  ],
+  "lokasi": "Balai Kota Semarang, Semarang, Jawa Tengah",
+  "kota": "Semarang",
+  "tanggal_event": "2025-09-21",
+  "kontak_event": {
+    "Instagram": [
+      "@diporun25"
+    ],
+    "WhatsApp": "0819 5253 2749 (Bilqis), 0858 1145 9529 (Haafizh)"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 180.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,40 @@
+{
+  "image": "Sulsel_Half_Marathon_2024_2024-12-15.jpg",
+  "judul": "Sulsel Half Marathon 2024",
+  "isi_informasi": "Ikuti Sulsel Half Marathon vol 1 di Benteng Rotterdam, Makassar, pada 15 Desember 2024. Tersedia kategori 5K, 10K, dan Half Marathon.",
+  "benefit_peserta": [
+    "Kesempatan berolahraga sambil bersenang-senang",
+    "Berlokasi di tempat bersejarah",
+    "Mendapatkan pengalaman lari yang seru"
+  ],
+  "lokasi": "Benteng Rotterdam, Makassar, Sulawesi Selatan",
+  "kota": "Makassar",
+  "tanggal_event": "2024-12-15",
+  "kontak_event": {
+    "Instagram": [
+      "@sulselhalfmarathon",
+      "@artatixcoid"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "21K": {
+      "Presale 1": "Rp 500K",
+      "Presale 2": "Rp 520K"
+    },
+    "10K": {
+      "Presale 1": "Rp 300K",
+      "Presale 2": "Rp 310K"
+    },
+    "5K": {
+      "Presale 1": "Rp 230K",
+      "Presale 2": "Rp 250K"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "road run"
+}

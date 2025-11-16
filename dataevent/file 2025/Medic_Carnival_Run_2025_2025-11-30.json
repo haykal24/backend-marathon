@@ -1,0 +1,33 @@
+{
+  "image": "Medic_Carnival_Run_2025_2025-11-30.png",
+  "judul": "Medic Carnival Run 2025",
+  "isi_informasi": "Medic Carnival Run 2025 diselenggarakan untuk merayakan Dies Natalis ke-71 Fakultas Kedokteran Universitas Airlangga. Acara ini mengajak mahasiswa, alumni, dosen, dan semua penggemar lari untuk berpartisipasi dalam suasana carnival yang ceria. Event ini berlangsung pada Minggu, 30 November 2025, di Kampus A Universitas Airlangga dengan tiga kategori jarak: 3K, 5K, dan 10K.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB Number",
+    "Medal",
+    "Race Pack",
+    "Refreshment",
+    "Doorprize"
+  ],
+  "lokasi": "Kampus A Universitas Airlangga, Jl. Prof. DR. Moestopo No.47, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-11-30",
+  "kontak_event": {
+    "Instagram": [
+      "@mediccarnivalrun"
+    ],
+    "WhatsApp": "081216778700"
+  },
+  "biaya_registrasi": {
+    "3K": "IDR 175.000",
+    "5K": "IDR 200.000",
+    "10K": "IDR 225.000"
+  },
+  "kategori": [
+    "3K",
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

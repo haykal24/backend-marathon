@@ -1,0 +1,28 @@
+{
+  "image": "HIPMI_Merdeka_Fun_Run_2025_2025-08-03.jpg",
+  "judul": "HIPMI Merdeka Fun Run 2025",
+  "isi_informasi": "Ikuti keseruan HIPMI MERDEKA FUN RUN 2025 di Kota Kediri! Setelah sukses tahun lalu, kami kembali mengadakan event yang lebih meriah dalam rangka memperingati bulan Kemerdekaan Republik Indonesia. Daftar segera karena slot terbatas!",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Number",
+    "Tote Bag"
+  ],
+  "lokasi": "Tirtayasa Park, Kediri, Jawa Timur",
+  "kota": "Kediri",
+  "tanggal_event": "2025-08-03",
+  "kontak_event": {
+    "Instagram": [
+      "@hipmi_merdekafunrun",
+      "@hipmikotakediri"
+    ],
+    "WhatsApp": "+62 812 5235 9533"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 150.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

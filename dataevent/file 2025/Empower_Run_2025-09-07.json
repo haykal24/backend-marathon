@@ -1,0 +1,32 @@
+{
+  "image": "Empower_Run_2025-09-07.png",
+  "judul": "Empower Run",
+  "isi_informasi": "Empower Run adalah acara lari yang mengusung semangat kebaikan dan kesehatan, serta mendukung pertumbuhan ekonomi umat melalui penggalangan dana untuk UMKM binaan Masjid Raya Bintaro Jaya. Acara ini merupakan fun run dengan kategori pelari solo dan berdua, di mana setiap peserta akan mendapatkan Asuransi SalingJaga Perlindungan Diri. Setiap langkah dalam rute lari mencerminkan misi untuk diri sendiri, sesama, dan umat. Bergabunglah dalam acara ini untuk mendukung UMKM Indonesia.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB Number",
+    "Totebag",
+    "Asuransi SalingJaga Perlindungan Diri",
+    "Produk Sponsor",
+    "Refreshment",
+    "Medali Finisher",
+    "Doorprize"
+  ],
+  "lokasi": "Masjid Raya Bintaro Jaya, Tangerang Selatan, Banten",
+  "kota": "Tangerang Selatan",
+  "tanggal_event": "2025-09-07",
+  "kontak_event": {
+    "Instagram": [
+      "@lazmrbj"
+    ],
+    "WhatsApp": "+62 813-1388-4096"
+  },
+  "biaya_registrasi": {
+    "5K Individu": "IDR 240.000",
+    "5K Berdua": "IDR 395.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

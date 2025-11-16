@@ -1,0 +1,33 @@
+{
+  "image": "Saung_Komando_Trail_Run_2025_2025-12-14.jpg",
+  "judul": "Saung Komando Trail Run 2025",
+  "isi_informasi": "Saung Komando Trail Run 2025 akan diadakan di Ciwidey, Kabupaten Bandung, pada tanggal 14 Desember 2025. Event ini menawarkan pengalaman lari lintas alam dengan pemandangan yang menakjubkan. Terdapat dua kategori yang dapat diikuti, yaitu 10K dan 21K, dengan slot terbatas.",
+  "benefit_peserta": [
+    "BIB",
+    "Jersey",
+    "Jaket untuk kategori 21K",
+    "Medali Finisher",
+    "Water Station",
+    "Refreshment",
+    "Foto Dokumentasi",
+    "Medical Service"
+  ],
+  "lokasi": "Villa Saung Komando Ciwidey, Bandung, Jawa Barat",
+  "kota": "Bandung",
+  "tanggal_event": "2025-12-14",
+  "kontak_event": {
+    "Instagram": [
+      "@saungkomando.trailrun"
+    ],
+    "WhatsApp": "085117026997"
+  },
+  "biaya_registrasi": {
+    "10K": "IDR 450.000",
+    "21K": "IDR 700.000"
+  },
+  "kategori": [
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "trail run"
+}

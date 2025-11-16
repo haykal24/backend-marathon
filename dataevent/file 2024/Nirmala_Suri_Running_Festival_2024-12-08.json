@@ -1,0 +1,30 @@
+{
+  "image": "Nirmala_Suri_Running_Festival_2024-12-08.jpg",
+  "judul": "Nirmala Suri Running Festival",
+  "isi_informasi": "Nirmala Suri Running Festival 5K akan dilaksanakan pada Minggu, 8 Desember 2024 di RS Nirmala Suri Sukoharjo. Acara ini menawarkan hadiah doorprize jutaan rupiah, jersey, medali finisher, goodie bag, dan snack. Terdapat promo BUY 5 GET 1 FREE untuk peserta.",
+  "benefit_peserta": [
+    "Jersey lari",
+    "Medali finisher",
+    "Goodie bag",
+    "Nomor BIB",
+    "Refreshment",
+    "Snack"
+  ],
+  "lokasi": "RS Nirmala Suri Sukoharjo, Jawa Tengah",
+  "kota": "Sukoharjo",
+  "tanggal_event": "2024-12-08",
+  "kontak_event": {
+    "Instagram": [
+      "@rsnirmalasuri"
+    ],
+    "WhatsApp": "0858 6816 1390 (Abi), 0856 9431 1114 (Aditya)"
+  },
+  "biaya_registrasi": {
+    "Early Bird": "IDR 165.000",
+    "Reguler": "IDR 195.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

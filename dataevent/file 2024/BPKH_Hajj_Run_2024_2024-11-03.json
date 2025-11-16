@@ -1,0 +1,26 @@
+{
+  "image": "BPKH_Hajj_Run_2024_2024-11-03.png",
+  "judul": "BPKH Hajj Run 2024",
+  "isi_informasi": "BPKH Hajj Run adalah acara tahunan yang diselenggarakan oleh BPKH untuk mendorong masyarakat berpartisipasi dalam aktivitas fisik yang sehat, serta meningkatkan kesadaran tentang manajemen keuangan haji. Acara ini juga menekankan pentingnya kesehatan fisik sebagai persiapan ibadah haji.",
+  "benefit_peserta": [
+    "Mendorong partisipasi dalam kegiatan fisik",
+    "Meningkatkan kesadaran tentang manajemen keuangan haji",
+    "Persiapan fisik untuk ibadah haji"
+  ],
+  "lokasi": "Komplek Istana Gubernur Sumatera Barat, Padang, Sumatera Barat",
+  "kota": "Padang",
+  "tanggal_event": "2024-11-03",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "10K": "IDR 200.000",
+    "5K": "IDR 150.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

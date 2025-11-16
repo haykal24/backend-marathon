@@ -1,0 +1,28 @@
+{
+  "image": "Indonesia_Masters_Mountain_Race_2024_2024-12-21.jpg",
+  "judul": "Indonesia Masters Mountain Race 2024",
+  "isi_informasi": "Indonesia Masters Mountain Race adalah lomba lari gunung yang diperuntukkan bagi peserta berusia 35 tahun ke atas, dengan kategori usia setiap 5 tahun. Terdapat dua jarak yang diperlombakan: Uphill 7 Km dan Long Distance 30 Km. Lomba ini terbuka untuk semua kewarganegaraan dan akan diadakan pada 21 Desember 2024 di Leuwi Pangaduan, Sentul, Bogor.",
+  "benefit_peserta": [
+    "Kesempatan berkompetisi di kategori usia",
+    "Hadiah untuk pemenang",
+    "Pengalaman lari di alam terbuka"
+  ],
+  "lokasi": "Leuwi Pangaduan, Sentul, Bogor, Jawa Barat",
+  "kota": "Bogor",
+  "tanggal_event": "2024-12-21",
+  "kontak_event": {
+    "Instagram": [
+      "@MasterTrail.id"
+    ],
+    "WhatsApp": "087886001837"
+  },
+  "biaya_registrasi": {
+    "Long Distance 30K": "IDR 750.000",
+    "Uphill 7K": "IDR 450.000"
+  },
+  "kategori": [
+    "Uphill 7K",
+    "Long Distance 30K"
+  ],
+  "jenis_event": "trail run"
+}

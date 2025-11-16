@@ -1,0 +1,34 @@
+{
+  "image": "Bethesda_Heritage_Fun_Run_2025_2025-05-11.jpg",
+  "judul": "Bethesda Heritage Fun Run 2025",
+  "isi_informasi": "Pendaftaran untuk Bethesda Heritage Fun Run 2025 kini dibuka untuk kategori Regular. Ini adalah kesempatan untuk berlari sambil menjelajahi sejarah yang bermakna.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB Number",
+    "Totebag",
+    "Water Station & Refreshment",
+    "Entertainment",
+    "Doorprize",
+    "Best Costume"
+  ],
+  "lokasi": "RS Bethesda, Yogyakarta, DIY",
+  "kota": "Yogyakarta",
+  "tanggal_event": "2025-05-11",
+  "kontak_event": {
+    "Instagram": [
+      "@bethesdafunrun"
+    ],
+    "WhatsApp": "+68 952 640 1260"
+  },
+  "biaya_registrasi": {
+    "2.5K": "IDR 150.000",
+    "5K": "IDR 175.000",
+    "10K": "IDR 225.000"
+  },
+  "kategori": [
+    "2.5K",
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

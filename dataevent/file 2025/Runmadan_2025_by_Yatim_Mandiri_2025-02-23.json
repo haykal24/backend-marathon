@@ -1,0 +1,31 @@
+{
+  "image": "Runmadan_2025_by_Yatim_Mandiri_2025-02-23.png",
+  "judul": "Runmadan 2025 by Yatim Mandiri",
+  "isi_informasi": "Registrasi untuk Runmadan 2025 telah dibuka! Acara ini akan diadakan pada Minggu, 23 Februari 2025, di Plaza Internatio, Kota Lama Surabaya, mulai pukul 05.30 WIB. Segera daftarkan dirimu dan jangan lewatkan kesempatan ini!",
+  "benefit_peserta": [
+    "30% Donasi",
+    "Medali",
+    "Jersey",
+    "BIB",
+    "Goodie Bag",
+    "Refreshment",
+    "Doorprize"
+  ],
+  "lokasi": "Plaza Internatio, Kota Lama Surabaya",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-02-23",
+  "kontak_event": {
+    "Instagram": [
+      "@event.yatimmandiri"
+    ],
+    "WhatsApp": "+62 8810 3602 5915, +62 8810 3602 5916"
+  },
+  "biaya_registrasi": {
+    "5K Early Bird": "IDR 165.000",
+    "5K Normal": "IDR 180.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

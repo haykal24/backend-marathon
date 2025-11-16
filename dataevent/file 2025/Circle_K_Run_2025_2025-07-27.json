@@ -1,0 +1,29 @@
+{
+  "image": "Circle_K_Run_2025_2025-07-27.png",
+  "judul": "Circle K Run 2025",
+  "isi_informasi": "Circle K Run mengajak masyarakat untuk merasakan pengalaman berlari yang unik di Bali, menggabungkan semangat sportivitas dengan suasana tropis dan budaya lokal. Jalur lari akan melewati lokasi ikonik yang mencerminkan perpaduan modern dan tradisional, memberikan tantangan sekaligus motivasi. Acara ini terbuka untuk semua usia dengan kategori lari 5K dan 10K, serta dilengkapi dengan suasana komunitas yang hangat, hiburan menarik, dan sajian spesial dari Circle K.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Number",
+    "Goodie Bag"
+  ],
+  "lokasi": "ITDC Nusa Dua, Kuta Selatan, Badung, Bali",
+  "kota": "Badung",
+  "tanggal_event": "2025-07-27",
+  "kontak_event": {
+    "Instagram": [
+      "@circlekrun.id"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 275.000",
+    "10K": "IDR 275.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

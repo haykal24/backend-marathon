@@ -1,0 +1,28 @@
+{
+  "image": "Miles_for_Hopes_2025-08-03.png",
+  "judul": "Miles for Hopes",
+  "isi_informasi": "Miles for Hopes adalah acara yang diadakan oleh RSIA Zainab, Pekanbaru, bekerja sama dengan SalingJaga. Acara ini bertujuan untuk melindungi diri dan keluarga melalui Asuransi Kecelakaan SalingJaga Mikro serta mendukung pemberian gizi bagi anak-anak yang mengalami gizi buruk dan stunting di Indonesia. Peserta akan menjalani misi di setiap water station yang berkaitan dengan bantuan untuk anak-anak tersebut.",
+  "benefit_peserta": [
+    "Goodiebag",
+    "Jersey",
+    "Medal"
+  ],
+  "lokasi": "RSIA Zainab, Pekanbaru, Riau",
+  "kota": "Pekanbaru",
+  "tanggal_event": "2025-08-03",
+  "kontak_event": {
+    "Instagram": [
+      "@rsiazainabpku"
+    ],
+    "WhatsApp": "0812 7300 4058"
+  },
+  "biaya_registrasi": {
+    "5K - Individu": "IDR 225.000",
+    "5K - Family Berdua": "IDR 390.000",
+    "5K - Family Bertiga": "IDR 585.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

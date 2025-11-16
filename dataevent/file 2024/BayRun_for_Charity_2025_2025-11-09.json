@@ -1,0 +1,35 @@
+{
+  "image": "BayRun_for_Charity_2025_2025-11-09.jpg",
+  "judul": "BayRun for Charity 2025",
+  "isi_informasi": "BayRun for Charity 2025 hadir dengan fokus pada isu kekerasan terhadap anak. Setelah sukses tahun lalu, acara ini menawarkan slot terbatas, jadi segera daftarkan diri Anda! Peserta akan mendapatkan jersey, BIB, chip timing, asuransi, kacamata olahraga, dan sabuk lari.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB",
+    "Chip Timing",
+    "Insurance",
+    "Sport Glasses",
+    "Running Belt"
+  ],
+  "lokasi": "Plaza Timur GBK, Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta Pusat",
+  "tanggal_event": "2025-11-09",
+  "kontak_event": {
+    "Instagram": [
+      "@bayrun.for.charity",
+      "@im_roadrunner"
+    ],
+    "WhatsApp": "0822 5807 5650"
+  },
+  "biaya_registrasi": {
+    "10K": "IDR 300.000",
+    "5K": "IDR 250.000",
+    "Family Run": "IDR 350.000",
+    "2K Wheelchair": "Invitation Only"
+  },
+  "kategori": [
+    "2K",
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

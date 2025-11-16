@@ -1,0 +1,29 @@
+{
+  "image": "Recoir_Run_2025_2025-06-29.png",
+  "judul": "Recoir Run 2025",
+  "isi_informasi": "Recoir Run 2025 akan diselenggarakan pada 29 Juni 2025 di Jembatan Merah Plaza, Surabaya. Dengan tema 'RECOIR RUN – Beyond The Streets', acara ini mengajak pelari untuk menjelajahi kota dan menawarkan hadiah uang tunai serta doorprize. Peserta akan mendapatkan jersey, medali finisher, nomor BIB, sepatu lari Recoir, dan goodie bag.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Number",
+    "Recoir Running Shoes",
+    "Goodie Bag"
+  ],
+  "lokasi": "Jembatan Merah Plaza, Kota Lama Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-06-29",
+  "kontak_event": {
+    "Instagram": [
+      "@vinrecoirmanagement"
+    ],
+    "WhatsApp": "0812 3779 6868"
+  },
+  "biaya_registrasi": {
+    "5K Early Bird": "IDR 385.000",
+    "5K Normal Price": "IDR 425.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

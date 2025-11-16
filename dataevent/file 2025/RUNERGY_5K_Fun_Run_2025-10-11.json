@@ -1,0 +1,32 @@
+{
+  "image": "RUNERGY_5K_Fun_Run_2025-10-11.png",
+  "judul": "RUNERGY 5K Fun Run",
+  "isi_informasi": "Acara Fun Run BKFT 60 mengusung tema 'Runergy (Miles, Steps, Collaboration to Innovation)' dengan jarak 5 km. Kegiatan ini terbuka untuk mahasiswa Fakultas Teknik dan masyarakat umum, bertujuan untuk meningkatkan minat olahraga serta menggalang dana. Pendaftaran terbatas, segera daftarkan diri Anda!",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali",
+    "BIB Number",
+    "E-Sertifikat",
+    "Refreshment",
+    "Goodie Bag",
+    "Doorprize"
+  ],
+  "lokasi": "Lapangan Niti Mandala Renon, Denpasar, Bali",
+  "kota": "Denpasar",
+  "tanggal_event": "2025-10-11",
+  "kontak_event": {
+    "Instagram": [
+      "@smft_unud",
+      "@bkft_unud"
+    ],
+    "WhatsApp": "081933178670 (Cintya), 085738175774 (Lidya)"
+  },
+  "biaya_registrasi": {
+    "5K Mahasiswa": "IDR 170.000",
+    "5K Umum": "IDR 190.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

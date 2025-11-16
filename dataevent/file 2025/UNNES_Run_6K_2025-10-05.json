@@ -1,0 +1,31 @@
+{
+  "image": "UNNES_Run_6K_2025-10-05.png",
+  "judul": "UNNES Run 6K",
+  "isi_informasi": "UNNES Run 6K akan berlangsung pada Minggu, 5 Oktober 2025, di Kampus Universitas Negeri Semarang. Peserta akan mendapatkan jersey, medali, BIB Number, serta menikmati Zumba party dan refreshment.",
+  "benefit_peserta": [
+    "Jersey & Medali",
+    "BIB Number",
+    "Zumba party",
+    "Refreshment",
+    "Asuransi",
+    "Produk sponsor",
+    "Dokumentasi",
+    "Podium Prize"
+  ],
+  "lokasi": "Kampus Universitas Negeri Semarang (UNNES), Semarang, Jawa Tengah",
+  "kota": "Semarang",
+  "tanggal_event": "2025-10-05",
+  "kontak_event": {
+    "Instagram": [
+      "@unnesrun"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "6K": "IDR 225.000"
+  },
+  "kategori": [
+    "6K"
+  ],
+  "jenis_event": "road run"
+}

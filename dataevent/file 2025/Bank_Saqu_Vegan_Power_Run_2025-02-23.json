@@ -1,0 +1,40 @@
+{
+  "image": "Bank_Saqu_Vegan_Power_Run_2025-02-23.jpeg",
+  "judul": "Bank Saqu Vegan Power Run",
+  "isi_informasi": "Vegan Power Run adalah acara lari yang diselenggarakan oleh IVS dan VSI untuk mempromosikan gaya hidup vegan dan ramah lingkungan. Acara ini akan berlangsung pada Minggu, 23 Februari 2025, di Exhibition Hall Grand City, Surabaya. Peserta dapat memilih kategori 5K atau 10K, dengan berbagai keuntungan seperti kaos lari, medali finisher, dan snack vegan.",
+  "benefit_peserta": [
+    "Kaos lari/race jersey",
+    "Medali finisher",
+    "Nomor dada/BIB dan peniti",
+    "Snack VeganLand",
+    "Produk sponsor"
+  ],
+  "lokasi": "Exhibition Hall Grand City, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-02-23",
+  "kontak_event": {
+    "Instagram": [
+      "@veganpowerrun.id"
+    ],
+    "WhatsApp": "+62 852 4605 9888 dan +62 853 7417 8900"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "Harga Normal": "Rp 225K",
+      "Pengguna Baru Bank Saku": "Rp 125K",
+      "Pengguna Bank Saku (Saldo min. 1 Juta, 1 bulan terakhir)": "Rp 125K",
+      "Pengguna Bank Saku (Saldo min. 5 Juta, 3 bulan terakhir)": "FREE"
+    },
+    "10K": {
+      "Harga Normal": "Rp 275K",
+      "Pengguna Baru Bank Saku": "Rp 175K",
+      "Pengguna Bank Saku (Saldo min. 1 Juta, 1 bulan terakhir)": "Rp 175K",
+      "Pengguna Bank Saku (Saldo min. 5 Juta, 3 bulan terakhir)": "FREE"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

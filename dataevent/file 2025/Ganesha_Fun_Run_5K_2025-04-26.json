@@ -1,0 +1,28 @@
+{
+  "image": "Ganesha_Fun_Run_5K_2025-04-26.png",
+  "judul": "Ganesha Fun Run 5K",
+  "isi_informasi": "Ganesha Fun Run 5K adalah acara lari yang diadakan untuk merayakan Dies Natalis STTAL ke-59, dengan rute melalui STTAL - KODIKLATAL - AAL di Surabaya. Peserta akan mendapatkan medali, jersey, BIB number, dan goodie bag.",
+  "benefit_peserta": [
+    "Medali",
+    "Jersey",
+    "BIB Number",
+    "Goodie Bag"
+  ],
+  "lokasi": "Kampus STTAL Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-04-26",
+  "kontak_event": {
+    "Instagram": [
+      "@mahasiswa_sttal"
+    ],
+    "WhatsApp": "+62 812 4952 2121"
+  },
+  "biaya_registrasi": {
+    "Early Bird": "IDR 165.000",
+    "Regular": "IDR 180.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

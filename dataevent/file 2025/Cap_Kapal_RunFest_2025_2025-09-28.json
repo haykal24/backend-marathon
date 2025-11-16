@@ -1,0 +1,29 @@
+{
+  "image": "Cap_Kapal_RunFest_2025_2025-09-28.jpg",
+  "judul": "Cap Kapal RunFest 2025",
+  "isi_informasi": "Cap Kapal RunFest adalah acara lari yang diadakan untuk merayakan ulang tahun ke-47 perusahaan Garam Cap Kapal. Acara ini berlangsung dari 26 hingga puncaknya pada Fun Run pada 28 September 2025 di G-Walk, Citraland, Surabaya. Pendaftaran terbatas, segera daftar sebelum kehabisan!",
+  "benefit_peserta": [
+    "Medali",
+    "Jersey",
+    "BIB",
+    "Refreshment",
+    "Doorprize"
+  ],
+  "lokasi": "G-Walk Citraland, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-09-28",
+  "kontak_event": {
+    "Instagram": [
+      "@garamcapkapal"
+    ],
+    "WhatsApp": "081132022839"
+  },
+  "biaya_registrasi": {
+    "5K (Early Bird)": "IDR 150.000",
+    "5K (Normal Price)": "IDR 175.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

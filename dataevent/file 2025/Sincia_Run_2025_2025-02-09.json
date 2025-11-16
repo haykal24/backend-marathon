@@ -1,0 +1,28 @@
+{
+  "image": "Sincia_Run_2025_2025-02-09.png",
+  "judul": "Sincia Run 2025",
+  "isi_informasi": "Sincia Run 2025, yang diadakan pada 9 Februari 2025, mengusung tema 'Strides for Hope' dengan fokus pada kepedulian sosial dan lingkungan. Acara ini mendukung Yayasan Bina Bhakti Lingkungan (YBBL) melalui donasi untuk pengadaan kendaraan pengangkut sampah. Terdapat dua kategori lari, yaitu 5K dan 10K, yang berlangsung di Pakuwon City, Surabaya. Peserta akan mendapatkan racepack yang terdiri dari jersey, medali finisher, dan nomor BIB.",
+  "benefit_peserta": [
+    "Pengalaman unik menggabungkan olahraga dan budaya",
+    "Mendukung misi sosial dan lingkungan",
+    "Medali finisher dan jersey"
+  ],
+  "lokasi": "Cluster Carribean Grande, Grand Island, Pakuwon City, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-02-09",
+  "kontak_event": {
+    "Instagram": [
+      "@sinciarun"
+    ],
+    "WhatsApp": "+62 878 3691 0737"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 148.000",
+    "10K": "IDR 168.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

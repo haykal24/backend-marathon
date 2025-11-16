@@ -1,0 +1,34 @@
+{
+  "image": "Bali_Health_Run_2025_2025-12-14.jpg",
+  "judul": "Bali Health Run 2025",
+  "isi_informasi": "Bali Health Run 2025 adalah acara lari yang menggabungkan olahraga, hiburan, dan healing di tengah keindahan alam dan budaya Bali. Event ini terbuka untuk semua kalangan, termasuk pelari profesional, komunitas olahraga, keluarga, dan wisatawan. Dengan berbagai kategori lari, expo kesehatan, dan hiburan musik, acara ini menawarkan pengalaman berlari yang meriah dan menyehatkan.",
+  "benefit_peserta": [
+    "Jersey Resmi Bali Health Run 2025",
+    "Nomor BIB",
+    "Medal Finisher",
+    "Race Pack",
+    "Produk Sponsor"
+  ],
+  "lokasi": "Lapangan Renon, Denpasar Selatan, Kota Denpasar, Bali",
+  "kota": "Denpasar",
+  "tanggal_event": "2025-12-14",
+  "kontak_event": {
+    "Instagram": [
+      "@balihealthrun"
+    ],
+    "WhatsApp": "+62 823-2603-2387"
+  },
+  "biaya_registrasi": {
+    "3K (WNI)": "IDR 240.000",
+    "5K (WNI)": "IDR 255.000",
+    "10K (WNI)": "IDR 300.000",
+    "5K (WNA)": "IDR 350.000",
+    "10K (WNA)": "IDR 400.000"
+  },
+  "kategori": [
+    "3K",
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

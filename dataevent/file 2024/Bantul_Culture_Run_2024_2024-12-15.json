@@ -1,0 +1,28 @@
+{
+  "image": "Bantul_Culture_Run_2024_2024-12-15.jpg",
+  "judul": "Bantul Culture Run 2024",
+  "isi_informasi": "Bantul Culture Run (BCR) mengajak peserta untuk menjelajahi berbagai lokasi bersejarah dan budaya di Bantul pada 15 Desember 2024. Event ini diadakan untuk merayakan HUT BPR Bank Bantul yang ke-41.",
+  "benefit_peserta": [
+    "Menjelajahi budaya dan sejarah Bantul",
+    "Pengalaman berlari yang tak terlupakan"
+  ],
+  "lokasi": "Alun-alun Wukirsari, Imogiri, Bantul, DIY",
+  "kota": "Bantul",
+  "tanggal_event": "2024-12-15",
+  "kontak_event": {
+    "Instagram": [
+      "@bantulculturerun"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "Pre Sale": "Rp 100K",
+      "Normal": "Rp 150K"
+    }
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

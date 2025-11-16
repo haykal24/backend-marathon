@@ -1,0 +1,38 @@
+{
+  "image": "Taman_Budaya_X_Bogorun_2025_2025-05-11.png",
+  "judul": "Taman Budaya X Bogorun 2025",
+  "isi_informasi": "BOGORUN adalah acara lari yang menggabungkan olahraga dan pariwisata di Kabupaten Bogor, berlangsung di Sentul City pada 11 Mei 2025. Acara ini menawarkan pengalaman lari yang unik dengan pemandangan alam yang indah dan bertujuan untuk meningkatkan kesadaran akan hidup sehat. Terdapat tiga kategori lari: Half Marathon, 10K, dan 5K, yang terbuka untuk semua kalangan. Peserta juga berkesempatan mendapatkan hadiah menarik.",
+  "benefit_peserta": [
+    "Race Tee",
+    "Sling Bag",
+    "BIB & Timing Chip",
+    "Water Station",
+    "Refreshment",
+    "Finisher Medal",
+    "Winner Podium",
+    "e-Certificate",
+    "Insurance",
+    "Photo Tagging System",
+    "Finisher Tee (Only for Half Marathon)"
+  ],
+  "lokasi": "Sentul City, Bogor, Jawa Barat",
+  "kota": "Bogor",
+  "tanggal_event": "2025-05-11",
+  "kontak_event": {
+    "Instagram": [
+      "@bogorun"
+    ],
+    "WhatsApp": "0812 5888 3767"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 150.000",
+    "10K": "IDR 300.000",
+    "Half Marathon": "IDR 500.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "Half Marathon"
+  ],
+  "jenis_event": "road run"
+}

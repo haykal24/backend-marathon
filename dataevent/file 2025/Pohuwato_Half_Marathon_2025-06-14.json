@@ -1,0 +1,46 @@
+{
+  "image": "Pohuwato_Half_Marathon_2025-06-14.jpg",
+  "judul": "Pohuwato Half Marathon",
+  "isi_informasi": "Pohuwato Half Marathon akan diadakan pada 14 Juni 2025 untuk merayakan ulang tahun Himpunan Pengusaha Muda Indonesia (HIPMI). Event ini didukung oleh komunitas lari berpengalaman.",
+  "benefit_peserta": [
+    "BIB Number (Timing Chip)",
+    "Jersey Race",
+    "Finisher Medal",
+    "Tote Bag",
+    "Water Station & Refreshment",
+    "Asuransi",
+    "Podium 1,2,3 Pria & Wanita (Warga Negara Indonesia)",
+    "Race Result & e-Certificate",
+    "Doorprize",
+    "Hiburan"
+  ],
+  "lokasi": "Wisata Pantai Pohon Cinta, Pohuwato, Gorontalo",
+  "kota": "Pohuwato",
+  "tanggal_event": "2025-06-14",
+  "kontak_event": {
+    "Instagram": [
+      "@pohuwato.halfmarathon"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "Early Bird": "Rp 225K",
+      "Normal Price": "Rp 250K"
+    },
+    "10K": {
+      "Early Bird": "Rp 300K",
+      "Normal Price": "Rp 350K"
+    },
+    "Half Marathon": {
+      "Early Bird": "Rp 450K",
+      "Normal Price": "Rp 500K"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "Half Marathon"
+  ],
+  "jenis_event": "road run"
+}

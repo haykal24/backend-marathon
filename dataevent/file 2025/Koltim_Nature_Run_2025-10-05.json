@@ -1,0 +1,26 @@
+{
+  "image": "Koltim_Nature_Run_2025-10-05.png",
+  "judul": "Koltim Nature Run",
+  "isi_informasi": "Koltim Nature Run akan berlangsung pada 5 Oktober 2025 di Kolaka Timur. Event ini bertujuan untuk memperkenalkan keindahan alam dan budaya Kolaka Timur melalui olahraga lari. Segera daftar sebelum kehabisan!",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Number"
+  ],
+  "lokasi": "Kolaka Timur, Sulawesi Tenggara",
+  "kota": "Kolaka Timur",
+  "tanggal_event": "2025-10-05",
+  "kontak_event": {
+    "Instagram": [
+      "@koltimnaturerun"
+    ],
+    "WhatsApp": "0823 1227 1144"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 170.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

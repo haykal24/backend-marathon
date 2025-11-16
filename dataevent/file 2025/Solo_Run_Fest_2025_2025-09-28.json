@@ -1,0 +1,32 @@
+{
+  "image": "Solo_Run_Fest_2025_2025-09-28.png",
+  "judul": "Solo Run Fest 2025",
+  "isi_informasi": "Setelah sukses dengan SHA Run For Solo pada 2023 dan 2024, PT. SHA SOLO mempersembahkan Solo Run Fest 2025, sebuah festival lari yang menggabungkan olahraga dan budaya. Acara ini menawarkan pengalaman lengkap dengan bazaar UMKM, expo sportwear, dan penampilan musik live, menciptakan ruang kolaboratif untuk mendukung pertumbuhan ekonomi lokal. Peserta akan berlari sambil membangun koneksi dan merayakan kreativitas industri lokal, dengan tema #LangkahBaru.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Number"
+  ],
+  "lokasi": "Stadion Manahan Solo, Surakarta, Jawa Tengah",
+  "kota": "Surakarta",
+  "tanggal_event": "2025-09-28",
+  "kontak_event": {
+    "Instagram": [
+      "@solo_runfest"
+    ],
+    "WhatsApp": "0813 1239 9999"
+  },
+  "biaya_registrasi": {
+    "5K Open": "IDR 200.000",
+    "5K Student": "IDR 200.000",
+    "10K TNI/POLRI": "IDR 300.000",
+    "10K Open": "IDR 450.000",
+    "Half Marathon": "IDR 600.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "Half Marathon"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,30 @@
+{
+  "image": "G-Runfest_5K_2025-02-23.png",
+  "judul": "G-Runfest 5K",
+  "isi_informasi": "Dalam rangka merayakan Hari Jadi Kabupaten Garut 2025, diadakan event Fun Run bertajuk 'G-Runfest 5K' di Citimall Garut. Ajak pasangan, teman, atau keluarga untuk berolahraga bersama dan meriahkan acara ini. Setiap peserta akan mendapatkan jersey, medali, BIB number, kupon undian, dan refreshment.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali",
+    "BIB Number",
+    "Kupon Undian",
+    "Refreshment"
+  ],
+  "lokasi": "Citimall Garut, Jl. Jendral Sudirman No.31, Kec. Karangpawitan, Kab. Garut, Jawa Barat",
+  "kota": "Garut",
+  "tanggal_event": "2025-02-23",
+  "kontak_event": {
+    "Instagram": [
+      "@citimall.garut"
+    ],
+    "WhatsApp": "083187574077"
+  },
+  "biaya_registrasi": {
+    "Early Bird": "IDR 125.000",
+    "Presale": "IDR 150.000",
+    "Reguler": "IDR 200.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

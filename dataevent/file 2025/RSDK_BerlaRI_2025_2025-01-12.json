@@ -1,0 +1,37 @@
+{
+  "image": "RSDK_BerlaRI_2025_2025-01-12.png",
+  "judul": "RSDK BerlaRI 2025",
+  "isi_informasi": "RSDK Purwokerto bekerja sama dengan BRI KC Purwokerto menyelenggarakan perlombaan lari di Purwokerto, Kabupaten Banyumas, untuk meningkatkan keterlibatan dengan pelanggan dan mempromosikan budaya melalui sport tourism.",
+  "benefit_peserta": [
+    "Jersey",
+    "Goodie Bag",
+    "Produk Sponsor",
+    "BIB with Timing Chip",
+    "Medali Penamat",
+    "Refreshment & Water Station"
+  ],
+  "lokasi": "Andhang Pangrenan Purwokerto, Jawa Tengah",
+  "kota": "Purwokerto",
+  "tanggal_event": "2025-01-12",
+  "kontak_event": {
+    "Instagram": [
+      "@rsdkberlari"
+    ],
+    "WhatsApp": "0878 1000 9035"
+  },
+  "biaya_registrasi": {
+    "6K": {
+      "Early Bird": "Rp 200K",
+      "Normal": "Rp 250K"
+    },
+    "11K": {
+      "Early Bird": "Rp 250K",
+      "Normal": "Rp 300K"
+    }
+  },
+  "kategori": [
+    "6K",
+    "11K"
+  ],
+  "jenis_event": "road run"
+}

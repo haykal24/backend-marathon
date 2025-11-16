@@ -1,0 +1,33 @@
+{
+  "image": "Visalux_Run_2025_2025-11-16.png",
+  "judul": "Visalux Run 2025",
+  "isi_informasi": "Visalux Run 10K 2025 akan berlangsung pada Minggu, 16 November 2025, di Pollux Mall Batam. Ini adalah kesempatan bagi para penggemar lari untuk bergabung dalam event terbesar di Batam. Ajak teman dan keluarga untuk merasakan momen berharga ini.",
+  "benefit_peserta": [
+    "RFID Timing Official Chip",
+    "Tote bag",
+    "Finisher Medal",
+    "BIB Number",
+    "Running Jersey",
+    "Water Station"
+  ],
+  "lokasi": "Pollux Mall Batam, Teluk Tering, Kota Batam, Kepulauan Riau",
+  "kota": "Batam",
+  "tanggal_event": "2025-11-16",
+  "kontak_event": {
+    "Instagram": [
+      "@visalux_foundation",
+      "@visalux_indonesia",
+      "@batamrunning"
+    ],
+    "WhatsApp": "+62 895-3887-29654"
+  },
+  "biaya_registrasi": {
+    "5K Umum (16-34 tahun)": "IDR 300.000",
+    "5K Master (35 tahun ke atas)": "IDR 275.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

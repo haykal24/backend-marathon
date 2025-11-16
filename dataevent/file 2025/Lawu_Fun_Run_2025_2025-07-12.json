@@ -1,0 +1,35 @@
+{
+  "image": "Lawu_Fun_Run_2025_2025-07-12.png",
+  "judul": "Lawu Fun Run 2025",
+  "isi_informasi": "Kampung Susu Lawu dan DISNAKKAN Kab. Magetan mengundang kamu untuk berpartisipasi dalam Lawu Fun Run 2025 dengan jarak 5K dan 10K. Setiap kilometer yang kamu tempuh akan berkontribusi pada proyek penghijauan dan konservasi alam. Daftar segera karena slot terbatas!",
+  "benefit_peserta": [
+    "Jersey",
+    "E-Certified",
+    "Finisher Medal",
+    "BIB CHIP",
+    "Door Prize",
+    "Fresh Milk",
+    "Telur",
+    "Mineral",
+    "Bibit Pohon",
+    "Voucher Makan"
+  ],
+  "lokasi": "Kampung Susu Lawu, Sarangan, Kab. Magetan, Jawa Timur",
+  "kota": "Magetan",
+  "tanggal_event": "2025-07-12",
+  "kontak_event": {
+    "Instagram": [
+      "@lawu.funrun"
+    ],
+    "WhatsApp": "088 102 780 7296"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 160.000",
+    "10K": "IDR 200.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

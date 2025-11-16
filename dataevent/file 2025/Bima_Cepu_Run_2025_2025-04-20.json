@@ -1,0 +1,36 @@
+{
+  "image": "Bima_Cepu_Run_2025_2025-04-20.png",
+  "judul": "Bima Cepu Run 2025",
+  "isi_informasi": "Event lari Bima Cepu Run 2025 akan diselenggarakan pada hari Minggu, 20 April 2025, di Lapangan Atletik Migas Nglajo Cepu, Blora, Jawa Timur. Peserta akan mendapatkan fasilitas seperti jersey, BIB number, goodie bag, medali finisher, refreshment, keamanan, layanan medis, water station, podium untuk juara 1-5, e-sertifikat, dan kupon doorprize.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB Number",
+    "Goodie Bag",
+    "Medali Finisher",
+    "Refreshment",
+    "Keamanan",
+    "Medis (Stay & Mobile)",
+    "Water Station",
+    "Podium 1-5",
+    "e-Sertifikat",
+    "Kupon Doorprize"
+  ],
+  "lokasi": "Lapangan Atletik Migas Nglajo Cepu, Blora, Jawa Timur",
+  "kota": "Blora",
+  "tanggal_event": "2025-04-20",
+  "kontak_event": {
+    "Instagram": [
+      "@bima.cepurun"
+    ],
+    "WhatsApp": "0812 2708 7498"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 100.000",
+    "10K": "IDR 150.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,27 @@
+{
+  "image": "Justisia_Half_Marathon_2024_2024-11-17.jpg",
+  "judul": "Justisia Half Marathon 2024",
+  "isi_informasi": "Justisia Half Marathon mengajak masyarakat untuk berlari dengan latar belakang pemandangan alam dan gedung pencakar langit Jakarta. Rute acara ini akan melewati jalan utama di Jakarta dan gedung-gedung institusi penegakan hukum, bertepatan dengan peringatan 100 tahun pendidikan hukum di Indonesia.",
+  "benefit_peserta": [
+    "Pengalaman berlari di lokasi ikonik",
+    "Kesempatan merayakan pendidikan hukum di Indonesia"
+  ],
+  "lokasi": "Gedung MPR-DPR RI, Senayan, Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta",
+  "tanggal_event": "2024-11-17",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "Half Marathon": "IDR 590.000",
+    "10K": "IDR 375.000",
+    "5K": "IDR 265.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "Half Marathon"
+  ],
+  "jenis_event": "road run"
+}

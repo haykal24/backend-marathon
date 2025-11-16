@@ -1,0 +1,41 @@
+{
+  "image": "VOTCHA_2025_2025-11-01.png",
+  "judul": "VOTCHA 2025",
+  "isi_informasi": "VOTCHA 2025 adalah acara lari trail yang menawarkan pengalaman luar biasa bagi pelari yang ingin menjelajahi keindahan alam pegunungan berapi di Indonesia. Acara ini akan berlangsung pada 1–2 November 2025 di Gunung Tangkuban Perahu, Subang. Dengan lanskap vulkanik yang dramatis dan hutan tropis yang lebat, VOTCHA 2025 memberikan tantangan dan keindahan bagi para pelari.",
+  "benefit_peserta": [
+    "Tiket Masuk Wisata",
+    "BIB",
+    "E-Money",
+    "Jersey",
+    "Medali",
+    "Race Bag",
+    "Asuransi",
+    "Bibit Tanaman",
+    "Nomor Undian Doorprize",
+    "Sponsor Mandatory (Voucher Diskon, Merchandise, Etc)"
+  ],
+  "lokasi": "Asstro Highlands Ciater, Subang, Jawa Barat",
+  "kota": "Subang",
+  "tanggal_event": "2025-11-01",
+  "kontak_event": {
+    "Instagram": [
+      "@votcha.id"
+    ],
+    "WhatsApp": "0852 8340 6606"
+  },
+  "biaya_registrasi": {
+    "Kids Dash": "TBA",
+    "7K": "TBA",
+    "15K": "TBA",
+    "21K": "TBA",
+    "42K": "TBA"
+  },
+  "kategori": [
+    "Kids Dash",
+    "7K",
+    "15K",
+    "21K",
+    "42K"
+  ],
+  "jenis_event": "trail run"
+}

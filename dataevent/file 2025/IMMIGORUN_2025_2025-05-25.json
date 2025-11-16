@@ -1,0 +1,27 @@
+{
+  "image": "IMMIGORUN_2025_2025-05-25.png",
+  "judul": "IMMIGORUN 2025",
+  "isi_informasi": "IMMIGORUN 2025 adalah acara lari yang mengajak taruna, alumni, dan masyarakat umum untuk berpartisipasi dalam semangat sehat dan kebersamaan. Acara ini berlangsung di Stadion Benteng, cocok untuk pelari berpengalaman maupun pemula yang ingin memulai gaya hidup aktif.",
+  "benefit_peserta": [
+    "BIB Number",
+    "Race Jersey",
+    "Medal"
+  ],
+  "lokasi": "Stadion Benteng, Tangerang, Banten",
+  "kota": "Tangerang",
+  "tanggal_event": "2025-05-25",
+  "kontak_event": {
+    "Instagram": [
+      "@immigorun"
+    ],
+    "WhatsApp": "081 1614 2756 (Kethlyn), 0877 7128 1836 (Mariel)"
+  },
+  "biaya_registrasi": {
+    "Early Bird": "IDR 110.000",
+    "Normal Price": "IDR 130.000"
+  },
+  "kategori": [
+    "4K"
+  ],
+  "jenis_event": "road run"
+}

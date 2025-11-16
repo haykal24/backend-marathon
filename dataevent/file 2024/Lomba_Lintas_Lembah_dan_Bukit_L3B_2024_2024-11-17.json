@@ -1,0 +1,28 @@
+{
+  "image": "Lomba_Lintas_Lembah_dan_Bukit_L3B_2024_2024-11-17.jpg",
+  "judul": "Lomba Lintas Lembah dan Bukit (L3B) 2024",
+  "isi_informasi": "L3B adalah acara dwi tahunan yang diadakan oleh Fakultas Pertanian Unpad sejak 1962. Terdapat dua kategori lomba, yaitu Trail Run 21K dan Fun Run 8K, yang akan berlangsung pada 17 November 2024 di Jatinangor, Kabupaten Sumedang. Selain itu, terdapat kegiatan pre-event berupa penanaman 1001 bibit tanaman dan penggalangan dana untuk petani pada 10 November 2024 di Desa Sindangsari.",
+  "benefit_peserta": [
+    "Pengalaman berlari di alam terbuka",
+    "Kesempatan berpartisipasi dalam kegiatan lingkungan",
+    "Tantangan seru di setiap pos Fun Run"
+  ],
+  "lokasi": "Fakultas Pertanian Universitas Padjadjaran, Kec. Jatinangor, Kab. Sumedang, Jawa Barat",
+  "kota": "Sumedang",
+  "tanggal_event": "2024-11-17",
+  "kontak_event": {
+    "Instagram": [
+      "@l3b.unpad"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "21K": "IDR 350.000",
+    "8K (4 Orang)": "IDR 550.000"
+  },
+  "kategori": [
+    "21K",
+    "8K"
+  ],
+  "jenis_event": "trail run"
+}

@@ -1,0 +1,36 @@
+{
+  "image": "JCO_Run_2025_2025-08-10.png",
+  "judul": "JCO Run 2025",
+  "isi_informasi": "JCO Run 2025 akan berlangsung pada 10 Agustus 2025 di Indonesia Convention Exhibition (ICE), BSD City, Tangerang, Banten. Peserta akan mendapatkan berbagai produk spesial dari JCO setelah menyelesaikan lomba. Ajak teman atau tim untuk menciptakan momen tak terlupakan di acara ini!",
+  "benefit_peserta": [
+    "J.CO Running dry-fit",
+    "Finisher Medal",
+    "J.CO Lychee Tea",
+    "Half dozen donuts J.CO",
+    "1 Spicy Floss",
+    "1 Beverage",
+    "1 Finisher shirt on Race Day",
+    "Prizes for top 3 Podium Winners"
+  ],
+  "lokasi": "Indonesia Convention Exhibition (ICE), BSD City, Tangerang Selatan, Banten",
+  "kota": "Tangerang Selatan",
+  "tanggal_event": "2025-08-10",
+  "kontak_event": {
+    "Instagram": [
+      "@jcoindonesia"
+    ],
+    "WhatsApp": "0815 8898 000"
+  },
+  "biaya_registrasi": {
+    "5K (Single)": "IDR 545.000",
+    "10K (Single)": "IDR 575.000",
+    "5K (Group of 4)": "IDR 2.080.000",
+    "10K (Group of 4)": "IDR 2.200.000",
+    "5K (Couple)": "IDR 1.090.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,38 @@
+{
+  "image": "Tuban_Beach_Run_2024_2024-11-16.png",
+  "judul": "Tuban Beach Run 2024",
+  "isi_informasi": "Pemerintah Kabupaten Tuban, melalui Dinas Kebudayaan, Kepemudaan, Olahraga, dan Pariwisata, akan menyelenggarakan Tuban Beach Run 2024 di Pantai Semilir, Desa Socorejo, pada Sabtu, 16 November 2024. Acara ini merupakan bagian dari peringatan Hari Jadi Kabupaten Tuban ke-731, bertujuan untuk mempromosikan olahraga dan meningkatkan daya tarik wisata daerah.",
+  "benefit_peserta": [
+    "Kaos resmi",
+    "Bib khusus",
+    "Medali unik untuk finisher",
+    "Hadiah menarik untuk pemenang di setiap kategori"
+  ],
+  "lokasi": "Pantai Semilir, Jl. Nasional 1, Karangdowo, Socorejo, Kec. Jenu, Kabupaten Tuban, Jawa Timur",
+  "kota": "Tuban",
+  "tanggal_event": "2024-11-16",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "15K": {
+      "Early Bird": "Rp 300K",
+      "Normal": "Rp 350K"
+    },
+    "10K": {
+      "Early Bird": "Rp 250K",
+      "Normal": "Rp 300K"
+    },
+    "5K": {
+      "Early Bird": "Rp 150K",
+      "Normal": "Rp 200K"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "15K"
+  ],
+  "jenis_event": "road run"
+}

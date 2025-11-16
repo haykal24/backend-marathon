@@ -1,0 +1,30 @@
+{
+  "image": "Parahyangan_Run_Festival_Vol.2_2025_2025-07-27.jpg",
+  "judul": "Parahyangan Run Festival Vol.2 2025",
+  "isi_informasi": "Parahyangan Run Festival Vol. 2 akan berlangsung pada tahun 2025 di Payangan, Bali. Event ini menawarkan dua kategori lari: Half Marathon 21K untuk yang ingin menantang diri dan Fun Run 6K untuk pengalaman lari santai. Terdapat juga kompetisi antar klub lari dengan berbagai kategori. Peserta akan mendapatkan jersey, medali finisher, nomor BIB, dan fasilitas lainnya.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali Finisher",
+    "Nomor BIB",
+    "Water Station",
+    "Voucher"
+  ],
+  "lokasi": "Pusat Pemerintahan Payangan, Gianyar, Bali",
+  "kota": "Gianyar",
+  "tanggal_event": "2025-07-27",
+  "kontak_event": {
+    "Instagram": [
+      "@parahyanganrunfestival"
+    ],
+    "WhatsApp": "0819 1599 7070"
+  },
+  "biaya_registrasi": {
+    "6K": "IDR 200.000",
+    "Half Marathon": "IDR 450.000"
+  },
+  "kategori": [
+    "6K",
+    "Half Marathon"
+  ],
+  "jenis_event": "road run"
+}

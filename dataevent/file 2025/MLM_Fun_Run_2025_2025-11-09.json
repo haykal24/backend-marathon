@@ -1,0 +1,29 @@
+{
+  "image": "MLM_Fun_Run_2025_2025-11-09.png",
+  "judul": "MLM Fun Run 2025",
+  "isi_informasi": "MLM Fun Run 5K 2025 adalah event lari kedua yang diselenggarakan oleh SG Runners dengan rute baru dan suasana yang lebih seru di Musi Rawas-Lubuklinggau-Musi Rawas Utara. Amankan tempatmu untuk merasakan pengalaman lari yang menyenangkan.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Number",
+    "Refreshment"
+  ],
+  "lokasi": "Taman Olahraga Megang (TOM), Lubuklinggau, Sumatra Selatan",
+  "kota": "Lubuklinggau",
+  "tanggal_event": "2025-11-09",
+  "kontak_event": {
+    "Instagram": [
+      "@sg.runners"
+    ],
+    "WhatsApp": "+62 819 3621 0390"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 200.000",
+    "10K": "IDR 275.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

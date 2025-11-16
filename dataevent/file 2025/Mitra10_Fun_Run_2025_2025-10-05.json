@@ -1,0 +1,37 @@
+{
+  "image": "Mitra10_Fun_Run_2025_2025-10-05.png",
+  "judul": "Mitra10 Fun Run 2025",
+  "isi_informasi": "Ikuti Mitra10 Fun Run 2025 untuk merasakan pengalaman lari yang seru dengan semangat kebersamaan dan hadiah menarik. Daftar segera karena slot terbatas!",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali",
+    "Bib",
+    "Kupon Doorprize",
+    "Totebag / Drawstring Bag",
+    "Voucher Belanja khusus VIP"
+  ],
+  "lokasi": "Royal Residence, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-10-05",
+  "kontak_event": {
+    "Instagram": [
+      "@mitra10_jatim"
+    ],
+    "WhatsApp": "0813-6760-2673 (VIP), 0823-1340-3449 (Reguler)"
+  },
+  "biaya_registrasi": {
+    "Reguler": {
+      "3K": "Rp 150K",
+      "5K": "Rp 175K"
+    },
+    "VIP": {
+      "3K": "Rp 200K",
+      "5K": "Rp 250K"
+    }
+  },
+  "kategori": [
+    "3K",
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

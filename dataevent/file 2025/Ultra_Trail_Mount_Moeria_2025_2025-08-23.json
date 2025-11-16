@@ -1,0 +1,52 @@
+{
+  "image": "Ultra_Trail_Mount_Moeria_2025_2025-08-23.jpg",
+  "judul": "Ultra Trail Mount Moeria 2025",
+  "isi_informasi": "UTMM 2025 adalah event trail run yang menawarkan pengalaman lari yang menantang dengan jalur baru dan tantangan yang menguji kemampuan peserta. Acara ini akan berlangsung di Dragon Trail’s Upper Peak, Peak 29, dan Hills, dikelilingi oleh keindahan alam. Pendaftaran dibuka dari 07 Maret 2024 hingga 24 Juli 2025.",
+  "benefit_peserta": [
+    "Race Jersey",
+    "Finisher Medal",
+    "BIB Number with RFID",
+    "Sling Bag",
+    "Water Station & Post Refreshment",
+    "Podium 1 - 2 - 3 Male & Female",
+    "Doorprize",
+    "Entertainment",
+    "Race Result & e-Certificate",
+    "Photos throughout the event",
+    "Race Village"
+  ],
+  "lokasi": "Graha Muria Colo, Kudus, Jawa Tengah, Indonesia",
+  "kota": "Kudus",
+  "tanggal_event": "2025-08-23",
+  "kontak_event": {
+    "Instagram": [
+      "@ultratrail_mountmoeria"
+    ],
+    "WhatsApp": "081225868030"
+  },
+  "biaya_registrasi": {
+    "7K": {
+      "Early Bird": "Rp 250K",
+      "Normal Price": "Rp 300K"
+    },
+    "15K": {
+      "Early Bird": "Rp 300K",
+      "Normal Price": "Rp 400K"
+    },
+    "30K": {
+      "Early Bird": "Rp 450K",
+      "Normal Price": "Rp 600K"
+    },
+    "50K": {
+      "Early Bird": "Rp 750K",
+      "Normal Price": "Rp 900K"
+    }
+  },
+  "kategori": [
+    "7K",
+    "15K",
+    "30K",
+    "50K"
+  ],
+  "jenis_event": "trail run"
+}

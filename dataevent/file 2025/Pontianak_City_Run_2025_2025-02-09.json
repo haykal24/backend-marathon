@@ -1,0 +1,54 @@
+{
+  "image": "Pontianak_City_Run_2025_2025-02-09.jpg",
+  "judul": "Pontianak City Run 2025",
+  "isi_informasi": "Pontianak City Run 2025 akan digelar pada 9 Februari 2025 di GOR Pangsuma, Kota Pontianak, Kalimantan Barat. Terdapat kategori 5K, 10K, 21K Half Marathon, dan 42K Marathon. Peserta dapat memilih antara jersey kaos atau jersey singlet, meskipun tidak wajib. Peserta kategori 21K dan 42K akan mendapatkan Finisher Jersey. Pendaftaran dibuka sekarang!",
+  "benefit_peserta": [
+    "BIB Number",
+    "Goodie Bag",
+    "Jersey*",
+    "Finisher Medal",
+    "Refreshment",
+    "Doorprize",
+    "Finisher Jersey (21K/42K)",
+    "BPJS Ketenagakerjaan (42K)"
+  ],
+  "lokasi": "GOR Pangsuma, Benua Melayu Darat, Kec. Pontianak Selatan, Pontianak, Kalimantan Barat",
+  "kota": "Pontianak",
+  "tanggal_event": "2025-02-09",
+  "kontak_event": {
+    "Instagram": [
+      "@official_pontianakcityrun",
+      "@sportaindonesia"
+    ],
+    "WhatsApp": "+62 895 6300 96077"
+  },
+  "biaya_registrasi": {
+    "5K Pelajar": {
+      "Non Jersey": "Rp 125K",
+      "Plus Jersey": "Rp 200K"
+    },
+    "5K": {
+      "Non Jersey": "Rp 150K",
+      "Plus Jersey": "Rp 225K"
+    },
+    "10K": {
+      "Non Jersey": "Rp 250K",
+      "Plus Jersey": "Rp 325K"
+    },
+    "21K": {
+      "Non Jersey": "Rp 441.8K",
+      "Plus Jersey": "Rp 516.8K"
+    },
+    "42K": {
+      "Non Jersey": "Rp 616.8K",
+      "Plus Jersey": "Rp 691.8K"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K",
+    "42K"
+  ],
+  "jenis_event": "road run"
+}

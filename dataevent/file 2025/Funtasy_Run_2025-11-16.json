@@ -1,0 +1,28 @@
+{
+  "image": "Funtasy_Run_2025-11-16.png",
+  "judul": "Funtasy Run",
+  "isi_informasi": "Ikuti Funtasy Run 2K di area hijau CIGWA, sebuah acara lari santai yang menggabungkan olahraga, rekreasi, dan hiburan. Slot terbatas, segera daftarkan diri Anda!",
+  "benefit_peserta": [
+    "Tiket Masuk & Tiket Berenang CIGWA",
+    "Medali Finisher (untuk semua peserta)",
+    "BIB Number",
+    "Konsumsi/Snack Peserta",
+    "Kupon Doorprize"
+  ],
+  "lokasi": "CIGWA Green World Adventure, Bogor, Jawa Barat",
+  "kota": "Bogor",
+  "tanggal_event": "2025-11-16",
+  "kontak_event": {
+    "Instagram": [
+      "@cigwawisata"
+    ],
+    "WhatsApp": "082249687745"
+  },
+  "biaya_registrasi": {
+    "2K": "IDR 150.000"
+  },
+  "kategori": [
+    "2K"
+  ],
+  "jenis_event": "fun run"
+}

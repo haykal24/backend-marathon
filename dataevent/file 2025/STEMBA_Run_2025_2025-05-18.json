@@ -1,0 +1,33 @@
+{
+  "image": "STEMBA_Run_2025_2025-05-18.png",
+  "judul": "STEMBA Run 2025",
+  "isi_informasi": "Dalam rangka merayakan ulang tahun ke-50, SMK Negeri 5 Surabaya menyelenggarakan STEMBA Run 2025 dengan tema 'Mengolahragakan Pelajar dan Masyarakat Sekitar'. Acara ini bertujuan untuk menumbuhkan semangat berolahraga dan meningkatkan kepedulian sosial di kalangan siswa, alumni, dan masyarakat.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali",
+    "BIB Number",
+    "Race Pack",
+    "Refreshment",
+    "Water Station",
+    "Doorprize"
+  ],
+  "lokasi": "SMK Negeri 5 Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-05-18",
+  "kontak_event": {
+    "Instagram": [
+      "@stembarun"
+    ],
+    "WhatsApp": "+62 896-7572-8048 (Imam), +62 857-3107-3951 (Wisnu)"
+  },
+  "biaya_registrasi": {
+    "Pelajar Non Jersey": "IDR 65.000",
+    "Pelajar Include Jersey": "IDR 140.000",
+    "Komunitas": "IDR 180.000",
+    "Umum": "IDR 200.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

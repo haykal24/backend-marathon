@@ -1,0 +1,30 @@
+{
+  "image": "Alazka_Fun_Run_for_Care_2025_2025-11-09.png",
+  "judul": "Alazka Fun Run for Care 2025",
+  "isi_informasi": "Alazka Fun Run for Care 2025 diselenggarakan oleh Yayasan Al-Azhar Kelapa Gading, mengajak peserta untuk berlari sambil berbagi dalam dua kategori, 3.5K dan 6K. Event ini berlangsung pada 9 November 2025, dengan registrasi dibuka dari 4 Agustus hingga 31 Oktober 2025. Peserta akan mendapatkan kaos lari, nomor dada, refreshment, doorprize, dan medali finisher.",
+  "benefit_peserta": [
+    "Kaos Lari (race tee) Alazka Fun Run For Care",
+    "Nomor dada (BIB)",
+    "Refreshment (air mineral, isotonik dan buah)",
+    "Doorprize",
+    "Medali Finisher"
+  ],
+  "lokasi": "Al-Azhar Kelapa Gading, Jl Boulevard Timur Raya Kelapa Gading, Jakarta Utara",
+  "kota": "Jakarta Utara",
+  "tanggal_event": "2025-11-09",
+  "kontak_event": {
+    "Instagram": [
+      "@alazkafunrun"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "3.5K": "IDR 250.000",
+    "6K": "IDR 275.000"
+  },
+  "kategori": [
+    "3.5K",
+    "6K"
+  ],
+  "jenis_event": "fun run"
+}

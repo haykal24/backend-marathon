@@ -1,0 +1,29 @@
+{
+  "image": "Lari_Ikut_ARUSS_2025_2025-11-09.jpg",
+  "judul": "Lari Ikut ARUSS 2025",
+  "isi_informasi": "Pendaftaran untuk event Lari Ikut ARUSS 2025 telah dibuka. Segera daftarkan diri Anda untuk mendapatkan tiket, karena kuota terbatas. Siapkan sepatu lari Anda dan hitung mundur menuju hari-H!",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Number",
+    "Product Sponsor"
+  ],
+  "lokasi": "Hotel Aruss Semarang, Jawa Tengah",
+  "kota": "Semarang",
+  "tanggal_event": "2025-11-09",
+  "kontak_event": {
+    "Instagram": [
+      "@hotelaruss"
+    ],
+    "WhatsApp": "+62 824 8600 5339"
+  },
+  "biaya_registrasi": {
+    "Early Bird": "IDR 260.000",
+    "Normal Price": "IDR 285.000"
+  },
+  "kategori": [
+    "5K",
+    "7K"
+  ],
+  "jenis_event": "road run"
+}

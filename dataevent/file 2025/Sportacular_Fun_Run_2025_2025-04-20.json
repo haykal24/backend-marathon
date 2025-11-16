@@ -1,0 +1,27 @@
+{
+  "image": "Sportacular_Fun_Run_2025_2025-04-20.jpg",
+  "judul": "Sportacular Fun Run 2025",
+  "isi_informasi": "Ikuti Sportacular Fun Run dengan dua kategori: 3K Family Run dan 5K Fun Run. Dapatkan Race Pack yang berisi Jersey, Finisher Medal, BIB, Refreshment, dan Produk Sponsor.",
+  "benefit_peserta": [
+    "Pengalaman lari yang seru",
+    "Race Pack menarik"
+  ],
+  "lokasi": "Area Bandung Sportacular Expo 2025, Bumi Hejo, Kota Baru Parahyangan, Bandung Barat, Jawa Barat",
+  "kota": "Bandung Barat",
+  "tanggal_event": "2025-04-20",
+  "kontak_event": {
+    "Instagram": [
+      "@bumn.runners"
+    ],
+    "WhatsApp": "0888 0923 6121"
+  },
+  "biaya_registrasi": {
+    "3K Family Run (2 dewasa + 1 anak)": "IDR 450.000",
+    "5K": "IDR 175.000"
+  },
+  "kategori": [
+    "3K",
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

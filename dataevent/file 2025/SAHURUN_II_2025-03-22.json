@@ -1,0 +1,30 @@
+{
+  "image": "SAHURUN_II_2025-03-22.png",
+  "judul": "SAHURUN II",
+  "isi_informasi": "SAHURUN Jilid 2 adalah event lari terbesar di bulan Ramadan yang menawarkan Fun Race sejauh 5KM dengan menu sahur All You Can Eat. Peserta akan mendapatkan racepack eksklusif, kesempatan untuk mencapai personal best, dan podium untuk tiga terbaik di kategori pria dan wanita.",
+  "benefit_peserta": [
+    "Exclusive Racepack",
+    "Sahur All You Can Eat",
+    "Kesempatan mencapai Personal Best",
+    "Podium untuk top 3 kategori female & male",
+    "Official Jersey SAHURUN",
+    "Finisher Medal",
+    "BIB Number"
+  ],
+  "lokasi": "Gelora Bung Karno (GBK), Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta Pusat",
+  "tanggal_event": "2025-03-22",
+  "kontak_event": {
+    "Instagram": [
+      "@sahurun_id"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 250.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

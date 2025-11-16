@@ -1,0 +1,31 @@
+{
+  "image": "Smandung_Fun_Run_2025_2025-12-21.jpg",
+  "judul": "Smandung Fun Run 2025",
+  "isi_informasi": "Smandung Fun Run 2025 adalah acara lari yang diselenggarakan untuk merayakan Hari Ulang Tahun SMAN 1 Kedungwuni yang ke-41. Acara ini terbuka untuk umum dan akan berlangsung pada Minggu, 21 Desember 2025, dengan titik Start dan Finish di SMAN 1 Kedungwuni, Pekalongan. Pendaftaran terbatas, segera daftar sebelum kehabisan!",
+  "benefit_peserta": [
+    "Jersey Eksklusif",
+    "Finisher Medal",
+    "Bib Number",
+    "Goodie Bag",
+    "Refreshment & Water Station",
+    "Hiburan & Doorprize",
+    "Kesempatan naik Podium"
+  ],
+  "lokasi": "SMAN 1 Kedungwuni, Pekalongan",
+  "kota": "Pekalongan",
+  "tanggal_event": "2025-12-21",
+  "kontak_event": {
+    "Instagram": [
+      "@smandung_funrun"
+    ],
+    "WhatsApp": "+62 857-9922-3907"
+  },
+  "biaya_registrasi": {
+    "5K Pelajar": "IDR 150.000",
+    "5K Umum": "IDR 200.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

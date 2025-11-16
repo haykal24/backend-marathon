@@ -1,0 +1,37 @@
+{
+  "image": "Wonorejo_Run_Challenge_2025_2025-04-27.jpg",
+  "judul": "Wonorejo Run Challenge 2025",
+  "isi_informasi": "Wonorejo Run Challenge (WRC) 2025 akan berlangsung pada 27 April 2025 di Waduk Wonorejo, Tulungagung. Acara ini menawarkan rute yang menggabungkan keindahan alam dan budaya, memberikan pengalaman unik bagi para pelari.",
+  "benefit_peserta": [
+    "Medals",
+    "BIB Number",
+    "Jersey",
+    "Refreshment",
+    "Product Sponsor",
+    "Water Station"
+  ],
+  "lokasi": "Waduk Wonorejo, Tulungagung, Jawa Timur",
+  "kota": "Tulungagung",
+  "tanggal_event": "2025-04-27",
+  "kontak_event": {
+    "Instagram": [
+      "@wonorejorun.challenge"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "Early Bird": "Rp 200K",
+      "Normal": "Rp 230K"
+    },
+    "10K": {
+      "Early Bird": "Rp 230K",
+      "Normal": "Rp 280K"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

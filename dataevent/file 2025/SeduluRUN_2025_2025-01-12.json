@@ -1,0 +1,30 @@
+{
+  "image": "SeduluRUN_2025_2025-01-12.png",
+  "judul": "SeduluRUN 2025",
+  "isi_informasi": "SeduluRUN 2025 adalah acara lari 5 km yang bertujuan untuk meningkatkan kesadaran tentang pencegahan diabetes. Bekerja sama dengan komunitas Sobat Diabet Yogyakarta, 10% dari penjualan tiket akan didonasikan untuk penderita diabetes. Peserta akan mendapatkan racepack yang terdiri dari jersey, medali, nomor BIB, penyegaran, stasiun air, cek kadar gula darah, dan doorprize.",
+  "benefit_peserta": [
+    "Mendapatkan jersey dan medali",
+    "Cek kadar gula darah gratis",
+    "Kesempatan memenangkan doorprize",
+    "Mendukung pencegahan diabetes"
+  ],
+  "lokasi": "Edirne Coffee & Space, Sleman, Yogyakarta",
+  "kota": "Sleman",
+  "tanggal_event": "2025-01-12",
+  "kontak_event": {
+    "Instagram": [
+      "@sedulurun2025"
+    ],
+    "WhatsApp": "+62 818-747-477"
+  },
+  "biaya_registrasi": {
+    "5K (Jersey Size XS-XL)": [
+      "IDR 135.000",
+      "IDR 145.000"
+    ]
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

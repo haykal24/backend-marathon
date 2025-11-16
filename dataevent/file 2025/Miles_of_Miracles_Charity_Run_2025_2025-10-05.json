@@ -1,0 +1,34 @@
+{
+  "image": "Miles_of_Miracles_Charity_Run_2025_2025-10-05.jpg",
+  "judul": "Miles of Miracles Charity Run 2025",
+  "isi_informasi": "Miles of Miracles Charity Run 2025 hadir dengan pilihan rute 10K, 5K, dan 3K, dimulai dari Universitas Ciputra Surabaya. Seluruh keuntungan dari acara ini akan disalurkan ke Yayasan Ronald McDonald House Charities (RMHC) Indonesia untuk membantu anak-anak yang berjuang melawan penyakit kronis. Daftar segera karena slot terbatas!",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali",
+    "BIB",
+    "Goodie bag",
+    "Refreshment",
+    "E-certificate"
+  ],
+  "lokasi": "Universitas Ciputra, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-10-05",
+  "kontak_event": {
+    "Instagram": [
+      "milesofmiracles.id"
+    ],
+    "WhatsApp": "+62 811-3012-009, +62 811-3321-002",
+    "Email": "milesofmiracles.id@gmail.com"
+  },
+  "biaya_registrasi": {
+    "3K": "IDR 150.000",
+    "5K": "IDR 200.000",
+    "10K": "IDR 250.000"
+  },
+  "kategori": [
+    "3K",
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,27 @@
+{
+  "image": "M-RUN_2025_2025-04-13.png",
+  "judul": "M-RUN 2025",
+  "isi_informasi": "M-RUN adalah acara lari yang diselenggarakan untuk merayakan dan meningkatkan dampak M-FEST 2025, dengan sasaran utama masyarakat umum, terutama di Bandung. Acara ini akan berlangsung di ITB Ganesha pada tanggal 13 April 2025.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB Number",
+    "Finisher Medal"
+  ],
+  "lokasi": "ITB Ganesha, Bandung, Jawa Barat",
+  "kota": "Bandung",
+  "tanggal_event": "2025-04-13",
+  "kontak_event": {
+    "Instagram": [
+      "@mfestitb"
+    ],
+    "WhatsApp": "0810 9881 807"
+  },
+  "biaya_registrasi": {
+    "5K Early Bird": "IDR 150.000",
+    "5K Reguler": "TBA"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,30 @@
+{
+  "image": "MDP_Fun_Run_2025_2025-07-27.png",
+  "judul": "MDP Fun Run 2025",
+  "isi_informasi": "MDP Fun Run 2025 adalah acara lari yang diadakan untuk merayakan HUT SMA Kusuma Bangsa Palembang dan MDP IT Store. Acara ini berlangsung pada hari Minggu, 27 Juli 2025, dengan dua kategori lari yaitu 5K dan 10K. Peserta akan mendapatkan jersey, medali finisher, asuransi, uang pembinaan, dan doorprize.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "Asuransi",
+    "Uang Pembinaan",
+    "Doorprize"
+  ],
+  "lokasi": "Sekolah Kusuma Bangsa, Palembang, Sumatera Selatan",
+  "kota": "Palembang",
+  "tanggal_event": "2025-07-27",
+  "kontak_event": {
+    "Instagram": [
+      "@sumatera_ekspres"
+    ],
+    "WhatsApp": "081 178 9936"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 140.000",
+    "10K": "IDR 170.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

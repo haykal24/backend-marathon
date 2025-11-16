@@ -1,0 +1,30 @@
+{
+  "image": "FORTUNA_Run_2024_2024-12-29.png",
+  "judul": "FORTUNA Run 2024",
+  "isi_informasi": "FORTUNA RUN#4 2024 Chapter Jember akan diadakan oleh Hotel FORTUNAGRANDE Jember dengan konsep Hospitality Run. Persiapkan diri dan daftarkan diri Anda!",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB Number",
+    "Medal",
+    "Water Station",
+    "Refreshment Coffee Break",
+    "Asuransi",
+    "Doorprize"
+  ],
+  "lokasi": "Hotel FortunaGrande Jember, Jawa Timur",
+  "kota": "Jember",
+  "tanggal_event": "2024-12-29",
+  "kontak_event": {
+    "Instagram": [
+      "@fortunarun.jember"
+    ],
+    "WhatsApp": "+62 823 3390 4979"
+  },
+  "biaya_registrasi": {
+    "6K": "IDR 150.000"
+  },
+  "kategori": [
+    "6K"
+  ],
+  "jenis_event": "fun run"
+}

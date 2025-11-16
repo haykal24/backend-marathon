@@ -1,0 +1,30 @@
+{
+  "image": "Aetletic_London_Virtual_Run_15KM_2025-04-07.webp",
+  "judul": "Aetletic London Virtual Run 15KM",
+  "isi_informasi": "Event ini terinspirasi oleh semangat dan ikon London, mengajak peserta untuk berlari dengan semangat pantang menyerah. Setiap kilometer menjadi simbol keberanian dan kebanggaan. Pendaftaran dibuka dari 20 Februari hingga 06 April 2025, dengan periode race dari 07 April hingga 06 Mei 2025. Peserta dapat mengirimkan hasil hingga 07 Mei 2025, dan race pack akan didistribusikan pada 13 Mei 2025.",
+  "benefit_peserta": [
+    "Jersey Erspo",
+    "Medali",
+    "E-Bib",
+    "E-Sertifikat",
+    "Hadiah sepatu untuk 3 orang beruntung"
+  ],
+  "lokasi": "Anywhere",
+  "kota": "Anywhere",
+  "tanggal_event": "2025-04-07",
+  "kontak_event": {
+    "Instagram": [
+      "@aetletic.virtualrun"
+    ],
+    "WhatsApp": "0821 1413 6509"
+  },
+  "biaya_registrasi": {
+    "Early Bird": "IDR 165.000",
+    "Reguler": "IDR 195.000",
+    "Jersey Only": "IDR 120.000"
+  },
+  "kategori": [
+    "15K"
+  ],
+  "jenis_event": "virtual run"
+}

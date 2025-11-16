@@ -1,0 +1,32 @@
+{
+  "image": "Charity_Run_SUI-Jaksel_2025_2025-02-16.jpg",
+  "judul": "Charity Run SUI-Jaksel 2025",
+  "isi_informasi": "Charity Run SUI-Jaksel 2025 adalah acara lari amal dalam rangka memperingati 'Childhood Cancer Awareness Day', yang berlangsung pada 16 Februari 2025 di Kawasan Rasuna Epicentrum, Jakarta Selatan. Acara ini bertujuan untuk mengumpulkan donasi bagi anak-anak yang berjuang melawan kanker melalui Yayasan Kanker Anak Indonesia, dengan tema 'Sport, Unity, and Inspiration'.",
+  "benefit_peserta": [
+    "Jersey eksklusif",
+    "BIB number",
+    "Race guide",
+    "Racepack berisi produk sponsor",
+    "String bag",
+    "Medali finisher",
+    "Kesempatan meraih doorprize"
+  ],
+  "lokasi": "Kawasan Rasuna Epicentrum, Jakarta Selatan",
+  "kota": "Jakarta Selatan",
+  "tanggal_event": "2025-02-16",
+  "kontak_event": {
+    "Instagram": [
+      "@satkar.ulama.jaksel"
+    ],
+    "WhatsApp": "0857-7483-1790"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 200.000",
+    "3K": "IDR 150.000"
+  },
+  "kategori": [
+    "3K",
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

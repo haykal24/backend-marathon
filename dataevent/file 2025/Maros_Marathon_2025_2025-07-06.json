@@ -1,0 +1,47 @@
+{
+  "image": "Maros_Marathon_2025_2025-07-06.jpg",
+  "judul": "Maros Marathon 2025",
+  "isi_informasi": "Pemerintah Kabupaten Maros dan Komunitas Lari Maros Runners akan mengadakan Maros Marathon 2025 dengan tema 'Marathon di Maros Aja'. Acara ini menawarkan kategori lari 42 km, 21 km, 10 km, dan 5 km, serta bertujuan untuk mempromosikan pariwisata dan memperingati Hari Jadi Kabupaten Maros yang ke-66.",
+  "benefit_peserta": [
+    "Nomer BIB + Timing Chip",
+    "Race Tee",
+    "Tote Bag",
+    "Sponsor Product",
+    "Finisher Medal",
+    "Finisher Tee"
+  ],
+  "lokasi": "Lapangan Pallantikang Kantor Bupati Kab. Maros, Sulawesi Selatan",
+  "kota": "Maros",
+  "tanggal_event": "2025-07-06",
+  "kontak_event": {
+    "Instagram": [
+      "@marosmarathon2025"
+    ],
+    "WhatsApp": "08153 9730 1640"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "Early Bird": "Tidak tercantum",
+      "Normal": "Rp 185K"
+    },
+    "10K": {
+      "Early Bird": "Rp 200K",
+      "Normal": "Rp 250K"
+    },
+    "21K": {
+      "Early Bird": "Rp 325K",
+      "Normal": "Rp 400K"
+    },
+    "42K": {
+      "Early Bird": "Rp 500K",
+      "Normal": "Rp 600K"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K",
+    "42K"
+  ],
+  "jenis_event": "road run"
+}

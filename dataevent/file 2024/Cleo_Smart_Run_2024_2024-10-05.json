@@ -1,0 +1,26 @@
+{
+  "image": "Cleo_Smart_Run_2024_2024-10-05.jpg",
+  "judul": "Cleo Smart Run 2024",
+  "isi_informasi": "Cleo Smart Run kembali diadakan pada tahun 2024 setelah sukses di beberapa kota. Tahun ini, acara ini akan berlangsung di Kota Banjarbaru, Kalimantan Selatan, dengan tema 'Refresh and Renew'. Peserta diajak untuk hidup lebih sehat dengan Air Murni yang segar dan bebas BPA.",
+  "benefit_peserta": [
+    "Kesempatan untuk hidup lebih sehat",
+    "Mendapatkan pengalaman berlari yang menyenangkan",
+    "Menikmati suasana acara di alam terbuka"
+  ],
+  "lokasi": "KCG Outdoor Park Banjarbaru, Kalimantan Selatan",
+  "kota": "Banjarbaru",
+  "tanggal_event": "2024-10-05",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 150.000",
+    "Kid Dash": "IDR 100.000"
+  },
+  "kategori": [
+    "5K",
+    "Kid Dash"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,32 @@
+{
+  "image": "Senio_Fun_Run_2025_2025-11-09.png",
+  "judul": "Senio Fun Run 2025",
+  "isi_informasi": "Senio Fun Run 2025 adalah acara lari 5K yang diselenggarakan oleh UKM Senio ASM Ariyanti pada hari Minggu, 9 November 2025, di Kampus ASM Ariyanti, Jl. Pasir Kaliki No.127-133, Pamoyanan, Kota Bandung.",
+  "benefit_peserta": [
+    "Mendali",
+    "BIB Number",
+    "E-Sertifikat",
+    "Freshment",
+    "Snack",
+    "Jersey*"
+  ],
+  "lokasi": "Kampus ASM Ariyanti, Jl. Pasir Kaliki No.127-133, Pamoyanan, Kota Bandung, Jawa Barat",
+  "kota": "Bandung",
+  "tanggal_event": "2025-11-09",
+  "kontak_event": {
+    "Instagram": [
+      "@senio_asmariyanti"
+    ],
+    "WhatsApp": "+62 831 1659 1159 (Amar), +62 857 9415 4288 (Rizki)"
+  },
+  "biaya_registrasi": {
+    "5K Umum": "IDR 185.000",
+    "5K Umum (Tanpa Jersey)": "IDR 60.000",
+    "5K Mahasiswa": "IDR 170.000",
+    "5K Mahasiswa (Tanpa Jersey)": "IDR 50.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

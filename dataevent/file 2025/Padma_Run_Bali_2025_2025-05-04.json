@@ -1,0 +1,39 @@
+{
+  "image": "Padma_Run_Bali_2025_2025-05-04.png",
+  "judul": "Padma Run Bali 2025",
+  "isi_informasi": "Padma Run hadir di Bali pada 4 Mei 2025, menawarkan pengalaman berlari yang menantang di dataran tinggi Payangan. Peserta dapat menikmati udara segar, tanjakan, dan pemandangan indah. Event ini juga mendukung kegiatan amal dengan kampanye #LaceUpForChange.",
+  "benefit_peserta": [
+    "Jersey Lomba (hanya untuk 5K & 10K)",
+    "Medali Finisher",
+    "Nomor BIB dengan RFID (5K & 10K)",
+    "Nomor BIB Normal untuk Kids Dash",
+    "Tas Goodie dengan Produk Sponsor",
+    "Water Station & Refreshment Setelah Lomba",
+    "Podium 1 - 2 - 3 untuk Pria & Wanita (Open & Masters 45+)",
+    "Door Prize",
+    "Hiburan",
+    "Hasil Lomba & e-Sertifikat",
+    "Foto sepanjang acara"
+  ],
+  "lokasi": "Padma Resort Ubud, Bali",
+  "kota": "Bali",
+  "tanggal_event": "2025-05-04",
+  "kontak_event": {
+    "Instagram": [
+      "@padma_run"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "Kids Dash": "IDR 200.000",
+    "5K": "IDR 350.000",
+    "10K": "IDR 400.000"
+  },
+  "kategori": [
+    "10K",
+    "5K",
+    "Kids Dash A",
+    "Kids Dash B"
+  ],
+  "jenis_event": "road run"
+}

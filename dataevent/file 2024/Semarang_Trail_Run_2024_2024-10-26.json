@@ -1,0 +1,47 @@
+{
+  "image": "Semarang_Trail_Run_2024_2024-10-26.jpg",
+  "judul": "Semarang Trail Run 2024",
+  "isi_informasi": "Semarang Trail Run 2024 hadir kembali dengan semangat baru! Siapkan fisik dan mentalmu untuk menghadapi tantangan di Candi Gedong Songo, Ungaran. Terdapat tiga kategori jarak yang menantang: 8KM, 14KM, dan 25KM, yang menawarkan pengalaman tak terlupakan di tengah keindahan alam. Daftarkan dirimu segera dan rasakan petualangan seru ini!",
+  "benefit_peserta": [
+    "Tantangan fisik yang menarik",
+    "Pemandangan alam yang indah",
+    "Kesempatan untuk berkompetisi"
+  ],
+  "lokasi": "Candi Gedong Songo, Bandungan, Kab. Semarang, Jawa Tengah",
+  "kota": "Semarang",
+  "tanggal_event": "2024-10-26",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "75K": {
+      "WNI": "IDR 1.400.000",
+      "Foreigner": "IDR 1.600.000"
+    },
+    "50K": {
+      "WNI": "IDR 1.100.000",
+      "Foreigner": "IDR 1.300.000"
+    },
+    "25K": {
+      "WNI": "IDR 750.000",
+      "Foreigner": "IDR 900.000"
+    },
+    "14K": {
+      "WNI": "IDR 475.000",
+      "Foreigner": "IDR 550.000"
+    },
+    "8K": {
+      "WNI": "IDR 375.000",
+      "Foreigner": "IDR 450.000"
+    }
+  },
+  "kategori": [
+    "8K",
+    "14K",
+    "25K",
+    "50K",
+    "75K"
+  ],
+  "jenis_event": "trail run"
+}

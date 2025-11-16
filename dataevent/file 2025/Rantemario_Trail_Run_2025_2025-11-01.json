@@ -1,0 +1,34 @@
+{
+  "image": "Rantemario_Trail_Run_2025_2025-11-01.jpg",
+  "judul": "Rantemario Trail Run 2025",
+  "isi_informasi": "Rantemario Trail Run 2025 adalah ajang lari yang berlangsung di kaki Gunung Rante Mario, Enrekang. Event ini menawarkan tantangan lari di medan ekstrem sambil menikmati keindahan budaya Desa Wisata Latimojong. Dengan semangat Zero Waste Mountain, peserta diharapkan berkontribusi dalam menjaga kelestarian alam. Terdapat berbagai kategori lomba dengan hadiah menarik dan fasilitas seperti race jersey, medali finisher, dan asuransi kesehatan.",
+  "benefit_peserta": [
+    "Race Jersey",
+    "Finisher Medal",
+    "Bib Number",
+    "Goodie Bag",
+    "Refreshment",
+    "Health Insurance"
+  ],
+  "lokasi": "Desa Wisata Latimojong, Kec. Buntu Batu, Kab. Enrekang",
+  "kota": "Enrekang",
+  "tanggal_event": "2025-11-01",
+  "kontak_event": {
+    "Instagram": [
+      "@rantemariotrailrun"
+    ],
+    "WhatsApp": "+6287866968414",
+    "Email": "info@matappaproject.com"
+  },
+  "biaya_registrasi": {
+    "10K": "IDR 700.000",
+    "15K": "IDR 800.000",
+    "19K": "IDR 950.000"
+  },
+  "kategori": [
+    "10K",
+    "15K",
+    "19K"
+  ],
+  "jenis_event": "trail run"
+}

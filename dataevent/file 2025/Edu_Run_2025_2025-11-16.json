@@ -1,0 +1,29 @@
+{
+  "image": "Edu_Run_2025_2025-11-16.png",
+  "judul": "Edu Run 2025",
+  "isi_informasi": "Edu Run 2025 adalah acara charity fun run 5K bertema #SemuaBisaSekolah yang mendukung pendidikan anak Indonesia. Diselenggarakan oleh SalingJaga dan IKA UNJ pada Minggu, 16 November 2025, di TMII, Jakarta.",
+  "benefit_peserta": [
+    "Jersey Edu Run",
+    "String Bag",
+    "Medal",
+    "BIB",
+    "Asuransi SalingJaga Perlindungan Diri"
+  ],
+  "lokasi": "Taman Mini Indonesia Indah (TMII), Jakarta Timur, DKI Jakarta",
+  "kota": "Jakarta Timur",
+  "tanggal_event": "2025-11-16",
+  "kontak_event": {
+    "Instagram": [
+      "@ikaunj"
+    ],
+    "WhatsApp": "081112300735"
+  },
+  "biaya_registrasi": {
+    "5K Individu": "IDR 185.000",
+    "5K Couple": "IDR 350.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

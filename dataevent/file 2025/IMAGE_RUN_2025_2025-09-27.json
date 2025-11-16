@@ -1,0 +1,32 @@
+{
+  "image": "IMAGE_RUN_2025_2025-09-27.png",
+  "judul": "IMAGE RUN 2025",
+  "isi_informasi": "Image Run 2025 adalah Fun Run 5K yang mengusung tema 'Color Bubble Run', menawarkan pengalaman berlari yang menyenangkan dengan warna dan gelembung sabun. Acara ini bertujuan untuk bersenang-senang dan kebersamaan, bukan untuk kompetisi. Pendaftaran terbatas, segera daftar sebelum kehabisan!",
+  "benefit_peserta": [
+    "Exclusive Jersey",
+    "Finisher Medal",
+    "String Bag",
+    "Refreshments",
+    "BIB Number",
+    "Sport Photography",
+    "E-Certificate",
+    "Medical Support"
+  ],
+  "lokasi": "Rooftop Coffee Dago, Kota Bandung, Jawa Barat",
+  "kota": "Bandung",
+  "tanggal_event": "2025-09-27",
+  "kontak_event": {
+    "Instagram": [
+      "@mgt.sportseries"
+    ],
+    "WhatsApp": "085722892349 (Mila), 081291336412 (Zian)"
+  },
+  "biaya_registrasi": {
+    "5K Pelajar / Mahasiswa": "IDR 180.000",
+    "5K Umum": "IDR 185.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

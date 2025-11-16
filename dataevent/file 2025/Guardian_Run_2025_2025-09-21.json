@@ -1,0 +1,31 @@
+{
+  "image": "Guardian_Run_2025_2025-09-21.png",
+  "judul": "Guardian Run 2025",
+  "isi_informasi": "Guardian Indonesia mempersembahkan Guardian Run 2025 untuk merayakan ulang tahun ke-35 dan mendorong gaya hidup sehat. Event ini merupakan bagian dari Wellness Movement yang mengajak masyarakat untuk aktif dan percaya diri.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB",
+    "Chip Timing",
+    "Asuransi",
+    "Tas Lipat",
+    "Medali (Hanya Finisher)"
+  ],
+  "lokasi": "Plaza Parkir Timur, GBK, Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta Pusat",
+  "tanggal_event": "2025-09-21",
+  "kontak_event": {
+    "Instagram": [
+      "@guardian_id",
+      "@im_roadrunner"
+    ],
+    "WhatsApp": "+6282121237607"
+  },
+  "biaya_registrasi": {
+    "5K - 10K": "Free (Klaim struck belanja senilai Rp 400.000)"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

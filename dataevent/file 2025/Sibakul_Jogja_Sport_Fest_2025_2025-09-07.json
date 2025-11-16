@@ -1,0 +1,33 @@
+{
+  "image": "Sibakul_Jogja_Sport_Fest_2025_2025-09-07.jpg",
+  "judul": "Sibakul Jogja Sport Fest 2025",
+  "isi_informasi": "Sibakul Jogja Sport Fest adalah acara yang menghubungkan UMKM DIY dengan ribuan peserta dari berbagai komunitas di Indonesia melalui olahraga.",
+  "benefit_peserta": [
+    "Jersey eksklusif",
+    "Finisher medal",
+    "BIB number with Timing Chip",
+    "Goodie bag",
+    "Produk UMKM",
+    "Refreshment",
+    "Asuransi",
+    "Hiburan seru dan aktivitas menarik lainnya"
+  ],
+  "lokasi": "Stadion Mandala Krida, Yogyakarta",
+  "kota": "Yogyakarta",
+  "tanggal_event": "2025-09-07",
+  "kontak_event": {
+    "Instagram": [
+      "@sibakul.sportfest"
+    ],
+    "WhatsApp": "+62 823 2566 4793"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 185.000",
+    "10K": "IDR 225.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

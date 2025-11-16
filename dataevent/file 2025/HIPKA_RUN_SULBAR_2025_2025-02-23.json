@@ -1,0 +1,34 @@
+{
+  "image": "HIPKA_RUN_SULBAR_2025_2025-02-23.jpg",
+  "judul": "HIPKA RUN SULBAR 2025",
+  "isi_informasi": "HIPKA RUN Sulawesi Barat 2025 adalah acara lari yang bertujuan untuk mempromosikan kemandirian ekonomi dan memberdayakan UMKM di daerah. Acara ini mengajak semua pihak untuk berkolaborasi dalam membangun ekonomi yang lebih kuat dan mandiri. Dengan tema 'United in Steps, Together in Strength!', acara ini tidak hanya berfokus pada kesehatan, tetapi juga sebagai momentum untuk meningkatkan ketahanan pangan dan kesejahteraan masyarakat.",
+  "benefit_peserta": [
+    "Meningkatkan kesehatan",
+    "Mendukung pemberdayaan UMKM",
+    "Berpartisipasi dalam kolaborasi ekonomi"
+  ],
+  "lokasi": "Anjungan Pantai Manakarra, Mamuju, Sulawesi Barat",
+  "kota": "Mamuju",
+  "tanggal_event": "2025-02-23",
+  "kontak_event": {
+    "Instagram": [
+      "@hipkarunsulbar2025"
+    ],
+    "WhatsApp": "0852 4235 3833"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "Early Bird": "Rp 160K",
+      "Normal": "Rp 175K"
+    },
+    "10K": {
+      "Early Bird": "Rp 180K",
+      "Normal": "Rp 200K"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,28 @@
+{
+  "image": "UNESA_RUN_FEST_5K_Glow_in_The_Dark_2025-08-23.jpg",
+  "judul": "UNESA RUN FEST 5K: Glow in The Dark",
+  "isi_informasi": "UNESA RUN FEST 5K kembali hadir dengan konsep Glow in The Dark, menawarkan pengalaman lari malam yang spektakuler. Ajak teman dan keluarga untuk berlari dan mendapatkan hadiah menarik.",
+  "benefit_peserta": [
+    "Light Pass: Nomor BIB, Drawstring Bag, Glow Kit",
+    "Glow Pack: Medali, Nomor BIB, Drawstring Bag, Glow Kit",
+    "Star Class: Jersey, Medali, Nomor BIB, Drawstring Bag, Glow Kit"
+  ],
+  "lokasi": "Lap. Rektorat UNESA Kampus Lidah Wetan, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-08-23",
+  "kontak_event": {
+    "Instagram": [
+      "@unesarunfest2025"
+    ],
+    "WhatsApp": "+62 859 2319 3119 (Hafiz), +62 812 4961 1968 (Debi)"
+  },
+  "biaya_registrasi": {
+    "5K Light Pass": "IDR 90.000",
+    "5K Glow Pack": "IDR 180.000",
+    "5K Star Class": "IDR 210.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,33 @@
+{
+  "image": "Lari_Berbagi_2025_2025-12-07.png",
+  "judul": "Lari Berbagi 2025",
+  "isi_informasi": "Akhiri tahun dengan semangat melalui LARI BERBAGI di Latar Kota by Banaran, Semarang. Setiap langkahmu berarti, karena setiap kilometer yang kamu tempuh akan menjadi donasi. Daftar segera, karena slot terbatas!",
+  "benefit_peserta": [
+    "Jersey keren & eksklusif",
+    "Medali finisher kece",
+    "BIB Number",
+    "Goodiebag",
+    "Refreshment + Water Station",
+    "Dokumentasi profesional"
+  ],
+  "lokasi": "Latar Kota by Banaran, Semarang, Jawa Tengah",
+  "kota": "Semarang",
+  "tanggal_event": "2025-12-07",
+  "kontak_event": {
+    "Instagram": [
+      "@lariberbagi_official"
+    ],
+    "WhatsApp": "0851-8750-7016, 0851-8750-7026"
+  },
+  "biaya_registrasi": {
+    "3K Reguler": "IDR 145.000",
+    "5K Reguler": "IDR 175.000",
+    "7K Reguler": "IDR 200.000"
+  },
+  "kategori": [
+    "3K",
+    "5K",
+    "7K"
+  ],
+  "jenis_event": "road run"
+}

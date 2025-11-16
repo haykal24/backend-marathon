@@ -1,0 +1,30 @@
+{
+  "image": "Miles_for_Meals_2025-04-27.png",
+  "judul": "Miles for Meals",
+  "isi_informasi": "Miles for Meals adalah acara lari yang bertujuan untuk membantu anak-anak Indonesia yang mengalami stunting. Dengan berlari, peserta tidak hanya menjaga kesehatan diri sendiri dan keluarga, tetapi juga berkontribusi untuk memberikan nutrisi bagi anak-anak yang membutuhkan. Acara ini menawarkan merchandise bertema makanan yang unik, pemeriksaan kesehatan mini, dan berbagai aktivitas menyenangkan.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medal",
+    "BIB Number",
+    "Goodie Bag",
+    "Asuransi SalingJaga"
+  ],
+  "lokasi": "Ratu Plaza, Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta Pusat",
+  "tanggal_event": "2025-04-27",
+  "kontak_event": {
+    "Instagram": [
+      "@klinik_najwamedika",
+      "@salingjaga.kitabisa"
+    ],
+    "WhatsApp": "0811 1230 0735"
+  },
+  "biaya_registrasi": {
+    "5K Individu": "IDR 200.000",
+    "5K Berdua": "IDR 324.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

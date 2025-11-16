@@ -1,0 +1,32 @@
+{
+  "image": "PRUActive_Family_2025_Jakarta_2025-11-02.jpg",
+  "judul": "PRUActive Family 2025 Jakarta",
+  "isi_informasi": "PRUActive Family 2025 Jakarta adalah acara lari 5K yang dirancang untuk semua usia, mendorong gaya hidup sehat dan semangat berlari. Pendaftaran terbatas, segera daftar sebelum kehabisan.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB",
+    "Medal (Finisher Only)",
+    "Goody Bag"
+  ],
+  "lokasi": "Senayan Park, Jl. Gerbang Pemuda No.3, Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta",
+  "tanggal_event": "2025-11-02",
+  "kontak_event": {
+    "Instagram": [
+      "@id_prudential",
+      "@im_roadrunner",
+      "@gerak.now"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "2.5K": "IDR 130.000",
+    "5K": "IDR 150.000",
+    "Kids Push Bike": "IDR 150.000"
+  },
+  "kategori": [
+    "2.5K",
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

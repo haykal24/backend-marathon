@@ -1,0 +1,28 @@
+{
+  "image": "Kapal_Api_Gerak_Semangat_2025-04-27.jpg",
+  "judul": "Kapal Api Gerak Semangat",
+  "isi_informasi": "Ikuti acara Kapal Api Gerak Semangat di Lapangan Timur Bajra Sandhi Renon pada Minggu, 27 April 2025. Terdapat berbagai kegiatan menarik seperti doorprize, jalan sehat, zumba, food bazaar, dan fun games. Dengan biaya registrasi Rp35.000, peserta akan mendapatkan produk Kapal Api, kupon doorprize, dan kaos Gerak Semangat.",
+  "benefit_peserta": [
+    "Kesempatan memenangkan doorprize hingga jutaan rupiah",
+    "Aktivitas jalan sehat bersama teman",
+    "Zumba untuk kebugaran",
+    "Beragam pilihan makanan di food bazaar",
+    "Fun games yang menantang"
+  ],
+  "lokasi": "Lapangan Timur Bajra Sandhi Renon, Denpasar, Bali",
+  "kota": "Denpasar",
+  "tanggal_event": "2025-04-27",
+  "kontak_event": {
+    "Instagram": [
+      "@kapalapi_id"
+    ],
+    "WhatsApp": "0821 3637 7100"
+  },
+  "biaya_registrasi": {
+    "Fun Walk": "Rp 35.000"
+  },
+  "kategori": [
+    "Fun Walk"
+  ],
+  "jenis_event": "fun run"
+}

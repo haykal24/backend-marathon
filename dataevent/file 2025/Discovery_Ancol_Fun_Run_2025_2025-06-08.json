@@ -1,0 +1,30 @@
+{
+  "image": "Discovery_Ancol_Fun_Run_2025_2025-06-08.jpg",
+  "judul": "Discovery Ancol Fun Run 2025",
+  "isi_informasi": "Discovery Ancol Fun Run mengajak pelari untuk merayakan kebahagiaan di Ancol. Dengan sepatu lari dan teman-teman, nikmati momen seru dalam acara ini. Daftar sekarang untuk pengalaman tak terlupakan!",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Number",
+    "Refreshment",
+    "Tiket Ancol"
+  ],
+  "lokasi": "Discovery Ancol Hotel, Jakarta Utara, DKI Jakarta",
+  "kota": "Jakarta Utara",
+  "tanggal_event": "2025-06-08",
+  "kontak_event": {
+    "Instagram": [
+      "@discoveryancol"
+    ],
+    "WhatsApp": "087819228785 (Nita), 08111716363 (Diana)"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 200.000",
+    "10K": "IDR 200.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

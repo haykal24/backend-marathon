@@ -1,0 +1,32 @@
+{
+  "image": "Kendal_Berdikari_Fun_Run_2025_2025-11-30.jpg",
+  "judul": "Kendal Berdikari Fun Run 2025",
+  "isi_informasi": "Kendal Berdikari Fun Run 2025 akan diadakan pada Minggu, 30 November 2025, di Stadion Utama Kebondalem Kendal. Terdapat dua kategori yang ditawarkan, yaitu 5K Fun Run dan 10K Challenge. Pendaftaran terbatas, segera daftarkan diri Anda!",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB Number",
+    "Medal",
+    "Totebag",
+    "Entertainment",
+    "Doorprize",
+    "Podium"
+  ],
+  "lokasi": "Stadion Utama Kebondalem Kendal, Kendal, Jawa Tengah",
+  "kota": "Kendal",
+  "tanggal_event": "2025-11-30",
+  "kontak_event": {
+    "Instagram": [
+      "@kendalfunrun.official"
+    ],
+    "WhatsApp": "0811 2710 033"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 150.000",
+    "10K": "IDR 150.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

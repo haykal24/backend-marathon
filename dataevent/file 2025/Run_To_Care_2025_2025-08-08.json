@@ -1,0 +1,35 @@
+{
+  "image": "Run_To_Care_2025_2025-08-08.png",
+  "judul": "Run To Care 2025",
+  "isi_informasi": "Run to Care kembali hadir dengan misi meningkatkan kesadaran akan hak-hak dasar anak. Event ini mengajak peserta menelusuri Jakarta sejauh 150 kilometer, dengan dukungan dari SOS Children’s Villages. Terdapat berbagai fasilitas seperti jersey peserta, BIB, dukungan penuh, shuttle bus, penyegaran, asuransi, jersey finisher, dan medali finisher.",
+  "benefit_peserta": [
+    "Jersey Peserta",
+    "BIB",
+    "Dukungan penuh",
+    "Shuttle Bus",
+    "Penyegaran",
+    "Asuransi",
+    "Jersey Finisher",
+    "Medali Finisher"
+  ],
+  "lokasi": "Sudirman, Jakarta Pusat - CP1 Pantai Indak Kapuk, Jakarta Utara - CP2 Jakarta Selatan",
+  "kota": "Jakarta",
+  "tanggal_event": "2025-08-08",
+  "kontak_event": {
+    "Instagram": [
+      "@runtocare"
+    ],
+    "WhatsApp": "0851 7116 5580"
+  },
+  "biaya_registrasi": {
+    "50K Relay": "IDR 800.000",
+    "100K Individu": "IDR 900.000",
+    "150K Individu": "IDR 1.000.000"
+  },
+  "kategori": [
+    "50K Relay",
+    "100K",
+    "150K"
+  ],
+  "jenis_event": "road run"
+}

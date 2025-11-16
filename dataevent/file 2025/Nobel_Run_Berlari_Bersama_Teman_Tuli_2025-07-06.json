@@ -1,0 +1,32 @@
+{
+  "image": "Nobel_Run_Berlari_Bersama_Teman_Tuli_2025-07-06.jpg",
+  "judul": "Nobel Run: Berlari Bersama Teman Tuli",
+  "isi_informasi": "Nobel Run: Berlari Bersama Teman Tuli adalah acara lari amal yang diadakan oleh Nobel Audiology Center dan SalingJaga. Peserta dapat memilih jarak 5 km atau 10 km untuk mendukung Teman Tuli agar dapat mendengar kembali.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medal",
+    "BIB Number",
+    "Tote Bag",
+    "Asuransi SalingJaga"
+  ],
+  "lokasi": "Senayan Park, Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta Pusat",
+  "tanggal_event": "2025-07-06",
+  "kontak_event": {
+    "Instagram": [
+      "@nobelaudiology",
+      "@salingjaga.kitabisa"
+    ],
+    "WhatsApp": "0857 8232 7703"
+  },
+  "biaya_registrasi": {
+    "5K Individu": "IDR 225.000",
+    "5K Berdua": "IDR 324.000",
+    "10K Individu": "IDR 275.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

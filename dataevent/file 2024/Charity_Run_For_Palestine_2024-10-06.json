@@ -1,0 +1,29 @@
+{
+  "image": "Charity_Run_For_Palestine_2024-10-06.jpeg",
+  "judul": "Charity Run For Palestine",
+  "isi_informasi": "Charity Run For Palestine adalah acara lari amal yang bertujuan mendukung warga Palestina yang mengalami krisis kemanusiaan. Acara ini tidak hanya sekadar lari, tetapi juga simbol solidaritas untuk memberikan harapan dan bantuan nyata. Peserta dapat memilih untuk berlari secara virtual dengan jarak 5K atau 10K, dan setiap langkah yang diambil berkontribusi pada penggalangan dana untuk Palestina. Peserta akan menerima racepack eksklusif yang berisi medali, E-BIB, e-sertifikat, dan jersey, serta dapat mengajak orang lain untuk berdonasi.",
+  "benefit_peserta": [
+    "Racepack eksklusif",
+    "Medali dan e-sertifikat",
+    "Kesempatan untuk berdonasi",
+    "Akses grup WhatsApp untuk informasi dan jejaring",
+    "Twibbon untuk mendukung Palestina"
+  ],
+  "lokasi": "Anywhere",
+  "kota": "Anywhere",
+  "tanggal_event": "2024-10-06",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "081338103811"
+  },
+  "biaya_registrasi": {
+    "Reguler": "IDR 75.000",
+    "Jersey": "IDR 150.000",
+    "Exclusive": "IDR 200.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "virtual run"
+}

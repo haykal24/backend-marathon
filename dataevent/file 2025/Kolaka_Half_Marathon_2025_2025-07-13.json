@@ -1,0 +1,48 @@
+{
+  "image": "Kolaka_Half_Marathon_2025_2025-07-13.jpg",
+  "judul": "Kolaka Half Marathon 2025",
+  "isi_informasi": "Kolaka Half Marathon adalah lomba lari massal yang diadakan di Kabupaten Kolaka, dimulai sejak tahun 2022. Acara ini bertujuan untuk memperkenalkan Kota Kolaka ke seluruh Indonesia dan mendorong masyarakat untuk lebih aktif melalui olahraga lari.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB",
+    "Totebag",
+    "Medal",
+    "Tas Sepatu",
+    "Welcome Dinner",
+    "Refreshment",
+    "Water Station",
+    "Jajanan Gratis",
+    "Doorprize",
+    "Finisher Tee",
+    "Dokumentasi"
+  ],
+  "lokasi": "Pelataran Rumah Adat Kolaka, Sulawesi Tenggara",
+  "kota": "Kolaka",
+  "tanggal_event": "2025-07-13",
+  "kontak_event": {
+    "Instagram": [
+      "@kolakahalfmarathon"
+    ],
+    "WhatsApp": "0823 4955 8349"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "Early Bird": "Rp 200K",
+      "Normal": "Rp 225K"
+    },
+    "10K": {
+      "Early Bird": "Rp 250K",
+      "Normal": "Rp 275K"
+    },
+    "21K": {
+      "Early Bird": "Rp 325K",
+      "Normal": "Rp 350K"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "road run"
+}

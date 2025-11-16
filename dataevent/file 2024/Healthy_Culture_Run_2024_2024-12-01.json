@@ -1,0 +1,27 @@
+{
+  "image": "Healthy_Culture_Run_2024_2024-12-01.jpg",
+  "judul": "Healthy Culture Run 2024",
+  "isi_informasi": "Acara ini menawarkan pengalaman berlari sekaligus menikmati hasil bumi segar di Healthy Culture Mart dan hiburan budaya di Healthy Culture Fest. Selain mempromosikan gaya hidup sehat, acara ini juga mendukung petani lokal dan produk hortikultura Indonesia.",
+  "benefit_peserta": [
+    "Menikmati hasil bumi segar",
+    "Hiburan budaya",
+    "Mendukung petani lokal"
+  ],
+  "lokasi": "Gedung Sate Bandung, Jawa Barat",
+  "kota": "Bandung",
+  "tanggal_event": "2024-12-01",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 300.000",
+    "3K": "IDR 250.000",
+    "3K Family Package": "IDR 450.000"
+  },
+  "kategori": [
+    "3K",
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

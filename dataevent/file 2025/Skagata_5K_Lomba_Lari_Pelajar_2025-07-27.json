@@ -1,0 +1,38 @@
+{
+  "image": "Skagata_5K_Lomba_Lari_Pelajar_2025-07-27.jpg",
+  "judul": "Skagata 5K: Lomba Lari Pelajar",
+  "isi_informasi": "SKAGATA 5K adalah lomba lari pertama di DIY yang ditujukan untuk pelajar dari berbagai jenjang pendidikan. Acara ini akan dilaksanakan pada 27 Juli 2025 dan menyediakan BIB Chip Number untuk peserta.",
+  "benefit_peserta": [
+    "BIB Chip Number",
+    "Totebag",
+    "Asuransi",
+    "Medali Finisher",
+    "Water Station",
+    "Layanan Medis",
+    "Jersey Lomba",
+    "Refreshment",
+    "Hiburan",
+    "Foto Resmi",
+    "E-Sertifikat"
+  ],
+  "lokasi": "SMK Negeri 3 Yogyakarta, DIY",
+  "kota": "Yogyakarta",
+  "tanggal_event": "2025-07-27",
+  "kontak_event": {
+    "Instagram": [
+      "@skagata.5k",
+      "@smkn3jogja"
+    ],
+    "WhatsApp": "0858 6828 5678"
+  },
+  "biaya_registrasi": {
+    "5K": [
+      "IDR 150.000",
+      "IDR 175.000"
+    ]
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

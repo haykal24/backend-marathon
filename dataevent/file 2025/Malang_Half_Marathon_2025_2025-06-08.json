@@ -1,0 +1,45 @@
+{
+  "image": "Malang_Half_Marathon_2025_2025-06-08.jpg",
+  "judul": "Malang Half Marathon 2025",
+  "isi_informasi": "Malang Half Marathon adalah acara road run dengan kategori 5K, 10K, dan 21K yang akan berlangsung di Malang pada 8 Juni 2025. Event ini bertujuan untuk mempromosikan sport tourism di Jawa Timur dan dikelola oleh penyelenggara berpengalaman. Batas waktu (COT) untuk setiap kategori adalah 5K: 1 jam 30 menit, 10K: 2 jam, dan 21K: 3 jam 30 menit.",
+  "benefit_peserta": [
+    "Goodie Bag",
+    "Jersey Race",
+    "Medali Finisher",
+    "Jersey Finisher (untuk 100 orang pertama kategori 10K dan semua finisher kategori 21K)",
+    "Jacket Finisher (untuk 100 orang pertama kategori 21K)"
+  ],
+  "lokasi": "Lapangan Rampal. Jl. Panglima Sudirman No. 64, Kec. Blimbing, Malang",
+  "kota": "Malang",
+  "tanggal_event": "2025-06-08",
+  "kontak_event": {
+    "Instagram": [
+      "@malanghalfmarathon"
+    ],
+    "WhatsApp": "+62 8820 0569 1607"
+  },
+  "biaya_registrasi": {
+    "5K Pelajar": {
+      "Early Bird": "Rp 150K",
+      "Normal Price": "Rp 200K"
+    },
+    "5K Umum": {
+      "Early Bird": "Rp 200K",
+      "Normal Price": "Rp 250K"
+    },
+    "10K": {
+      "Early Bird": "Rp 300K",
+      "Normal Price": "Rp 350K"
+    },
+    "Half Marathon": {
+      "Early Bird": "Rp 500K",
+      "Normal Price": "Rp 550K"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "road run"
+}

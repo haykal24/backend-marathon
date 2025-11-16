@@ -1,0 +1,32 @@
+{
+  "image": "LT_MEN_Power_Run_2025_Surabaya_2025-11-02.jpg",
+  "judul": "LT MEN Power Run 2025 Surabaya",
+  "isi_informasi": "LT MEN POWER RUN 2025 akan segera berlangsung di Surabaya. Segera daftarkan diri Anda, karena tempat terbatas. Event ini dijamin seru!",
+  "benefit_peserta": [
+    "Totte Bag",
+    "Jersey",
+    "Medal Finisher",
+    "BIB Number",
+    "Waterstation and Refreshment",
+    "LT Men Product Race Pack"
+  ],
+  "lokasi": "Lap. Parkir Timur Plaza Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-11-02",
+  "kontak_event": {
+    "Instagram": [
+      "@ltmensolution",
+      "@powerrun2025"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": "TBA",
+    "10K": "TBA"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,33 @@
+{
+  "image": "dEmmerick_Run_2026_2026-05-17.png",
+  "judul": "d'Emmerick Run 2026",
+  "isi_informasi": "d’Emmerick Run 2026 adalah acara lari yang berlangsung di Salatiga, mengelilingi hutan sekitar d’Emmerick Hotel dengan pemandangan indah Gunung Merbabu, Gunung Telomoyo, Rawa Pening, dan kota Salatiga. Peserta dapat menikmati staycation di d’Emmerick Hotel dengan harga khusus dan pemandangan yang menakjubkan serta mencicipi kopi khas Cleverly. Tempat terbatas, segera daftar sebelum kehabisan!",
+  "benefit_peserta": [
+    "Tas Racepack",
+    "Race Jersey",
+    "Finisher Medal",
+    "Refreshments",
+    "Water Station",
+    "Product Sponsors"
+  ],
+  "lokasi": "d’Emmerick Hotel Salatiga, Jl. Raya Kopeng, Kec. Argomulyo, Salatiga, Jawa Tengah",
+  "kota": "Salatiga",
+  "tanggal_event": "2026-05-17",
+  "kontak_event": {
+    "Instagram": [
+      "@demmerick_run"
+    ],
+    "WhatsApp": "+6287834782626"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 300.000",
+    "10K": "IDR 450.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "7K",
+    "15K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,37 @@
+{
+  "image": "Superball_Run_2024_2024-12-15.jpg",
+  "judul": "Superball Run 2024",
+  "isi_informasi": "Superball Run ke-9 akan berlangsung pada Minggu, 15 Desember 2024, dengan kategori lomba 5K, 10K, dan 21K. Segera daftar dan persiapkan diri Anda!",
+  "benefit_peserta": [
+    "Kesempatan berkompetisi di berbagai kategori",
+    "Mendapatkan nomor dada kepesertaan",
+    "Hadiah bagi pemenang"
+  ],
+  "lokasi": "Jakarta",
+  "kota": "Jakarta",
+  "tanggal_event": "2024-12-15",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0852-10000-828"
+  },
+  "biaya_registrasi": {
+    "21K": {
+      "Early Bird": "Rp 600K",
+      "Normal": "Rp 750K"
+    },
+    "10K": {
+      "Early Bird": "Rp 320K",
+      "Normal": "Rp 400K"
+    },
+    "5K": {
+      "Early Bird": "Rp 240K",
+      "Normal": "Rp 300K"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "road run"
+}

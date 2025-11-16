@@ -1,0 +1,32 @@
+{
+  "image": "Sindoro_Sumbing_Triathlon_Challenge_2025_2025-07-25.jpeg",
+  "judul": "Sindoro Sumbing Triathlon Challenge 2025",
+  "isi_informasi": "Sindoro Sumbing Triathlon Challenge adalah acara tahunan yang diadakan oleh komunitas Triathlon Jateng bekerja sama dengan berbagai pihak untuk memperkenalkan triathlon dan potensi pariwisata Wonosobo. Event ke-6 ini terdiri dari kategori Triathlon, Duathlon, Aquathlon, dan Relay, dengan total hadiah Rp. 150 juta. Peserta juga dapat menikmati Festival Tenongan dan menerbangkan lampion sebelum perlombaan.",
+  "benefit_peserta": [
+    "Menguji mental dan fisik",
+    "Kesempatan berpartisipasi dalam festival budaya",
+    "Hadiah total Rp. 150 juta"
+  ],
+  "lokasi": "Perkebunan Teh Blembem, Kec. Kertek, Kab. Wonosobo, Jawa Tengah",
+  "kota": "Wonosobo",
+  "tanggal_event": "2025-07-25",
+  "kontak_event": {
+    "Instagram": [
+      "@duathlonsindorosumbing"
+    ],
+    "WhatsApp": "0858 5505 9191"
+  },
+  "biaya_registrasi": {
+    "Triathlon": "IDR 750.000",
+    "Duathlon": "IDR 600.000",
+    "Aquathlon": "IDR 500.000",
+    "Relay": "IDR 500.000"
+  },
+  "kategori": [
+    "Triathlon",
+    "Duathlon",
+    "Aquathlon",
+    "Relay"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,35 @@
+{
+  "image": "Maybank_Marathon_2025_2025-08-24.jpg",
+  "judul": "Maybank Marathon 2025",
+  "isi_informasi": "Maybank Marathon 2025 adalah acara lari tahunan yang diakui secara internasional dan termasuk dalam kalender World Athletics. Diselenggarakan di Bali, acara ini menawarkan pengalaman berlari yang berkualitas dengan rute bersertifikasi dan fasilitas lengkap untuk pelari dari berbagai tingkat keahlian.",
+  "benefit_peserta": [
+    "TBA"
+  ],
+  "lokasi": "Bali United Training Center, Gianyar, Bali",
+  "kota": "Gianyar",
+  "tanggal_event": "2025-08-24",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "10K": {
+      "WNI": "Rp 650K",
+      "WNA": "Rp 800K"
+    },
+    "Half Marathon": {
+      "WNI": "Rp 800K",
+      "WNA": "Rp 1.000K"
+    },
+    "Marathon": {
+      "WNI": "Rp 950K",
+      "WNA": "Rp 1.600K"
+    }
+  },
+  "kategori": [
+    "10K",
+    "Half Marathon",
+    "Marathon"
+  ],
+  "jenis_event": "road run"
+}

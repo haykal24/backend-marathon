@@ -1,0 +1,29 @@
+{
+  "image": "Marina_Suntastic_Run_2025_2025-05-25.webp",
+  "judul": "Marina Suntastic Run 2025",
+  "isi_informasi": "Marina Suntastic Run 2025 adalah acara Fun Run 5K yang didedikasikan untuk perempuan Indonesia, bertujuan untuk mendukung gaya hidup aktif dan sehat serta meningkatkan kesadaran akan perlindungan kulit dari sinar UV. Acara ini akan berlangsung pada 25 Mei 2025 di GBK - Plaza Sudirman, Jakarta.",
+  "benefit_peserta": [
+    "Special Jersey",
+    "Finisher Medal",
+    "String Bag",
+    "Goodie Bag worth to 300K",
+    "Tempo Mart Voucher"
+  ],
+  "lokasi": "Plaza Sudirman GBK – Gelora Bung Karno, Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta",
+  "tanggal_event": "2025-05-25",
+  "kontak_event": {
+    "Instagram": [
+      "@maximo_id"
+    ],
+    "WhatsApp": "0811 8122 3888"
+  },
+  "biaya_registrasi": {
+    "5K Early Bird": "IDR 150.000",
+    "5K Normal Price": "IDR 200.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

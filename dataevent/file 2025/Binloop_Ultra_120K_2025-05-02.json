@@ -1,0 +1,34 @@
+{
+  "image": "Binloop_Ultra_120K_2025-05-02.png",
+  "judul": "Binloop Ultra 120K",
+  "isi_informasi": "Binloop Ultra adalah perlombaan Ultra Marathon tahunan yang menawarkan lima kategori jarak: 200K, 120K, 60K, 12K, dan Relay 5x12K. Rute lari berada di Bintaro Loop, Tangerang Selatan, dengan panjang satu putaran sekitar 12KM. Event ini dikenal sebagai lokasi latihan yang nyaman dan aman bagi pelari dan pesepeda.",
+  "benefit_peserta": [
+    "Medali Finisher",
+    "Jersey",
+    "Refreshment"
+  ],
+  "lokasi": "Ruko Kebayoran Square, Jl. Boulevard Bintaro Jaya, Tangerang Selatan, Banten",
+  "kota": "Tangerang Selatan",
+  "tanggal_event": "2025-05-02",
+  "kontak_event": {
+    "Instagram": [
+      "@binloopultra120"
+    ],
+    "WhatsApp": "+62 878 1200 2219",
+    "Email": "info@binloopultra.com"
+  },
+  "biaya_registrasi": {
+    "12K": "IDR 450.000",
+    "60K": "IDR 850.000",
+    "60K Relay": "IDR 1.800.000",
+    "120K": "IDR 1.250.000",
+    "200K": "IDR 1.500.000"
+  },
+  "kategori": [
+    "12K",
+    "60K",
+    "120K",
+    "200K"
+  ],
+  "jenis_event": "road run"
+}

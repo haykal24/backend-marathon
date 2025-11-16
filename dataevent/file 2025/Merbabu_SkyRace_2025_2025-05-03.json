@@ -1,0 +1,49 @@
+{
+  "image": "Merbabu_SkyRace_2025_2025-05-03.jpg",
+  "judul": "Merbabu SkyRace 2025",
+  "isi_informasi": "Merbabu SkyRace adalah lomba lari yang menantang di Gunung Merbabu, dengan rute yang melewati keindahan Taman Nasional Merbabu. Event ini menawarkan berbagai kategori dengan medan yang beragam, termasuk jalur terjal dan savana. Peserta akan mendapatkan racepack yang terdiri dari jersey, windbreaker, nomor BIB, tote bag, dan medali finisher.",
+  "benefit_peserta": [
+    "Menikmati keindahan alam Gunung Merbabu",
+    "Mendapatkan racepack menarik",
+    "Kesempatan untuk berkompetisi di berbagai kategori"
+  ],
+  "lokasi": "Thekelan, Desa Batur, Getasan, Semarang, Jawa Tengah",
+  "kota": "Semarang",
+  "tanggal_event": "2025-05-03",
+  "kontak_event": {
+    "Instagram": [
+      "@merbabu_skyrace"
+    ],
+    "WhatsApp": "0813 6736 6878"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "Local": "Rp 350K",
+      "Expat": "Rp 550K"
+    },
+    "10K": {
+      "Local": "Rp 550K",
+      "Expat": "Rp 750K"
+    },
+    "20K": {
+      "Local": "Rp 750K",
+      "Expat": "Rp 950K"
+    },
+    "40K": {
+      "Local": "Rp 1.050K",
+      "Expat": "Rp 1.250K"
+    },
+    "50K": {
+      "Local": "Rp 1.250K",
+      "Expat": "Rp 1.450K"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "20K",
+    "40K",
+    "50K"
+  ],
+  "jenis_event": "trail run"
+}

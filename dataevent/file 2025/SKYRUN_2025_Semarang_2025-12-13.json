@@ -1,0 +1,31 @@
+{
+  "image": "SKYRUN_2025_Semarang_2025-12-13.jpg",
+  "judul": "SKYRUN 2025 Semarang",
+  "isi_informasi": "SKYRUN 2025 Semarang adalah bagian dari Skyplay Fest 2025 dengan jarak lari 6K, berlangsung pada Sabtu, 13 Desember 2025, mulai pukul 06.00. Acara fun run ini diadakan di Lanumad Ahmad Yani Semarang, menawarkan pengalaman unik dengan pemandangan helikopter dan pesawat terbang.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medal",
+    "Goodie Bag",
+    "Doorprize",
+    "Refreshment"
+  ],
+  "lokasi": "Lanumad Ahmad Yani Semarang, Jl. Puad A Yani, Semarang Barat, Semarang, Jawa Tengah",
+  "kota": "Semarang",
+  "tanggal_event": "2025-12-13",
+  "kontak_event": {
+    "Instagram": [
+      "@tigaproman",
+      "@skyplay.fest"
+    ],
+    "WhatsApp": "0895385594087"
+  },
+  "biaya_registrasi": {
+    "6K Early Bird": "IDR 139.000",
+    "6K Normal": "IDR 159.000",
+    "6K Terusan Festival": "IDR 249.000"
+  },
+  "kategori": [
+    "6K"
+  ],
+  "jenis_event": "fun run"
+}

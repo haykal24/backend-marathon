@@ -1,0 +1,30 @@
+{
+  "image": "PERDOSKI_Run_2025_2025-01-19.png",
+  "judul": "PERDOSKI Run 2025",
+  "isi_informasi": "Dalam rangka memperingati HUT PERDOSKI ke-59, PERDOSKI Surabaya mengadakan PERDOSKI RUN yang terbuka untuk umum. Acara ini menawarkan pengalaman lari yang seru dengan kegiatan menarik seperti pemakaian tabir surya sebelum Fun Run dan talkshow kesehatan kulit. Peserta juga dapat berkonsultasi gratis dengan dokter spesialis kulit. Terdapat lomba Best Costume, Best IG Reels, dan Best Time 10K dengan doorprize menarik. Acara berlangsung pada Minggu, 19 Januari 2025, dengan open gate pukul 04.30 WIB. Start kategori 10K pukul 05.30 WIB dan 5K pukul 06.00 WIB di Balai Pemuda, Surabaya.",
+  "benefit_peserta": [
+    "Pengalaman lari yang seru",
+    "Kegiatan pemakaian tabir surya",
+    "Talkshow kesehatan kulit",
+    "Konsultasi gratis dengan dokter spesialis",
+    "Lomba dengan doorprize"
+  ],
+  "lokasi": "Balai Pemuda, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-01-19",
+  "kontak_event": {
+    "Instagram": [
+      "perdoski_surabaya"
+    ],
+    "WhatsApp": "0853 3705 1086"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 200.000",
+    "10K": "IDR 250.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

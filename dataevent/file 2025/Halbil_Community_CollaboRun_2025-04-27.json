@@ -1,0 +1,28 @@
+{
+  "image": "Halbil_Community_CollaboRun_2025-04-27.jpg",
+  "judul": "Halbil Community CollaboRun",
+  "isi_informasi": "Halbil Community CollaboRun adalah acara lari bersama yang bertujuan untuk memperkuat silaturahmi dan menerapkan gaya hidup sehat setelah lebaran. Peserta diajak untuk bergerak dan saling mendukung dalam upaya hidup sehat.",
+  "benefit_peserta": [
+    "Halbil package",
+    "Jersey",
+    "Goodiebag",
+    "Refreshment"
+  ],
+  "lokasi": "Indofood Tower, Jakarta Selatan, DKI Jakarta",
+  "kota": "Jakarta Selatan",
+  "tanggal_event": "2025-04-27",
+  "kontak_event": {
+    "Instagram": [
+      "@travelrunners.id"
+    ],
+    "WhatsApp": "+62 811 8122 3888"
+  },
+  "biaya_registrasi": {
+    "5K Personal": "IDR 150.000",
+    "5K Komunitas": "IDR 100.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

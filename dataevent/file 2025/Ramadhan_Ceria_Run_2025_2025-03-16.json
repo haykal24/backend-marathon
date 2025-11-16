@@ -1,0 +1,34 @@
+{
+  "image": "Ramadhan_Ceria_Run_2025_2025-03-16.jpg",
+  "judul": "Ramadhan Ceria Run 2025",
+  "isi_informasi": "Ramadhan Ceria Run 2025 akan diadakan pada Minggu, 16 Maret 2025, di Ndorogiri Cafe & Space, Kab. Bantul, DIY, dari pukul 16.00 hingga 19.00 WIB. Event ini merupakan kategori Fun Run dengan berbagai fasilitas seperti jersey, medali finisher, BIB, totebag, paket buka puasa, undian doorprize, produk sponsor, dan dokumentasi race.",
+  "benefit_peserta": [
+    "Race Jersey",
+    "Medali Finisher",
+    "BIB",
+    "Totebag",
+    "Paket Buka Puasa",
+    "Undian Doorprise",
+    "Produk Sponsor",
+    "Dokumentasi Race"
+  ],
+  "lokasi": "Ndorogiri Cafe & Space, Kab. Bantul, Daerah Istimewa Yogyakarta",
+  "kota": "Bantul",
+  "tanggal_event": "2025-03-16",
+  "kontak_event": {
+    "Instagram": [
+      "@indonesia.ceriarun"
+    ],
+    "WhatsApp": "0882 0089 19516"
+  },
+  "biaya_registrasi": {
+    "BIB Only": "IDR 60.000",
+    "BIB + Medali": "IDR 100.000",
+    "Lengkap": "IDR 150.000"
+  },
+  "kategori": [
+    "3K",
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

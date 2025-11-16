@@ -1,0 +1,35 @@
+{
+  "image": "Indonesia_Ceria_Run_2025_2025-02-16.jpg",
+  "judul": "Indonesia Ceria Run 2025",
+  "isi_informasi": "Indonesia Ceria Run 2025 adalah event lari yang bertujuan mendukung pertumbuhan ekonomi melalui sport tourism. Setelah sukses di 2023, acara ini kembali diadakan di berbagai kota di Indonesia, dari Sabang hingga Merauke. Selain itu, terdapat stand UMKM untuk mempromosikan produk lokal. Event ini diharapkan dapat meningkatkan kesadaran akan gaya hidup sehat dan memperkuat perekonomian daerah.",
+  "benefit_peserta": [
+    "Race Jersey",
+    "Finisher Medal",
+    "Totebag",
+    "Water Station",
+    "Refreshment",
+    "BIB Number",
+    "Dokumentasi",
+    "Doorprize"
+  ],
+  "lokasi": "Indofood Tower, Jl Jend Sudirman Kav 76-78, Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta",
+  "tanggal_event": "2025-02-16",
+  "kontak_event": {
+    "Instagram": [
+      "@indonesia.ceriarun"
+    ],
+    "WhatsApp": "0882 0089 19516"
+  },
+  "biaya_registrasi": {
+    "3K": "IDR 150.000",
+    "5K": "IDR 175.000",
+    "3K Komunitas": "IDR 125.000",
+    "5K Komunitas": "IDR 150.000"
+  },
+  "kategori": [
+    "3K",
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

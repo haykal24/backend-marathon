@@ -1,0 +1,31 @@
+{
+  "image": "MADURUNS_Bangkalan_Berlari_2025-08-31.png",
+  "judul": "MADURUNS Bangkalan Berlari",
+  "isi_informasi": "MADURUNS Bangkalan Berlari adalah acara fun run yang diselenggarakan oleh Jfast Entertainment dengan tema kemerdekaan. Acara ini menggabungkan olahraga rekreatif dengan budaya dan kuliner lokal Bangkalan, menciptakan suasana semangat merah putih. Peserta dapat mengajak keluarga dan teman untuk berkompetisi dan berkesempatan mendapatkan hadiah doorprize serta podium.",
+  "benefit_peserta": [
+    "Medali Finisher (no cut off time)",
+    "Jersey & BIB",
+    "Goodiebag",
+    "Waterstation & Refreshment",
+    "Hadiah podium 1-3 tiap kategori (berlaku woman & man)",
+    "Doorprize menarik"
+  ],
+  "lokasi": "Stadion Gelora Bangkalan, Madura, Jawa Timur",
+  "kota": "Bangkalan",
+  "tanggal_event": "2025-08-31",
+  "kontak_event": {
+    "Instagram": [
+      "@maduruns"
+    ],
+    "WhatsApp": "+62 813-3007-1081"
+  },
+  "biaya_registrasi": {
+    "5K (Batch 1)": "IDR 125.000",
+    "10K (Batch 1)": "IDR 150.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

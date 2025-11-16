@@ -1,0 +1,31 @@
+{
+  "image": "Farmtastic_Run_2025_2025-10-26.jpg",
+  "judul": "Farmtastic Run 2025",
+  "isi_informasi": "Farmtastic Run 2025 adalah acara lari santai yang diadakan oleh IKA Fapet Unpad. Peserta dapat menikmati suasana tanpa tekanan podium dan COT, serta memilih kategori lari 5K Fun Semi Trail Run atau 3K Family Fun Run. Setiap peserta akan menerima race pack spesial dari panitia.",
+  "benefit_peserta": [
+    "Jersey official Farmtastic Run",
+    "Finisher Medal",
+    "BIB Number",
+    "Goodie Bag",
+    "Refreshment",
+    "Doorprize Coupons"
+  ],
+  "lokasi": "Universitas Padjadjaran, Jatinangor, Kab. Sumedang, Jawa Barat",
+  "kota": "Sumedang",
+  "tanggal_event": "2025-10-26",
+  "kontak_event": {
+    "Instagram": [
+      "@pulangkandangunpad"
+    ],
+    "WhatsApp": "085771361567, 0882000096886"
+  },
+  "biaya_registrasi": {
+    "3K (Dewasa + Anak)": "IDR 450.000",
+    "5K": "IDR 250.000"
+  },
+  "kategori": [
+    "3K",
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

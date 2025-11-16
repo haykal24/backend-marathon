@@ -1,0 +1,35 @@
+{
+  "image": "BCA_CitraLand_Marathon_2025_2025-12-07.jpg",
+  "judul": "BCA CitraLand Marathon 2025",
+  "isi_informasi": "CitraLand Marathon akan diselenggarakan pada 7 Desember 2025 di Surabaya, dengan target 5.000 peserta. Acara ini menawarkan lima kategori lomba: 5K, 10K, Half Marathon, Full Marathon, dan kategori baru Ekiden, yang merupakan maraton estafet sejauh 42 KM. Rute lomba akan dimulai dari Universitas Ciputra dan melintasi berbagai jalan utama di CitraLand Surabaya, menawarkan tantangan dengan kontur medan yang bervariasi.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB Number",
+    "Finisher Medal",
+    "Product Sponsor"
+  ],
+  "lokasi": "Universitas Ciputra, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-12-07",
+  "kontak_event": {
+    "Instagram": [
+      "@citralandmarathon"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "Ekiden": "IDR 1.700.000 / Team",
+    "Full Marathon": "IDR 550.000",
+    "Half Marathon": "IDR 450.000",
+    "10K": "IDR 375.000",
+    "5K": "IDR 275.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "Half Marathon",
+    "Full Marathon",
+    "Ekiden"
+  ],
+  "jenis_event": "road run"
+}

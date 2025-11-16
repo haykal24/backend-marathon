@@ -1,0 +1,28 @@
+{
+  "image": "Kandangan_Run_2024_2024-12-15.png",
+  "judul": "Kandangan Run 2024",
+  "isi_informasi": "Kandangan Run 2024 akan berlangsung pada Minggu, 15 Desember 2024, di Lapangan Lambung Mangkurat, Kandangan, Hulu Sungai Selatan. Terdapat dua kategori lomba, yaitu 5K dan 10K. Tiket dapat dibeli melalui aplikasi AKSEL by Bank Kalsel.",
+  "benefit_peserta": [
+    "Kesempatan berlari di event yang seru",
+    "Meningkatkan kebugaran fisik",
+    "Bertemu dengan komunitas lari"
+  ],
+  "lokasi": "Lapangan Lambung Mangkurat, Kandangan, Hulu Sungai Selatan, Kalimantan Selatan",
+  "kota": "Hulu Sungai Selatan",
+  "tanggal_event": "2024-12-15",
+  "kontak_event": {
+    "Instagram": [
+      "@kandanganrun2024"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 170.000",
+    "10K": "IDR 220.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

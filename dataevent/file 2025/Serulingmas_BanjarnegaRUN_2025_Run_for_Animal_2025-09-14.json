@@ -1,0 +1,35 @@
+{
+  "image": "Serulingmas_BanjarnegaRUN_2025_Run_for_Animal_2025-09-14.jpg",
+  "judul": "Serulingmas BanjarnegaRUN 2025: Run for Animal",
+  "isi_informasi": "TRMS Serulingmas Banjarnegara, yang dikenal sebagai Serulingmas Zoo, berkolaborasi dengan Banjarnegara Runners akan mengadakan event lari bertajuk 'Serulingmas BanjarnegaRUN 2025' dengan tema 'RUN FOR ANIMAL' untuk mendukung kelestarian satwa. Acara ini dijadwalkan pada Minggu, 14 September 2025, di Serulingmas Zoo, dengan dua kategori jarak yaitu 5 km dan 10 km, menargetkan 1.500 peserta. Perlombaan akan dimulai pada pukul 06.00 WIB.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali finisher",
+    "BIB number dengan timing chip",
+    "Water station",
+    "Refreshment",
+    "Doorprize",
+    "Hiburan"
+  ],
+  "lokasi": "Serulingmas Zoo, Banjarnegara, Jawa Tengah",
+  "kota": "Banjarnegara",
+  "tanggal_event": "2025-09-14",
+  "kontak_event": {
+    "Instagram": [
+      "@banjarnegarun_10K",
+      "@Banjarnegara_runners",
+      "@serulingmaszoo",
+      "@mitra.lyfe"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 195.000",
+    "10K": "IDR 245.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,32 @@
+{
+  "image": "MRCCC_Run_for_Hope_2025_2025-02-09.jpg",
+  "judul": "MRCCC Run for Hope 2025",
+  "isi_informasi": "MRCCC Run for Hope 2025 adalah acara lari yang diselenggarakan untuk memperingati Hari Kanker Sedunia dengan tema 'Remembering Cancer Warriors'. Event ini bertujuan untuk meningkatkan kesadaran akan pentingnya deteksi dini kanker dan memberikan dukungan kepada pejuang kanker. Acara berlangsung di Senayan Park, Jakarta, pada 9 Februari 2025, dengan dua kategori yaitu 1K (undangan khusus) dan 5K (terbuka untuk umum). Setiap langkah peserta menjadi dukungan nyata bagi pejuang kanker dan promosi gaya hidup sehat.",
+  "benefit_peserta": [
+    "Jersey eksklusif",
+    "Race BIB",
+    "Medali finisher",
+    "Tas (tote bag/handbag)",
+    "Kaus kaki",
+    "Akses air minum dan refreshments",
+    "Asuransi Personal Accident (PA) selama tiga hari"
+  ],
+  "lokasi": "Senayan Park, Jakarta",
+  "kota": "Jakarta",
+  "tanggal_event": "2025-02-09",
+  "kontak_event": {
+    "Instagram": [
+      "@mrcccsiloamsemanggi"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 275.000",
+    "1K": "Tidak tercantum"
+  },
+  "kategori": [
+    "1K",
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

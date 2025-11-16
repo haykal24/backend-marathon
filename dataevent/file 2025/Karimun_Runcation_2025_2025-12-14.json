@@ -1,0 +1,27 @@
+{
+  "image": "Karimun_Runcation_2025_2025-12-14.jpg",
+  "judul": "Karimun Runcation 2025",
+  "isi_informasi": "Karimun Runcation 2025 adalah event Fun Run 5K yang akan berlangsung di Desa Wisata Pongkar, Karimun, Kepulauan Riau. Pendaftaran terbatas, segera daftarkan diri Anda!",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "Botol",
+    "Totebag"
+  ],
+  "lokasi": "Pantai Ketam, Pongkar, Tebing, Karimun, Kepulauan Riau",
+  "kota": "Karimun",
+  "tanggal_event": "2025-12-14",
+  "kontak_event": {
+    "Instagram": [
+      "@konikarimunevent"
+    ],
+    "WhatsApp": "0857-6303-3334"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 250.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

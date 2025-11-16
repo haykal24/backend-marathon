@@ -1,0 +1,26 @@
+{
+  "image": "Bukit_Tiga_Puluh_Jungle_Run_2024_2024-10-13.jpg",
+  "judul": "Bukit Tiga Puluh Jungle Run 2024",
+  "isi_informasi": "Bukit Tiga Puluh Jungle Run 2024 adalah edisi ketiga dari acara lari yang diadakan di Taman Nasional Bukit Tiga Puluh. Acara ini menawarkan tiga kategori lari: 4 km, 7 km, dan 12 km, yang memberikan pengalaman berlari di hutan alami sambil meningkatkan kesadaran akan pelestarian lingkungan.",
+  "benefit_peserta": [
+    "Pengalaman berlari di hutan alami",
+    "Meningkatkan kesadaran akan pelestarian lingkungan"
+  ],
+  "lokasi": "Camp Granit, Taman Nasional Bukit Tiga Puluh, Rantau Langsat, Batang Gangsal, Indragiri Hulu, Riau",
+  "kota": "Indragiri Hulu",
+  "tanggal_event": "2024-10-13",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "12K": "IDR 275.000",
+    "7K": "IDR 180.000"
+  },
+  "kategori": [
+    "4K",
+    "7K",
+    "12K"
+  ],
+  "jenis_event": "road run"
+}

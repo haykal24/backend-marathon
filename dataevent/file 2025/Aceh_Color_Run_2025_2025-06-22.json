@@ -1,0 +1,30 @@
+{
+  "image": "Aceh_Color_Run_2025_2025-06-22.jpg",
+  "judul": "Aceh Color Run 2025",
+  "isi_informasi": "Aceh Color Run 2025 adalah acara fun run 5K pertama di Aceh yang diselenggarakan oleh Kutaraja Creative Society pada 22 Juni 2025 di Banda Aceh. Acara ini bertujuan untuk mendukung gaya hidup sehat dan kreatif, serta akan dimeriahkan dengan hiburan dan pameran UMKM.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali",
+    "BIB Number",
+    "Mineral Water",
+    "Energy Drink",
+    "Biskuit",
+    "Goodie Bag"
+  ],
+  "lokasi": "Jl. Jendral Sudirman no. 144 Depan RS. Fakinah (Cawan Kopi)",
+  "kota": "Banda Aceh",
+  "tanggal_event": "2025-06-22",
+  "kontak_event": {
+    "Instagram": [
+      "@acehcolorrun2025"
+    ],
+    "WhatsApp": "0882 9568 2323"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 200.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

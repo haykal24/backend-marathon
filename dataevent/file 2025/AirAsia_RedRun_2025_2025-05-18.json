@@ -1,0 +1,43 @@
+{
+  "image": "AirAsia_RedRun_2025_2025-05-18.png",
+  "judul": "AirAsia RedRun 2025",
+  "isi_informasi": "AirAsia Indonesia menyelenggarakan AirAsia RedRun untuk mendukung minat masyarakat terhadap olahraga lari dan mempromosikan pariwisata Indonesia. Acara ini bertujuan untuk memperkenalkan destinasi wisata, membangun keterlibatan komunitas, meningkatkan kesadaran kesehatan, menanamkan budaya keselamatan dalam berlari, serta memberikan pengalaman olahraga yang menyenangkan. Setiap peserta akan mendapatkan Race Pack yang terdiri dari Jersey, BIB, dan Medal.",
+  "benefit_peserta": [
+    "Pengalaman lari yang luar biasa",
+    "Mendukung pariwisata Indonesia",
+    "Mendapatkan Race Pack"
+  ],
+  "lokasi": "The Nusa Dua, Bali",
+  "kota": "Bali",
+  "tanggal_event": "2025-05-18",
+  "kontak_event": {
+    "Instagram": [
+      "@flyairasia.id"
+    ],
+    "WhatsApp": "0887 3443 101"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "Early Bird": "Rp 180K",
+      "Normal": "Rp 300K"
+    },
+    "10K": {
+      "Early Bird": "Rp 240K",
+      "Normal": "Rp 400K"
+    },
+    "21K": {
+      "Early Bird": "Rp 330K",
+      "Normal": "Rp 550K"
+    },
+    "21K International": {
+      "Early Bird": "Rp 480K",
+      "Normal": "Rp 800K"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,32 @@
+{
+  "image": "TIMES_Indonesia_Fun_Run_2025_2025-09-28.jpg",
+  "judul": "TIMES Indonesia Fun Run 2025",
+  "isi_informasi": "Ikuti TIMES Indonesia FUN RUN 2025, acara lari santai yang cocok untuk semua kalangan, dari pemula hingga pelari berpengalaman. Acara ini menawarkan aktivitas fisik yang menyenangkan, hiburan, doorprize, dan kesempatan untuk hidup lebih sehat.",
+  "benefit_peserta": [
+    "Jersey keren",
+    "Medali finisher",
+    "Nomor dada",
+    "Refreshment",
+    "Doorprize menarik",
+    "Photobooth",
+    "Panggung hiburan"
+  ],
+  "lokasi": "The Shalimar Boutique Hotel, Malang, Jawa Timur",
+  "kota": "Malang",
+  "tanggal_event": "2025-09-28",
+  "kontak_event": {
+    "Instagram": [
+      "@timesindonesiafunrun"
+    ],
+    "WhatsApp": "0857-3600-1238 (Shobirin), 0858-1594-8000 (Dhina)"
+  },
+  "biaya_registrasi": {
+    "1K Disability Run": "IDR 150.000",
+    "5K Fun Run": "IDR 150.000"
+  },
+  "kategori": [
+    "1K",
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

@@ -1,0 +1,28 @@
+{
+  "image": "DENSRUN_2024_2024-11-03.png",
+  "judul": "DENSRUN 2024",
+  "isi_informasi": "Pendaftaran untuk DENSRUN 2024 dibuka dari 16 September hingga 18 Oktober 2024. Registrasi ulang berlangsung antara pukul 05.30 - 06.30 WIB, dan acara Fun Run dimulai pada pukul 07.00 WIB. Event ini akan berlangsung pada Minggu, 3 November 2024, dengan kategori lari sejauh 7K.",
+  "benefit_peserta": [
+    "Kesempatan untuk berpartisipasi dalam acara lari",
+    "Paket harga menarik untuk pendaftaran",
+    "Dapat berlari di lokasi ikonik Monumen Nasional"
+  ],
+  "lokasi": "Monumen Nasional (Monas), Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta Pusat",
+  "tanggal_event": "2024-11-03",
+  "kontak_event": {
+    "Instagram": [
+      "@densrun_fkgusakti"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "7K": "IDR 200.000",
+    "Paket Amigos": "IDR 380.000 untuk 2 orang",
+    "Paket Familia": "IDR 740.000 untuk 4 orang"
+  },
+  "kategori": [
+    "7K"
+  ],
+  "jenis_event": "road run"
+}

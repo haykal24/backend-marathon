@@ -1,0 +1,27 @@
+{
+  "image": "MOGAN_Fun_Run_5K_2025-10-19.png",
+  "judul": "MOGAN Fun Run 5K",
+  "isi_informasi": "MOGAN Fun Run 5K mengajak para pelari untuk menikmati udara pagi dengan berlari sejauh 5 KM. Mengusung tema 'Green Your Life', acara ini merayakan gaya hidup sehat dan semangat sportivitas bagi semua kategori pelari, dari pelajar hingga master 45+. Tanggal pelaksanaan adalah Minggu, 19 Oktober 2025, pukul 05.00 WITA di Warung Mogan, Jalan Mudutaki No. 99X Dalung, Badung. Peserta berkesempatan mendapatkan hadiah uang tunai dan doorprize menarik. Manfaat bagi peserta termasuk jersey eksklusif, medali finisher, BIB number, dan goodie bag.",
+  "benefit_peserta": [
+    "Jersey eksklusif",
+    "Medali finisher",
+    "BIB number",
+    "Goodie bag"
+  ],
+  "lokasi": "Warung Mogan, Jalan Mudutaki No. 99X Dalung, Badung, Bali",
+  "kota": "Badung",
+  "tanggal_event": "2025-10-19",
+  "kontak_event": {
+    "Instagram": [
+      "@pelarikantorun"
+    ],
+    "WhatsApp": "081239619152"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 250.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

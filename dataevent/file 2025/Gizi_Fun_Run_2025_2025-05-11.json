@@ -1,0 +1,33 @@
+{
+  "image": "Gizi_Fun_Run_2025_2025-05-11.png",
+  "judul": "Gizi Fun Run 2025",
+  "isi_informasi": "Pendaftaran Gizi Fun Run 2025 telah dibuka. Segera daftarkan diri Anda untuk mendapatkan race pack menarik dan berbagai manfaat. Kuota terbatas!",
+  "benefit_peserta": [
+    "Jersey premium printing",
+    "Medali eksklusif bahan zinc alloy",
+    "Nomor BIB",
+    "Refreshment",
+    "Konsultasi gizi GRATIS",
+    "Cek kesehatan GRATIS",
+    "Games seru & door prize menarik",
+    "Zumba bareng Zin top Makassar!"
+  ],
+  "lokasi": "Makassar, Sulawesi Selatan",
+  "kota": "Makassar",
+  "tanggal_event": "2025-05-11",
+  "kontak_event": {
+    "Instagram": [
+      "@persagisulsel"
+    ],
+    "WhatsApp": "081354636360"
+  },
+  "biaya_registrasi": {
+    "10K": "IDR 200.000",
+    "5K": "IDR 100.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

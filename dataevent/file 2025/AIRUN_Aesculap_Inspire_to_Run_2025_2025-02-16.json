@@ -1,0 +1,30 @@
+{
+  "image": "AIRUN_Aesculap_Inspire_to_Run_2025_2025-02-16.png",
+  "judul": "AIRUN: Aesculap Inspire to Run 2025",
+  "isi_informasi": "AIRUN (Aesculap Inspire to Run) adalah acara pembuka DEKAN CUP FK UNAIR 2025 yang diselenggarakan oleh BEM KM FK UNAIR. Mengusung tema Color Run, peserta akan bersaing memperebutkan Piala Wali Kota Surabaya dengan total hadiah lebih dari Rp 22 juta. Terdapat dua rute lari, yaitu 5K dan 10K, serta penampilan musik live dan upacara penghargaan untuk peserta.",
+  "benefit_peserta": [
+    "Peluang memenangkan Piala Wali Kota Surabaya",
+    "Total hadiah lebih dari Rp 22 juta",
+    "Pengalaman lari yang seru dan penuh energi",
+    "Penampilan musik live",
+    "Upacara penghargaan"
+  ],
+  "lokasi": "Fakultas Kedokteran Universitas Airlangga, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-02-16",
+  "kontak_event": {
+    "Instagram": [
+      "@airun_fkua"
+    ],
+    "WhatsApp": "081 837 7771"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 240.000",
+    "10K": "IDR 260.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

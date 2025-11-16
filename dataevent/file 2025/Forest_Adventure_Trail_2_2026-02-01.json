@@ -1,0 +1,38 @@
+{
+  "image": "Forest_Adventure_Trail_2_2026-02-01.jpg",
+  "judul": "Forest Adventure Trail #2",
+  "isi_informasi": "Forest Adventure Trail akan berlangsung pada 1 Februari 2026. Pendaftaran telah dibuka dengan kategori 7K, 12K, 28K, dan 50K. Segera daftarkan diri Anda karena kuota terbatas. Setiap peserta akan mendapatkan racepack yang terdiri dari jersey, medali finisher, tote bag, nomor BIB, chip waktu, konsumsi, voucher sponsor, wind breaker (untuk kategori 28K dan 50K), serta jersey finisher (untuk kategori 28K dan 50K).",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali Finisher",
+    "Tote Bag",
+    "Nomor BIB",
+    "Chip Waktu",
+    "Konsumsi",
+    "Voucher Sponsor",
+    "Wind Breaker (28K dan 50K)",
+    "Jersey Finisher (28K dan 50K)"
+  ],
+  "lokasi": "Camping Ground Lawu Via Tambak, Kab. Karanganyar, Jawa Tengah",
+  "kota": "Karanganyar",
+  "tanggal_event": "2026-02-01",
+  "kontak_event": {
+    "Instagram": [
+      "forestadventuretrail"
+    ],
+    "WhatsApp": "0812 2579 1907"
+  },
+  "biaya_registrasi": {
+    "7K": "Rp 375.000",
+    "12K": "Rp 500.000",
+    "28K": "Rp 800.000",
+    "50K": "Rp 1.150.000"
+  },
+  "kategori": [
+    "7K",
+    "12K",
+    "28K",
+    "50K"
+  ],
+  "jenis_event": "trail run"
+}

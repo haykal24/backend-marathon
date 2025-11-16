@@ -1,0 +1,37 @@
+{
+  "image": "KOPMA_Run_2025_2025-06-15.png",
+  "judul": "KOPMA Run 2025",
+  "isi_informasi": "Jangan lewatkan KOPMA Run 2025 yang akan berlangsung pada Minggu, 15 Juni 2025 di Pelataran Lapangan Merdeka Watampone, Bone, Sulawesi Selatan. Peserta akan mendapatkan racepack yang berisi Official Jersey, Finisher Medal, BIB Number, produk sponsor, refreshment, dan doorprize.",
+  "benefit_peserta": [
+    "Official Jersey",
+    "Finisher Medal",
+    "BIB Number",
+    "Produk Sponsor",
+    "Refreshment",
+    "Doorprize"
+  ],
+  "lokasi": "Pelataran Lapangan Merdeka Watampone, Bone, Sulawesi Selatan",
+  "kota": "Bone",
+  "tanggal_event": "2025-06-15",
+  "kontak_event": {
+    "Instagram": [
+      "@kopmarun2025"
+    ],
+    "WhatsApp": "0857 5072 7295"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "Early Bird": "Rp 175K",
+      "Normal": "Rp 200K"
+    },
+    "10K": {
+      "Early Bird": "Rp 200K",
+      "Normal": "Rp 225K"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

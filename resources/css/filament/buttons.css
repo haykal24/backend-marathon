@@ -1,0 +1,34 @@
+/* Override Filament v4 button text colors to use white text for buttons with background */
+/* Based on GitHub issue: https://github.com/filamentphp/filament/issues/17517 */
+/* Only affects buttons with background color (fi-bg-color-*), not outline buttons */
+
+/* Primary color buttons with background - force white text */
+.fi-btn[class*="fi-color-primary"]:is([class*="fi-bg-color-"]) {
+    background-color: var(--color-600) !important;
+    color: white !important;
+}
+
+.fi-btn[class*="fi-color-primary"]:hover:is([class*="fi-bg-color-"]) {
+    background-color: var(--color-500) !important;
+    color: white !important;
+}
+
+/* Ensure icons inside primary buttons are also white */
+.fi-btn[class*="fi-color-primary"]:is([class*="fi-bg-color-"]) svg {
+    color: inherit !important;
+}
+
+/* Apply to all color variants (success, warning, danger, info, etc.) for consistency */
+/* Only buttons with background, not outline buttons */
+.fi-btn[class*="fi-color-"]:is([class*="fi-bg-color-"]) {
+    color: white !important;
+}
+
+.fi-btn[class*="fi-color-"]:hover:is([class*="fi-bg-color-"]) {
+    color: white !important;
+}
+
+/* Ensure icons inside all colored buttons are also white */
+.fi-btn[class*="fi-color-"]:is([class*="fi-bg-color-"]) svg {
+    color: inherit !important;
+}

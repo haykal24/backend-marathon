@@ -1,0 +1,31 @@
+{
+  "image": "STIE_YKPN_Fun_Run_2025_2025-09-14.jpg",
+  "judul": "STIE YKPN Fun Run 2025",
+  "isi_informasi": "Bergabunglah dalam STIE YKPN Fun Run 2025 yang akan berlangsung pada Minggu, 14 September 2025, di Kampus STIE YKPN. Acara ini terbuka untuk semua kalangan, baik pemula maupun penggemar olahraga, untuk menikmati akhir pekan yang sehat dan menyenangkan. Peserta akan menerima race pack yang mencakup jersey eksklusif, nomor dada, dan medali finisher, serta asuransi dan layanan foto gratis. Dengan suasana kampus yang asri dan rute yang menyenangkan, acara ini menjanjikan pengalaman yang tak terlupakan.",
+  "benefit_peserta": [
+    "Jersey Race",
+    "Medali Finisher",
+    "BIB Number",
+    "Tote Bag",
+    "Water Station & Refreshment",
+    "Doorprize",
+    "Hiburan",
+    "Asuransi"
+  ],
+  "lokasi": "Kampus STIE YKPN, Sleman, DI Yogyakarta",
+  "kota": "Sleman",
+  "tanggal_event": "2025-09-14",
+  "kontak_event": {
+    "Instagram": [
+      "@stieykpn_funrun"
+    ],
+    "WhatsApp": "+62 812 2510 0024"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 175.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

@@ -1,0 +1,37 @@
+{
+  "image": "Pocari_Sweat_Run_Lombok_2025_2025-09-14.jpg",
+  "judul": "Pocari Sweat Run Lombok 2025",
+  "isi_informasi": "Pocari Sweat Run kembali hadir di tahun ke-12 dengan lokasi baru di Lombok pada 14 September 2025. Start dan finish di Sirkuit Internasional Pertamina Mandalika, event ini menawarkan kategori Marathon, Half Marathon, 10K, dan 4.3K, dengan target 7.000 pelari. Peserta akan menikmati fasilitas shuttle bus dan tiket gratis ke destinasi wisata di Lombok. Acara ini didukung oleh Kementerian Pemuda dan Olahraga serta Kementerian Pariwisata, dan mengusung misi ramah lingkungan dengan program zero waste.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB",
+    "Timing Chip",
+    "String Bag",
+    "Sport Towel",
+    "E-Booklet"
+  ],
+  "lokasi": "Sirkuit Internasional Pertamina Mandalika, Lombok Tengah, NTB",
+  "kota": "Lombok Tengah",
+  "tanggal_event": "2025-09-14",
+  "kontak_event": {
+    "Instagram": [
+      "@pocarisportid",
+      "@im_roadrunner"
+    ],
+    "WhatsApp": "+62 822-5807-5606",
+    "Email": "info@pocarisweatrun.com"
+  },
+  "biaya_registrasi": {
+    "4.3K": "IDR 375.000",
+    "10K": "IDR 450.000",
+    "Half Marathon": "IDR 650.000",
+    "Marathon": "IDR 800.000"
+  },
+  "kategori": [
+    "4.3K",
+    "10K",
+    "Half Marathon",
+    "Marathon"
+  ],
+  "jenis_event": "road run"
+}

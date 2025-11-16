@@ -1,0 +1,32 @@
+{
+  "image": "BabatuRun_2025_2025-10-12.png",
+  "judul": "BabatuRun 2025",
+  "isi_informasi": "BabatuRun adalah acara lari amal yang mengusung semangat kebersamaan dan gotong royong, di mana pelari tidak hanya berlari untuk mencapai garis finish, tetapi juga untuk membantu anak yatim piatu. Acara ini diinisiasi oleh Itqan Peduli dan bekerja sama dengan Kitabisa serta SalingJaga. Terdapat kategori Saurang untuk satu pelari dan Sasarengan untuk dua pelari, serta kategori surprise Sabilulungan. Peserta akan menikmati pengalaman budaya Sunda dengan refreshment tradisional dan live musik angklung.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali",
+    "BIB",
+    "Totebag",
+    "Refreshment",
+    "Doorprize",
+    "Asuransi SalingJaga Kecelakaan Perlindungan Diri dengan perlindungan 1 tahun"
+  ],
+  "lokasi": "Kiara Artha Park, Bandung, Jawa Barat",
+  "kota": "Bandung",
+  "tanggal_event": "2025-10-12",
+  "kontak_event": {
+    "Instagram": [
+      "@itqan.peduli",
+      "@salingjaga.kitabisa"
+    ],
+    "WhatsApp": "+6281313884096"
+  },
+  "biaya_registrasi": {
+    "5K Saurang": "IDR 250.000",
+    "5K Sasarengan": "IDR 450.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

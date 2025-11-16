@@ -1,0 +1,32 @@
+{
+  "image": "Paolo_Run_Fest_2025_2025-06-29.jpg",
+  "judul": "Paolo Run Fest 2025",
+  "isi_informasi": "Paolo Run Fest 2025 kembali hadir dengan edisi ketiga, menambahkan kategori 10K dan menawarkan tantangan elevasi di Kota Batu. Pendaftaran telah dibuka untuk semua pelari yang ingin berpartisipasi dalam acara ini.",
+  "benefit_peserta": [
+    "Nomer BIB (Non Chip)",
+    "Jersey",
+    "Medali Finisher",
+    "Refreshment",
+    "Voucher Paolofest",
+    "Goodie Bag",
+    "Doorprize"
+  ],
+  "lokasi": "Paolo Fest, Batu, Malang, Jawa Timur",
+  "kota": "Malang",
+  "tanggal_event": "2025-06-29",
+  "kontak_event": {
+    "Instagram": [
+      "@paolorunfest"
+    ],
+    "WhatsApp": "0857 9700 5686"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 200.000",
+    "10K": "IDR 250.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

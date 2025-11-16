@@ -1,0 +1,29 @@
+{
+  "image": "EMBA_JETBUS_Run_Malang_10K_2026-01-18.jpg",
+  "judul": "EMBA JETBUS Run Malang 10K",
+  "isi_informasi": "EMBA JETBUS Run Malang 10K bertujuan untuk memperkenalkan potensi kota Malang dalam menyelenggarakan event olahraga berskala nasional. Acara ini juga berfungsi untuk membangun reputasi Malang sebagai destinasi sport tourism dan menunjukkan dukungan masyarakat terhadap kegiatan olahraga. Tema yang diusung adalah 'Faster, Stronger, Bolder', dengan harapan UMKM dan kesenian daerah juga mendapatkan manfaat dari event ini.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Number",
+    "Produk Sponsor"
+  ],
+  "lokasi": "Alun-Alun Tugu Malang, Jawa Timur",
+  "kota": "Malang",
+  "tanggal_event": "2026-01-18",
+  "kontak_event": {
+    "Instagram": [
+      "@malangrun10k"
+    ],
+    "WhatsApp": "0822 4133 5900, 0878 5028 4165, 0812 1677 8700"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 275.000",
+    "10K": "IDR 375.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

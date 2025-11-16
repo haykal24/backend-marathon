@@ -1,0 +1,31 @@
+{
+  "image": "Heroes_Run_Bali_2025-11-09.jpg",
+  "judul": "Heroes Run Bali",
+  "isi_informasi": "Dalam rangka memperingati hari pahlawan pada 10 November, ikuti Heroes Run Bali dengan lari sejauh 5KM dan Kids Dash di HePi Garden Biaung, Denpasar. Nikmati pemandangan sore hari di desa Biaung dan tunjukkan kostum terbaikmu untuk memenangkan lomba kostum terbaik. Pendaftaran terbatas, segera daftar!",
+  "benefit_peserta": [
+    "BIB",
+    "Goodie bag",
+    "Slyer",
+    "Produk sponsor"
+  ],
+  "lokasi": "HePi Garden Biaung, Gg. Sandat, Kec. Denpasar Timur, Denpasar, Bali",
+  "kota": "Denpasar",
+  "tanggal_event": "2025-11-09",
+  "kontak_event": {
+    "Instagram": [
+      "@heroesrunbali"
+    ],
+    "WhatsApp": "081316134455"
+  },
+  "biaya_registrasi": {
+    "5K - Individual (1pax)": "IDR 150.000",
+    "5K - Family Run (4 pax)": "IDR 500.000",
+    "Kids Dash 200 M (6 - 8 tahun)": "IDR 100.000",
+    "Kids Dash 400 M (9 - 12 tahun)": "IDR 100.000"
+  },
+  "kategori": [
+    "Kids Dash",
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

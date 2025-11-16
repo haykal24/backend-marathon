@@ -1,0 +1,39 @@
+{
+  "image": "Hermina_Run_2025_Chapter_Medan_2025-05-04.jpg",
+  "judul": "Hermina Run 2025 Chapter Medan",
+  "isi_informasi": "Dalam rangka merayakan HUT Hermina Hospitals ke-40, Hermina Fun Run 2025 Chapter Medan akan diadakan dengan berbagai keseruan dan doorprize menarik. Ajak teman-temanmu untuk ikut serta!",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB Number",
+    "Finisher Medal",
+    "Goodie Bag",
+    "Refreshment",
+    "Water Station",
+    "Documentation",
+    "Doorprize"
+  ],
+  "lokasi": "CFD Kota Medan (Lapangan Merdeka), Jl Pulau Pinang, Kesawan, Kota Medan",
+  "kota": "Medan",
+  "tanggal_event": "2025-05-04",
+  "kontak_event": {
+    "Instagram": [
+      "@herminarun2025"
+    ],
+    "WhatsApp": "0822 7625 9922"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "Early Bird": "Rp 150K",
+      "Normal": "Rp 175K"
+    },
+    "10K": {
+      "Early Bird": "Rp 250K",
+      "Normal": "Rp 300K"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

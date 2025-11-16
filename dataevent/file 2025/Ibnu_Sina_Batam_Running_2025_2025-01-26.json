@@ -1,0 +1,28 @@
+{
+  "image": "Ibnu_Sina_Batam_Running_2025_2025-01-26.jpg",
+  "judul": "Ibnu Sina Batam Running 2025",
+  "isi_informasi": "Ibnu Sina Batam Running 2025 adalah lomba lari yang mengajak peserta dari usia 16 tahun ke atas untuk menantang diri dan menikmati kebugaran dalam suasana yang menyenangkan. Terdapat kategori jarak 5K dan 10K yang dapat dipilih sesuai kemampuan. Pendaftaran untuk kategori umum dapat dilakukan secara online, sementara pegawai dan mahasiswa Ibnu Sina dapat mendaftar secara offline. Komunitas yang membeli 10 slot sekaligus akan mendapatkan harga khusus. Racepack yang diterima peserta mencakup jersey, nomor BIB, medali, kupon doorprize, dan produk sponsor. Pengambilan racepack akan dilakukan pada 25 Januari 2025 di Aula Ibnu Sina. Hadiah untuk juara podium adalah IDR 5.000.000 untuk juara 1, IDR 3.000.000 untuk juara 2, dan IDR 1.500.000 untuk juara 3.",
+  "benefit_peserta": [
+    "Menantang diri dan meningkatkan kebugaran",
+    "Kesempatan memenangkan hadiah",
+    "Mendapatkan racepack lengkap"
+  ],
+  "lokasi": "Lapangan Ibnu Sina, Lubuk Baja Kota, Batam, Kepulauan Riau",
+  "kota": "Batam",
+  "tanggal_event": "2025-01-26",
+  "kontak_event": {
+    "Instagram": [
+      "@ibnusinabatamrun"
+    ],
+    "WhatsApp": "0812 7621 3407"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 200.000",
+    "10K": "IDR 250.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

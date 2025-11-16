@@ -1,0 +1,30 @@
+{
+  "image": "Haluoleo_Half_Marathon_2025_2025-08-03.jpg",
+  "judul": "Haluoleo Half Marathon 2025",
+  "isi_informasi": "Setelah sukses Haluoleo Run 2024, RIOT Indonesia Chapter Kendari kembali mengadakan Haluoleo Half Marathon 2025. Event ini terbuka untuk umum, khususnya di Sulawesi Tenggara, dan bertujuan untuk mempromosikan gaya hidup sehat serta mendukung ekonomi lokal. Haluoleo, yang merupakan simbol kepemimpinan dan persatuan, menjadi inspirasi dalam acara ini. Peserta akan mendapatkan Race Pack yang terdiri dari jersey, tote bag, BIB chip time, medali finisher, e-sertifikat, produk sponsor, undian sponsor, dan jersey finisher.",
+  "benefit_peserta": [
+    "Mendapatkan Race Pack",
+    "Promosi gaya hidup sehat",
+    "Kesempatan untuk berpartisipasi dalam event tahunan"
+  ],
+  "lokasi": "Kendari, Sulawesi Tenggara",
+  "kota": "Kendari",
+  "tanggal_event": "2025-08-03",
+  "kontak_event": {
+    "Instagram": [
+      "@haluoleohalfmarathon"
+    ],
+    "WhatsApp": "+62 851 1713 3833"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 250.000",
+    "10K": "IDR 325.000",
+    "21K": "IDR 475.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "road run"
+}

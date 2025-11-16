@@ -1,0 +1,33 @@
+{
+  "image": "Borobudur_Edu_Run_2026_2026-01-18.png",
+  "judul": "Borobudur Edu Run 2026",
+  "isi_informasi": "Borobudur Edu Run 7 adalah acara yang diadakan untuk merayakan ulang tahun ke-7 Nusantara Learning Center. Acara ini akan berlangsung pada Minggu, 18 Januari 2026, di Gerbang Gajah, Balkondes Kembang Limus, Borobudur, Kabupaten Magelang.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali Finisher",
+    "BIB Number (no timing chip)",
+    "E-certificate",
+    "Refreshment",
+    "Kupon Undian",
+    "Free Dokumentasi"
+  ],
+  "lokasi": "Gerbang Gajah, Balkondes Kembang Limus, Borobudur, Kabupaten Magelang, Jawa Tengah",
+  "kota": "Magelang",
+  "tanggal_event": "2026-01-18",
+  "kontak_event": {
+    "Instagram": [
+      "@borobudur.edurun"
+    ],
+    "WhatsApp": "08886859999"
+  },
+  "biaya_registrasi": {
+    "3K": "IDR 200.000",
+    "3K (2 Orang)": "IDR 350.000",
+    "5K": "IDR 225.000"
+  },
+  "kategori": [
+    "3K",
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

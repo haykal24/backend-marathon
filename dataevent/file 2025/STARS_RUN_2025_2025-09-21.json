@@ -1,0 +1,32 @@
+{
+  "image": "STARS_RUN_2025_2025-09-21.png",
+  "judul": "STARS RUN 2025",
+  "isi_informasi": "STARS RUN 2025 mengusung tema 'Step With Hope, Run in Faith' dan akan dilaksanakan pada 21 September 2025 di Pasar Seni, Ancol Taman Impian, Jakarta Utara. Acara ini tidak hanya berfokus pada olahraga, tetapi juga sebagai sarana untuk kegiatan charity yang bermakna. Peserta akan menikmati berbagai keseruan seperti penampilan bintang tamu, door prize, dan food bazaar. Pendaftaran terbatas, segera daftar sebelum kehabisan!",
+  "benefit_peserta": [
+    "Running Jersey",
+    "Medal",
+    "BIB Number",
+    "Refreshment",
+    "Goodie Bag"
+  ],
+  "lokasi": "Pasar Seni, Ancol Taman Impian, Jakarta Utara",
+  "kota": "Jakarta Utara",
+  "tanggal_event": "2025-09-21",
+  "kontak_event": {
+    "Instagram": [
+      "@starsrun25"
+    ],
+    "WhatsApp": "08988808990 (Carolina), 08128301987 (Velicya)"
+  },
+  "biaya_registrasi": {
+    "2.5K (2 pax)": "IDR 375.000",
+    "5K": "IDR 240.000",
+    "10K": "IDR 275.000"
+  },
+  "kategori": [
+    "2.5K",
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

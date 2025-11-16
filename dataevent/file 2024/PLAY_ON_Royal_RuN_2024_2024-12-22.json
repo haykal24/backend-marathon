@@ -1,0 +1,35 @@
+{
+  "image": "PLAY_ON_Royal_RuN_2024_2024-12-22.png",
+  "judul": "PLAY ON Royal RuN 2024",
+  "isi_informasi": "PLAY ON Royal RuN adalah acara fun run yang bertujuan memperkenalkan Royal Hotel and Villa Batu. Terdapat dua kategori lomba, yaitu 5 KM dan 10 KM, dengan rute yang melewati keindahan alam Kota Wisata Batu. Acara ini akan dilaksanakan pada Minggu, 22 Desember 2024, dengan start dan finish di Royal Hotel and Villa Batu, Jalan Indragiri, Sumberejo, Kota Batu.",
+  "benefit_peserta": [
+    "Jersey Race Tee",
+    "BIB Number",
+    "Medali Finisher",
+    "Water Station",
+    "Refreshment",
+    "Goodie Bag",
+    "Product Sponsorship",
+    "Photographer",
+    "Doorprize"
+  ],
+  "lokasi": "Royal Hotel and Villa Batu, Jalan Indragiri, Sumberejo, Kota Batu",
+  "kota": "Batu",
+  "tanggal_event": "2024-12-22",
+  "kontak_event": {
+    "Instagram": [
+      "@baturunners",
+      "@royalorchidsgardenbatu"
+    ],
+    "WhatsApp": "0858 1065 8023"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 125.000",
+    "10K": "IDR 165.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

@@ -1,0 +1,39 @@
+{
+  "image": "Pertamina_Eco_RunFest_2025_2025-11-23.jpg",
+  "judul": "Pertamina Eco RunFest 2025",
+  "isi_informasi": "Ikuti Pertamina Eco RunFest 2025 dengan berbagai kategori lari, sambil menikmati musik dari artis terkenal dan bazar produk lokal yang mendukung gaya hidup ramah lingkungan. Bergabunglah untuk mendukung perubahan menuju kehidupan berkelanjutan.",
+  "benefit_peserta": [
+    "Jersey",
+    "String Bag",
+    "BIB Number",
+    "Jas Hujan",
+    "Asuransi",
+    "Medal",
+    "Jersey Finisher (Half Marathon Only)",
+    "Grafir (Half Marathon Only)",
+    "Finisher Medal"
+  ],
+  "lokasi": "Jl. Apex dan Istora Senayan GBK, Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta Pusat",
+  "tanggal_event": "2025-11-23",
+  "kontak_event": {
+    "Instagram": [
+      "@pertaminaecorunfest",
+      "@im_roadrunner"
+    ],
+    "WhatsApp": "+62 838 5023 1085"
+  },
+  "biaya_registrasi": {
+    "Half Marathon": "IDR 600.000",
+    "10K": "IDR 450.000",
+    "5K": "IDR 300.000",
+    "1.5K Family 2Pax (Kids & Adult)": "IDR 350.000"
+  },
+  "kategori": [
+    "1.5K",
+    "5K",
+    "10K",
+    "Half Marathon"
+  ],
+  "jenis_event": "road run"
+}

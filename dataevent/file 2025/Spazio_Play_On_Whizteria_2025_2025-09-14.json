@@ -1,0 +1,33 @@
+{
+  "image": "Spazio_Play_On_Whizteria_2025_2025-09-14.jpg",
+  "judul": "Spazio Play On Whizteria 2025",
+  "isi_informasi": "Spazio Play On Whizteria 2025 adalah event fun run kolaboratif pertama antara Spazio Play’on dan Whizteria, menawarkan pengalaman lari yang unik di area golf yang hijau dan sejuk. Event ini bertujuan untuk merayakan gaya hidup aktif, membangun kebersamaan dengan komunitas, serta menjadi alternatif liburan sehat bersama keluarga dan teman. Terdapat rute 5K dan 10K yang menggabungkan olahraga, keseruan, dan gaya hidup sehat di alam terbuka.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB",
+    "Goodie Bag",
+    "Water Station",
+    "Refreshment",
+    "Doorprize"
+  ],
+  "lokasi": "Spazio Building Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-09-14",
+  "kontak_event": {
+    "Instagram": [
+      "@whizteriaevent",
+      "@spazio.playon"
+    ],
+    "WhatsApp": "081259365800"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 200.000",
+    "10K": "IDR 250.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

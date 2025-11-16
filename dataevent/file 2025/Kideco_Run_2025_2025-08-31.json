@@ -1,0 +1,32 @@
+{
+  "image": "Kideco_Run_2025_2025-08-31.png",
+  "judul": "Kideco Run 2025",
+  "isi_informasi": "Kideco Run 2025 akan diadakan oleh PT Kideco Jaya Agung untuk merayakan HUT ke-43 perusahaan. Dengan tema 'Berlari Untuk Lestari', acara ini mengundang para pelari untuk berpartisipasi di Tanah Grogot, Kalimantan Timur. Peserta akan mendapatkan jersey, medali finisher, nomor BIB, tote bag, topi, dan soft flask.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Number",
+    "Tote Bag",
+    "Cap",
+    "Soft Flask"
+  ],
+  "lokasi": "Gedung Pertemuan Awa Mangkuruku, Tanah Grogot",
+  "kota": "Paser",
+  "tanggal_event": "2025-08-31",
+  "kontak_event": {
+    "Instagram": [
+      "@kideco.official"
+    ],
+    "WhatsApp": "+62 877 1182 8195",
+    "Email": "info@kideco.co.id"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 170.000",
+    "10K": "IDR 220.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

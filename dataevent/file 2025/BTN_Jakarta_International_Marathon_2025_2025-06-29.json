@@ -1,0 +1,34 @@
+{
+  "image": "BTN_Jakarta_International_Marathon_2025_2025-06-29.jpg",
+  "judul": "BTN Jakarta International Marathon 2025",
+  "isi_informasi": "BTN Jakarta International Marathon, sebelumnya dikenal sebagai Jakarta Run, akan diadakan pada 29 Juni 2025. Acara ini diharapkan menjadi platform inspiratif bagi pecinta olahraga di Indonesia, dengan rute menarik dari Silang Monas menuju Stadion Gelora Bung Karno. Total hadiah mencapai 3 miliar rupiah, termasuk hadiah spesial bagi pelari yang memecahkan rekor maraton nasional. Racepack yang diterima peserta mencakup jersey, BIB number, goodie bag, medali finisher, dan e-certificate.",
+  "benefit_peserta": [
+    "Pengalaman unik dengan rute menarik",
+    "Total hadiah mencapai 3 miliar rupiah",
+    "Hadiah spesial bagi pelari yang memecahkan rekor nasional",
+    "Racepack lengkap"
+  ],
+  "lokasi": "Silang Barat Laut, Monas, Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta",
+  "tanggal_event": "2025-06-29",
+  "kontak_event": {
+    "Instagram": [
+      "@btn_jakim"
+    ],
+    "WhatsApp": "+62 857 1756 2728",
+    "Email": "btnjakim@gmail.com"
+  },
+  "biaya_registrasi": {
+    "10K": "IDR 550.000",
+    "Half Marathon National": "IDR 750.000",
+    "Half Marathon Open": "IDR 950.000",
+    "Marathon National": "IDR 900.000",
+    "Marathon Open": "IDR 1.150.000"
+  },
+  "kategori": [
+    "10K",
+    "Half Marathon",
+    "Marathon"
+  ],
+  "jenis_event": "road run"
+}

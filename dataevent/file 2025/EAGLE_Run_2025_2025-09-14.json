@@ -1,0 +1,32 @@
+{
+  "image": "EAGLE_Run_2025_2025-09-14.png",
+  "judul": "EAGLE Run 2025",
+  "isi_informasi": "EAGLE Run 2025 akan diselenggarakan di Mojokerto dengan tema 'Run Like Never Before' pada Minggu, 14 September 2025, di Pasar Semeru. Pintu dibuka mulai pukul 05.00 WIB. Peserta berkesempatan memenangkan hadiah podium dengan total belasan juta rupiah. Segera amankan tiket karena slot terbatas.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB",
+    "Medal",
+    "Doorprise",
+    "Voucher",
+    "Refreshment",
+    "Bazaar"
+  ],
+  "lokasi": "Pasar Semeru Mojokerto, Jawa Timur",
+  "kota": "Mojokerto",
+  "tanggal_event": "2025-09-14",
+  "kontak_event": {
+    "Instagram": [
+      "@eaglefest.id"
+    ],
+    "WhatsApp": "+62 896 7000 7008"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 175.000",
+    "3K Family": "IDR 250.000"
+  },
+  "kategori": [
+    "3K",
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,53 @@
+{
+  "image": "Minang_Geopark_Run_2025_2025-11-30.png",
+  "judul": "Minang Geopark Run 2025",
+  "isi_informasi": "Minang Geopark Run 2025 akan berlangsung di Bukittinggi pada 30 November 2025. Ini adalah tahun ketujuh acara yang mengedepankan sport tourism dan pelestarian alam, mendukung Geopark Sianok untuk mendapatkan pengakuan UNESCO. Peserta akan menikmati fasilitas ramah lingkungan dan berbagai keuntungan seperti Race Pack, Jersey, BIB, Medali Finisher, Refreshment, dan E-Certificate.",
+  "benefit_peserta": [
+    "Race Pack Bag",
+    "Jersey",
+    "BIB",
+    "Medali Finisher",
+    "Refreshment",
+    "E-Certificate"
+  ],
+  "lokasi": "Area Jam Gadang, Kota Bukittinggi, Sumatra Barat",
+  "kota": "Bukittinggi",
+  "tanggal_event": "2025-11-30",
+  "kontak_event": {
+    "Instagram": [
+      "@geoparkrunseries"
+    ],
+    "WhatsApp": "+6282177602899",
+    "Email": "info@geoparkrunseries.com"
+  },
+  "biaya_registrasi": {
+    "5K Pelajar": {
+      "Early Bird": "Rp 125K",
+      "Normal": "Rp 175K"
+    },
+    "5K Umum": {
+      "Early Bird": "Rp 250K",
+      "Normal": "Rp 300K"
+    },
+    "10K Umum": {
+      "Early Bird": "Rp 350K",
+      "Normal": "Rp 400K"
+    },
+    "21K Umum": {
+      "Early Bird": "Rp 400K",
+      "Normal": "Rp 450K"
+    },
+    "21K Master": {
+      "Early Bird": "Rp 400K",
+      "Normal": "Rp 450K"
+    }
+  },
+  "kategori": [
+    "5K Pelajar",
+    "5K Umum",
+    "10K Umum",
+    "21K Umum",
+    "21K Master"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,29 @@
+{
+  "image": "Garut_Run_Festival_2024_2024-12-15.jpg",
+  "judul": "Garut Run Festival 2024",
+  "isi_informasi": "Garut Run Festival adalah event lari pertama di Garut yang diadakan oleh komunitas lari Balad Lumpat. Event ini menggabungkan olahraga lari dengan pariwisata, menawarkan lintasan yang melewati berbagai destinasi alam Garut. Peserta dapat menikmati keindahan alam sekaligus berinteraksi dengan budaya lokal, termasuk kuliner dan seni tradisional.",
+  "benefit_peserta": [
+    "Jersey Lomba",
+    "BIB Number",
+    "Finisher Medal",
+    "Produk Sponsor"
+  ],
+  "lokasi": "Cluster Rancabango Village, Jl. Ngontong, Rancabango, Garut, Jawa Barat",
+  "kota": "Garut",
+  "tanggal_event": "2024-12-15",
+  "kontak_event": {
+    "Instagram": [
+      "@garutrunfest"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 225.000",
+    "10K": "IDR 275.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,31 @@
+{
+  "image": "Manado_Half_Marathon_2025_2025-04-27.jpg",
+  "judul": "Manado Half Marathon 2025",
+  "isi_informasi": "Manado Half Marathon 2025 akan diselenggarakan pada Minggu, 27 April 2025, dengan tema 'Run for Life and Happiness'. Event ini merupakan salah satu marathon terbesar di Kota Manado dan akan mempertandingkan kategori 5K, 10K, dan 21K.",
+  "benefit_peserta": [
+    "Jersey All Peserta",
+    "Jersey Finisher (Khusus Peserta Half Marathon)",
+    "Bib Timing Chip (Bib Tidak Dapat Diperjual Belikan)",
+    "Medali Finisher"
+  ],
+  "lokasi": "Tidak tercantum",
+  "kota": "Manado",
+  "tanggal_event": "2025-04-27",
+  "kontak_event": {
+    "Instagram": [
+      "@manadohalfmarathon"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 250.000",
+    "10K": "IDR 350.000",
+    "21K": "IDR 500.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "road run"
+}

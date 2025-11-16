@@ -1,0 +1,30 @@
+{
+  "image": "Nusantara_Run_2025_2025-07-17.png",
+  "judul": "Nusantara Run 2025",
+  "isi_informasi": "Nusantara Run 2025 mengajak pelari dari seluruh provinsi untuk merayakan Kemerdekaan ke-80 RI dengan berlari dari Sabang hingga Merauke. Pendaftaran dibuka dari 5 Juli hingga 10 Agustus 2025, dengan periode lari berlangsung antara 17 Juli hingga 16 Agustus 2025. Peserta akan mendapatkan jersey, medali finisher, E-BIB, dan E-Sertifikat.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "E-BIB",
+    "E-Sertifikat"
+  ],
+  "lokasi": "Anywhere (Dimana Saja)",
+  "kota": "Anywhere (Dimana Saja)",
+  "tanggal_event": "2025-07-17",
+  "kontak_event": {
+    "Instagram": [
+      "@nusantararun.id"
+    ],
+    "WhatsApp": "+6285777382832"
+  },
+  "biaya_registrasi": {
+    "Paket 1": "IDR 110.000",
+    "Paket 2": "IDR 100.000",
+    "Paket 3": "IDR 175.000"
+  },
+  "kategori": [
+    "5K",
+    "17K"
+  ],
+  "jenis_event": "virtual run"
+}

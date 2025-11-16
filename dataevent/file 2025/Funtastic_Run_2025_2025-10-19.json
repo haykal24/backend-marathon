@@ -1,0 +1,33 @@
+{
+  "image": "Funtastic_Run_2025_2025-10-19.png",
+  "judul": "Funtastic Run 2025",
+  "isi_informasi": "Funtastic Run adalah acara lari santai dengan jarak 5K dan 10K yang terbuka untuk umum, termasuk komunitas dan keluarga. Event ini akan berlangsung pada Minggu, 19 Oktober 2025, di Kotta Hotel, bertujuan untuk mendorong Sport Eco Tourism dan gaya hidup sehat, serta mempromosikan pariwisata kota. Peserta akan mendapatkan race kit dan hadiah menarik.",
+  "benefit_peserta": [
+    "BIB Number",
+    "Jersey",
+    "Medali",
+    "Totebag",
+    "Refreshment",
+    "Water Station",
+    "Podium Prize",
+    "Doorprize"
+  ],
+  "lokasi": "Kotta Hotel, Semarang, Jawa Tengah",
+  "kota": "Semarang",
+  "tanggal_event": "2025-10-19",
+  "kontak_event": {
+    "Instagram": [
+      "@funtastic.run"
+    ],
+    "WhatsApp": "+62 851-8750-7016"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 255.000",
+    "10K": "IDR 270.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

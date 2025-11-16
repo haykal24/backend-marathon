@@ -1,0 +1,35 @@
+{
+  "image": "STIENERGY_Run_2024_2024-12-14.png",
+  "judul": "STIENERGY Run 2024",
+  "isi_informasi": "STIENERGY Run 2024 adalah acara puncak Festival Bisnis Untuk Kewirausahaan STIE YKPN Yogyakarta yang berlangsung pada 14 Desember 2024. Dengan tema 'Race to Entrepreneurship: From Start to Finish', acara ini menggambarkan perjalanan kewirausahaan yang penuh tantangan, mirip dengan lari maraton.",
+  "benefit_peserta": [
+    "Hadiah Podium",
+    "Jersey",
+    "Medali",
+    "BIB",
+    "E-Certificate",
+    "Refreshment",
+    "Cek Kesehatan Gratis",
+    "Water Station",
+    "Doorprize",
+    "Hiburan"
+  ],
+  "lokasi": "STIE YKPN Yogyakarta",
+  "kota": "Yogyakarta",
+  "tanggal_event": "2024-12-14",
+  "kontak_event": {
+    "Instagram": [
+      "@fesbuk_hmjm"
+    ],
+    "WhatsApp": "0882 3844 9849 (Ferika Sukma), 0889 5738 422 (Repaldo)"
+  },
+  "biaya_registrasi": {
+    "Internal STIE YKPN": "IDR 110.000",
+    "Presale Price": "IDR 125.000",
+    "Normal Price": "IDR 135.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,30 @@
+{
+  "image": "Suka_Lari_Color_Festival_Bogor_2025-12-14.jpg",
+  "judul": "Suka Lari Color Festival Bogor",
+  "isi_informasi": "Suka Lari Color Festival (SLCF) adalah event lari santai 5K yang menggabungkan festival warna, musik, dan hiburan. Setelah sukses di Sukabumi pada 2024, acara ini akan diadakan di Bogor pada 14 Desember 2025.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali",
+    "BIB Number",
+    "Refreshment",
+    "Produk Sponsor",
+    "Door Prize (Bila Beruntung)"
+  ],
+  "lokasi": "Panggung Terbuka GOR Padjajaran, Bogor, Jawa Barat",
+  "kota": "Bogor",
+  "tanggal_event": "2025-12-14",
+  "kontak_event": {
+    "Instagram": [
+      "@sukalari_colorfestival"
+    ],
+    "WhatsApp": "08164646343"
+  },
+  "biaya_registrasi": {
+    "5K Presale": "IDR 150.000",
+    "5K Reguler": "IDR 175.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

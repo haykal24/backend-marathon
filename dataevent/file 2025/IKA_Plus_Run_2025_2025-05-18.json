@@ -1,0 +1,33 @@
+{
+  "image": "IKA_Plus_Run_2025_2025-05-18.png",
+  "judul": "IKA Plus Run 2025",
+  "isi_informasi": "IKA Plus Run 2025 akan diadakan pada Minggu, 18 Mei 2025, di Area Car Free Day Pekanbaru, Riau. Peserta akan mendapatkan official jersey, medali finisher, merchandise, refreshment, doorprize, dan sesi zumba.",
+  "benefit_peserta": [
+    "Official Jersey",
+    "Finisher Medal",
+    "Marchandise",
+    "Refreshment",
+    "Doorprize",
+    "Zumba"
+  ],
+  "lokasi": "Area Car Free Day Pekanbaru, Riau",
+  "kota": "Pekanbaru",
+  "tanggal_event": "2025-05-18",
+  "kontak_event": {
+    "Instagram": [
+      "@ccad2025"
+    ],
+    "WhatsApp": "0813 6507 2723"
+  },
+  "biaya_registrasi": {
+    "3K": "IDR 150.000",
+    "5K": "IDR 150.000",
+    "10K": "IDR 200.000"
+  },
+  "kategori": [
+    "3K",
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

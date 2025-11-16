@@ -1,0 +1,35 @@
+{
+  "image": "Bintan_Charity_Run_2025-12-20.jpg",
+  "judul": "Bintan Charity Run",
+  "isi_informasi": "Bintan Charity Run adalah acara ketiga dari TTG Indonesia yang mengajak peserta menjelajahi pulau Bintan sejauh 235 km. Peserta dapat memilih untuk berjalan atau berlari dengan jarak 5K, 10K, atau lebih. Pendaftaran terbatas, segera daftarkan diri Anda!",
+  "benefit_peserta": [
+    "Menjelajahi keindahan pulau Bintan",
+    "Mendapatkan sertifikat peserta",
+    "Berpartisipasi dalam kontribusi kepada masyarakat",
+    "Diskon 50% di event RtgIndonesia berikutnya",
+    "Menjadi bagian dari kesadaran hidup bermasyarakat",
+    "Meningkatkan kesehatan jiwa dan raga"
+  ],
+  "lokasi": "Tugu Gonggong, Tanjung Pinang, Bintan, Kepulauan Riau",
+  "kota": "Tanjung Pinang",
+  "tanggal_event": "2025-12-20",
+  "kontak_event": {
+    "Instagram": [
+      "@runtogiveindonesia"
+    ],
+    "WhatsApp": "087855785213"
+  },
+  "biaya_registrasi": {
+    "5K": "Sistem Donasi",
+    "10K": "Sistem Donasi",
+    "21K": "Sistem Donasi",
+    "42K": "Sistem Donasi"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K",
+    "42K"
+  ],
+  "jenis_event": "road run"
+}

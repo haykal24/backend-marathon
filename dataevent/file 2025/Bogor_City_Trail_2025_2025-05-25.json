@@ -1,0 +1,28 @@
+{
+  "image": "Bogor_City_Trail_2025_2025-05-25.webp",
+  "judul": "Bogor City Trail 2025",
+  "isi_informasi": "Bogor City-Trail (BCT) 2025 adalah event lari tahunan dalam rangka Hari Jadi Bogor ke-543, menggabungkan road running dan trail running. Peserta akan menempuh rute 10K dan 15K di kawasan Bogor Nirwana Residence, Bukit Wangun, Kampung Wisata Bukit Pupay, dan Terasering Pesawahan Mulyaharja, dengan medan yang bervariasi. Start dan finish di Jungle Waterpark, BNR. Terdapat dua kategori usia: Open (18–39 tahun) dan Master (40+), masing-masing berdasarkan jenis kelamin. Setelah berlari, peserta dapat menikmati wahana air di Jungle Waterpark.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB Number",
+    "Finisher Medal"
+  ],
+  "lokasi": "Jungle Waterpark, Bogor, Jawa Barat",
+  "kota": "Bogor",
+  "tanggal_event": "2025-05-25",
+  "kontak_event": {
+    "Instagram": [
+      "@city_trailrunning.id"
+    ],
+    "WhatsApp": "+62 813 893 4471"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 375.000",
+    "10K": "IDR 435.000"
+  },
+  "kategori": [
+    "10K",
+    "15K"
+  ],
+  "jenis_event": "trail run"
+}

@@ -1,0 +1,37 @@
+{
+  "image": "Sprint_Your_Impact_2025-09-14.png",
+  "judul": "Sprint Your Impact",
+  "isi_informasi": "Sprint Your Impact adalah event lari yang bertujuan untuk mendukung gizi anak yatim di Indonesia. Selain berlari, peserta juga berkontribusi untuk memberikan harapan bagi anak-anak tersebut. Daftar sekarang sebelum slot habis!",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB",
+    "Goodie Bag",
+    "Asuransi Saling Jaga Perlindungan Diri",
+    "Refreshment",
+    "Doorprize"
+  ],
+  "lokasi": "Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta Pusat",
+  "tanggal_event": "2025-09-14",
+  "kontak_event": {
+    "Instagram": [
+      "@sahabatyatimofficial"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K Single": {
+      "Early Bird": "Rp 225K",
+      "Normal": "Rp 250K"
+    },
+    "5K Couple": {
+      "Early Bird": "Rp 400K",
+      "Normal": "Rp 450K"
+    }
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

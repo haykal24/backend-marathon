@@ -1,0 +1,30 @@
+{
+  "image": "TNG_RUN_2025_2025-11-23.png",
+  "judul": "TNG RUN 2025",
+  "isi_informasi": "TNG Run 2025 adalah acara lari yang diselenggarakan oleh AboutTNG untuk merayakan Hari Ulang Tahun ke-11 mereka. Acara ini bertujuan untuk memperkenalkan Kota Tangerang dan akan berlangsung pada 23 November 2025. Rute sejauh 5 KM akan melewati berbagai ikon kota, dimulai dari Alun-alun Kota Tangerang. Acara ini didukung oleh Pemerintah Kota Tangerang dan TNG Runners sebagai mitra komunitas.",
+  "benefit_peserta": [
+    "Premium Jersey",
+    "Medali Finisher",
+    "Nomor BIB (Non Chip)",
+    "Tas Serut",
+    "Produk Sponsor",
+    "Podium Juara"
+  ],
+  "lokasi": "Alun-alun Kota Tangerang, Tangerang, Banten",
+  "kota": "Tangerang",
+  "tanggal_event": "2025-11-23",
+  "kontak_event": {
+    "Instagram": [
+      "@abouttng",
+      "@tngrun2025"
+    ],
+    "WhatsApp": "08170795382"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 175.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

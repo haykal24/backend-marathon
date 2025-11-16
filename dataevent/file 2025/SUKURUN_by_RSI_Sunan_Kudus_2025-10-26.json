@@ -1,0 +1,33 @@
+{
+  "image": "SUKURUN_by_RSI_Sunan_Kudus_2025-10-26.jpg",
+  "judul": "SUKURUN by RSI Sunan Kudus",
+  "isi_informasi": "SUKURUN by RSI Sunan Kudus adalah event lari yang akan berlangsung pada 26 Oktober 2025. Acara ini bertujuan untuk mempromosikan gaya hidup sehat dan kebersamaan, dengan rute yang menyenangkan di kota Kudus. Peserta akan mendapatkan sertifikat, medali, dan berkesempatan memenangkan hadiah menarik.",
+  "benefit_peserta": [
+    "Jersey Running",
+    "Medal Finisher",
+    "BIB Number",
+    "E-Certificate",
+    "Totebag Exclusive",
+    "Refreshment",
+    "Produk Sponsor"
+  ],
+  "lokasi": "Lapangan Desa Garung Lor (Depan RSI Sunan Kudus), Kaliwungu, Kab. Kudus, Jawa Tengah",
+  "kota": "Kudus",
+  "tanggal_event": "2025-10-26",
+  "kontak_event": {
+    "Instagram": [
+      "@sukurun.id"
+    ],
+    "WhatsApp": "081215848415, 082226569978",
+    "Email": "sukurun.id@gmail.com"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 190.000",
+    "10K": "IDR 240.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

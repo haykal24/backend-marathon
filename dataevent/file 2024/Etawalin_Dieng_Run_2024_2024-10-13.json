@@ -1,0 +1,28 @@
+{
+  "image": "Etawalin_Dieng_Run_2024_2024-10-13.png",
+  "judul": "Etawalin Dieng Run 2024",
+  "isi_informasi": "Etawalin Dieng Run 2024 adalah acara olahraga yang menggabungkan lari dengan perayaan budaya bertema 'Warisan Budaya di Setiap Langkah'. Acara ini berlangsung di Lapangan Pandawa, Dieng Kulon pada 13 Oktober 2024, dengan kategori 5K (road run) dan 10K (semi trail). Peserta akan menikmati rute yang menantang dengan pemandangan indah dan udara sejuk. Selain itu, terdapat pasar rakyat yang menyajikan kuliner lokal dan pertunjukan seni tradisional dua hari sebelum acara.",
+  "benefit_peserta": [
+    "Pengalaman lari yang unik",
+    "Pemandangan indah",
+    "Udara sejuk dataran tinggi",
+    "Kuliner lokal",
+    "Pertunjukan seni tradisional"
+  ],
+  "lokasi": "Lapangan Pandawa, Dieng Kulon, Jawa Tengah",
+  "kota": "Wonosobo",
+  "tanggal_event": "2024-10-13",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "10K": "IDR 275.000",
+    "5K": "IDR 225.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

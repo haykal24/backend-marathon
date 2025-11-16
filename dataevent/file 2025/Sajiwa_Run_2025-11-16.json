@@ -1,0 +1,32 @@
+{
+  "image": "Sajiwa_Run_2025-11-16.png",
+  "judul": "Sajiwa Run",
+  "isi_informasi": "Sajiwa Run adalah Charity Fun Run yang diselenggarakan oleh Sajiwa Foundation dan SalingJaga. Setiap langkah yang diambil peserta mendukung upaya dalam bidang ekonomi, pendidikan, dan akses pangan. Peserta juga mendapatkan perlindungan asuransi, sehingga dapat berlari dengan tenang. Tersedia berbagai benefit seperti jersey, BIB, tote bag, refreshment, medali finisher, dan donasi.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB",
+    "Tote Bag",
+    "Asuransi Saling Jaga Perlindungan Diri",
+    "Refreshment",
+    "Medali Finisher",
+    "Donasi"
+  ],
+  "lokasi": "Cihampelas Walk, Bandung, Jawa Barat",
+  "kota": "Bandung",
+  "tanggal_event": "2025-11-16",
+  "kontak_event": {
+    "Instagram": [
+      "sajiwafoundation"
+    ],
+    "WhatsApp": "Tidak tercantum"
+  },
+  "biaya_registrasi": {
+    "5K Sejiwa (individu)": "IDR 249.000",
+    "5K Sehati (berdua)": "IDR 449.000",
+    "5K Sedulur (bertiga/family)": "IDR 599.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

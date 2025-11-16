@@ -1,0 +1,35 @@
+{
+  "image": "Tugu_Muda_Marathon_2025_2025-04-13.jpg",
+  "judul": "Tugu Muda Marathon 2025",
+  "isi_informasi": "Tugu Muda Marathon adalah acara HALF MARATHON pertama di Semarang, mengundang komunitas lari road dan trail untuk merasakan pengalaman berlari melewati ikon-ikon kota dan tempat kuliner terkenal. Acara ini bertujuan mempererat persahabatan antar pelari dan menjadi bagian dari sejarah lari di Semarang.",
+  "benefit_peserta": [
+    "Jersey Race",
+    "Medali Finisher",
+    "Water Station",
+    "Refreshment",
+    "Goodie Bag",
+    "Jaket Finisher (khusus untuk 21K)"
+  ],
+  "lokasi": "Tugu Muda Semarang, Jl. Pandanaran, Mugassari, Kec. Semarang Selatan, Kota Semarang, Jawa Tengah",
+  "kota": "Semarang",
+  "tanggal_event": "2025-04-13",
+  "kontak_event": {
+    "Instagram": [
+      "@tugumudamarathon"
+    ],
+    "WhatsApp": "0813 9494 0823"
+  },
+  "biaya_registrasi": {
+    "5K Pelajar": "IDR 150.000",
+    "5K Umum": "IDR 175.000",
+    "10K Umum": "IDR 275.000",
+    "21K Umum": "IDR 475.000",
+    "21K Master": "IDR 450.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "road run"
+}

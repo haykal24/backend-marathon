@@ -1,0 +1,30 @@
+{
+  "image": "Manifest_Fun_Run_2025_2025-11-09.png",
+  "judul": "Manifest Fun Run 2025",
+  "isi_informasi": "Manifest Fun Run 2025 adalah acara penutup yang meriah dari rangkaian acara MANIFEST, mengusung konsep unik dengan kostum, musik, dan semangat olahraga rekreatif. Event ini cocok untuk berolahraga sambil bersenang-senang bersama teman, keluarga, atau pasangan. Peserta akan merasakan pengalaman berlari yang menyenangkan dengan hiburan seru. Tersedia slot terbatas, segera daftar sebelum kehabisan!",
+  "benefit_peserta": [
+    "Medali Finisher",
+    "Jersey dan BIB",
+    "Race Pack",
+    "Water Station dan Refreshments",
+    "Music Performance and Fun Activities"
+  ],
+  "lokasi": "Balai Pemuda Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-11-09",
+  "kontak_event": {
+    "Instagram": [
+      "@its_manifest"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K (Batch 1)": "IDR 99.000",
+    "10K (Batch 1)": "IDR 150.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

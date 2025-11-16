@@ -1,0 +1,33 @@
+{
+  "image": "Kanogama_Fun_Run_2025-02-23.png",
+  "judul": "Kanogama Fun Run",
+  "isi_informasi": "Kanogama Fun Run adalah acara lari tahunan yang akan diadakan pada 23 Februari 2025 dengan kategori 5K. Acara ini bertujuan untuk memperkuat citra lari sebagai olahraga yang dapat dinikmati oleh semua kalangan. Event ini melibatkan komunitas Kanogama Runners dan komunitas lainnya, serta menawarkan berbagai fasilitas seperti racepack, medali finisher, dan doorprize.",
+  "benefit_peserta": [
+    "Totebag",
+    "BIB Number",
+    "Jersey",
+    "Water Station",
+    "Refreshment",
+    "Medali Finisher",
+    "Entertainment",
+    "Doorprize",
+    "Sport Photography",
+    "Runner Insurance"
+  ],
+  "lokasi": "Balairung UGM, Yogyakarta",
+  "kota": "Yogyakarta",
+  "tanggal_event": "2025-02-23",
+  "kontak_event": {
+    "Instagram": [
+      "@KanogamaFunRun"
+    ],
+    "WhatsApp": "0856 4340 0500"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 200.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

@@ -1,0 +1,30 @@
+{
+  "image": "ISEF_Family_Run_2025_2025-09-28.jpg",
+  "judul": "ISEF Family Run 2025",
+  "isi_informasi": "ISEF Family Run 2025 adalah acara lari santai untuk keluarga yang diselenggarakan oleh DEKS Bank Indonesia. Acara ini akan berlangsung di Plaza Tenggara GBK, Senayan pada 28 September 2025, sebagai bagian dari pra-event menuju ISEF ke-12 yang dijadwalkan pada 8–12 Oktober 2025 di JIExpo Kemayoran. Dengan konsep non-kompetitif, acara ini bertujuan untuk mempromosikan gaya hidup sehat dan nilai-nilai ekonomi syariah, termasuk halal dan Green Lifestyle. Peserta juga akan menikmati berbagai hiburan yang disediakan untuk seluruh keluarga.",
+  "benefit_peserta": [
+    "Jersey",
+    "Stringbag",
+    "Medali",
+    "BIB",
+    "Refreshment"
+  ],
+  "lokasi": "Plaza Tenggara GBK, Senayan, Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta Pusat",
+  "tanggal_event": "2025-09-28",
+  "kontak_event": {
+    "Instagram": [
+      "@isef.id"
+    ],
+    "WhatsApp": "+62 821-1337-7303"
+  },
+  "biaya_registrasi": {
+    "3K": "IDR 50.000",
+    "5K": "IDR 100.000"
+  },
+  "kategori": [
+    "3K",
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

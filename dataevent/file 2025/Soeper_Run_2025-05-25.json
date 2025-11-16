@@ -1,0 +1,37 @@
+{
+  "image": "Soeper_Run_2025-05-25.png",
+  "judul": "Soeper Run",
+  "isi_informasi": "Soeper Run, yang diselenggarakan oleh Keluarga Alumni Unsoed dan Bhinneka Ceria, adalah acara lari amal untuk mendukung pendidikan anak-anak kurang mampu. Setiap langkah peserta berkontribusi pada pendidikan Indonesia. Peserta mendapatkan perlindungan asuransi, jersey, medali, nomor BIB, dan goodie bag.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medal",
+    "BIB Number",
+    "Goodie Bag",
+    "Asuransi SalingJaga"
+  ],
+  "lokasi": "Universitas Jendral Soedirman, Purwokerto, Jawa Tengah",
+  "kota": "Purwokerto",
+  "tanggal_event": "2025-05-25",
+  "kontak_event": {
+    "Instagram": [
+      "@bhinnekaceria",
+      "@keluargaalumniunsoed_official",
+      "@salingjaga.kitabisa"
+    ],
+    "WhatsApp": "+62 878-8957-6975"
+  },
+  "biaya_registrasi": {
+    "5K Solo": {
+      "Early Bird": "Rp 150K",
+      "Normal Price": "Rp 200K"
+    },
+    "5K Couple": {
+      "Early Bird": "Rp 250K",
+      "Normal Price": "Rp 324K"
+    }
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,35 @@
+{
+  "image": "SOLIDARIRUN_2025_2025-09-13.png",
+  "judul": "SOLIDARIRUN 2025",
+  "isi_informasi": "SOLIDARIRUN 2025 adalah acara lari di Kabupaten Ponorogo yang mengajak masyarakat untuk berlari bersama dalam semangat solidaritas dan kebanggaan akan budaya Reog. Acara ini terbuka untuk semua kalangan, dari pemula hingga pelari berpengalaman. Pendaftaran terbatas, segera daftar sebelum kehabisan!",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Chip",
+    "Sponsor product",
+    "Refreshment",
+    "Insurance",
+    "Photo",
+    "Doorprize",
+    "Goodie Bag",
+    "E-Certificate"
+  ],
+  "lokasi": "Alun-Alun Ponorogo, Ponorogo, Jawa Timur",
+  "kota": "Ponorogo",
+  "tanggal_event": "2025-09-13",
+  "kontak_event": {
+    "Instagram": [
+      "@solidarirun"
+    ],
+    "WhatsApp": "0813-3076-3104"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 175.000",
+    "10K": "IDR 225.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

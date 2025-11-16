@@ -1,0 +1,35 @@
+{
+  "image": "Kediri_Half_Marathon_2025_2025-05-11.jpg",
+  "judul": "Kediri Half Marathon 2025",
+  "isi_informasi": "Kediri Half Marathon akan diselenggarakan pada tahun 2025 dengan kategori lomba Half Marathon (Master dan Umum), 10K (Umum dan Pelajar), 5K (Umum dan Pelajar), 2K untuk Pelajar Difabel, dan Kursi Roda. Kategori pelajar dan difabel hanya untuk pelajar di Kabupaten Kediri. Diharapkan semua pelari dapat menikmati keseruan dan kenyamanan di Kabupaten Kediri.",
+  "benefit_peserta": [
+    "Finisher Medal",
+    "Goodie Bag",
+    "Race Tee",
+    "BIB Number",
+    "Refreshment",
+    "Finisher Jacket (HM only)",
+    "e-Certificate",
+    "Photos"
+  ],
+  "lokasi": "Kawasan Taman Hijau Simpang Lima Gumul, Kediri, Jawa Timur",
+  "kota": "Kediri",
+  "tanggal_event": "2025-05-11",
+  "kontak_event": {
+    "Instagram": [
+      "@kedirihalfmarathon"
+    ],
+    "WhatsApp": "0812 3454 8116"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 275.000",
+    "10K": "IDR 350.000",
+    "Half Marathon": "IDR 500.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "road run"
+}

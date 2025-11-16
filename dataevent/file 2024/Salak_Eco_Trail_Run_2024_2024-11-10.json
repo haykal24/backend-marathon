@@ -1,0 +1,27 @@
+{
+  "image": "Salak_Eco_Trail_Run_2024_2024-11-10.jpg",
+  "judul": "Salak Eco Trail Run 2024",
+  "isi_informasi": "Salak Eco Trail Run (SETR) adalah kompetisi lari trail tahunan yang berlangsung di Taman Nasional Gunung Halimun-Salak, Bogor, Jawa Barat. Diselenggarakan oleh Javan Hawk Eagle Trail (JHET) dan Yayasan Puter Indonesia, acara ini bertujuan untuk meningkatkan kesadaran akan pelestarian lingkungan dan memperkenalkan wilayah TNGHS.",
+  "benefit_peserta": [
+    "Meningkatkan kesadaran pelestarian lingkungan",
+    "Memperkenalkan wilayah TNGHS"
+  ],
+  "lokasi": "Bumi Perkemahan Sukamantri, Kab. Bogor, Jawa Barat",
+  "kota": "Bogor",
+  "tanggal_event": "2024-11-10",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "21K": "IDR 500.000",
+    "12K": "IDR 400.000",
+    "6K": "IDR 250.000"
+  },
+  "kategori": [
+    "6K",
+    "12K",
+    "21K"
+  ],
+  "jenis_event": "trail run"
+}

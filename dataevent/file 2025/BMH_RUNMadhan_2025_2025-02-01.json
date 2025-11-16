@@ -1,0 +1,31 @@
+{
+  "image": "BMH_RUNMadhan_2025_2025-02-01.jpg",
+  "judul": "BMH RUNMadhan 2025",
+  "isi_informasi": "BMH RUNMadhan 2025 adalah event lari virtual bertema Ramadan yang berlangsung dari 1 hingga 20 Februari 2025. Peserta dapat memilih kategori jarak 10K, 30K, atau 99K yang dapat dilakukan di mana saja. Setiap kilometer yang ditempuh akan berkontribusi untuk gerakan berbagi Paket Berbuka Puasa Ramadan 1446H. Event ini mendukung gaya hidup sehat dan semangat berbagi.",
+  "benefit_peserta": [
+    "E-Bib",
+    "Twibbon",
+    "E-Certificate untuk semua finisher"
+  ],
+  "lokasi": "Tidak tercantum",
+  "kota": "Tidak tercantum",
+  "tanggal_event": "2025-02-01",
+  "kontak_event": {
+    "Instagram": [
+      "@runmadhan",
+      "@gerak.now"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "10K": "FREE",
+    "30K": "FREE",
+    "99K": "FREE"
+  },
+  "kategori": [
+    "10K",
+    "30K",
+    "99K"
+  ],
+  "jenis_event": "virtual run"
+}

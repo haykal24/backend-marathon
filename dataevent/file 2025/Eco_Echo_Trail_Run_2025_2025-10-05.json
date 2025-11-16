@@ -1,0 +1,29 @@
+{
+  "image": "Eco_Echo_Trail_Run_2025_2025-10-05.png",
+  "judul": "Eco Echo Trail Run 2025",
+  "isi_informasi": "Eco Echo Trail Run adalah acara lari amal yang diselenggarakan oleh WWF Indonesia dan SalingJaga, bertujuan untuk mengajak masyarakat menjelajahi hutan kota dan mendukung konservasi alam serta satwa liar Indonesia. Pendaftaran terbatas, segera daftar sebelum kehabisan!",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB Number",
+    "Medal Finisher",
+    "Goodie Bag",
+    "Asuransi SalingJaga",
+    "Earth Guardian E-Certificate"
+  ],
+  "lokasi": "Taman Hutan Raya Ir. H. Juanda, Bandung, Jawa Barat",
+  "kota": "Bandung",
+  "tanggal_event": "2025-10-05",
+  "kontak_event": {
+    "Instagram": [
+      "@wwf_id"
+    ],
+    "WhatsApp": "0811-1230-0735"
+  },
+  "biaya_registrasi": {
+    "6K": "IDR 425.000"
+  },
+  "kategori": [
+    "6K"
+  ],
+  "jenis_event": "trail run"
+}

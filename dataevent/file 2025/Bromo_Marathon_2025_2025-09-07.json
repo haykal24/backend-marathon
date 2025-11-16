@@ -1,0 +1,34 @@
+{
+  "image": "Bromo_Marathon_2025_2025-09-07.jpg",
+  "judul": "Bromo Marathon 2025",
+  "isi_informasi": "Bromo Marathon 2025 merupakan edisi ke-12 dari acara lari yang sangat dinanti di Indonesia. Acara ini menawarkan pengalaman berlari yang menantang di jalur pegunungan dengan latar belakang keindahan Gunung Bromo di Taman Nasional Bromo Tengger Semeru.",
+  "benefit_peserta": [
+    "TBA"
+  ],
+  "lokasi": "Plataran Bromo, Wonopolo, Ngadiwono, Kec. Tosari, Pasuruan, Jawa Timur",
+  "kota": "Pasuruan",
+  "tanggal_event": "2025-09-07",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "2.5K/Kids": "Rp 150K",
+    "5K (Indonesian)": "Rp 350K",
+    "5K (International)": "Rp 450K",
+    "10K (Indonesian)": "Rp 450K",
+    "10K (International)": "Rp 550K",
+    "21K (Indonesian)": "Rp 550K",
+    "21K (International)": "Rp 650K",
+    "42K (Indonesian)": "Rp 650K",
+    "42K (International)": "Rp 750K"
+  },
+  "kategori": [
+    "2.5K",
+    "5K",
+    "10K",
+    "21K",
+    "42K"
+  ],
+  "jenis_event": "road run"
+}

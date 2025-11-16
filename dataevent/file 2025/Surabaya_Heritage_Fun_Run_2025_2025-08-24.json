@@ -1,0 +1,29 @@
+{
+  "image": "Surabaya_Heritage_Fun_Run_2025_2025-08-24.jpg",
+  "judul": "Surabaya Heritage Fun Run 2025",
+  "isi_informasi": "Ikuti Surabaya Heritage Fun Run 2025 pada Minggu, 24 Agustus 2025, pukul 06.00 WIB di kawasan bersejarah Kota Lama Surabaya. Dengan biaya pendaftaran Rp80.000, peserta dapat menikmati pengalaman berlari sambil menjelajahi sejarah kota dan berkesempatan memenangkan hadiah menarik, termasuk sepeda motor listrik sebagai grand prize.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Number",
+    "Gymsack Race Pack Collection"
+  ],
+  "lokasi": "Gedung De Javasche Bank, Jl. Garuda No. 1, Surabaya",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-08-24",
+  "kontak_event": {
+    "Instagram": [
+      "@surabayaheritagefunrun"
+    ],
+    "WhatsApp": "+6283192318036"
+  },
+  "biaya_registrasi": {
+    "3K": "IDR 80.000",
+    "5K": "IDR 80.000"
+  },
+  "kategori": [
+    "3K",
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

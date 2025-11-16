@@ -1,0 +1,28 @@
+{
+  "image": "Fun_Run_IKA_Unair_Sidoarjo_2025-11-30.jpg",
+  "judul": "Fun Run IKA Unair Sidoarjo",
+  "isi_informasi": "Ikuti keseruan Fun Run IKA Unair Sidoarjo 5K pada 30 November 2025 di Natura Residence. Acara ini terbuka untuk semua kalangan, baik pelari serius maupun yang ingin berolahraga santai. Peserta akan mendapatkan jersey, medali finisher, minuman isotonik free flow, serta kesempatan memenangkan doorprize dan total hadiah hingga Rp12 juta.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Number",
+    "Tote Bag"
+  ],
+  "lokasi": "Natura Residence, Jenggolo, Sidoarjo, Jawa Timur",
+  "kota": "Sidoarjo",
+  "tanggal_event": "2025-11-30",
+  "kontak_event": {
+    "Instagram": [
+      "@ikaunair_sidoarjo"
+    ],
+    "WhatsApp": "+62 88 7844 8222"
+  },
+  "biaya_registrasi": {
+    "5K (Early Bird)": "IDR 150.000",
+    "5K (Reguler)": "IDR 200.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

@@ -1,0 +1,30 @@
+{
+  "image": "Road_To_Give_Surabaya_2025_2025-10-26.jpg",
+  "judul": "Road To Give Surabaya 2025",
+  "isi_informasi": "Road to Give Surabaya 2025 mengusung tema 'Run for Hope, Run for Strength' sebagai bentuk komitmen Marriott untuk memberikan kembali kepada masyarakat. Acara ini akan diadakan di Aloft Surabaya Pakuwon City pada 26 Oktober 2025, dengan kategori lari 5K dan 10K. Seluruh hasil dari acara ini akan disalurkan kepada Reach to Recovery Surabaya dan Yayasan Cinta Penyintas Kanker Payudara. Kegiatan ini merupakan bagian dari program CSR Serve360 Marriott International, yang bertujuan untuk menunjukkan solidaritas kepada penyintas kanker payudara.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medal",
+    "Nomor BIB",
+    "Goodie Bag",
+    "Refreshment"
+  ],
+  "lokasi": "Aloft Surabaya, Pakuwon City, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-10-26",
+  "kontak_event": {
+    "Instagram": [
+      "@roadtogivesurabaya"
+    ],
+    "WhatsApp": "+6282232070286"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 200.000",
+    "10K": "IDR 225.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

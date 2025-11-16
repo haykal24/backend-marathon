@@ -1,0 +1,33 @@
+{
+  "image": "Funtastic_Run_2025_Kudus_Series_2025-11-16.jpg",
+  "judul": "Funtastic Run 2025 Kudus Series",
+  "isi_informasi": "Funtastic Run 2025 Kudus Series adalah event lari santai dengan jarak 5K dan 10K yang terbuka untuk umum, komunitas, dan keluarga. Acara ini akan berlangsung pada Minggu, 16 November 2025, di ARS Waterpark Kudus, Jawa Tengah. Tujuan dari event ini adalah untuk mendorong Sport Eco Tourism, gaya hidup sehat, dan promosi wisata kota, dengan menyediakan race kit dan hadiah menarik. Pendaftaran terbatas, segera daftar sebelum kehabisan!",
+  "benefit_peserta": [
+    "BIB Number",
+    "Jersey",
+    "Medali",
+    "Totebag",
+    "Refreshment",
+    "Water Station",
+    "Podium Prize",
+    "Doorprize"
+  ],
+  "lokasi": "ARS Waterpark Kudus, Jawa Tengah",
+  "kota": "Kudus",
+  "tanggal_event": "2025-11-16",
+  "kontak_event": {
+    "Instagram": [
+      "@funtastic.run"
+    ],
+    "WhatsApp": "+62 851-8750-7016"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 225.000",
+    "10K": "IDR 275.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

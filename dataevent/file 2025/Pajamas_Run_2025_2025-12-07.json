@@ -1,0 +1,28 @@
+{
+  "image": "Pajamas_Run_2025_2025-12-07.png",
+  "judul": "Pajamas Run 2025",
+  "isi_informasi": "Pajamas Run 2025 adalah event lari 5K dan 7K yang diadakan oleh ASR Askot pada hari Minggu, 7 Desember 2025, di Taman Mini Indonesia Indah, Jakarta Timur.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali",
+    "Produk Sponsor"
+  ],
+  "lokasi": "Taman Mini Indonesia Indah (TMII), Jakarta Timur, DKI Jakarta",
+  "kota": "Jakarta Timur",
+  "tanggal_event": "2025-12-07",
+  "kontak_event": {
+    "Instagram": [
+      "@abdievent.official"
+    ],
+    "WhatsApp": "+6281389999208"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 250.000",
+    "7K": "IDR 250.000"
+  },
+  "kategori": [
+    "5K",
+    "7K"
+  ],
+  "jenis_event": "fun run"
+}

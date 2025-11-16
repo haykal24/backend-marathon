@@ -1,0 +1,31 @@
+{
+  "image": "Bangkit_Half_Marathon_2025_2025-11-30.jpg",
+  "judul": "Bangkit Half Marathon 2025",
+  "isi_informasi": "ACT menyelenggarakan 'Bangkit Half Marathon ACT 2025' di Kabupaten Rembang pada 30 November 2025. Event ini merupakan kesempatan untuk berlari sambil merayakan kekayaan budaya lokal Rembang, yang dikenal dengan ketangguhan nelayannya dan budaya Tionghoa yang harmonis. Terdapat tiga kategori lomba: 5K, 10K, dan Half Marathon. Kegiatan ini bertujuan untuk mempererat persaudaraan dan mengangkat kearifan budaya Rembang.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali",
+    "Produk Sponsor",
+    "Refreshment"
+  ],
+  "lokasi": "Alun-Alun Rembang, Rembang, Jawa Tengah",
+  "kota": "Rembang",
+  "tanggal_event": "2025-11-30",
+  "kontak_event": {
+    "Instagram": [
+      "@bangkit_marathon"
+    ],
+    "WhatsApp": "+62 853-8501-5476"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 175.000",
+    "10K": "IDR 250.000",
+    "21K": "IDR 500.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "road run"
+}

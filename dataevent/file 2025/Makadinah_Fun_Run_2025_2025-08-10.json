@@ -1,0 +1,31 @@
+{
+  "image": "Makadinah_Fun_Run_2025_2025-08-10.jpg",
+  "judul": "Makadinah Fun Run 2025",
+  "isi_informasi": "Makadinah Fun Run diselenggarakan untuk memperingati Hari Kemerdekaan Republik Indonesia pada 17 Agustus 2025 dan mendukung program Umroh Plus Konser Bersama Slank. Kegiatan ini bertujuan untuk mempersiapkan fisik menjelang ibadah umroh serta sebagai ruang refleksi untuk memperkuat niat hijrah. Dengan lari sejauh 5 kilometer, peserta diajak untuk menjalani proses hijrah yang lebih sehat dan bermakna.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "Goodie Bag",
+    "Water Station",
+    "Refreshment"
+  ],
+  "lokasi": "Kebun Raya Bogor, Bogor, Jawa Barat",
+  "kota": "Bogor",
+  "tanggal_event": "2025-08-10",
+  "kontak_event": {
+    "Instagram": [
+      "@laribarengkita"
+    ],
+    "WhatsApp": "0851 2335 5077"
+  },
+  "biaya_registrasi": {
+    "5K Reguler": "IDR 250.000",
+    "5K Virtual Run": "IDR 200.000",
+    "2.5K Family Run (1 Dewasa + 1 Anak)": "IDR 350.000"
+  },
+  "kategori": [
+    "2.5K",
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

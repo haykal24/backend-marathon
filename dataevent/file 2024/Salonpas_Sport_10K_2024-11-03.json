@@ -1,0 +1,28 @@
+{
+  "image": "Salonpas_Sport_10K_2024-11-03.png",
+  "judul": "Salonpas Sport 10K",
+  "isi_informasi": "Salonpas Sport 10K hadir dengan semangat #BEUNSTOPPABLE di Taman Mini Indonesia Indah, menawarkan pengalaman berlari yang luar biasa. Acara ini bertujuan untuk menginspirasi pelari pemula dan generasi muda tentang pentingnya hidup aktif dan sehat. Dengan kategori lomba yang beragam, acara ini cocok untuk semua usia dan tingkat keahlian, serta dilengkapi dengan titik hidrasi, marshal, tanda arah, pacers, dan hiburan.",
+  "benefit_peserta": [
+    "Pengalaman lari yang tak terlupakan",
+    "Kesempatan bersenang-senang bersama teman dan keluarga",
+    "Edukasi tentang hidup aktif dan sehat"
+  ],
+  "lokasi": "Plaza Gajah Mada, Taman Mini Indonesia Indah, Jakarta Timur, DKI Jakarta",
+  "kota": "Jakarta Timur",
+  "tanggal_event": "2024-11-03",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "10K": "IDR 300.000",
+    "5K": "IDR 200.000",
+    "Kid Dash": "IDR 120.000"
+  },
+  "kategori": [
+    "10K",
+    "5K",
+    "Kid Dash"
+  ],
+  "jenis_event": "road run"
+}

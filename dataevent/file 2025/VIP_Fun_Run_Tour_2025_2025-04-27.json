@@ -1,0 +1,27 @@
+{
+  "image": "VIP_Fun_Run_Tour_2025_2025-04-27.webp",
+  "judul": "VIP Fun Run Tour 2025",
+  "isi_informasi": "Event lari ini mengajak peserta berlari dari Pulau Jawa hingga Bali, dimulai di Banten. Peserta akan menikmati keindahan pantai pasir putih Anyer dan mercusuar Titik Nol Anyer.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB Number",
+    "Totebag",
+    "Finisher Medal"
+  ],
+  "lokasi": "Mercusuar Point Zero Anyer, Serang, Banten",
+  "kota": "Serang",
+  "tanggal_event": "2025-04-27",
+  "kontak_event": {
+    "Instagram": [
+      "@viprunningtour"
+    ],
+    "WhatsApp": "+62 821 2557 2327"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 250.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

@@ -1,0 +1,35 @@
+{
+  "image": "Jogja_Heritage_Fun_Run_2024_2024-12-08.jpg",
+  "judul": "Jogja Heritage Fun Run 2024",
+  "isi_informasi": "Jogja Heritage Fun Run 2024 merupakan bagian dari perayaan Dies Natalis ke-66 UPN 'Veteran' Yogyakarta. Acara ini akan diadakan untuk pertama kalinya pada 8 Desember 2024, dengan lintasan yang melewati landmark ikonik di Kota Yogyakarta. Peserta dapat memilih jarak 5K atau 10K dalam suasana santai dan penuh kegembiraan, sambil menikmati budaya dan seni tradisional setempat. Hadiah menarik dan hiburan seni juga akan memeriahkan acara ini.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali",
+    "BIB Number",
+    "Tote Bag",
+    "E-Certificate",
+    "Water Station",
+    "Refreshment",
+    "Kupon Doorprize",
+    "Photobooth",
+    "Dokumentasi"
+  ],
+  "lokasi": "Halaman Gedung DPRD DIY, Jalan Malioboro, Yogyakarta",
+  "kota": "Yogyakarta",
+  "tanggal_event": "2024-12-08",
+  "kontak_event": {
+    "Instagram": [
+      "@jogjaheritagerun"
+    ],
+    "WhatsApp": "0877 8408 7293"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 200.000",
+    "10K": "IDR 250.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

@@ -1,0 +1,30 @@
+{
+  "image": "Dogathlon_Trail_Run_2.0_2025-11-22.jpg",
+  "judul": "Dogathlon Trail Run 2.0",
+  "isi_informasi": "Dogathlon Trail Run 2.0 adalah event lari unik di mana peserta berlari bersama anjing peliharaan melewati berbagai rintangan. Ini adalah dorgsport pertama di Indonesia yang tidak memerlukan anjing terlatih, karena semua anjing harus menggunakan leash. Peserta juga diperbolehkan menggendong anjing mereka untuk melewati rintangan tertentu.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB Number",
+    "Medali Finisher",
+    "Goodie Bag",
+    "Voucher Doorprize"
+  ],
+  "lokasi": "Tangkal Pinus, Lembang, Kabupaten Bandung Barat, Jawa Barat",
+  "kota": "Bandung Barat",
+  "tanggal_event": "2025-11-22",
+  "kontak_event": {
+    "Instagram": [
+      "@dogathlon.id"
+    ],
+    "WhatsApp": "082113083354"
+  },
+  "biaya_registrasi": {
+    "3K": "IDR 275.000",
+    "5K": "IDR 325.000"
+  },
+  "kategori": [
+    "3K",
+    "5K"
+  ],
+  "jenis_event": "trail run"
+}

@@ -1,0 +1,33 @@
+{
+  "image": "Mapalas_Berlari_2025-11-09.png",
+  "judul": "Mapalas Berlari",
+  "isi_informasi": "Ikuti keseruan MAPALAS BERLARI dengan kategori 5K dan 10K. Nikmati pengalaman berlari yang penuh semangat dan kebersamaan, serta berkesempatan memenangkan doorprize dan hadiah utama. Daftar segera, slot terbatas!",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Number",
+    "Goodie Bag",
+    "Refreshment",
+    "Water Station",
+    "Doorprize"
+  ],
+  "lokasi": "Universitas Dr. Soetomo (UNITOMO), Jl. Semolowaru No.84, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-11-09",
+  "kontak_event": {
+    "Instagram": [
+      "@mapalas_berlari",
+      "@mapalasunitomo"
+    ],
+    "WhatsApp": "082342814822"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 250.000",
+    "10K": "IDR 300.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

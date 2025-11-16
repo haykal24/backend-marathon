@@ -1,0 +1,34 @@
+{
+  "image": "MY_Charity_Run_2025_2025-06-28.jpg",
+  "judul": "MY Charity Run 2025",
+  "isi_informasi": "MY Charity Run 2025 adalah acara lari yang diselenggarakan oleh Gereja Kristen Indonesia Maulana Yusuf (GKI MY) pada Sabtu, 28 Juni 2025, di BPK Kota Baru Parahyangan, Padalarang, Kabupaten Bandung Barat. Terdapat kategori lari 5K dan 10K.",
+  "benefit_peserta": [
+    "Kesempatan berpartisipasi dalam acara amal",
+    "Pengalaman berlari di lingkungan yang menyenangkan",
+    "Akses ke bazar UMKM dan live music"
+  ],
+  "lokasi": "BPK Kota Baru Parahyangan, Kec. Padalarang, Kab. Bandung Barat",
+  "kota": "Bandung Barat",
+  "tanggal_event": "2025-06-28",
+  "kontak_event": {
+    "Instagram": [
+      "@gkimy20"
+    ],
+    "WhatsApp": "082121992772"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "Early Bird": "Rp 200K",
+      "Normal": "Rp 225K"
+    },
+    "10K": {
+      "Early Bird": "Rp 300K",
+      "Normal": "Rp 325K"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

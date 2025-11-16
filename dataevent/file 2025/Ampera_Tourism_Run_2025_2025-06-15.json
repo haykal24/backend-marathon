@@ -1,0 +1,30 @@
+{
+  "image": "Ampera_Tourism_Run_2025_2025-06-15.webp",
+  "judul": "Ampera Tourism Run 2025",
+  "isi_informasi": "Ampera Tourism Run diadakan untuk merayakan Hari Ulang Tahun Kota Palembang yang ke-1.342. Ini adalah penyelenggaraan kedua yang telah menjadi agenda tahunan Pemerintah Kota Palembang. Acara ini bertujuan untuk mempromosikan pariwisata dan memberikan dampak positif bagi perekonomian lokal, dengan partisipasi 3.300 peserta dari seluruh Indonesia pada edisi sebelumnya. Event ini menawarkan pengalaman unik berlari melintasi Jembatan Ampera dan finis di kawasan BKB, menjadikannya salah satu event lari yang paling dinantikan.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Number",
+    "Product Sponsor",
+    "Tote Bag"
+  ],
+  "lokasi": "Benteng Kuto Besak, Palembang, Sumatra Selatan",
+  "kota": "Palembang",
+  "tanggal_event": "2025-06-15",
+  "kontak_event": {
+    "Instagram": [
+      "@amperatourismrun"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 250.000",
+    "10K": "IDR 300.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

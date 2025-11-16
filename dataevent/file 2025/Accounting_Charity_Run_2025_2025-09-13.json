@@ -1,0 +1,33 @@
+{
+  "image": "Accounting_Charity_Run_2025_2025-09-13.jpg",
+  "judul": "Accounting Charity Run 2025",
+  "isi_informasi": "Accounting Charity Run 2025: 'Run For A Cause' adalah acara lari yang diadakan oleh Himpunan Mahasiswa Program Studi Akuntansi Fakultas Ekonomi Universitas Katolik Parahyangan (UNPAR). Acara ini bertema 'Run with Heart: Together for a Healthier Community' dan bertujuan mengumpulkan dana untuk Rumah Pejuang Kanker Ambu.",
+  "benefit_peserta": [
+    "E-Certificate",
+    "BIB",
+    "Jersey*",
+    "Medal",
+    "Goodiebag",
+    "Doorprize",
+    "Experience"
+  ],
+  "lokasi": "Universitas Katolik Parahyangan (UNPAR), Jl. Merdeka No.30, Bandung, Jawa Barat",
+  "kota": "Bandung",
+  "tanggal_event": "2025-09-13",
+  "kontak_event": {
+    "Instagram": [
+      "@charityrun_hmpsa"
+    ],
+    "WhatsApp": "081212289264"
+  },
+  "biaya_registrasi": {
+    "7K (No Jersey)": "IDR 75.000",
+    "7K (With Jersey)": "IDR 120.000",
+    "7K (4 Pax, No Jersey)": "IDR 275.000",
+    "7K (4 Pax, with Jersey)": "IDR 450.000"
+  },
+  "kategori": [
+    "7K"
+  ],
+  "jenis_event": "road run"
+}

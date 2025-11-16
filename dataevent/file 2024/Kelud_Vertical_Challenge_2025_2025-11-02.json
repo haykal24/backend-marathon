@@ -1,0 +1,33 @@
+{
+  "image": "Kelud_Vertical_Challenge_2025_2025-11-02.jpg",
+  "judul": "Kelud Vertical Challenge 2025",
+  "isi_informasi": "Kelud Vertical Challenge (KVC) 2025 menawarkan tantangan lari sejauh 10 km dengan dua kategori usia: umum dan master (40+). Rute ini menggabungkan jalan dan sedikit trail dengan elevasi mencapai 715 meter, memberikan pengalaman berlari yang unik di sekitar kawah Gunung Kelud. Peserta akan menikmati pemandangan alam yang indah selama perlombaan.",
+  "benefit_peserta": [
+    "Bib",
+    "Goodie Bag",
+    "Park Permit",
+    "Race Tee",
+    "Finisher Medal",
+    "Finisher Tee",
+    "Refreshment",
+    "Medic",
+    "Shuttle",
+    "Insurance"
+  ],
+  "lokasi": "Gerbang Wisata Gunung Kelud, Kec. Ngancar, Kab. Kediri, Jawa Timur",
+  "kota": "Kediri",
+  "tanggal_event": "2025-11-02",
+  "kontak_event": {
+    "Instagram": [
+      "@keludverticalchallenge"
+    ],
+    "WhatsApp": "081234548116"
+  },
+  "biaya_registrasi": {
+    "10K": "IDR 350.000"
+  },
+  "kategori": [
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,28 @@
+{
+  "image": "Carangsari_Heritage_Run_2024_2024-11-10.jpg",
+  "judul": "Carangsari Heritage Run 2024",
+  "isi_informasi": "Carangsari Heritage Run adalah lomba lari yang menawarkan kategori 5KM, 10KM, dan 15KM, terbuka untuk semua kalangan. Peserta dapat menikmati keindahan alam, budaya, dan sejarah Desa Carangsari, tempat lahir pahlawan nasional I Gusti Ngurah Rai. Event ini bertujuan untuk mendukung pariwisata Bali dan mendorong gaya hidup aktif dengan tetap mematuhi protokol kesehatan.",
+  "benefit_peserta": [
+    "Menikmati keindahan alam dan budaya",
+    "Mendukung pariwisata Bali",
+    "Mendorong gaya hidup aktif"
+  ],
+  "lokasi": "Desa Wisata Carangsari Petang, Badung, Bali",
+  "kota": "Badung",
+  "tanggal_event": "2024-11-10",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "15K": "IDR 410.000",
+    "10K": "IDR 360.000",
+    "5K": "IDR 260.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "15K"
+  ],
+  "jenis_event": "road run"
+}

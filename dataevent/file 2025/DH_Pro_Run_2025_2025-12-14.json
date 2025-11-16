@@ -1,0 +1,34 @@
+{
+  "image": "DH_Pro_Run_2025_2025-12-14.png",
+  "judul": "DH Pro Run 2025",
+  "isi_informasi": "DH Pro Run 2025 akan diadakan di Probolinggo untuk merayakan Hari Kesehatan Nasional. Acara ini mengajak peserta untuk berlari dalam dua kategori, yaitu 5K dan 10K, dengan tema 'Gerakan Masyarakat Hidup Sehat'. Selain lari, terdapat juga talkshow kesehatan, pemeriksaan gratis, dan kegiatan donasi.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali Finisher",
+    "Bib Non-Chip",
+    "Produk Sponsor",
+    "Goodie Bag",
+    "Kupon Doorprize",
+    "Fasilitas Water Station",
+    "Refreshment",
+    "Medical On Race"
+  ],
+  "lokasi": "Komplek Kantor RS Dharma Husada Jalan Mawar No. 2",
+  "kota": "Probolinggo",
+  "tanggal_event": "2025-12-14",
+  "kontak_event": {
+    "Instagram": [
+      "@dhprorun2025"
+    ],
+    "WhatsApp": "081352940999"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 125.000",
+    "10K": "IDR 165.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,27 @@
+{
+  "image": "True_Run_2025_2025-12-07.png",
+  "judul": "True Run 2025",
+  "isi_informasi": "Tanjungpinang akan menjadi tuan rumah event lari 5K perdana, TRUE RUN 2025, yang diselenggarakan oleh Alltrue Hotel Bintan Tanjungpinang. Acara ini berlangsung pada Minggu, 7 Desember 2025, mulai pukul 06.00 WIB, dengan titik start di Alltrue Hotel Bintan. Event ini menawarkan total hadiah sebesar 10 juta rupiah dan hiburan menarik. Peserta akan mendapatkan jersey, medali finisher, nomor BIB, dan refreshment.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali Finisher",
+    "Nomor BIB",
+    "Refreshment"
+  ],
+  "lokasi": "Alltrue Hotel Bintan Tanjungpinang, Jl. Gudang Minyak No. 133, Tanjungpinang, Riau",
+  "kota": "Tanjungpinang",
+  "tanggal_event": "2025-12-07",
+  "kontak_event": {
+    "Instagram": [
+      "@alltruehoteltanjungpinang"
+    ],
+    "WhatsApp": "082171589998"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 180.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

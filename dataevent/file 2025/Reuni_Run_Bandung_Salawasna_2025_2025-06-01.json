@@ -1,0 +1,36 @@
+{
+  "image": "Reuni_Run_Bandung_Salawasna_2025_2025-06-01.jpg",
+  "judul": "Reuni Run Bandung Salawasna 2025",
+  "isi_informasi": "Bergabunglah dalam acara lari seru dan reuni besar alumni SMA se-Bandung Raya yang terbuka untuk umum. Nikmati bazaar, hiburan, dan pertandingan basket antar alumni. Dapatkan medali finisher, dua jersey eksklusif, serta produk sponsor. Pemenang di setiap kategori akan menerima hadiah logam mulia.",
+  "benefit_peserta": [
+    "Medali Finisher sebagai simbol pencapaian",
+    "2 Jersey Eksklusif: Jersey Run dan Jersey Finisher",
+    "Berbagai Produk Sponsor untuk pengalaman lari"
+  ],
+  "lokasi": "GOR Padjajaran Bandung, Jawa Barat",
+  "kota": "Bandung",
+  "tanggal_event": "2025-06-01",
+  "kontak_event": {
+    "Instagram": [
+      "@bandungsalawasna2025"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "Fun Walk 2.6K": "IDR 259.000",
+    "Duet Walk 2.6K": "IDR 509.000",
+    "Family Walk 2.6K": "IDR 768.000",
+    "Kid Dash SD 400M": "IDR 259.000",
+    "Kid Dash SMP 800M": "IDR 259.000",
+    "Kategori Grup 5K (7 Orang)": "IDR 1.899.000",
+    "Kategori Grup 10K (7 Orang)": "IDR 2.299.000",
+    "Kategori Individu 5K": "IDR 279.900",
+    "Kategori Individu 10K": "IDR 329.000"
+  },
+  "kategori": [
+    "2.6K",
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

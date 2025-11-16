@@ -1,0 +1,28 @@
+{
+  "image": "Mari_Kita_Berlari_2024_2024-12-15.jpg",
+  "judul": "Mari Kita Berlari 2024",
+  "isi_informasi": "Mari Kita Berlari 2024 akan diadakan di Idjen Boulevard, Malang, dengan pilihan rute 5K, 10K, dan 21K. Acara ini tidak hanya untuk berolahraga, tetapi juga untuk menikmati suasana kota dan menjalin silaturahmi antar pelari. Medali finisher yang diberikan merupakan kolaborasi antara lambang Singa Kota Malang dan Banteng Emas Korem 083/Baladhika Jaya.",
+  "benefit_peserta": [
+    "Pengalaman berlari yang menyenangkan",
+    "Kesempatan untuk berolahraga dan bersilaturahmi",
+    "Medali finisher yang unik"
+  ],
+  "lokasi": "Markas Korem 083 Baladhika Jaya, Malang, Jawa Timur",
+  "kota": "Malang",
+  "tanggal_event": "2024-12-15",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "Half Marathon": "IDR 575.000",
+    "10K": "IDR 475.000",
+    "5K": "IDR 375.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "road run"
+}

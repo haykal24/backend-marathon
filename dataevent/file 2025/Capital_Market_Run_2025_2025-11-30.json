@@ -1,0 +1,37 @@
+{
+  "image": "Capital_Market_Run_2025_2025-11-30.jpg",
+  "judul": "Capital Market Run 2025",
+  "isi_informasi": "Capital Market Run 2025 adalah acara lari yang bertujuan untuk meningkatkan kesehatan fisik dan kesadaran finansial peserta. Melalui event ini, peserta diajak untuk berinvestasi dalam kesehatan dan perencanaan keuangan. Pendaftaran terbatas, segera daftar sebelum kehabisan.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB Number",
+    "Finisher Medal",
+    "Produk Sponsor",
+    "Soft Flask",
+    "Tote Bag",
+    "E-Certificate",
+    "E-Racebook",
+    "Insurance",
+    "Timing Chip",
+    "Photo Tagging"
+  ],
+  "lokasi": "Plaza Timur, GBK, Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta Pusat",
+  "tanggal_event": "2025-11-30",
+  "kontak_event": {
+    "Instagram": [
+      "@capitalmarketrun2025",
+      "@im_roadrunner"
+    ],
+    "WhatsApp": "+6281937976482"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 250.000",
+    "10K": "IDR 350.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

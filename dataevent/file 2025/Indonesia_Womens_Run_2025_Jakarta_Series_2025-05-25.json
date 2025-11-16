@@ -1,0 +1,33 @@
+{
+  "image": "Indonesia_Womens_Run_2025_Jakarta_Series_2025-05-25.jpg",
+  "judul": "Indonesia Women's Run 2025 Jakarta Series",
+  "isi_informasi": "Indonesia Women's Run (IWR) adalah lomba lari jalan raya pertama di Indonesia yang khusus untuk perempuan dan anak perempuan. Diselenggarakan pertama kali pada 8 Maret 2020 untuk memperingati Hari Perempuan Internasional, IWR kini menjadi acara tahunan yang mempromosikan gaya hidup sehat dan meningkatkan kesadaran tentang isu kesehatan perempuan. Peserta akan mendapatkan jersey, goody bag, nomor dada (BIB), medali penamat, produk sponsor, refreshment, dan akses ke water station.",
+  "benefit_peserta": [
+    "Jersey",
+    "Goody bag",
+    "Nomor dada (BIB)",
+    "Medali penamat",
+    "Produk sponsor",
+    "Refreshment",
+    "Water station"
+  ],
+  "lokasi": "The Flavor Bliss Alam Sutera, Tangerang, Banten",
+  "kota": "Tangerang",
+  "tanggal_event": "2025-05-25",
+  "kontak_event": {
+    "Instagram": [
+      "@indonesiawomens_run"
+    ],
+    "WhatsApp": "0823 3786 7209",
+    "Email": "info@jadwallari.id"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 355.000",
+    "10K": "IDR 485.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

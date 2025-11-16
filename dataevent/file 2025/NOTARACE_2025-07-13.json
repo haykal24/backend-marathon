@@ -1,0 +1,32 @@
+{
+  "image": "NOTARACE_2025-07-13.png",
+  "judul": "NOTARACE",
+  "isi_informasi": "NOTARACE diadakan untuk merayakan hari jadi ke-117 Ikatan Notaris Indonesia, mengajak notaris dan masyarakat untuk berlari bersama, mempererat silaturahmi, dan mengenal peran notaris. Peserta dapat memilih kategori lari yang sesuai.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medal",
+    "BIB Chip untuk 5K & 10K",
+    "Race pack",
+    "Konser musik di Race Village"
+  ],
+  "lokasi": "Area CFD Kota Bekasi - Summarecon Kota Bekasi, Jawa Barat",
+  "kota": "Bekasi",
+  "tanggal_event": "2025-07-13",
+  "kontak_event": {
+    "Instagram": [
+      "@notarace.id"
+    ],
+    "WhatsApp": "+62 812 9996 9771"
+  },
+  "biaya_registrasi": {
+    "Funwalk 2.5K": "IDR 229.000",
+    "5K": "IDR 279.000",
+    "10K": "IDR 349.000"
+  },
+  "kategori": [
+    "2.5K",
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,31 @@
+{
+  "image": "UNIKAL_Runniversary_2025-11-09.jpg",
+  "judul": "UNIKAL Runniversary",
+  "isi_informasi": "UNIKAL Runniversary Fun Run merayakan ulang tahun ke-44 Universitas Pekalongan dengan menggabungkan olahraga, hiburan, dan kebersamaan. Event ini bertujuan untuk mempromosikan kampus dan memperkuat hubungan dengan alumni, mahasiswa, dan stakeholder. Pendaftaran terbatas, segera daftar sebelum kehabisan!",
+  "benefit_peserta": [
+    "Jersey",
+    "Bib",
+    "Totebag",
+    "Medali"
+  ],
+  "lokasi": "Universitas Pekalongan, Jl. Sriwijaya No.3, Kota Pekalongan, Jawa Tengah",
+  "kota": "Pekalongan",
+  "tanggal_event": "2025-11-09",
+  "kontak_event": {
+    "Instagram": [
+      "@unikal.runniversary"
+    ],
+    "WhatsApp": "081 5350 3500"
+  },
+  "biaya_registrasi": {
+    "5K UNIKAL Family": "IDR 150.000",
+    "5K Umum": "IDR 200.000",
+    "5K Pelajar / Mahasiswa": "IDR 100.000",
+    "5K Grup 5 Orang": "@ IDR 180.000",
+    "5K Grup 10 Orang": "@ IDR 150.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

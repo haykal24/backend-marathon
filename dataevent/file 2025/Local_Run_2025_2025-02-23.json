@@ -1,0 +1,31 @@
+{
+  "image": "Local_Run_2025_2025-02-23.png",
+  "judul": "Local Run 2025",
+  "isi_informasi": "Local Run 2025 adalah event lari terbesar di Tabanan yang mengusung tema 'Singasana'. Peserta akan menempuh rute menantang dengan pemandangan khas Bali, dari sawah hingga area kota tradisional. Acara ini berlangsung pada 23 Februari 2025 dan dilengkapi dengan door prize, hiburan, serta kesempatan berinteraksi dengan komunitas pelari.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB",
+    "finisher medal",
+    "tote bag",
+    "refreshment",
+    "door prize"
+  ],
+  "lokasi": "Panggung Terbuka Garuda Wisnu Serasi, Tabanan, Bali",
+  "kota": "Tabanan",
+  "tanggal_event": "2025-02-23",
+  "kontak_event": {
+    "Instagram": [
+      "@localland.sport"
+    ],
+    "WhatsApp": "082146119957"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 150.000",
+    "10K": "IDR 200.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

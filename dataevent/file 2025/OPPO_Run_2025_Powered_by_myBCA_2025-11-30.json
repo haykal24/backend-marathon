@@ -1,0 +1,34 @@
+{
+  "image": "OPPO_Run_2025_Powered_by_myBCA_2025-11-30.png",
+  "judul": "OPPO Run 2025 Powered by myBCA",
+  "isi_informasi": "OPPO RUN 2025 Powered by myBCA akan diselenggarakan untuk kedua kalinya di Bali, mengusung semangat kebersamaan dan keindahan alam. Event ini menawarkan pengalaman lari yang menantang dan menyenangkan secara sosial dan visual. Perlombaan akan berlangsung di Bali United Training Center, dengan pengambilan Race Pack pada 28–29 November 2025 dan Hari Perlombaan pada 30 November 2025.",
+  "benefit_peserta": [
+    "BIB",
+    "Jersey",
+    "Drawstring Bag",
+    "Finisher Medal",
+    "Finisher Jersey for HM"
+  ],
+  "lokasi": "Bali United Training Center, Gianyar, Bali",
+  "kota": "Gianyar",
+  "tanggal_event": "2025-11-30",
+  "kontak_event": {
+    "Instagram": [
+      "@opporunid"
+    ],
+    "WhatsApp": "0887 3443 101"
+  },
+  "biaya_registrasi": {
+    "Kid Dash": "IDR 200.000",
+    "5K": "IDR 250.000",
+    "10K": "IDR 450.000",
+    "Half Marathon": "IDR 600.000"
+  },
+  "kategori": [
+    "Kid Dash",
+    "5K",
+    "10K",
+    "Half Marathon"
+  ],
+  "jenis_event": "road run"
+}

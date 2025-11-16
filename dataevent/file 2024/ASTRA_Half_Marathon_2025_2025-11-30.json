@@ -1,0 +1,34 @@
+{
+  "image": "ASTRA_Half_Marathon_2025_2025-11-30.jpg",
+  "judul": "ASTRA Half Marathon 2025",
+  "isi_informasi": "Astra kembali menyelenggarakan Astra Half Marathon 2025 dengan tema Together In Motion, mengajak masyarakat untuk hidup sehat dan berkelanjutan. Event ini juga mendukung misi keberlanjutan dengan penanaman 2.000 bibit pohon. Peserta dapat memilih kategori Half Marathon, 10K, dan 5K, dengan total hadiah mencapai ratusan juta rupiah. Setiap peserta akan mendapatkan BIB, Jersey, Finisher Medal, Finisher Jacket, e-Certificate, dan kesempatan untuk meraih podium di setiap kategori.",
+  "benefit_peserta": [
+    "BIB",
+    "Jersey",
+    "Finisher Medal",
+    "Finisher Jacket",
+    "e-Certificate",
+    "Kesempatan mendapatkan podium setiap kategori"
+  ],
+  "lokasi": "Astra Biz Center BSD City, Pagedangan, Tangerang, Banten",
+  "kota": "Tangerang",
+  "tanggal_event": "2025-11-30",
+  "kontak_event": {
+    "Instagram": [
+      "@satu_indonesia",
+      "@astrarunners"
+    ],
+    "WhatsApp": "082312790353"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 395.000",
+    "10K": "IDR 450.000",
+    "Half Marathon": "IDR 600.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "Half Marathon"
+  ],
+  "jenis_event": "road run"
+}

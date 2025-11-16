@@ -1,0 +1,28 @@
+{
+  "image": "KulineRun_NusantaRun_2025_2025-01-12.jpg",
+  "judul": "KulineRun NusantaRun 2025",
+  "isi_informasi": "KulineRun adalah event lari yang menggabungkan olahraga dan kuliner, memberikan pengalaman berlari sekaligus menikmati berbagai hidangan lezat. Segera daftarkan diri Anda sebelum tiket Early Bird habis!",
+  "benefit_peserta": [
+    "Pengalaman kuliner yang unik",
+    "Kesehatan melalui olahraga",
+    "Keseruan berlari bersama teman"
+  ],
+  "lokasi": "G Walk, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2025-01-12",
+  "kontak_event": {
+    "Instagram": [
+      "@kulinerun_id"
+    ],
+    "WhatsApp": "0812 2488 8825"
+  },
+  "biaya_registrasi": {
+    "10K": "IDR 275.000",
+    "5K": "IDR 225.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

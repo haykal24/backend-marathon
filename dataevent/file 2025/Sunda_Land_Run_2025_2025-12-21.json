@@ -1,0 +1,33 @@
+{
+  "image": "Sunda_Land_Run_2025_2025-12-21.webp",
+  "judul": "Sunda Land Run 2025",
+  "isi_informasi": "Ikuti keseruan Sundaland Run 2025 di Kota Bogor! Nikmati pengalaman berlari di udara segar dengan pemandangan hijau dan nuansa budaya. Pilih antara 5K Fun Run untuk pengalaman santai atau 10K Challenge bagi yang mencari tantangan. Setiap peserta akan mendapatkan jersey, medali finisher, e-certificate, goodie bag, dan kesempatan memenangkan hadiah dari Galeri 24. Pantau langkahmu secara real-time melalui Innovia Superapp dan kumpulkan reward points selama event.",
+  "benefit_peserta": [
+    "Exclusive Race Jersey",
+    "BIB Number",
+    "E-Certificate",
+    "Medali Finisher",
+    "Refreshment",
+    "Photo & Media Access",
+    "Festival Access",
+    "Special Surprises"
+  ],
+  "lokasi": "PUSDIKZI KODIKLATAD - Lapangan Zeni, Kec. Bogor Tengah, Kota Bogor, Jawa Barat",
+  "kota": "Bogor",
+  "tanggal_event": "2025-12-21",
+  "kontak_event": {
+    "Instagram": [
+      "@sundalandrun"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 285.000",
+    "10K": "IDR 385.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

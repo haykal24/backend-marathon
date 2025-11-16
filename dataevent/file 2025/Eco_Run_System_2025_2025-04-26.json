@@ -1,0 +1,32 @@
+{
+  "image": "Eco_Run_System_2025_2025-04-26.jpg",
+  "judul": "Eco Run System 2025",
+  "isi_informasi": "Eco Run System 2025 menawarkan pengalaman menarik dalam 5K Fun Run di Bali Utara, di mana peserta dapat menikmati keindahan alam sambil berlari. Acara ini bertujuan untuk mempromosikan gaya hidup sehat dan kesadaran lingkungan.",
+  "benefit_peserta": [
+    "Asuransi",
+    "Jersey",
+    "Medali Finisher",
+    "BIB",
+    "Stiker",
+    "Tote Bag",
+    "Foto Gratis",
+    "Videobooth 360"
+  ],
+  "lokasi": "Krisna Oleh Oleh Singaraja, Bali",
+  "kota": "Singaraja",
+  "tanggal_event": "2025-04-26",
+  "kontak_event": {
+    "Instagram": [
+      "@ecorunsystem"
+    ],
+    "WhatsApp": "+62 819-3210-8860"
+  },
+  "biaya_registrasi": {
+    "5K (Early Bird)": "IDR 199.000",
+    "5K (Normal Price)": "IDR 249.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

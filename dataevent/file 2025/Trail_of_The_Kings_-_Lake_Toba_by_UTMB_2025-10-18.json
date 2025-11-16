@@ -1,0 +1,38 @@
+{
+  "image": "Trail_of_The_Kings_-_Lake_Toba_by_UTMB_2025-10-18.png",
+  "judul": "Trail of The Kings - Lake Toba by UTMB",
+  "isi_informasi": "Ikuti Trail of The Kings, kompetisi lari lintas alam yang diadakan di Pulau Samosir, Danau Toba. Nama ini menghormati masyarakat Batak yang berperan sebagai pelopor dalam membuka jalan di hutan. Peserta akan menjelajahi rute 100K yang menantang dengan pemandangan yang menakjubkan. Tema acara ini adalah 'Live Your Legend'.",
+  "benefit_peserta": [
+    "BIB",
+    "String Bag",
+    "Jersey",
+    "Finisher Medal",
+    "Refreshment"
+  ],
+  "lokasi": "Waterfront City Pangururan, Samosir, Sumatra Utara",
+  "kota": "Samosir",
+  "tanggal_event": "2025-10-18",
+  "kontak_event": {
+    "Instagram": [
+      "@trailofthekingsbyutmb"
+    ],
+    "WhatsApp": "+6287752451532"
+  },
+  "biaya_registrasi": {
+    "Kids": "IDR 270.000",
+    "5K": "IDR 405.000",
+    "10K": "IDR 918.000",
+    "28K": "IDR 1.673.000",
+    "60K": "IDR 2.428.000",
+    "100K": "IDR 3.778.000"
+  },
+  "kategori": [
+    "Kids",
+    "5K",
+    "10K",
+    "28K",
+    "60K",
+    "100K"
+  ],
+  "jenis_event": "trail run"
+}

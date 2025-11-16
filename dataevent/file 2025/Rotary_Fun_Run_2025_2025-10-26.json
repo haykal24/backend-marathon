@@ -1,0 +1,37 @@
+{
+  "image": "Rotary_Fun_Run_2025_2025-10-26.jpg",
+  "judul": "Rotary Fun Run 2025",
+  "isi_informasi": "Rotary Fun Run 2025 merupakan bagian dari gerakan global Step for Zero Polio, bertujuan untuk memberantas polio dengan memastikan anak-anak mendapatkan imunisasi yang tepat. Terdapat kategori lari 3K, 5K, dan 10K. Setiap partisipasi akan mendukung upaya menciptakan dunia bebas polio. Peserta akan mendapatkan jersey eksklusif, goodie bag, bib number, medali finisher, refreshment, serta kesempatan menikmati Zumba, bazar, dan doorprize.",
+  "benefit_peserta": [
+    "Jersey Eksklusif",
+    "Goodie Bag",
+    "Bib Number",
+    "Medali Finisher",
+    "Refreshment Segar",
+    "Kesempatan Menikmati Zumba",
+    "Bazar",
+    "Doorprize Menarik"
+  ],
+  "lokasi": "Awanncosta POJ Semarang - Kawasan Bibir Pantai, POJ City, Semarang, Jawa Tengah",
+  "kota": "Semarang",
+  "tanggal_event": "2025-10-26",
+  "kontak_event": {
+    "Instagram": [
+      "@rotary.funrun"
+    ],
+    "WhatsApp": "+628973655777"
+  },
+  "biaya_registrasi": {
+    "3K Promo BNI Wondr": "IDR 135.000",
+    "5K Promo BNI Wondr": "IDR 155.000",
+    "10K Promo BNI Wondr": "IDR 255.000",
+    "5K": "IDR 175.000",
+    "10K": "IDR 275.000"
+  },
+  "kategori": [
+    "3K",
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

@@ -1,0 +1,34 @@
+{
+  "image": "Pekalongan_Heritage_Run_2025_2025-10-05.webp",
+  "judul": "Pekalongan Heritage Run 2025",
+  "isi_informasi": "Pekalongan Heritage Run 2025 hadir kembali dengan menawarkan pengalaman lari yang unik. Peserta dapat memilih jarak 5K atau 10K sambil menikmati keindahan bangunan bersejarah di Pekalongan. Event ini bertema 'Running and Explore the Heritage of Pekalongan' dan berlangsung di Kawasan Budaya Jetayu. Selain sebagai ajang sport tourism, acara ini juga mempromosikan gaya hidup sehat melalui lari.",
+  "benefit_peserta": [
+    "Jersey Race",
+    "Medali Finisher",
+    "BIB Number (Timing Chip)",
+    "Tote Bag",
+    "Water Station & Refreshment",
+    "Podium",
+    "Doorprize",
+    "Hiburan",
+    "Race Result & e-Certificate"
+  ],
+  "lokasi": "Kawasan Budaya Jetayu, Pekalongan, Jawa Tengah",
+  "kota": "Pekalongan",
+  "tanggal_event": "2025-10-05",
+  "kontak_event": {
+    "Instagram": [
+      "@pekalongan_heritage"
+    ],
+    "WhatsApp": "082328685544"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 200.000",
+    "10K": "IDR 300.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

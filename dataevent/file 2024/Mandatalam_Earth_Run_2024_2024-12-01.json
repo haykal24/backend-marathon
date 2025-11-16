@@ -1,0 +1,26 @@
+{
+  "image": "Mandatalam_Earth_Run_2024_2024-12-01.webp",
+  "judul": "Mandatalam Earth Run 2024",
+  "isi_informasi": "Mandatalam Earth Run adalah acara lari tahunan yang bertujuan untuk menginspirasi masyarakat hidup sehat dan menjaga lingkungan. Acara ini mengedepankan pesan kerukunan dan cinta terhadap alam, serta terbuka untuk semua usia dan tingkat kebugaran.",
+  "benefit_peserta": [
+    "Mendorong gaya hidup sehat",
+    "Kesempatan berlari di lingkungan yang indah",
+    "Pengalaman lari yang seru dan tak terlupakan"
+  ],
+  "lokasi": "Podomoro Park Buah Batu, Bandung, Jawa Barat",
+  "kota": "Bandung",
+  "tanggal_event": "2024-12-01",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "10K": "IDR 350.000",
+    "5K": "IDR 250.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,35 @@
+{
+  "image": "KITB_Industrial_Run_2024_2024-12-15.jpg",
+  "judul": "KITB Industrial Run 2024",
+  "isi_informasi": "KITB Industrial Run 2024 akan berlangsung di Kawasan Industri Terpadu Batang, yang merupakan Proyek Strategis Nasional dengan infrastruktur lengkap dan akses mudah ke jalan tol serta pelabuhan. Event ini menawarkan jalur lari yang bebas kendaraan, pemandangan alam yang indah, dan udara sejuk dari perkebunan karet. Peserta dapat mengejar waktu terbaik di kontur yang datar.",
+  "benefit_peserta": [
+    "Jersey Lomba",
+    "BIB Number (Timing Chip)",
+    "Tote Bag",
+    "Water Station & Refreshment",
+    "Medali Penamat",
+    "Podium 1-2-3 Male & Female",
+    "Race Result & e-Certificate",
+    "Doorprize",
+    "Asuransi",
+    "Hiburan"
+  ],
+  "lokasi": "Kawasan Industri Terpadu Batang, Jawa Tengah",
+  "kota": "Batang",
+  "tanggal_event": "2024-12-15",
+  "kontak_event": {
+    "Instagram": [
+      "@industrial.run"
+    ],
+    "WhatsApp": "0895 2640 1260"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 150.000",
+    "10K": "IDR 250.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

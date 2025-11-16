@@ -1,0 +1,27 @@
+{
+  "image": "CC5K_2025_2025-05-17.png",
+  "judul": "CC5K 2025",
+  "isi_informasi": "CC5K kembali diadakan pada tahun 2025 sebagai bagian dari acara CCAD 2025 dengan tema #RunForAutism. Acara ini bertujuan untuk mendukung anak-anak dengan autisme, di mana semua donasi akan disalurkan kepada LSM yang membantu mereka. Selain sebagai ajang lari, CC5K juga mempererat persaudaraan alumni dan meningkatkan kepedulian terhadap keberagaman.",
+  "benefit_peserta": [
+    "Mendukung anak-anak dengan autisme",
+    "Mempererat persaudaraan alumni",
+    "Meningkatkan kepedulian terhadap keberagaman"
+  ],
+  "lokasi": "Kolese Kanisius, Menteng Raya No. 64, Jakarta Pusat, DKI Jakarta",
+  "kota": "Jakarta Pusat",
+  "tanggal_event": "2025-05-17",
+  "kontak_event": {
+    "Instagram": [
+      "@ccad2025"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K Pelajar": "IDR 250.000",
+    "5K Umum": "IDR 300.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

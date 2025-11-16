@@ -1,0 +1,33 @@
+{
+  "image": "Zoo_Run_2025_2025-10-18.png",
+  "judul": "Zoo Run 2025",
+  "isi_informasi": "Zoo Run 2025 menawarkan pengalaman lari unik dengan konsep semi cross country di Lembang Park & Zoo. Acara ini tidak hanya lomba, tetapi juga kampanye untuk konservasi satwa dan lingkungan. Terdapat dua kategori, yaitu 10K dan 5K, dengan berbagai keuntungan bagi peserta.",
+  "benefit_peserta": [
+    "Jersey Running",
+    "Tas Goodybag",
+    "Race Number",
+    "Medali Finisher",
+    "Refreshment",
+    "Water Station",
+    "Freebies sponsor",
+    "Doorprize"
+  ],
+  "lokasi": "Lembang Park & Zoo, Jl. Kolonel Masturi No.171, Lembang, Bandung Barat, Jawa Barat",
+  "kota": "Bandung Barat",
+  "tanggal_event": "2025-10-18",
+  "kontak_event": {
+    "Instagram": [
+      "@zoorun.lpz"
+    ],
+    "WhatsApp": "08991177200"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 200.000",
+    "10K": "IDR 300.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

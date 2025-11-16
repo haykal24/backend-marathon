@@ -1,0 +1,31 @@
+{
+  "image": "PIK_Nite_Run_2025_2025-08-16.png",
+  "judul": "PIK Nite Run 2025",
+  "isi_informasi": "PIK Nite Run 2025 adalah lomba lari malam pertama di pantai PIK2 yang diselenggarakan oleh Agung Sedayu Group. Dengan tema Glow Up in Motion, event ini terbuka untuk umum dan menargetkan 3.000 peserta. Acara ini juga akan diajukan ke MURI sebagai lomba lari malam dengan pelari bercahaya terbanyak di Indonesia.",
+  "benefit_peserta": [
+    "Medali finisher (bagi yang menyelesaikan lomba)",
+    "Race pack berisi: Race tee resmi peserta, Nomor dada (BIB), Gelang cahaya, Produk sponsor, Online race guide",
+    "Dokumentasi foto (dengan sistem photo tagging)",
+    "Race result & e-certificate"
+  ],
+  "lokasi": "SPIKE Airdome PIK2, Tangerang, Banten",
+  "kota": "Tangerang",
+  "tanggal_event": "2025-08-16",
+  "kontak_event": {
+    "Instagram": [
+      "@pikniterun"
+    ],
+    "WhatsApp": "+62 877 0210 2016"
+  },
+  "biaya_registrasi": {
+    "Little Heroes Sprint": "IDR 100.000",
+    "5K": "IDR 200.000",
+    "10K": "IDR 300.000"
+  },
+  "kategori": [
+    "Little Heroes Sprint",
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

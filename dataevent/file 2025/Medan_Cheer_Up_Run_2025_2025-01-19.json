@@ -1,0 +1,33 @@
+{
+  "image": "Medan_Cheer_Up_Run_2025_2025-01-19.jpg",
+  "judul": "Medan Cheer Up Run 2025",
+  "isi_informasi": "Medan Cheer Up Run 2025 mengajak semua penggemar lari untuk berpartisipasi dalam lomba lari jalan raya dengan kategori 5K dan 10K. Acara ini terbuka untuk umum dan akan diadakan pada Minggu, 19 Januari 2025, di Nusa Dua Heritage, Medan. Pendaftaran dibuka dari 10 November 2024 hingga 5 Januari 2025. Perlombaan 10K dimulai pukul 05.40 WIB dengan batas waktu 120 menit, sedangkan 5K dimulai pukul 06.15 WIB dengan batas waktu 90 menit. Setiap peserta akan mendapatkan racepack yang terdiri dari jersey, BIB, medali, goodie bag, dan e-certificate. Terdapat hadiah menarik untuk pemenang di setiap kategori.",
+  "benefit_peserta": [
+    "Jersey",
+    "BIB",
+    "Medali",
+    "Goodie Bag",
+    "E-Certificate untuk seluruh finisher",
+    "Hadiah menarik"
+  ],
+  "lokasi": "Nusa Dua Heritage, Medan, Sumatera Utara",
+  "kota": "Medan",
+  "tanggal_event": "2025-01-19",
+  "kontak_event": {
+    "Instagram": [
+      "@medancheeruprun2025"
+    ],
+    "WhatsApp": "0812 6215 3015"
+  },
+  "biaya_registrasi": {
+    "5K Pelajar": "IDR 125.000",
+    "5K Umum": "IDR 150.000",
+    "10K Umum": "IDR 200.000",
+    "10K Master": "IDR 250.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

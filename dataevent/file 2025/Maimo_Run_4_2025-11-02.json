@@ -1,0 +1,28 @@
+{
+  "image": "Maimo_Run_4_2025-11-02.png",
+  "judul": "Maimo Run 4",
+  "isi_informasi": "Maimo Run 4 adalah ajang lari yang mengajak masyarakat merayakan hidup sehat dengan semangat sportivitas dan kebersamaan. Acara ini tidak hanya perlombaan, tetapi juga wadah untuk saling terhubung dan berbagi energi positif. Diharapkan peserta mendapatkan pengalaman berlari yang seru dan bermakna.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Number"
+  ],
+  "lokasi": "Pantai Kamali, Baubau",
+  "kota": "Baubau",
+  "tanggal_event": "2025-11-02",
+  "kontak_event": {
+    "Instagram": [
+      "@maimorun4"
+    ],
+    "WhatsApp": "+62 821‑6889‑2620‬"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 225.000",
+    "10K": "IDR 275.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

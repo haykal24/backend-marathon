@@ -1,0 +1,34 @@
+{
+  "image": "Pusbatara_Run_2025_2025-08-31.png",
+  "judul": "Pusbatara Run 2025",
+  "isi_informasi": "PUSBATARA (Pusat Budaya Alam Nusantara) mengadakan event lari bertema 'Run for One World Family' untuk mendorong peserta berlari dengan gembira sambil mendukung kampanye lingkungan. Acara ini bertujuan untuk menciptakan masyarakat yang harmonis dan bahagia.",
+  "benefit_peserta": [
+    "Jersey",
+    "Finisher Medal",
+    "BIB Number",
+    "String Bag",
+    "Tyeso Tumbler",
+    "Sponsor Product",
+    "Tiket Masuk Ancol"
+  ],
+  "lokasi": "Pasar Seni, Ancol, Jakarta Utara, DKI Jakarta",
+  "kota": "Jakarta Utara",
+  "tanggal_event": "2025-08-31",
+  "kontak_event": {
+    "Instagram": [
+      "@pusbatara.run"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 350.000",
+    "10K": "IDR 450.000",
+    "20K Duo": "IDR 800.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "20K Duo"
+  ],
+  "jenis_event": "road run"
+}

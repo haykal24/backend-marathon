@@ -1,0 +1,35 @@
+{
+  "image": "Gajah_Trail_Run_GTR_Ultra_2026_2026-09-27.jpg",
+  "judul": "Gajah Trail Run (GTR) Ultra 2026",
+  "isi_informasi": "Gajah Trail Run (GTR) Ultra 2026 adalah event lari lintas alam yang berlangsung di Gunung Gajah Telomoyo, Karangbawang, Gunung Telomoyo, Pagergedog, Sepakung, dan Kayuwangi. Event ini telah diselenggarakan selama empat tahun dan termasuk dalam Kalender Pariwisata Kementerian Pariwisata Republik Indonesia, dengan dukungan dari Pemerintah Kabupaten Semarang dan Pemerintah Provinsi Jawa Tengah. Terdapat beberapa kategori lari dengan waktu mulai yang berbeda-beda pada tanggal 27 September 2026.",
+  "benefit_peserta": [
+    "Tas Racepack",
+    "BIB",
+    "Race Jersey",
+    "Finisher Medal",
+    "Refreshments",
+    "Product Sponsor"
+  ],
+  "lokasi": "Lapangan Kayuwangi, Gedong, Banyubiru, Kab. Semarang, Jawa Tengah",
+  "kota": "Semarang",
+  "tanggal_event": "2026-09-27",
+  "kontak_event": {
+    "Instagram": [
+      "@gtrultra"
+    ],
+    "WhatsApp": "+62 878 3478 2626"
+  },
+  "biaya_registrasi": {
+    "7K": "Rp 350.000",
+    "12K": "Rp 550.000",
+    "30K": "Rp 750.000",
+    "52K": "Rp 950.000"
+  },
+  "kategori": [
+    "7K",
+    "12K",
+    "30K",
+    "52K"
+  ],
+  "jenis_event": "trail run"
+}

@@ -1,0 +1,31 @@
+{
+  "image": "Kalamangsa_Fun_Run_2025-02-09.png",
+  "judul": "Kalamangsa Fun Run",
+  "isi_informasi": "Kalamangsa Fun Run 'Sabang Merauke' adalah bagian dari Kalamangsa Fest 2025 yang merayakan Hari Jadi Sanggar Kalamangsa Purwokerto ke-35. Selain berlari, peserta dapat menikmati berbagai kesenian tradisional dan kuliner Nusantara. Event ini menawarkan pengalaman menarik melalui seni pertunjukan.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali Finisher",
+    "Tas",
+    "BIB Number",
+    "Water Station",
+    "Cek Kesehatan Gratis",
+    "Asuransi",
+    "Dokumentasi GRATIS"
+  ],
+  "lokasi": "Menara Teratai Purwokerto, Jawa Tengah",
+  "kota": "Purwokerto",
+  "tanggal_event": "2025-02-09",
+  "kontak_event": {
+    "Instagram": [
+      "@kalamangsafest2025"
+    ],
+    "WhatsApp": "0812 2814 3455"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 150.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

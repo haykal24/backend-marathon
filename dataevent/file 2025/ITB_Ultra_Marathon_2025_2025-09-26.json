@@ -1,0 +1,27 @@
+{
+  "image": "ITB_Ultra_Marathon_2025_2025-09-26.jpg",
+  "judul": "ITB Ultra Marathon 2025",
+  "isi_informasi": "ITB Ultra Marathon adalah acara lari marathon yang diselenggarakan oleh Institut Teknologi Bandung dan Yayasan Solidarity Forever untuk merayakan HUT ITB. Sejak 2017, event ini menjadi agenda tahunan yang dinantikan oleh alumni dan civitas akademika ITB. Dengan tema 'Run for Stronger Unity in Diversity', acara ini bertujuan untuk menyatukan akademisi, alumni, dan mahasiswa dari seluruh Indonesia. Event ini terbuka untuk umum dengan kategori individual dan relay hingga 16 peserta, memberikan kesempatan untuk menguji ketangguhan diri dan kekompakan tim.",
+  "benefit_peserta": [
+    "Kesempatan untuk berlari di rute Jakarta-Bandung",
+    "Meningkatkan sportivitas dan kebersamaan",
+    "Memperkuat persatuan dalam keberagaman"
+  ],
+  "lokasi": "Jakarta - Bandung, Jawa Barat",
+  "kota": "Jakarta",
+  "tanggal_event": "2025-09-26",
+  "kontak_event": {
+    "Instagram": [
+      "@itbultra"
+    ],
+    "WhatsApp": "0823 3786 7209"
+  },
+  "biaya_registrasi": {
+    "ITB Ultra Marathon": "180K"
+  },
+  "kategori": [
+    "individual",
+    "relay"
+  ],
+  "jenis_event": "road run"
+}
