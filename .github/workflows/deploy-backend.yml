@@ -46,6 +46,13 @@ jobs:
         env:
           CACHE_DRIVER: array
 
+      - name: Optimize for Production
+        run: |
+          php artisan filament:optimize
+          php artisan optimize
+        env:
+          CACHE_DRIVER: array
+
       - name: Deploy Backend to cPanel
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
