@@ -38,6 +38,11 @@ class RatePackageResource extends Resource
         return 2;
     }
 
+    public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::where('is_active', true)->count() ?: null;
+    }
+
     public static function form(Schema $schema): Schema
     {
         return $schema

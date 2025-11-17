@@ -35,4 +35,28 @@ class EventTypeController extends BaseApiController
             new EventTypeResource($type)
         );
     }
+
+    public function store(\Illuminate\Http\Request $request): JsonResponse
+    {
+        $validator = \Illuminate\Support\Facades\Validator::make($request->all(), [
+            'name' => 'required|string|max:255|unique:event_types,name',
+        ]);
+
+        if ($validator->fails()) {
+            return $this->validationErrorResponse($validator);
+        }
+
+        $type = EventType::create([
+            'name' => $request->name,
+            'is_active' => true,
+        ]);
+
+        Cache::forget('event_types:all');
+
+        return $this->successResponse(
+            new EventTypeResource($type),
+            'Event type created successfully',
+            201
+        );
+    }
 }

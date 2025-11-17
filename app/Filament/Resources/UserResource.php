@@ -33,6 +33,11 @@ class UserResource extends Resource
         return 1; // Users (pertama di Pengaturan Akses)
     }
 
+    public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count() ?: null;
+    }
+
     public static function form(Schema $schema): Schema
     {
         return $schema

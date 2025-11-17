@@ -1,11 +1,10 @@
 <?php
 
-use App\Http\Controllers\Api\SitemapController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/__sitemap__/urls', SitemapController::class);
-
 Route::prefix('v1')->group(function () {
+    // Sitemap endpoint (untuk Nuxt SEO module)
+    Route::get('/sitemap', [App\Http\Controllers\Api\V1\SitemapController::class, '__invoke']);
     // Ad Banners
     Route::get('/banners', [App\Http\Controllers\Api\V1\AdBannerController::class, 'index']);
 
@@ -18,6 +17,9 @@ Route::prefix('v1')->group(function () {
     
     Route::get('/event-types', [App\Http\Controllers\Api\V1\EventTypeController::class, 'index']);
     Route::get('/event-types/{slug}', [App\Http\Controllers\Api\V1\EventTypeController::class, 'show']);
+    
+    Route::get('/event-categories', [App\Http\Controllers\Api\V1\EventCategoryController::class, 'index']);
+    Route::get('/event-categories/{slug}', [App\Http\Controllers\Api\V1\EventCategoryController::class, 'show']);
     
     Route::get('/provinces', [App\Http\Controllers\Api\V1\ProvinceController::class, 'index']);
     Route::get('/provinces/{slug}', [App\Http\Controllers\Api\V1\ProvinceController::class, 'show']);
@@ -47,13 +49,28 @@ Route::prefix('v1')->group(function () {
     Route::get('/faqs/{id}', [App\Http\Controllers\Api\V1\FAQController::class, 'show']);
     
     // OTP routes (public)
+    Route::post('/otp/check-phone', [App\Http\Controllers\Api\V1\OtpController::class, 'checkPhone']);
     Route::post('/otp/request', [App\Http\Controllers\Api\V1\OtpController::class, 'request']);
     Route::post('/otp/verify', [App\Http\Controllers\Api\V1\OtpController::class, 'verify']);
     
     // Authenticated routes (require Sanctum token)
     Route::middleware('auth:sanctum')->group(function () {
-        Route::post('/events/submit', [App\Http\Controllers\Api\V1\EventController::class, 'store']);
+        Route::post('/events', [App\Http\Controllers\Api\V1\EventController::class, 'store']);
+        Route::post('/event-types', [App\Http\Controllers\Api\V1\EventTypeController::class, 'store']);
+        Route::post('/event-categories', [App\Http\Controllers\Api\V1\EventCategoryController::class, 'store']);
+        
         Route::get('/user', [App\Http\Controllers\Api\V1\AuthController::class, 'user']);
         Route::post('/logout', [App\Http\Controllers\Api\V1\AuthController::class, 'logout']);
+
+        // Profile endpoints
+        Route::get('/me', [App\Http\Controllers\Api\V1\ProfileController::class, 'show']);
+        Route::put('/me', [App\Http\Controllers\Api\V1\ProfileController::class, 'update']);
+
+        // Mitra/EO Dashboard
+        Route::prefix('mitra')->group(function () {
+            Route::get('/dashboard-stats', [App\Http\Controllers\Api\V1\MitraController::class, 'dashboardStats']);
+            Route::get('/events', [App\Http\Controllers\Api\V1\MitraController::class, 'myEvents']);
+            Route::get('/events/{event:id}', [App\Http\Controllers\Api\V1\MitraController::class, 'show']);
+        });
     });
 });

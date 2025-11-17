@@ -1,59 +1,102 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Backend - Marathon Platform
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+REST API Backend menggunakan **Laravel 12** dengan **Filament 4** admin panel.
 
-## About Laravel
+## 🚀 Quick Start
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+```bash
+# Install dependencies
+composer install
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# Setup environment
+cp .env.example .env
+php artisan key:generate
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+# Run migrations
+php artisan migrate
 
-## Learning Laravel
+# Start development server
+php artisan serve
+```
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## 📦 API Endpoints
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **Base URL:** `https://api.yourdomain.com/api`
+- **Admin Panel:** `https://api.yourdomain.com/admin`
 
-## Laravel Sponsors
+### Key Routes
+- `GET /events` - List events
+- `POST /events` - Create event (requires auth)
+- `GET /events/{slug}` - Event detail
+- `POST /otp/request` - Request OTP
+- `POST /otp/verify` - Verify OTP
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 🔐 Authentication
 
-### Premium Partners
+Menggunakan **Laravel Sanctum** untuk API token authentication setelah WA OTP verification.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+```bash
+# Get token:
+POST /api/otp/request
+{
+  "phone_number": "0812XXXXXXXX"
+}
 
-## Contributing
+# Verify OTP:
+POST /api/otp/verify
+{
+  "phone_number": "0812XXXXXXXX",
+  "code": "123456"
+}
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🐳 Docker (Optional)
 
-## Code of Conduct
+```bash
+# Build image
+docker build -t marathon-api .
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+# Run container
+docker run -p 8000:8000 marathon-api
+```
 
-## Security Vulnerabilities
+## 🚀 Deployment
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Automated (GitHub Actions)
+Push ke branch `master` akan auto-deploy ke cPanel via FTP.
 
-## License
+**Requirements:**
+- Set GitHub Secrets:
+  - `CPANEL_FTP_HOST`
+  - `BACKEND_FTP_USER`
+  - `BACKEND_FTP_PASS`
+  - `DB_HOST`, `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Manual
+```bash
+# 1. Install composer deps
+composer install --no-dev --optimize-autoloader
+
+# 2. Generate key
+php artisan key:generate
+
+# 3. Upload via FTP (exclude vendor, .env, tests)
+
+# 4. SSH ke server & run:
+php artisan migrate --force
+php artisan optimize
+```
+
+## 📝 Key Files
+
+- `routes/api.php` - API routes
+- `app/Http/Controllers/Api/V1/` - Controllers
+- `app/Models/` - Database models
+- `database/migrations/` - Migrations
+- `.env.example` - Environment template
+
+## 📚 Documentation
+
+- Laravel: https://laravel.com/docs/12.x
+- Filament: https://filamentphp.com
+- API: Docs available at `/api/docs`

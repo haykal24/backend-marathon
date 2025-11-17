@@ -19,6 +19,7 @@ class Event extends Model implements HasMedia
 
     protected $fillable = [
         'user_id',
+        'rate_package_id',
         'title',
         'slug',
         'description',
@@ -78,6 +79,11 @@ class Event extends Model implements HasMedia
         return $this->belongsTo(User::class);
     }
 
+    public function ratePackage(): BelongsTo
+    {
+        return $this->belongsTo(RatePackage::class);
+    }
+
     public function categories(): BelongsToMany
     {
         return $this->belongsToMany(EventCategory::class, 'category_event', 'event_id', 'category_id');
@@ -122,8 +128,9 @@ class Event extends Model implements HasMedia
     {
         $this->addMediaCollection('default')
             ->singleFile()
-            ->useDisk('public')
-            ->useFallbackUrl('/images/placeholder.jpg');
+            ->useDisk('public');
+        // Removed useFallbackUrl - biarkan null jika tidak ada image
+        // Frontend akan handle fallback dengan bg-primary gradient
     }
 
     public function registerMediaConversions(?Media $media = null): void

@@ -10,26 +10,33 @@ class EventCategorySeeder extends Seeder
     public function run(): void
     {
         $categories = [
-            '5K',
-            '10K',
-            '21K',
-            '42K',
-            'Fun Run',
-            'Trail Run',
-            'Virtual Run',
-            'Marathon',
-            'Half Marathon',
-            'Ultra Marathon',
+            [
+                'name' => '5K',
+                'slug' => '5k',
+            ],
+            [
+                'name' => '10K',
+                'slug' => '10k',
+            ],
+            [
+                'name' => '21K',
+                'slug' => '21k',
+            ],
+            [
+                'name' => '42K',
+                'slug' => '42k',
+            ],
+            [
+                'name' => 'Kids',
+                'slug' => 'kids',
+            ],
         ];
 
         foreach ($categories as $category) {
-            EventCategory::firstOrCreate(
-                ['slug' => \Illuminate\Support\Str::slug($category)],
-                ['name' => $category]
+            EventCategory::updateOrCreate(
+                ['slug' => $category['slug']],
+                $category
             );
         }
-
-        $this->command->info('Event categories seeded successfully!');
     }
 }
-

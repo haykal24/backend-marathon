@@ -5,6 +5,8 @@ namespace App\Filament\Resources;
 use App\Filament\Resources\EventResource\Pages;
 use App\Models\Event;
 use App\Models\EventCategory;
+use App\Models\EventType;
+use App\Models\Province;
 use Filament\Actions;
 use Filament\Forms\Components;
 use Filament\Forms\Components\Tabs;
@@ -42,6 +44,11 @@ class EventResource extends Resource
     public static function getNavigationGroup(): ?string
     {
         return 'Manajemen Event';
+    }
+
+    public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count() ?: null;
     }
 
     public static function form(Schema $schema): Schema
@@ -83,7 +90,15 @@ class EventResource extends Resource
                             ->label('Kota'),
                         Components\Select::make('province')
                             ->label('Provinsi')
-                            ->options(fn () => \App\Models\Province::where('is_active', true)->pluck('name', 'name'))
+                            ->options(fn () => Province::where('is_active', true)
+                                ->whereNotNull('name')
+                                ->where('name', '!=', '')
+                                ->get()
+                                ->filter(fn ($province) => !empty($province->name))
+                                ->mapWithKeys(fn ($province) => [$province->name => $province->name])
+                                ->filter()
+                                ->toArray()
+                            )
                             ->searchable()
                             ->preload()
                             ->helperText('Pilih provinsi dari daftar yang tersedia'),
@@ -96,7 +111,16 @@ class EventResource extends Resource
                         Components\Select::make('event_type')
                             ->required()
                             ->label('Jenis Event')
-                            ->options(fn () => \App\Models\EventType::where('is_active', true)->pluck('name', 'slug'))
+                            ->options(fn () => EventType::where('is_active', true)
+                                ->whereNotNull('name')
+                                ->whereNotNull('slug')
+                                ->where('name', '!=', '')
+                                ->get()
+                                ->filter(fn ($type) => !empty($type->name) && !empty($type->slug))
+                                ->mapWithKeys(fn ($type) => [$type->slug => $type->name])
+                                ->filter()
+                                ->toArray()
+                            )
                             ->searchable()
                             ->preload()
                             ->helperText('Pilih jenis event dari daftar yang tersedia'),
@@ -155,7 +179,7 @@ class EventResource extends Resource
                             ->default('pending_review')
                             ->helperText('Pilih status publikasi event'),
                         Components\Select::make('user_id')
-                            ->relationship('user', 'name')
+                            ->relationship('user', 'name', fn ($query) => $query->whereNotNull('name')->where('name', '!=', ''))
                             ->searchable()
                             ->preload()
                             ->label('User/Submitter')
@@ -269,11 +293,11 @@ class EventResource extends Resource
                     ]),
                 Tables\Filters\SelectFilter::make('event_type')
                     ->label('Jenis Event')
-                    ->options(fn () => \App\Models\EventType::where('is_active', true)->pluck('name', 'slug'))
+                    ->options(fn () => EventType::where('is_active', true)->pluck('name', 'slug'))
                     ->searchable(),
                 Tables\Filters\SelectFilter::make('province')
                     ->label('Provinsi')
-                    ->options(fn () => \App\Models\Province::where('is_active', true)->pluck('name', 'name'))
+                    ->options(fn () => Province::where('is_active', true)->pluck('name', 'name'))
                     ->searchable(),
                 Tables\Filters\Filter::make('event_date')
                     ->form([

@@ -15,6 +15,33 @@ use Illuminate\Support\Str;
 class OtpController extends BaseApiController
 {
     /**
+     * Check if phone number is registered
+     */
+    public function checkPhone(Request $request): JsonResponse
+    {
+        $validator = Validator::make($request->all(), [
+            'phone_number' => 'required|string|regex:/^[0-9+\-\s()]+$/|max:20',
+        ]);
+
+        if ($validator->fails()) {
+            return $this->validationErrorResponse($validator, 'Nomor telepon tidak valid');
+        }
+
+        // Normalize phone number
+        $phoneNumber = preg_replace('/[^0-9+]/', '', $request->phone_number);
+
+        // Check if user exists
+        $userExists = User::where('phone_number', $phoneNumber)->exists();
+
+        return $this->successResponse(
+            [
+                'user_exists' => $userExists,
+            ],
+            $userExists ? 'Nomor sudah terdaftar' : 'Nomor belum terdaftar'
+        );
+    }
+
+    /**
      * Request OTP via WhatsApp
      */
     public function request(Request $request): JsonResponse
@@ -45,6 +72,7 @@ class OtpController extends BaseApiController
 
         // For development, return OTP in response (REMOVE IN PRODUCTION)
         $responseData = null;
+        
         if (config('app.debug')) {
             $responseData = [
                 'debug' => [
@@ -68,6 +96,8 @@ class OtpController extends BaseApiController
         $validator = Validator::make($request->all(), [
             'phone_number' => 'required|string|regex:/^[0-9+\-\s()]+$/|max:20',
             'code' => 'required|string|size:6',
+            'name' => 'nullable|string|max:255',
+            'email' => 'nullable|email|max:255',
         ]);
 
         if ($validator->fails()) {
@@ -95,14 +125,25 @@ class OtpController extends BaseApiController
         // Mark OTP as used
         $otpRecord->markAsUsed();
 
-        // Get or create user
+        // Get or create user with provided data
         $user = User::firstOrCreate(
             ['phone_number' => $phoneNumber],
             [
-                'name' => null, // Can be updated later
-                'email' => null,
+                'name' => $request->filled('name') ? trim($request->name) : null,
+                'email' => $request->filled('email') ? trim($request->email) : null,
             ]
         );
+
+        // If user exists but name/email provided (update scenario), update them
+        if (!$user->wasRecentlyCreated && ($request->filled('name') || $request->filled('email'))) {
+            if ($request->filled('name')) {
+                $user->name = trim($request->name);
+            }
+            if ($request->filled('email')) {
+                $user->email = trim($request->email);
+            }
+            $user->save();
+        }
 
         // Assign default EO role if available
         if (method_exists($user, 'hasRole') && method_exists($user, 'assignRole')) {
@@ -133,4 +174,3 @@ class OtpController extends BaseApiController
         );
     }
 }
-

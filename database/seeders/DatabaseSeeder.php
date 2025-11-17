@@ -13,6 +13,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             ShieldSeeder::class,
+            EventTypeSeeder::class,
             EventCategorySeeder::class,
             SiteSettingSeeder::class, // Site settings (logo, kontak, dll)
             VendorSeeder::class,

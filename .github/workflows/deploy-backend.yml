@@ -1,0 +1,91 @@
+name: Deploy Backend to cPanel
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  deploy-backend:
+    name: Deploy Backend (Laravel)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup PHP 8.2
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: mbstring, dom, fileinfo, mysql, gd, curl, bcmath
+          coverage: none
+
+      - name: Prepare Laravel Environment
+        working-directory: backend
+        run: |
+          mkdir -p storage/framework/{sessions,views,cache/data}
+          mkdir -p storage/logs
+          mkdir -p storage/app/public
+          cp .env.example .env
+
+      - name: Cache Composer Dependencies
+        uses: actions/cache@v3
+        with:
+          path: backend/vendor
+          key: ${{ runner.os }}-composer-${{ hashFiles('backend/composer.lock') }}
+          restore-keys: ${{ runner.os }}-composer-
+
+      - name: Install Composer Dependencies
+        working-directory: backend
+        run: composer install --no-interaction --no-dev --optimize-autoloader
+
+      - name: Generate Application Key & Run Discovery
+        working-directory: backend
+        run: |
+          php artisan key:generate --force
+          php artisan package:discover
+        env:
+          CACHE_DRIVER: array
+
+      - name: Deploy Backend to cPanel
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.CPANEL_FTP_HOST }}
+          username: ${{ secrets.BACKEND_FTP_USER }}
+          password: ${{ secrets.BACKEND_FTP_PASS }}
+          local-dir: ./
+          server-dir: ./
+          protocol: ftp
+          port: 21
+          exclude: |
+            **/.git*
+            **/.cursor/**
+            **/.vscode/**
+            **/node_modules/**
+            **/vendor/**
+            vendor/**
+            .env
+            .env.example
+            storage/logs/**
+            storage/framework/cache/data/**
+            storage/framework/sessions/**
+            storage/framework/views/**
+            /tests/
+            /phpunit.xml
+            /.editorconfig
+            /.gitignore
+            /README.md
+            /ENV_OPTIMIZATION.txt
+            /PHP_OPTIMIZATION.txt
+
+      - name: Create Storage Directories on Server
+        run: |
+          mkdir -p bootstrap/cache
+          mkdir -p storage/framework/cache/data
+          mkdir -p storage/framework/sessions
+          mkdir -p storage/framework/views
+          mkdir -p storage/logs
+          mkdir -p storage/app/public
+          chmod -R 775 storage/ bootstrap/cache/

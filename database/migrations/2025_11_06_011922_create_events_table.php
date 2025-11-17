@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('events', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->nullable()->constrained()->nullOnDelete();
+            $table->unsignedBigInteger('rate_package_id')->nullable();
             $table->string('title');
             $table->string('slug')->unique();
             $table->text('description')->nullable();

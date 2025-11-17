@@ -20,14 +20,8 @@ class EventController extends BaseApiController
         $query = Event::query()
             ->select(['id', 'title', 'slug', 'description', 'location_name', 'city', 'province', 
                       'event_date', 'event_end_date', 'event_type', 'status', 'is_featured_hero', 'user_id', 'created_at'])
-            ->with('categories:id,slug,name');
-
-        // EO dashboard: show own events (any status) when mine=1 (auth required)
-        if ($request->boolean('mine') && $request->user()) {
-            $query->where('user_id', $request->user()->id);
-        } else {
-            $query->where('status', 'published');
-        }
+            ->with('categories:id,slug,name')
+            ->where('status', 'published'); // Public API: only published events
 
         // Filter by month (format: YYYY-MM, e.g., 2025-11)
         if ($request->has('month') && preg_match('/^\d{4}-\d{2}$/', $request->month)) {
@@ -169,50 +163,150 @@ class EventController extends BaseApiController
 
     public function store(Request $request): JsonResponse
     {
-        $validator = Validator::make($request->all(), [
+        // Security: Ensure user is authenticated
+        if (!$request->user()) {
+            return $this->errorResponse('Unauthorized', 401);
+        }
+
+        // Decode JSON strings from FormData to arrays
+        $data = $request->all();
+        
+        // Handle benefits
+        if ($request->has('benefits') && is_string($request->benefits)) {
+            $decoded = json_decode($request->benefits, true);
+            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded)) {
+                $data['benefits'] = $decoded;
+            }
+        }
+        
+        // Handle registration_fees
+        if ($request->has('registration_fees') && is_string($request->registration_fees)) {
+            $decoded = json_decode($request->registration_fees, true);
+            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded)) {
+                $data['registration_fees'] = $decoded;
+            }
+        }
+        
+        // Handle contact_info
+        if ($request->has('contact_info') && is_string($request->contact_info)) {
+            $decoded = json_decode($request->contact_info, true);
+            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded)) {
+                $data['contact_info'] = $decoded;
+            }
+        }
+        
+        // Handle social_media
+        if ($request->has('social_media') && is_string($request->social_media)) {
+            $decoded = json_decode($request->social_media, true);
+            if (json_last_error() === JSON_ERROR_NONE && is_array($decoded)) {
+                $data['social_media'] = $decoded;
+            }
+        }
+
+        $validator = Validator::make($data, [
+                'rate_package_id' => 'nullable|integer|exists:rate_packages,id',
             'title' => 'required|string|max:255',
-            'description' => 'nullable|string',
+            'description' => 'nullable|string|max:10000', // Limit description length
             'location_name' => 'required|string|max:255',
             'city' => 'required|string|max:100',
-            'event_date' => 'required|date',
+            'province' => 'nullable|string|max:100',
+            'event_date' => 'required|date|after_or_equal:today', // Prevent past dates
             'event_end_date' => 'nullable|date|after_or_equal:event_date',
-            'event_type' => 'required|string',
+            'event_type' => 'required|string|exists:event_types,slug',
             'organizer_name' => 'nullable|string|max:255',
             'registration_url' => 'nullable|url|max:2048',
-            'benefits' => 'nullable|array',
-            'contact_info' => 'nullable|array',
-            'registration_fees' => 'nullable|array',
-            'social_media' => 'nullable|array',
-            'categories' => 'nullable|array',
-            'categories.*' => 'exists:event_categories,id',
+            'benefits' => 'nullable|array|max:20', // Limit array size
+            'benefits.*' => 'string|max:255',
+            'contact_info' => 'nullable|array|max:10',
+            'contact_info.*' => 'nullable|string|max:500',
+            'registration_fees' => 'nullable|array|max:20',
+            'registration_fees.*' => 'nullable|string|max:100',
+            'social_media' => 'nullable|array|max:10',
+            'social_media.*' => 'nullable|string|max:255',
+            'categories' => 'nullable|array|max:10',
+            'categories.*' => 'integer|exists:event_categories,id',
+            'image' => 'nullable|image|mimes:jpeg,jpg,png,webp|max:5120', // Max 5MB
         ]);
 
         if ($validator->fails()) {
             return $this->validationErrorResponse($validator);
         }
 
-        $event = Event::create([
+            // Sanitize input - Use $data yang sudah di-decode
+            $sanitized = [
             'user_id' => $request->user()->id,
-            'title' => $request->title,
+                'rate_package_id' => $request->rate_package_id,
+                'title' => strip_tags(trim($request->title)),
             'slug' => \Illuminate\Support\Str::slug($request->title),
-            'description' => $request->description,
-            'location_name' => $request->location_name,
-            'city' => $request->city,
-            'province' => $request->province ?? null,
+            'description' => $request->description ? strip_tags(trim($request->description)) : null,
+            'location_name' => strip_tags(trim($request->location_name)),
+            'city' => strip_tags(trim($request->city)),
+            'province' => $request->province ? strip_tags(trim($request->province)) : null,
             'event_date' => $request->event_date,
             'event_end_date' => $request->event_end_date,
             'event_type' => $request->event_type,
-            'organizer_name' => $request->organizer_name,
-            'registration_url' => $request->registration_url,
-            'benefits' => $request->benefits,
-            'contact_info' => $request->contact_info,
-            'registration_fees' => $request->registration_fees,
-            'social_media' => $request->social_media,
+            'organizer_name' => $request->organizer_name ? strip_tags(trim($request->organizer_name)) : null,
+            'registration_url' => $request->registration_url ? filter_var($request->registration_url, FILTER_SANITIZE_URL) : null,
+            'benefits' => isset($data['benefits']) && is_array($data['benefits']) 
+                ? array_map('strip_tags', array_map('trim', $data['benefits'])) 
+                : null,
+            'contact_info' => isset($data['contact_info']) && is_array($data['contact_info'])
+                ? array_map(function ($item) {
+                    if (is_array($item)) {
+                        return array_map('strip_tags', array_map('trim', $item));
+                    }
+                    return strip_tags(trim($item));
+                }, $data['contact_info'])
+                : null,
+            'registration_fees' => isset($data['registration_fees']) && is_array($data['registration_fees'])
+                ? array_map(function ($value) {
+                    return is_string($value) ? strip_tags(trim($value)) : $value;
+                }, $data['registration_fees'])
+                : null,
+            'social_media' => isset($data['social_media']) && is_array($data['social_media'])
+                ? array_map(function ($item) {
+                    if (is_array($item)) {
+                        return array_map('strip_tags', array_map('trim', $item));
+                    }
+                    return strip_tags(trim($item));
+                }, $data['social_media'])
+                : null,
             'status' => 'pending_review',
-        ]);
+        ];
 
+        // Check for duplicate slug
+        $existingSlug = Event::where('slug', $sanitized['slug'])->exists();
+        if ($existingSlug) {
+            $sanitized['slug'] = $sanitized['slug'] . '-' . time();
+        }
+
+        $event = Event::create($sanitized);
+
+        // Handle image upload using Spatie Media Library
+        if ($request->hasFile('image')) {
+            try {
+                $event->clearMediaCollection('default');
+                $event->addMediaFromRequest('image')
+                    ->toMediaCollection('default');
+            } catch (\Exception $e) {
+                // Log error but don't fail the request
+                \Log::error('Failed to upload event image: ' . $e->getMessage());
+            }
+        }
+
+        // Handle categories - support both array and JSON string
         if ($request->has('categories')) {
-            $event->categories()->attach($request->categories);
+            $categories = $request->categories;
+            if (is_string($categories)) {
+                $categories = json_decode($categories, true);
+            }
+            if (is_array($categories) && count($categories) > 0) {
+                // Validate category IDs exist
+                $validCategoryIds = \App\Models\EventCategory::whereIn('id', $categories)->pluck('id')->toArray();
+                if (count($validCategoryIds) > 0) {
+                    $event->categories()->attach($validCategoryIds);
+                }
+            }
         }
 
         return $this->successResponse(

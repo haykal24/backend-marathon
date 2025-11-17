@@ -155,10 +155,10 @@ class SiteSetting extends Model implements HasMedia
             'description' => 'Gambar fallback khusus untuk halaman login jika auth_image tidak ada.',
         ],
         'header_bg_dashboard' => [
-            'label' => 'Header Background Halaman Dashboard EO',
+            'label' => 'Header Background Halaman Dashboard Mitra',
             'type' => 'image',
             'group' => 'page_headers',
-            'description' => 'Gambar latar untuk header halaman Dashboard EO.',
+            'description' => 'Gambar latar untuk header halaman Dashboard Mitra.',
         ],
 
         // Contact

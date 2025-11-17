@@ -32,6 +32,11 @@ class SiteSettingResource extends Resource
         return 1;
     }
 
+    public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count() ?: null;
+    }
+
     public static function form(Schema $schema): Schema
     {
         return SiteSettingForm::configure($schema);

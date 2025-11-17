@@ -20,6 +20,7 @@ class EventResource extends JsonResource
             'id' => $this->id,
             'title' => $this->title,
             'slug' => $this->slug,
+            'status' => $this->status, // Menambahkan status
             'image' => $this->getFirstMediaUrl('default', 'webp') ?: null,
             'location_name' => $this->location_name,
             'city' => $this->city,
