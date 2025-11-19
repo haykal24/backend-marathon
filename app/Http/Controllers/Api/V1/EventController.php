@@ -84,12 +84,19 @@ class EventController extends BaseApiController
 
         // Sort with proper indexes
         $sort = $request->get('sort', 'latest'); // latest, upcoming, featured, popular (default: latest)
+        $allowedOrderColumns = ['event_date', 'created_at', 'updated_at'];
+        $orderBy = $request->get('order_by');
+        if (!in_array($orderBy, $allowedOrderColumns, true)) {
+            $orderBy = null;
+        }
+        $orderDirection = strtolower($request->get('order', 'desc')) === 'asc' ? 'asc' : 'desc';
+
         match ($sort) {
-            'latest' => $query->orderBy('created_at', 'desc'),
-            'upcoming' => $query->orderBy('event_date', 'asc'),
-            'featured' => $query->where('is_featured_hero', true)->orderBy('event_date', 'asc'),
-            'popular' => $query->orderBy('created_at', 'desc'),
-            default => $query->orderBy('created_at', 'desc'),
+            'latest' => $query->orderBy($orderBy ?? 'event_date', $orderDirection),
+            'upcoming' => $query->orderBy($orderBy ?? 'event_date', $orderBy ? $orderDirection : 'asc'),
+            'featured' => $query->where('is_featured_hero', true)->orderBy($orderBy ?? 'event_date', $orderBy ? $orderDirection : 'asc'),
+            'popular' => $query->orderBy($orderBy ?? 'created_at', $orderDirection),
+            default => $query->orderBy($orderBy ?? 'event_date', $orderDirection),
         };
 
         // Pagination with optimized per_page

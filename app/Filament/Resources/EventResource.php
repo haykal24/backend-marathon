@@ -22,6 +22,7 @@ use Filament\Schemas\Components\Utilities\Set;
 use Filament\Schemas\Components\Utilities\Get;
 use Filament\Tables;
 use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
 use Filament\Tables\Columns\ToggleColumn;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\TagsInput;
@@ -217,6 +218,7 @@ class EventResource extends Resource
     public static function table(Table $table): Table
     {
         return $table
+            ->modifyQueryUsing(fn (Builder $query) => $query->orderByDesc('event_date')->orderByDesc('id'))
             ->columns([
                 Tables\Columns\TextColumn::make('no')
                     ->label('NO')
