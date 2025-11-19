@@ -79,6 +79,6 @@ class AdminPanelProvider extends PanelProvider
                 'Konten',
                 'Pengaturan Akses',
             ])
-            ->spa();
+            ->spa(hasPrefetching: true);
     }
 }

@@ -38,24 +38,30 @@ class StaticPageSeeder extends Seeder
             [
                 'title' => 'Kontak',
                 'slug' => 'kontak',
-                'content' => '<h2>Hubungi {{site_name}}</h2>
-                    <p>Kami siap membantu Anda untuk pertanyaan, kerjasama, atau dukungan teknis terkait ekosistem lari di Indonesia.</p>
-                    <h3>Informasi Kontak</h3>
-                    <p><strong>Email:</strong> <a href="mailto:{{contact_email}}">{{contact_email}}</a><br>
-                    <strong>WhatsApp:</strong> <a href="https://wa.me/{{contact_whatsapp_digits}}">{{contact_whatsapp}}</a><br>
-                    <strong>Alamat:</strong> {{contact_address}}</p>
-                    <h3>Jam Operasional</h3>
-                    <p>Senin - Jumat: 09.00 - 17.00 WIB<br>
-                    Sabtu: 09.00 - 13.00 WIB<br>
-                    Minggu: Tutup</p>
-                    <h3>Media Sosial</h3>
-                    <p>Ikuti update event dan tips lari kami di:<br>
-                    Instagram: {{instagram_handle}}<br>
-                    Facebook: {{facebook_url}}<br>
-                    X (Twitter): {{twitter_handle}}<br>
-                    TikTok: {{tiktok_handle}}</p>',
+                'content' => '<h2>Proses Kolaborasi di {{site_name}}</h2>
+                    <p>Gunakan panduan singkat ini untuk memastikan tim kami dapat memproses kebutuhan Anda secara cepat dan terukur.</p>
+                    <h3>Standar Respons</h3>
+                    <ul>
+                        <li>Email & WhatsApp dibalas maksimal 1x24 jam kerja.</li>
+                        <li>Koreksi data event urgent akan diusahakan tayang di hari yang sama.</li>
+                        <li>Request komersial didampingi oleh account manager dedicated.</li>
+                    </ul>
+                    <h3>Workflow Penanganan</h3>
+                    <ol>
+                        <li>Anda mengirim kebutuhan lengkap (nama event, tanggal, kontak, dokumen pendukung).</li>
+                        <li>Ticket internal dibuat dan dibagikan ke tim komunitas, konten, atau komersial sesuai konteks.</li>
+                        <li>Status ticket diperbarui melalui email atau WhatsApp resmi {{site_name}}.</li>
+                    </ol>
+                    <h3>Checklist Dokumen</h3>
+                    <p>Pastikan materi berikut siap untuk mempercepat proses:</p>
+                    <ul>
+                        <li>Poster event resolusi tinggi (PNG/WEBP) atau logo brand.</li>
+                        <li>Link registrasi, nomor narahubung resmi, dan sosial media event.</li>
+                        <li>Rundown singkat atau deck sponsorship jika mengajukan kolaborasi brand.</li>
+                    </ul>
+                    <p>Jika dibutuhkan NDA atau perjanjian kerahasiaan, mention sejak awal agar tim legal kami dapat menyiapkan dokumen standarnya.</p>',
                 'seo_title' => 'Kontak {{site_name}}',
-                'seo_description' => 'Hubungi tim {{site_name}} untuk kolaborasi, dukungan komunitas, atau pertanyaan seputar ekosistem lari.',
+                'seo_description' => 'Panduan kolaborasi, standar respons, dan workflow dukungan di {{site_name}}.',
             ],
             [
                 'title' => 'Rate Card Overview',
@@ -118,7 +124,7 @@ class StaticPageSeeder extends Seeder
         ];
 
         foreach ($pages as $pageData) {
-            StaticPage::firstOrCreate(
+            StaticPage::updateOrCreate(
                 ['slug' => $pageData['slug']],
                 $pageData
             );

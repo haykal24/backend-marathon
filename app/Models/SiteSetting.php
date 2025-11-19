@@ -187,6 +187,34 @@ class SiteSetting extends Model implements HasMedia
             'group' => 'contact',
             'description' => 'Alamat lengkap penyelenggara.',
         ],
+        'contact_hours_primary' => [
+            'label' => 'Jam Operasional Utama',
+            'type' => 'text',
+            'group' => 'contact',
+            'description' => 'Contoh: Senin–Jumat 09.00–17.00 WIB',
+            'default' => 'Senin–Jumat 09.00–17.00 WIB',
+        ],
+        'contact_hours_primary_note' => [
+            'label' => 'Catatan Jam Operasional Utama',
+            'type' => 'textarea',
+            'group' => 'contact',
+            'description' => 'Penjelasan singkat mengenai respon selama jam utama.',
+            'default' => 'Balasan tercepat via WhatsApp & email. Di luar jam kerja silakan tinggalkan pesan, tim kami akan follow-up maksimal keesokan harinya.',
+        ],
+        'contact_hours_secondary' => [
+            'label' => 'Jam Operasional Sekunder',
+            'type' => 'text',
+            'group' => 'contact',
+            'description' => 'Contoh: Sabtu 09.00–13.00 WIB',
+            'default' => 'Sabtu 09.00–13.00 WIB',
+        ],
+        'contact_hours_secondary_note' => [
+            'label' => 'Catatan Jam Operasional Sekunder',
+            'type' => 'textarea',
+            'group' => 'contact',
+            'description' => 'Penjelasan tambahan untuk jam operasional sekunder.',
+            'default' => 'Tim siaga untuk koreksi data urgent & admin event.',
+        ],
 
         // Social Media
         'instagram_handle' => [
