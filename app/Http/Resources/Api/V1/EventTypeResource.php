@@ -16,6 +16,7 @@ class EventTypeResource extends JsonResource
             'description' => $this->description,
             'image' => $this->image,
             'is_active' => $this->is_active,
+            'event_count' => $this->events_count ?? $this->event_count ?? 0,
             'created_at' => $this->created_at?->toIso8601String(),
             'updated_at' => $this->updated_at?->toIso8601String(),
         ];

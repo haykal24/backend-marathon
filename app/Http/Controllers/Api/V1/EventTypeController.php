@@ -16,6 +16,7 @@ class EventTypeController extends BaseApiController
         $types = Cache::remember('event_types:all', 3600, fn () => 
             EventType::where('is_active', true)
                 ->select(['id', 'name', 'slug', 'description'])
+                ->withCount('events')
                 ->orderBy('name')
                 ->get()
         );
