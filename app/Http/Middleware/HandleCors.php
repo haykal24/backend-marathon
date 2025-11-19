@@ -15,13 +15,27 @@ class HandleCors
     public function handle(Request $request, Closure $next): Response
     {
         // Get allowed origins from env (support multiple origins separated by comma)
-        $allowedOrigins = explode(',', env('CORS_ALLOWED_ORIGINS', 'http://localhost:3000'));
+        $allowedOriginsRaw = explode(',', env('CORS_ALLOWED_ORIGINS', 'http://localhost:3000'));
+        
+        // Normalize allowed origins: trim whitespace and remove trailing slash
+        $allowedOrigins = array_map(function ($origin) {
+            return rtrim(trim($origin), '/');
+        }, $allowedOriginsRaw);
+        
         $origin = $request->header('Origin');
+        
+        // Normalize origin: remove trailing slash if present
+        $normalizedOrigin = $origin ? rtrim($origin, '/') : null;
+        
+        // Check if origin is allowed (case-insensitive comparison)
+        $isOriginAllowed = $normalizedOrigin && in_array($normalizedOrigin, $allowedOrigins, true);
 
         // Handle preflight OPTIONS request
         if ($request->getMethod() === 'OPTIONS') {
+            $allowedOrigin = $isOriginAllowed ? $normalizedOrigin : ($allowedOrigins[0] ?? '*');
+            
             return response('', 200)
-                ->header('Access-Control-Allow-Origin', in_array($origin, $allowedOrigins) ? $origin : $allowedOrigins[0])
+                ->header('Access-Control-Allow-Origin', $allowedOrigin)
                 ->header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS')
                 ->header('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Requested-With, Accept, Origin')
                 ->header('Access-Control-Allow-Credentials', 'true')
@@ -37,9 +51,9 @@ class HandleCors
         }
 
         // Add CORS headers to response (only for regular Response objects)
-        if (in_array($origin, $allowedOrigins)) {
+        if ($isOriginAllowed) {
             return $response
-                ->header('Access-Control-Allow-Origin', $origin)
+                ->header('Access-Control-Allow-Origin', $normalizedOrigin)
                 ->header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS')
                 ->header('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Requested-With, Accept, Origin')
                 ->header('Access-Control-Allow-Credentials', 'true');

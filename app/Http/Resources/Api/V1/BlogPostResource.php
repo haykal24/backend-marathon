@@ -55,16 +55,27 @@ class BlogPostResource extends JsonResource
             'tags' => $this->when(
                 $this->relationLoaded('tags'),
                 fn () => $this->tags
+                    ->filter(function ($tag) {
+                        // Filter out tags with empty name
+                        return !empty($tag->name) && trim($tag->name) !== '';
+                    })
                     ->map(function ($tag) {
-                        $slug = is_string($tag->slug)
-                            ? $tag->slug
-                            : (is_array($tag->slug) ? ($tag->slug['en'] ?? reset($tag->slug)) : Str::slug($tag->name));
+                        $name = trim($tag->name ?? '');
+                        $slug = is_string($tag->slug) && !empty($tag->slug)
+                            ? trim($tag->slug)
+                            : (is_array($tag->slug) 
+                                ? ($tag->slug['en'] ?? reset($tag->slug)) 
+                                : Str::slug($name));
 
                         return [
                             'id' => $tag->id,
-                            'name' => $tag->name,
-                            'slug' => $slug,
+                            'name' => $name,
+                            'slug' => $slug ?: Str::slug($name),
                         ];
+                    })
+                    ->filter(function ($tag) {
+                        // Final filter: ensure both name and slug are not empty
+                        return !empty($tag['name']) && !empty($tag['slug']);
                     })
                     ->values()
             ),

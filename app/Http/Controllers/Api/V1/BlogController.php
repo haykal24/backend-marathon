@@ -16,7 +16,16 @@ class BlogController extends BaseApiController
      */
     public function posts(Request $request): JsonResponse
     {
-        $query = Post::with(['author', 'category', 'tags'])
+        $query = Post::with([
+            'author',
+            'category',
+            'tags' => function ($query) {
+                // Only load tags with valid name and slug
+                $query->whereNotNull('name')
+                    ->where('name', '!=', '')
+                    ->select('id', 'name', 'slug');
+            }
+        ])
             ->whereNotNull('published_at')
             ->where('published_at', '<=', now());
 
@@ -62,7 +71,16 @@ class BlogController extends BaseApiController
      */
     public function show(string $slug): JsonResponse
     {
-        $post = Post::with(['author', 'category', 'tags'])
+        $post = Post::with([
+            'author',
+            'category',
+            'tags' => function ($query) {
+                // Only load tags with valid name and slug
+                $query->whereNotNull('name')
+                    ->where('name', '!=', '')
+                    ->select('id', 'name', 'slug');
+            }
+        ])
             ->where('slug', $slug)
             ->whereNotNull('published_at')
             ->where('published_at', '<=', now())
@@ -94,4 +112,3 @@ class BlogController extends BaseApiController
         );
     }
 }
-

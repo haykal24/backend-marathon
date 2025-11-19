@@ -8,6 +8,7 @@ use Stephenjude\FilamentBlog\Models\Post;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
+use Spatie\Tags\Tag;
 
 class BlogSeeder extends Seeder
 {
@@ -303,7 +304,36 @@ class BlogSeeder extends Seeder
             }
 
             if (! empty($tags)) {
-                $post->syncTags($tags);
+                // Ensure tags are created with proper name and slug
+                $tagModels = [];
+                foreach ($tags as $tagName) {
+                    if (empty($tagName) || trim($tagName) === '') {
+                        continue;
+                    }
+                    
+                    $tagName = trim($tagName);
+                    $tagSlug = Str::slug($tagName);
+                    
+                    // Find or create tag with proper name and slug
+                    $tag = Tag::firstOrCreate(
+                        ['slug' => $tagSlug],
+                        ['name' => $tagName]
+                    );
+                    
+                    // Ensure name and slug are set (in case tag exists but has empty values)
+                    if (empty($tag->name) || empty($tag->slug)) {
+                        $tag->name = $tagName;
+                        $tag->slug = $tagSlug;
+                        $tag->save();
+                    }
+                    
+                    $tagModels[] = $tag;
+                }
+                
+                // Sync tags using models instead of strings
+                if (! empty($tagModels)) {
+                    $post->syncTags($tagModels);
+                }
             }
         }
 
