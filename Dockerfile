@@ -43,6 +43,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && a2enmod rewrite headers env \
     && sed -ri "s!/var/www/html!${APACHE_DOCUMENT_ROOT}!g" /etc/apache2/sites-available/000-default.conf \
         /etc/apache2/sites-available/default-ssl.conf \
+    && printf "ServerName localhost\n" > /etc/apache2/conf-available/servername.conf \
+    && a2enconf servername \
     && rm -rf /var/lib/apt/lists/*
 
 COPY --from=composer /usr/bin/composer /usr/bin/composer
