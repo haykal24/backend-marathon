@@ -77,11 +77,25 @@ class AdBanner extends Model implements HasMedia
 
     public function registerMediaConversions(?Media $media = null): void
     {
+        // OPTIMASI: Banner besar (slider, hero) - quality tinggi tapi bukan full HD
         $this->addMediaConversion('webp')
             ->format('webp')
-            ->quality(80)
+            ->quality(75) // Lighthouse merekomendasikan quality 70-75
             ->width(1920)
+            ->height(1080)
+            ->fit('max', 1920, 1080)
             ->sharpen(10)
+            ->withResponsiveImages()
+            ->nonQueued()
+            ->performOnCollections('default');
+
+        // Mobile banner - lebih kecil dan agresif kompresi
+        $this->addMediaConversion('mobile')
+            ->format('webp')
+            ->quality(70)
+            ->width(800)
+            ->height(600)
+            ->fit('max', 800, 600)
             ->nonQueued()
             ->performOnCollections('default');
     }

@@ -135,11 +135,37 @@ class Event extends Model implements HasMedia
 
     public function registerMediaConversions(?Media $media = null): void
     {
+        // OPTIMASI: Hero/Detail view - high quality untuk poster utama
         $this->addMediaConversion('webp')
             ->format('webp')
-            ->quality(80)
+            ->quality(75) // Turunkan dari 80 ke 75 (sweet spot)
             ->width(1920)
+            ->height(1080)
+            ->fit('max', 1920, 1080) // Fit tanpa crop
             ->sharpen(10)
+            ->withResponsiveImages() // Generate srcset untuk berbagai ukuran
+            ->nonQueued()
+            ->performOnCollections('default');
+
+        // OPTIMASI: Card thumbnail - ukuran kecil untuk listing
+        // Lighthouse: "image file is larger than it needs to be"
+        $this->addMediaConversion('card_thumb')
+            ->format('webp')
+            ->quality(70) // Lebih agresif untuk thumbnail
+            ->width(800) // Resize ke 800px (cukup untuk card view)
+            ->height(500)
+            ->fit('max', 800, 500)
+            ->sharpen(5)
+            ->nonQueued()
+            ->performOnCollections('default');
+
+        // OPTIMASI: Mobile thumbnail - ultra compact
+        $this->addMediaConversion('mobile_thumb')
+            ->format('webp')
+            ->quality(65)
+            ->width(600)
+            ->height(400)
+            ->fit('max', 600, 400)
             ->nonQueued()
             ->performOnCollections('default');
     }

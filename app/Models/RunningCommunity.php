@@ -34,11 +34,25 @@ class RunningCommunity extends Model implements HasMedia
 
     public function registerMediaConversions(?Media $media = null): void
     {
+        // OPTIMASI: Logo komunitas - ukuran kecil sudah cukup
         $this->addMediaConversion('webp')
             ->format('webp')
-            ->quality(80)
-            ->width(1920)
+            ->quality(75)
+            ->width(800)
+            ->height(800)
+            ->fit('max', 800, 800)
             ->sharpen(10)
+            ->withResponsiveImages()
+            ->nonQueued()
+            ->performOnCollections('default');
+
+        // Thumbnail untuk card listing
+        $this->addMediaConversion('thumb')
+            ->format('webp')
+            ->quality(70)
+            ->width(400)
+            ->height(400)
+            ->fit('max', 400, 400)
             ->nonQueued()
             ->performOnCollections('default');
     }
