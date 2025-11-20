@@ -162,9 +162,26 @@ class SitemapController extends BaseApiController
                     $tagIds = DB::table('taggables')->where('taggable_type', Post::class)->distinct()->pluck('tag_id')->toArray();
                     if (!empty($tagIds)) {
                         Tag::query()->whereIn('id', $tagIds)->get()->each(function (Tag $tag) use ($pushUrl) {
-                            $slug = is_string($tag->slug) ? $tag->slug : ($tag->slug['en'] ?? Str::slug($tag->name));
-                            $pushUrl("/blog?tag=" . urlencode($slug), 'categories', 'weekly', 0.5,
-                                optional($tag->updated_at)->toAtomString());
+                            // Handle JSON slug column (Spatie Tags uses JSON for slug)
+                            $slug = is_string($tag->slug) && !empty($tag->slug)
+                                ? trim($tag->slug)
+                                : (is_array($tag->slug) 
+                                    ? ($tag->slug['en'] ?? ($tag->slug['id'] ?? reset($tag->slug)))
+                                    : (is_object($tag->slug)
+                                        ? ($tag->slug->en ?? ($tag->slug->id ?? null))
+                                        : null));
+                            
+                            // Fallback: generate slug from name if slug is empty
+                            if (empty($slug)) {
+                                $name = is_string($tag->name) ? $tag->name : ($tag->name['en'] ?? ($tag->name['id'] ?? reset($tag->name)));
+                                $slug = Str::slug($name ?? '');
+                            }
+                            
+                            // Only add to sitemap if slug is valid
+                            if (!empty($slug)) {
+                                $pushUrl("/blog?tag=" . urlencode($slug), 'categories', 'weekly', 0.5,
+                                    optional($tag->updated_at)->toAtomString());
+                            }
                         });
                     }
                 } catch (\Exception $e) {

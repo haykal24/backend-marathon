@@ -38,8 +38,21 @@ class BlogController extends BaseApiController
 
         // Filter by tag
         if ($request->has('tag')) {
-            $query->whereHas('tags', function ($q) use ($request) {
-                $q->where('slug', $request->tag);
+            $tagSlug = $request->tag;
+            $query->whereHas('tags', function ($q) use ($tagSlug) {
+                // Spatie Tags uses JSON column for slug, so we need to query JSON
+                // Try both: direct JSON query and fallback to name matching
+                $q->where(function ($query) use ($tagSlug) {
+                    // Query JSON column: slug->'en' or slug->'id' or any locale
+                    $query->whereJsonContains('slug', $tagSlug)
+                        ->orWhere(function ($q) use ($tagSlug) {
+                            // Fallback: check all possible JSON paths
+                            $locales = ['en', 'id'];
+                            foreach ($locales as $locale) {
+                                $q->orWhere("slug->{$locale}", $tagSlug);
+                            }
+                        });
+                });
             });
         }
 
