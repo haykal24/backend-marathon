@@ -10,15 +10,47 @@ ARG PHP_BASE_IMAGE=dunglas/frankenphp:php8.2.29-bookworm
 ARG BUN_IMAGE=oven/bun:1.1.34
 ARG COMPOSER_IMAGE=composer:2.7
 
+FROM ${COMPOSER_IMAGE} AS composer
+
+# -----------------------------------------------------------------------------
+# Shared PHP base with all required extensions + Composer available.
+# -----------------------------------------------------------------------------
+FROM ${PHP_BASE_IMAGE} AS php-base
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        git \
+        unzip \
+        libicu-dev \
+        libzip-dev \
+        libjpeg62-turbo-dev \
+        libpng-dev \
+        libwebp-dev \
+        libfreetype6-dev \
+        libxml2-dev \
+        libonig-dev \
+    && install-php-extensions \
+        intl \
+        zip \
+        exif \
+        gd \
+        pcntl \
+        bcmath \
+        opcache \
+        redis \
+        pdo_mysql \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY --from=composer /usr/bin/composer /usr/bin/composer
+
+WORKDIR /app
+
 # -----------------------------------------------------------------------------
 # Composer dependencies (cached separately for faster rebuilds)
 # -----------------------------------------------------------------------------
-FROM ${COMPOSER_IMAGE} AS vendor
-WORKDIR /app
+FROM php-base AS vendor
 
 COPY composer.json composer.lock ./
 
-# Install production dependencies only.
 RUN composer install \
     --no-dev \
     --no-interaction \
@@ -44,37 +76,12 @@ RUN bun run build
 # -----------------------------------------------------------------------------
 # Runtime image
 # -----------------------------------------------------------------------------
-FROM ${PHP_BASE_IMAGE} AS runtime
-WORKDIR /app
+FROM php-base AS runtime
 
 ENV APP_ENV=production \
     APP_DEBUG=false \
     LOG_CHANNEL=stderr \
     PORT=8080
-
-# Install system dependencies & required PHP extensions
-RUN apt-get update && apt-get install -y --no-install-recommends \
-        git \
-        unzip \
-        libicu-dev \
-        libzip-dev \
-        libjpeg62-turbo-dev \
-        libpng-dev \
-        libwebp-dev \
-        libfreetype6-dev \
-        libxml2-dev \
-        libonig-dev \
-    && install-php-extensions \
-        intl \
-        zip \
-        exif \
-        gd \
-        pcntl \
-        bcmath \
-        opcache \
-        redis \
-        pdo_mysql \
-    && rm -rf /var/lib/apt/lists/*
 
 # Copy application code
 COPY --chown=www-data:www-data . .
