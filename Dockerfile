@@ -6,16 +6,18 @@
 # compiled frontend assets, and cached configuration.
 ##
 
-ARG PHP_BASE_IMAGE=dunglas/frankenphp:php8.2.29-bookworm
+ARG PHP_BASE_IMAGE=php:8.2-apache-bookworm
 ARG BUN_IMAGE=oven/bun:1.1.34
 ARG COMPOSER_IMAGE=composer:2.7
 
 FROM ${COMPOSER_IMAGE} AS composer
 
 # -----------------------------------------------------------------------------
-# Shared PHP base with all required extensions + Composer available.
+# Shared PHP+Apache base with all required extensions and Composer.
 # -----------------------------------------------------------------------------
 FROM ${PHP_BASE_IMAGE} AS php-base
+
+ENV APACHE_DOCUMENT_ROOT=/var/www/html/public
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
         git \
@@ -28,21 +30,24 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         libfreetype6-dev \
         libxml2-dev \
         libonig-dev \
-    && install-php-extensions \
+    && docker-php-ext-install -j$(nproc) \
         intl \
         zip \
         exif \
         gd \
         pcntl \
         bcmath \
-        opcache \
-        redis \
         pdo_mysql \
+    && pecl install redis \
+    && docker-php-ext-enable redis \
+    && a2enmod rewrite headers env \
+    && sed -ri "s!/var/www/html!${APACHE_DOCUMENT_ROOT}!g" /etc/apache2/sites-available/000-default.conf \
+        /etc/apache2/sites-available/default-ssl.conf \
     && rm -rf /var/lib/apt/lists/*
 
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 
-WORKDIR /app
+WORKDIR /var/www/html
 
 # -----------------------------------------------------------------------------
 # Composer dependencies (cached separately for faster rebuilds)
@@ -80,14 +85,15 @@ FROM php-base AS runtime
 
 ENV APP_ENV=production \
     APP_DEBUG=false \
-    LOG_CHANNEL=stderr \
-    PORT=8080
+    LOG_CHANNEL=stderr
+
+WORKDIR /var/www/html
 
 # Copy application code
 COPY --chown=www-data:www-data . .
 
 # Bring in pre-installed vendors and built assets
-COPY --from=vendor /app/vendor ./vendor
+COPY --from=vendor /var/www/html/vendor ./vendor
 COPY --from=assets /app/public/build ./public/build
 
 # Ensure storage & bootstrap/cache writable
@@ -100,7 +106,7 @@ RUN php artisan config:cache \
     && php artisan event:cache \
     && php artisan view:cache
 
-EXPOSE 8080
+EXPOSE 80
 
-CMD ["frankenphp", "run", "--config=/app/Caddyfile"]
+CMD ["apache2-foreground"]
 
