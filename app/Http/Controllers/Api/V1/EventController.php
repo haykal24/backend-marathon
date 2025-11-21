@@ -28,6 +28,8 @@ class EventController extends BaseApiController
             $year = substr($request->month, 0, 4);
             $month = substr($request->month, 5, 2);
             $query->whereYear('event_date', $year)->whereMonth('event_date', $month);
+        } elseif ($request->filled('year') && preg_match('/^\d{4}$/', (string) $request->year)) {
+            $query->whereYear('event_date', (int) $request->year);
         }
 
         // Filter by type (cached lookup to avoid N+1)

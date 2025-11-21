@@ -123,6 +123,7 @@ class SitemapController extends BaseApiController
                 ->where('is_active', true)
                 ->each(function (Province $province) use ($pushUrl) {
                     $lastmod = optional($province->updated_at)->toAtomString();
+                    // Use direct URL construction instead of query params for SEO
                     $pushUrl("/event?province={$province->slug}", 'categories', 'daily', 0.8, $lastmod);
                 });
 

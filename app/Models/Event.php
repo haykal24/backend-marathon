@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
+use Spatie\Image\Enums\Fit;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
@@ -141,7 +142,7 @@ class Event extends Model implements HasMedia
             ->quality(75) // Turunkan dari 80 ke 75 (sweet spot)
             ->width(1920)
             ->height(1080)
-            ->fit('max', 1920, 1080) // Fit tanpa crop
+            ->fit(Fit::Max, 1920, 1080) // Fit tanpa crop (menggunakan enum Spatie\Image\Enums\Fit)
             ->sharpen(10)
             ->withResponsiveImages() // Generate srcset untuk berbagai ukuran
             ->nonQueued()
@@ -154,7 +155,7 @@ class Event extends Model implements HasMedia
             ->quality(70) // Lebih agresif untuk thumbnail
             ->width(800) // Resize ke 800px (cukup untuk card view)
             ->height(500)
-            ->fit('max', 800, 500)
+            ->fit(Fit::Max, 800, 500)
             ->sharpen(5)
             ->nonQueued()
             ->performOnCollections('default');
@@ -165,7 +166,7 @@ class Event extends Model implements HasMedia
             ->quality(65)
             ->width(600)
             ->height(400)
-            ->fit('max', 600, 400)
+            ->fit(Fit::Max, 600, 400)
             ->nonQueued()
             ->performOnCollections('default');
     }

@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Spatie\Image\Enums\Fit;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
@@ -43,7 +44,7 @@ class Vendor extends Model implements HasMedia
             ->quality(75)
             ->width(800)
             ->height(800)
-            ->fit('max', 800, 800)
+            ->fit(Fit::Max, 800, 800)
             ->sharpen(10)
             ->withResponsiveImages()
             ->nonQueued()
@@ -55,7 +56,7 @@ class Vendor extends Model implements HasMedia
             ->quality(70)
             ->width(400)
             ->height(400)
-            ->fit('max', 400, 400)
+            ->fit(Fit::Max, 400, 400)
             ->nonQueued()
             ->performOnCollections('default');
     }

@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Spatie\Image\Enums\Fit;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
@@ -83,7 +84,7 @@ class AdBanner extends Model implements HasMedia
             ->quality(75) // Lighthouse merekomendasikan quality 70-75
             ->width(1920)
             ->height(1080)
-            ->fit('max', 1920, 1080)
+            ->fit(Fit::Max, 1920, 1080)
             ->sharpen(10)
             ->withResponsiveImages()
             ->nonQueued()
@@ -95,7 +96,7 @@ class AdBanner extends Model implements HasMedia
             ->quality(70)
             ->width(800)
             ->height(600)
-            ->fit('max', 800, 600)
+            ->fit(Fit::Max, 800, 600)
             ->nonQueued()
             ->performOnCollections('default');
     }

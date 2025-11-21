@@ -317,6 +317,16 @@ class EventResource extends Resource
                                 fn ($query, $date) => $query->whereDate('event_date', '<=', $date),
                             );
                     }),
+                Tables\Filters\Filter::make('hero_slider_active')
+                    ->label('Hero Slider Aktif')
+                    ->query(fn (Builder $query): Builder => $query
+                        ->where('is_featured_hero', true)
+                        ->where(function (Builder $query) {
+                            $query->whereNull('featured_hero_expires_at')
+                                ->orWhere('featured_hero_expires_at', '>', now());
+                        })
+                    )
+                    ->toggle(),
             ])
             ->actions([
                 Actions\EditAction::make(),
