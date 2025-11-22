@@ -37,6 +37,9 @@ Route::prefix('v1')->group(function () {
     // Static pages
     Route::get('/pages', [App\Http\Controllers\Api\V1\PageController::class, 'index']);
     Route::get('/pages/{slug}', [App\Http\Controllers\Api\V1\PageController::class, 'show']);
+
+    // Bio Links
+    Route::get('/bio-links', [App\Http\Controllers\Api\V1\BioLinkController::class, 'index']);
     
     Route::get('/ad-banners', [App\Http\Controllers\Api\V1\AdBannerController::class, 'index']);
     Route::get('/rate-packages', [App\Http\Controllers\Api\V1\RatePackageController::class, 'index']);

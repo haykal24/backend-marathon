@@ -177,4 +177,3 @@ class EventsCleanContactInfo extends Command
         return preg_replace('/\D+/', '', $value) ?? '';
     }
 }
-

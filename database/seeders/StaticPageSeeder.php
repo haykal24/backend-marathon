@@ -80,6 +80,13 @@ class StaticPageSeeder extends Seeder
                 'seo_description' => 'Pelajari paket iklan dan kolaborasi di indonesiamarathon.com untuk menjangkau komunitas pelari Indonesia setiap tahun.',
             ],
             [
+                'title' => 'Link Bio',
+                'slug' => 'bio',
+                'content' => '<p>Halaman link bio resmi {{site_name}} untuk mengakses semua tautan penting, sosial media, dan informasi terkini.</p>',
+                'seo_title' => 'Link Bio - {{site_name}}',
+                'seo_description' => 'Platform Kalender Lari & Jadwal Marathon #1 di Indonesia',
+            ],
+            [
                 'title' => 'Kebijakan Privasi',
                 'slug' => 'privacy',
                 'content' => '<h2>Kebijakan Privasi untuk {{site_name}}</h2>

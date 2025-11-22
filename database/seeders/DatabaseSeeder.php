@@ -6,6 +6,7 @@ use Illuminate\Database\Seeder;
 use Database\Seeders\StaticPageSeeder;
 use Database\Seeders\VendorSeeder;
 use Database\Seeders\PillarEventSeeder;
+use Database\Seeders\BioLinkSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -26,6 +27,7 @@ class DatabaseSeeder extends Seeder
             PillarEventSeeder::class,
             FAQSeeder::class,
             RatePackageSeeder::class,
+            BioLinkSeeder::class,
         ]);
     }
 }
