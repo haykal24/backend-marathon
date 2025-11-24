@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Api\V1;
 
 use App\Http\Controllers\Api\BaseApiController;
 use App\Models\Event;
-use App\Models\EventCategory;
+use App\Models\EventType;
 use App\Models\Province;
 use App\Models\StaticPage;
 use App\Models\FAQ;
@@ -111,14 +111,17 @@ class SitemapController extends BaseApiController
 
             // 2. Categories / Facet Sitemap (disabled by default to avoid orphan URLs)
             if ($includeFacetUrls) {
-                EventCategory::query()
-                    ->select(['id', 'slug', 'updated_at'])
+                // Event Types (Fun Run, Marathon, Trail Run, etc.) - ACTIVE di frontend
+                EventType::query()
+                    ->select(['id', 'slug', 'name', 'updated_at'])
+                    ->where('is_active', true)
                     ->whereHas('events', fn($q) => $q->where('status', 'published'))
-                    ->each(function (EventCategory $category) use ($pushUrl) {
-                        $lastmod = optional($category->updated_at)->toAtomString();
-                        $pushUrl("/event?category={$category->slug}", 'categories', 'daily', 0.8, $lastmod);
+                    ->each(function (EventType $type) use ($pushUrl) {
+                        $lastmod = optional($type->updated_at)->toAtomString();
+                        $pushUrl("/event?type={$type->slug}", 'categories', 'daily', 0.8, $lastmod);
                     });
 
+                // Provinces - ACTIVE di frontend
                 Province::query()
                     ->select(['slug', 'updated_at'])
                     ->whereHas('events', fn($q) => $q->where('status', 'published'))
