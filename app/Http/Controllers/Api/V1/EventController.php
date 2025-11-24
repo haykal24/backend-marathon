@@ -32,33 +32,73 @@ class EventController extends BaseApiController
             $query->whereYear('event_date', (int) $request->year);
         }
 
-        // Filter by type (cached lookup to avoid N+1)
+        // Filter by type (support multiple types)
         if ($request->has('type')) {
-            $eventType = Cache::rememberForever(
-                'event_type:' . $request->type,
-                fn () => EventType::where('slug', $request->type)
-                    ->where('is_active', true)
-                    ->select('id', 'slug', 'name')
-                    ->first()
-            );
+            $typeSlugs = $request->input('type');
             
-            if ($eventType) {
-                $query->where('event_type', $eventType->slug);
+            // Handle both array (type[]=a&type[]=b) and single value (type=a)
+            if (!is_array($typeSlugs)) {
+                $typeSlugs = [$typeSlugs];
+            }
+            
+            // Filter out empty values
+            $typeSlugs = array_filter($typeSlugs, fn($slug) => !empty($slug));
+            
+            if (!empty($typeSlugs)) {
+                // Get all valid event types from cache
+                $validTypeSlugs = [];
+                foreach ($typeSlugs as $slug) {
+                    $eventType = Cache::rememberForever(
+                        'event_type:' . $slug,
+                        fn () => EventType::where('slug', $slug)
+                            ->where('is_active', true)
+                            ->select('id', 'slug', 'name')
+                            ->first()
+                    );
+                    
+                    if ($eventType) {
+                        $validTypeSlugs[] = $eventType->slug;
+                    }
+                }
+                
+                if (!empty($validTypeSlugs)) {
+                    $query->whereIn('event_type', $validTypeSlugs);
+                }
             }
         }
 
-        // Filter by province (cached lookup)
+        // Filter by province (support multiple provinces)
         if ($request->has('province')) {
-            $province = Cache::rememberForever(
-                'province:' . $request->province,
-                fn () => Province::where('slug', $request->province)
-                    ->where('is_active', true)
-                    ->select('id', 'name', 'slug')
-                    ->first()
-            );
+            $provinceSlugs = $request->input('province');
             
-            if ($province) {
-                $query->where('province', $province->name);
+            // Handle both array (province[]=a&province[]=b) and single value (province=a)
+            if (!is_array($provinceSlugs)) {
+                $provinceSlugs = [$provinceSlugs];
+            }
+            
+            // Filter out empty values
+            $provinceSlugs = array_filter($provinceSlugs, fn($slug) => !empty($slug));
+            
+            if (!empty($provinceSlugs)) {
+                // Get all valid province names from cache
+                $validProvinceNames = [];
+                foreach ($provinceSlugs as $slug) {
+                    $province = Cache::rememberForever(
+                        'province:' . $slug,
+                        fn () => Province::where('slug', $slug)
+                            ->where('is_active', true)
+                            ->select('id', 'name', 'slug')
+                            ->first()
+                    );
+                    
+                    if ($province) {
+                        $validProvinceNames[] = $province->name;
+                    }
+                }
+                
+                if (!empty($validProvinceNames)) {
+                    $query->whereIn('province', $validProvinceNames);
+                }
             }
         }
 
