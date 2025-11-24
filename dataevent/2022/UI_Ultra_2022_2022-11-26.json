@@ -1,0 +1,26 @@
+{
+  "image": "-",
+  "judul": "UI Ultra 2022",
+  "isi_informasi": "UI Ultra 2022 mengundang para penggemar lari jarak jauh, termasuk alumni FEB UI dan masyarakat umum, untuk berolahraga di tengah pandemi. Peserta dapat mengikuti lomba sejauh 70 km secara individu atau dalam kelompok relay. Acara ini akan berlangsung pada 26-27 November 2022 mulai pukul 20.00 WIB di Kampus UI Depok, Jawa Barat.",
+  "benefit_peserta": [
+    "Aktivitas fisik di masa pandemi",
+    "Kesempatan berkompetisi dalam lari jarak jauh",
+    "Berkumpul dengan komunitas lari"
+  ],
+  "lokasi": "Kampus UI Depok, Jawa Barat",
+  "kota": "Depok",
+  "tanggal_event": "2022-11-26",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "Individual 70k",
+    "Relay 2",
+    "Relay 5",
+    "Relay 10"
+  ],
+  "jenis_event": "road run"
+}

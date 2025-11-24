@@ -1,0 +1,25 @@
+{
+  "image": "-",
+  "judul": "KNPI Youth Fun Run",
+  "isi_informasi": "Event lari KNPI Youth Fun Run akan berlangsung pada 27 Oktober 2019 di Monumen Mandala, Makassar. Terdapat harga Early Bird untuk 300 pendaftar pertama.",
+  "benefit_peserta": [
+    "Kesempatan berlari di lokasi bersejarah",
+    "Harga pendaftaran lebih murah untuk pendaftar awal"
+  ],
+  "lokasi": "Monumen Mandala, Makassar, Sulawesi Selatan",
+  "kota": "Makassar",
+  "tanggal_event": "2019-10-27",
+  "kontak_event": {
+    "WhatsApp": "08118251108",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Early Bird": "Rp. 150.000",
+    "Normal": "Rp. 180.000"
+  },
+  "kategori": [
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

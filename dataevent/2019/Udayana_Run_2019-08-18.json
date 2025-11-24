@@ -1,0 +1,28 @@
+{
+  "image": "-",
+  "judul": "Udayana Run",
+  "isi_informasi": "Udayana Run adalah acara lari yang diadakan untuk memperingati HUT ke-74 Republik Indonesia dan HUT ke-62 Kodam IX/Udayana. Terdapat dua kategori lomba yaitu 5K dan 10K dengan total hadiah mencapai 200 juta rupiah. Peserta dapat mendaftar di kategori 5K Pelajar, 5K Umum, 10K Umum, dan kategori TNI/POLRI. Biaya pendaftaran adalah Rp. 75.000 untuk 5K dan Rp. 100.000 untuk 10K, yang mencakup jersey, nomor dada, minuman gratis, dan medali finisher untuk 150 finisher pertama di setiap kategori.",
+  "benefit_peserta": [
+    "Jersey",
+    "Nomor Dada",
+    "Minuman gratis",
+    "Medali Finisher untuk 150 Finisher pertama"
+  ],
+  "lokasi": "Pantai Kuta, Bali",
+  "kota": "Bali",
+  "tanggal_event": "2019-08-18",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "5K": "Rp. 75.000",
+    "10K": "Rp. 100.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

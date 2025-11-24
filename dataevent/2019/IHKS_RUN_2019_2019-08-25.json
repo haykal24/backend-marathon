@@ -1,0 +1,42 @@
+{
+  "image": "-",
+  "judul": "IHKS RUN 2019",
+  "isi_informasi": "IHKS RUN 2019 akan diadakan pada 25 Agustus 2019 di Hotel Tentrem, Yogyakarta. Terdapat dua kategori lari yaitu 5K dan 10K dengan biaya registrasi normal Rp 200.000 untuk 5K dan Rp 250.000 untuk 10K. Untuk pendaftaran early bird, biaya registrasi adalah Rp 150.000 untuk 5K dan Rp 200.000 untuk 10K. Peserta akan mendapatkan berbagai fasilitas seperti BIB Numbers, medali finisher, jersey, hasil lomba, penyegaran, asuransi peserta, seminar kesehatan kulit, podium pemenang, dan doorprize. Hadiah untuk pemenang kategori 5K adalah Rp 750.000 untuk juara 1, Rp 500.000 untuk juara 2, dan Rp 250.000 untuk juara 3. Untuk kategori 10K, hadiah adalah Rp 1.000.000 untuk juara 1, Rp 750.000 untuk juara 2, dan Rp 500.000 untuk juara 3. Doorprize juga tersedia, termasuk Garmin Vivo Active 3 Music dan Asus Zenfone Max Pro M2.",
+  "benefit_peserta": [
+    "BIB Numbers",
+    "Medali Finisher",
+    "Jersey Lomba",
+    "Hasil Lomba",
+    "Penyegaran",
+    "Asuransi Peserta",
+    "Seminar Kesehatan Kulit",
+    "Podium Pemenang",
+    "Doorprize"
+  ],
+  "lokasi": "Hotel Tentrem, Yogyakarta",
+  "kota": "Yogyakarta",
+  "tanggal_event": "2019-08-25",
+  "kontak_event": {
+    "Instagram": [
+      "@ihks_official"
+    ],
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "normal": 200000,
+      "early_bird": 150000
+    },
+    "10K": {
+      "normal": 250000,
+      "early_bird": 200000
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

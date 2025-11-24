@@ -1,0 +1,25 @@
+{
+  "image": "-",
+  "judul": "Run for Special Needs",
+  "isi_informasi": "Acara 'Run for Special Needs' diadakan pada 31 Maret 2019 di Pintu 4 Kebun Raya Bogor, bekerja sama dengan berbagai komunitas untuk mendukung anak-anak berkebutuhan khusus. Kegiatan dimulai pukul 15.30 WIB dan biaya registrasi sebesar 100 ribu rupiah sudah termasuk donasi, medali finisher, wadah berkali pakai, tas belanja, dan refreshment.",
+  "benefit_peserta": [
+    "Donasi untuk Festival Anak Istimewa",
+    "Medali Finisher",
+    "Wadah Berkali Pakai",
+    "Tas Belanja",
+    "Refreshment"
+  ],
+  "lokasi": "Pintu 4 Kebun Raya Bogor",
+  "kota": "Bogor",
+  "tanggal_event": "2019-03-31",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "100000",
+  "kategori": [
+    "Charity Run"
+  ],
+  "jenis_event": "road run"
+}

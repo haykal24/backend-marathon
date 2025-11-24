@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "Lions Run 2019",
+  "isi_informasi": "Lions Run adalah lomba lari yang diselenggarakan oleh Yayasan Lions Indonesia pada 24 Maret 2019 di Mall @Alam Sutera, Tangerang. Kegiatan ini bertujuan untuk mendukung anak-anak penderita kanker dan menggalang semangat membantu sesama. Terdapat dua kategori lomba, yaitu 5K dan 10K, dengan target 2.000 pelari. Acara ini juga dihadiri oleh tokoh-tokoh motivator.",
+  "benefit_peserta": [
+    "Mendukung anak-anak penderita kanker",
+    "Berpartisipasi dalam kegiatan sosial",
+    "Kesempatan untuk berlari bersama tokoh motivator"
+  ],
+  "lokasi": "Mall @Alam Sutera, Tangerang",
+  "kota": "Tangerang",
+  "tanggal_event": "2019-03-24",
+  "kontak_event": {
+    "Instagram": [
+      "@idea.run"
+    ],
+    "WhatsApp": "087702102016",
+    "Email": "lionsrun@steelytoe.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

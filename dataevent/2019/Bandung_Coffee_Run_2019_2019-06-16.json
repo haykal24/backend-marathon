@@ -1,0 +1,24 @@
+{
+  "image": "-",
+  "judul": "Bandung Coffee Run 2019",
+  "isi_informasi": "Bandung Coffee Run 2019 adalah event lari pertama yang diadakan oleh MKI (Mitra Kopi Indonesia) pada 16 Juni 2019, bekerja sama dengan DISBUDPAR Kota Bandung. Event ini mengusung tema kopi untuk meningkatkan kesadaran masyarakat tentang manfaat kopi dan kualitas kopi Indonesia. Terdapat dua kategori lari, yaitu 5K dan 10K, yang ditujukan untuk peserta berusia 15-50 tahun, dengan target 5.000 pelari dari berbagai daerah.",
+  "benefit_peserta": [
+    "Meningkatkan kesadaran akan manfaat kopi",
+    "Kesempatan untuk berlari dalam suasana yang unik",
+    "Mendapatkan pengalaman berlari yang menyenangkan"
+  ],
+  "lokasi": "Balai Kota Bandung, Jawa Barat",
+  "kota": "Bandung",
+  "tanggal_event": "2019-06-16",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

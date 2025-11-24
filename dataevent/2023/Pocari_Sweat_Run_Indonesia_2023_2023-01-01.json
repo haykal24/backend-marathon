@@ -1,0 +1,25 @@
+{
+  "image": "-",
+  "judul": "Pocari Sweat Run Indonesia 2023",
+  "isi_informasi": "Pocari Sweat Run Indonesia 2023 adalah acara lari yang diselenggarakan untuk para penggemar olahraga lari.",
+  "benefit_peserta": [
+    "Kesempatan berolahraga dan bersosialisasi",
+    "Mendapatkan pengalaman berlari di acara besar",
+    "Mendapatkan medali dan sertifikat"
+  ],
+  "lokasi": "Tidak tercantum",
+  "kota": "Tidak tercantum",
+  "tanggal_event": "2023-01-01",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "road run"
+}

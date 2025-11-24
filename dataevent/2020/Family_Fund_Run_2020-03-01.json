@@ -1,0 +1,26 @@
+{
+  "image": "-",
+  "judul": "Family Fund Run",
+  "isi_informasi": "Family Fund Run adalah acara lari amal yang diselenggarakan oleh SNA STUCO, di mana semua dana yang terkumpul akan disumbangkan kepada Habitat for Humanity. Acara ini berlangsung pada 1 Maret 2020 di Ciputra Waterpark, Surabaya. Pendaftaran dibuka mulai pukul 05:00 WIB.",
+  "benefit_peserta": [
+    "Mendukung kegiatan amal",
+    "Kesempatan berlari bersama teman dan keluarga"
+  ],
+  "lokasi": "Ciputra Waterpark, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2020-03-01",
+  "kontak_event": {
+    "WhatsApp": "+62 812-3183-8891",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "2K": 125000,
+    "5K": 150000
+  },
+  "kategori": [
+    "2K",
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

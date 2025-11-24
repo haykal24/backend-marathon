@@ -1,0 +1,26 @@
+{
+  "image": "-",
+  "judul": "FIT FESTIVAL 2.0 : Agora Festive Run",
+  "isi_informasi": "SMAK PENABUR GS mempersembahkan FIT FESTIVAL 2.0 : Agora Festive Run, sebuah acara lari 5K yang penuh keseruan. Acara ini akan dilaksanakan pada 26 Oktober 2019 di Pasar Modern Intermoda BSD, Tangerang Selatan, mulai pukul 06.00 WIB. Terdapat juga Color Festival yang akan menambah keseruan acara. Biaya pendaftaran adalah Rp150.000 untuk early bird (19 Agustus – 20 September 2019) dan Rp160.000 untuk harga normal (21 September – 17 Oktober 2019). Pendaftaran ditutup pada 17 Oktober 2019.",
+  "benefit_peserta": [
+    "Keseruan dalam acara lari",
+    "Pengalaman Color Festival",
+    "Meningkatkan kebugaran"
+  ],
+  "lokasi": "Pasar Modern Intermoda BSD, Tangerang Selatan",
+  "kota": "Tangerang Selatan",
+  "tanggal_event": "2019-10-26",
+  "kontak_event": {
+    "WhatsApp": "082112857475",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "early_bird": 150000,
+    "normal": 160000
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

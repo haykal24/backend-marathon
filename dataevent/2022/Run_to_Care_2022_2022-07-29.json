@@ -1,0 +1,33 @@
+{
+  "image": "-",
+  "judul": "Run to Care 2022",
+  "isi_informasi": "Run to Care 2022 adalah acara lari yang diadakan oleh SOS Children’s Villages Indonesia untuk meningkatkan kesadaran masyarakat dalam membantu anak-anak. Tahun ini, acara ini berlangsung di Toba – Medan dengan rute 150 Kilometer dari Danau Toba menuju SOS Children’s Village Medan, berlangsung dari 29 hingga 31 Juli 2022. Terdapat tiga kategori lari: Individual 150K, Individual 100K, dan Relay 3x50K. Selain itu, ada juga acara virtual dengan kategori 150K, 100K, dan 50K yang berlangsung dari 13 Juni hingga 31 Juli 2022.",
+  "benefit_peserta": [
+    "Medali Finisher",
+    "eCertificate Finisher",
+    "Jersey Finisher gratis",
+    "eBIB",
+    "Donasi IDR 70.000",
+    "Kesempatan memenangkan Doorprize"
+  ],
+  "lokasi": "Toba – Medan, Sumatera Utara",
+  "kota": "Medan",
+  "tanggal_event": "2022-07-29",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Virtual": "Rp 199.000"
+  },
+  "kategori": [
+    "150K",
+    "100K",
+    "Relay 3x50K",
+    "150K Multiple Run",
+    "100K Multiple Run",
+    "50K Multiple Run"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,33 @@
+{
+  "image": "-",
+  "judul": "Trunsformation 6K Fun Run",
+  "isi_informasi": "Acara lari Trunsformation 6K Fun Run akan berlangsung pada 15 Desember 2019 di Resort Dago Pakar, Bandung. Peserta dapat mendaftar mulai pukul 06.00 hingga 10.00. Biaya pendaftaran normal adalah 125 ribu, yang mencakup jersey, medali finisher, nomor lari, merchandise, tote bag, dan voucher menarik. Terdapat diskon 20% untuk pendaftaran grup 5 orang, sehingga harga per tiket menjadi 100 ribu. Untuk grup 10 orang, diskon 30% membuat harga per tiket hanya 90 ribu. Pendaftaran ditutup pada 17 November 2019.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali finisher",
+    "Nomor lari",
+    "Merchandise",
+    "Tote bag",
+    "Voucher menarik"
+  ],
+  "lokasi": "Resort Dago Pakar, Bandung, Jawa Barat",
+  "kota": "Bandung",
+  "tanggal_event": "2019-12-15",
+  "kontak_event": {
+    "Instagram": [
+      "@truns2019.bdg"
+    ],
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "normal": "125000",
+    "diskon_20": "100000",
+    "diskon_30": "90000"
+  },
+  "kategori": [
+    "6K Fun Run"
+  ],
+  "jenis_event": "fun run"
+}

@@ -1,0 +1,32 @@
+{
+  "image": "-",
+  "judul": "Santri Milenial Run 2019",
+  "isi_informasi": "Pendaftaran untuk Santri Milenial Run dibuka untuk umum. Acara ini akan berlangsung pada Minggu, 17 Maret 2019, mulai pukul 05.30 hingga selesai di Kerkhoff Sport Field, Garut, Jawa Barat. Biaya pendaftaran adalah Rp25.000 untuk kategori 6K atau Fun Run bagi santri dan pelajar (dengan bukti kartu pelajar), Rp75.000 untuk umum, dan Rp150.000 untuk kategori 10K. Peserta akan mendapatkan runner’s pack yang berisi jersey dryfit, tas serut, bib & chip, serta medali untuk setiap finisher.",
+  "benefit_peserta": [
+    "runner’s pack",
+    "jersey dryfit",
+    "tas serut",
+    "bib & chip",
+    "medali untuk setiap finisher"
+  ],
+  "lokasi": "Kerkhoff Sport Field, Garut, Jawa Barat",
+  "kota": "Garut",
+  "tanggal_event": "2019-03-17",
+  "kontak_event": {
+    "WhatsApp": "089656316965",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "6K": {
+      "santri_pelajar": 25000,
+      "umum": 75000
+    },
+    "10K": 150000
+  },
+  "kategori": [
+    "6K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

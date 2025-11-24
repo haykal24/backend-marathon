@@ -1,0 +1,32 @@
+{
+  "image": "-",
+  "judul": "MAPALA UNAND Mountain Running Competition 2019",
+  "isi_informasi": "Event ini bertujuan untuk menguji kemampuan dan keterampilan peserta dalam lari dan pendakian gunung, serta meningkatkan silaturahmi antar peserta. Lomba Mountain Running ini jarang diadakan di tingkat nasional, sehingga diharapkan dapat memberikan pengalaman berharga bagi para pelari.",
+  "benefit_peserta": [
+    "No. Dada",
+    "T-shirt",
+    "Medali",
+    "Sertifikat",
+    "Stiker",
+    "Konsumsi",
+    "Asuransi"
+  ],
+  "lokasi": "Gunung Talang, Solok, Sumatra Barat",
+  "kota": "Solok",
+  "tanggal_event": "2019-08-18",
+  "kontak_event": {
+    "WhatsApp": "082166052995",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "pendaftaran_awal": "19 Mei – 21 Juli 2019",
+    "pendaftaran_ulang": "19 Mei – 17 Agustus 2019"
+  },
+  "kategori": [
+    "12K",
+    "25K",
+    "30K"
+  ],
+  "jenis_event": "trail run"
+}

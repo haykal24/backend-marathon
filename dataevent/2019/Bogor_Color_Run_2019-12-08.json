@@ -1,0 +1,23 @@
+{
+  "image": "-",
+  "judul": "Bogor Color Run",
+  "isi_informasi": "Event lari Bogor Color Run akan diadakan pada 8 Desember 2019 di Stadion Pakansari, Bogor, Jawa Barat. Untuk informasi lebih lanjut dan pendaftaran, kunjungi situs resmi.",
+  "benefit_peserta": [
+    "Kesempatan untuk berlari sambil menikmati suasana penuh warna",
+    "Meningkatkan kebugaran dan kesehatan",
+    "Bertemu dengan komunitas lari"
+  ],
+  "lokasi": "Stadion Pakansari Bogor, Jawa Barat",
+  "kota": "Bogor",
+  "tanggal_event": "2019-12-08",
+  "kontak_event": {
+    "WhatsApp": "+62 852-1767-4699",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "Color Run"
+  ],
+  "jenis_event": "road run"
+}

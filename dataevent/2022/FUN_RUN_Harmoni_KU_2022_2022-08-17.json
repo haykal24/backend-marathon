@@ -1,0 +1,42 @@
+{
+  "image": "-",
+  "judul": "FUN RUN Harmoni KU 2022",
+  "isi_informasi": "FUN RUN Harmoni KU 2022 adalah acara lari sejauh 5 KM yang diadakan oleh mahasiswa kedokteran umum Undip sebagai bagian dari pembukaan Harmoni KU 2022. Acara ini mengangkat tema Hari Jantung Sedunia dan juga memperingati Dies Natalis FK Undip ke-61. Kegiatan berlangsung di Halaman Kantor Gubernur Jawa Tengah dan terbuka untuk umum, dengan berbagai aktivitas seperti lari, cek kesehatan gratis, mini bazaar, pertunjukan panggung, permainan, doorprize, flashmob, dan kontes foto.",
+  "benefit_peserta": [
+    "Lari",
+    "Cek Kesehatan Gratis",
+    "Mini Bazaar",
+    "Stage Performance",
+    "Games",
+    "Doorprize",
+    "Flashmob",
+    "Photo Contest"
+  ],
+  "lokasi": "Halaman Kantor Gubernur Jawa Tengah",
+  "kota": "Semarang",
+  "tanggal_event": "2022-08-17",
+  "kontak_event": {
+    "Instagram": [
+      "@harmoniku_2022"
+    ],
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "presale_2": "140K",
+    "termasuk": [
+      "Fun Run racepack",
+      "Jersey",
+      "Finisher Medal (All Finisher)",
+      "String Bag",
+      "Wrist Band",
+      "BIB Number",
+      "Sponsor’s Refreshment"
+    ]
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

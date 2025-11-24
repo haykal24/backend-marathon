@@ -1,0 +1,30 @@
+{
+  "image": "-",
+  "judul": "SKYRUN 2023",
+  "isi_informasi": "SMA Labschool Kebayoran mempersembahkan SKYRUN 2023, acara lari tahunan sejauh 5 KM yang akan berlangsung pada hari Minggu, 19 Februari 2023. Pendaftaran dibuka dari 19 Desember hingga 8 Januari dengan biaya pendaftaran Rp250.000,00, termasuk racepack yang terdiri dari medali finisher, jersey, fanny pack, drawstring bag, wrist band, dan BIB. Peserta berkesempatan memenangkan hadiah hingga 30 juta rupiah.",
+  "benefit_peserta": [
+    "Medali finisher",
+    "Jersey",
+    "Fanny pack",
+    "Drawstring bag",
+    "Wrist band",
+    "BIB",
+    "Kesempatan memenangkan hadiah hingga 30 juta rupiah"
+  ],
+  "lokasi": "SMA Labschool Kebayoran, Jakarta",
+  "kota": "Jakarta",
+  "tanggal_event": "2023-02-19",
+  "kontak_event": {
+    "Instagram": [
+      "@skyrun2023"
+    ],
+    "WhatsApp": "+62 816 1776 7116",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Rp250.000,00",
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

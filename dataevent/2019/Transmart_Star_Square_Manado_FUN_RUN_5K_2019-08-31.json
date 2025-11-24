@@ -1,0 +1,29 @@
+{
+  "image": "-",
+  "judul": "Transmart Star Square Manado FUN RUN 5K",
+  "isi_informasi": "Event lari 5K ini akan diadakan pada 31 Agustus 2019 di Kawasan Bahu Cipta Pertiwi, Manado. Pendaftaran berlangsung dari 17 Juli hingga 31 Juli 2019 dengan biaya early bird sebesar IDR 150.000. Peserta akan mendapatkan jersey, slingbag, nomor BIB, merchandise, snack/minuman, dan medali eksklusif bagi semua finisher. Terdapat juga hadiah jutaan rupiah dan doorprize menarik.",
+  "benefit_peserta": [
+    "Jersey FUN RUN",
+    "Slingbag",
+    "BIB Number",
+    "Merchandise",
+    "Snack/Softdrink",
+    "Medali eksklusif"
+  ],
+  "lokasi": "Kawasan Bahu Cipta Pertiwi, Manado, Sulawesi Utara",
+  "kota": "Manado",
+  "tanggal_event": "2019-08-31",
+  "kontak_event": {
+    "WhatsApp": "+62 853 4066 5555",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "early_bird": "IDR 150.000",
+    "normal": "Tidak tercantum"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

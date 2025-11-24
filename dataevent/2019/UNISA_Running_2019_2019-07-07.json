@@ -1,0 +1,32 @@
+{
+  "image": "-",
+  "judul": "UNISA Running 2019",
+  "isi_informasi": "UNISA Running 2019 akan diadakan pada 7 Juli 2019 dengan kategori 5K dan 10K. Acara ini merupakan bagian dari UNISA FESTIVAL untuk merayakan milad UNISA ke-28. Pendaftaran dibuka secara online dan offline.",
+  "benefit_peserta": [
+    "Medali untuk juara 1-6 di masing-masing kategori",
+    "Medali untuk semua finisher",
+    "T-shirt gratis",
+    "BIB/Nomor dada",
+    "Minuman dan buah",
+    "Hiburan",
+    "Doorprize",
+    "Pelayanan medis fisioterapi"
+  ],
+  "lokasi": "Kampus Terpadu Universitas ‘Aisyiyah Yogyakarta",
+  "kota": "Yogyakarta",
+  "tanggal_event": "2019-07-07",
+  "kontak_event": {
+    "WhatsApp": "085602070537",
+    "Email": "physiorun2019@gmail.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "5K": 80000,
+    "10K": 125000
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

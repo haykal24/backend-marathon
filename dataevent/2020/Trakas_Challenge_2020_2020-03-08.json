@@ -1,0 +1,28 @@
+{
+  "image": "-",
+  "judul": "Trakas Challenge 2020",
+  "isi_informasi": "Trakas Challenge 2020 adalah acara trail running yang diselenggarakan oleh komunitas Trail Runners Kalimantan Selatan, bertujuan memberikan pengalaman trail running lokal bagi peserta pemula dan profesional. Event ini menawarkan pemandangan yang indah dan berbagai rintangan bagi para pelari.",
+  "benefit_peserta": [
+    "Pengalaman trail running lokal",
+    "Pemandangan alam yang indah",
+    "Tantangan rintangan"
+  ],
+  "lokasi": "Taman Hutan Raya Sultan Adam Mandiangin, Kab. Banjar, Kalimantan Selatan",
+  "kota": "Banjar",
+  "tanggal_event": "2020-03-08",
+  "kontak_event": {
+    "Instagram": [
+      "@trakaschallenge",
+      "@trailrunnerskalsel"
+    ],
+    "WhatsApp": "081252899044",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "10K",
+    "25K"
+  ],
+  "jenis_event": "trail run"
+}

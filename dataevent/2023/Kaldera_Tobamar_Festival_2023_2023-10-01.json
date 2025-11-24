@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "Kaldera Tobamar Festival 2023",
+  "isi_informasi": "Event lari ini menawarkan berbagai kategori yang mengajak pelari untuk menjelajahi sisi sportourism Danau Toba. Diselenggarakan di Kota Balige, Kabupaten Toba.",
+  "benefit_peserta": [
+    "Menjelajahi keindahan Danau Toba",
+    "Berpartisipasi dalam berbagai kategori lari"
+  ],
+  "lokasi": "Kota Balige, Kabupaten Toba",
+  "kota": "Balige",
+  "tanggal_event": "2023-10-01",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K Fun Run",
+    "5K Pelajar",
+    "5K Umum",
+    "10K Umum",
+    "21K Master",
+    "21K Umum"
+  ],
+  "jenis_event": "road run"
+}

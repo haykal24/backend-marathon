@@ -1,0 +1,29 @@
+{
+  "image": "-",
+  "judul": "SEGERun Kagama DKI Jakarta 2020",
+  "isi_informasi": "SEGERun Kagama DKI Jakarta 2020 adalah event lari ketiga dengan tema 'Fun Run, Family, Entertainment' yang berlangsung di Pasar Seni Ancol. Terdapat dua kategori lomba, yaitu 5K dan 10K, dengan rute melewati berbagai wahana di Taman Impian Jaya Ancol. Event ini terbuka untuk semua kalangan, termasuk pengurus, alumni, pelajar, dan komunitas lari di Jabodetabek. Peserta akan menerima racepack yang berisi tiket masuk Ancol, jersey, medali, nomor dada, kupon doorprize, refreshment, goodybag, dan produk sponsor. Pengambilan racepack dilakukan pada 30 Januari hingga 1 Februari 2020 di Sekretariat KAGAMA DKI Jakarta. Terdapat hadiah untuk pemenang di setiap kategori dan kostum terbaik.",
+  "benefit_peserta": [
+    "Tiket Masuk Ancol",
+    "Jersey",
+    "Medali Penamat",
+    "Nomor Dada",
+    "Kupon Doorprize",
+    "Refreshment",
+    "Goodybag",
+    "Produk Sponsor"
+  ],
+  "lokasi": "Pasar Seni Ancol, Taman Impian Jaya Ancol, Jakarta",
+  "kota": "Jakarta",
+  "tanggal_event": "2020-02-02",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "fun run"
+}

@@ -1,0 +1,26 @@
+{
+  "image": "-",
+  "judul": "Steps for Children 2021",
+  "isi_informasi": "Steps for Children adalah acara virtual yang berlangsung dari 26 April hingga 2 Mei 2021, di mana peserta diharapkan untuk mengumpulkan 10.000 langkah selama seminggu di lingkungan rumah masing-masing. Kegiatan ini bertujuan untuk mendukung anak-anak dengan berbagai penyakit di Indonesia, dengan hasil donasi yang akan disalurkan kepada beberapa yayasan dan komunitas terkait. Setiap peserta akan menerima steps kit yang mencakup medali, kaos, dan kejutan lainnya.",
+  "benefit_peserta": [
+    "Mendapatkan steps kit",
+    "Memberikan donasi untuk anak-anak yang membutuhkan",
+    "Meningkatkan kepedulian masyarakat terhadap penyakit anak"
+  ],
+  "lokasi": "Virtual, bisa dilakukan dimana saja",
+  "kota": "bisa dilakukan dimana saja",
+  "tanggal_event": "2021-04-26",
+  "kontak_event": {
+    "WhatsApp": "08119195168",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Anggota AMSA-Indonesia": "Rp85.000,00",
+    "Non-Anggota AMSA-Indonesia": "Rp95.000,00 (belum termasuk ongkos kirim)"
+  },
+  "kategori": [
+    "10.000 Langkah"
+  ],
+  "jenis_event": "virtual run"
+}

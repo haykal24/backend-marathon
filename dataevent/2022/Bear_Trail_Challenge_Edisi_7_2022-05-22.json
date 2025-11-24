@@ -1,0 +1,34 @@
+{
+  "image": "-",
+  "judul": "Bear Trail Challenge Edisi 7",
+  "isi_informasi": "Setelah diadakan secara virtual tahun lalu, Bear Trail Challenge edisi ke-7 akan berlangsung pada 22 Mei 2022. Start dan finish akan dilakukan di Perum Graha Mulawarman pada pukul 06:30. Peserta akan berlari sejauh 15 km dengan rute yang lebih menantang. Terdapat harga early bird sebesar Rp 150.000 untuk 25 pendaftar pertama, yang mencakup medali finisher, jersey finisher, bib, refreshment, Fitbar, ActivWater, VIT 8+ hydration, doorprize, dan race bag. Setelah itu, biaya pendaftaran menjadi Rp 200.000. Peserta disarankan menggunakan sepatu trail, sarung tangan, dan membawa hidrasi sendiri. Cut Off Time (COT) adalah 3 jam, cocok untuk pemula. Tiga pemenang teratas kategori putra dan putri akan mendapatkan hadiah total Rp 4,5 juta. Untuk virtual run, minimal elevasi gain adalah 300m dengan biaya pendaftaran Rp 150.000, yang juga mencakup medali finisher, jersey finisher, dan goodies bag.",
+  "benefit_peserta": [
+    "Medali finisher",
+    "Jersey finisher",
+    "Bib",
+    "Refreshment",
+    "Fitbar",
+    "ActivWater",
+    "VIT 8+ hydration",
+    "Doorprize",
+    "Race bag"
+  ],
+  "lokasi": "Perum Graha Mulawarman",
+  "kota": "Perum Graha Mulawarman",
+  "tanggal_event": "2022-05-22",
+  "kontak_event": {
+    "WhatsApp": "0877-8286-9292",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "early_bird": 150000,
+    "normal": 200000,
+    "virtual_run": 150000
+  },
+  "kategori": [
+    "15K",
+    "virtual run"
+  ],
+  "jenis_event": "trail run"
+}

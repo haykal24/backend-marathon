@@ -1,0 +1,28 @@
+{
+  "image": "-",
+  "judul": "Pontianak City Virtual Run 2021",
+  "isi_informasi": "Pontianak City Virtual Run 2021 mengajak peserta dari luar Pontianak untuk berpartisipasi dalam acara lari ini. Pendaftaran dibuka dari 21 April hingga 10 Agustus 2021, dengan periode lomba berlangsung dari 15 Juli hingga 15 Agustus 2021. Peserta dapat menyelesaikan jarak 42K dengan pengiriman hasil lari secara multiple.",
+  "benefit_peserta": [
+    "Medali untuk semua peserta",
+    "Kesempatan berlari secara virtual di mana saja"
+  ],
+  "lokasi": "Virtual, bisa dilakukan di mana saja",
+  "kota": "Pontianak",
+  "tanggal_event": "2021-07-15",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "biaya_utama": "Rp 150.000,-",
+    "add_on": {
+      "Jersey Merah": "Rp 140.000,-",
+      "Jersey Putih": "Rp 140.000,-"
+    }
+  },
+  "kategori": [
+    "42K"
+  ],
+  "jenis_event": "virtual run"
+}

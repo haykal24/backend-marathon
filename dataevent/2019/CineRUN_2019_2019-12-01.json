@@ -1,0 +1,31 @@
+{
+  "image": "-",
+  "judul": "CineRUN 2019",
+  "isi_informasi": "CineRUN adalah lomba lari dengan konsep Family Fun Run yang diselenggarakan oleh PFN dalam rangka memeriahkan Vital Voices Festival untuk menyambut Hari Ibu. Selain lari, terdapat lomba kostum superhero dan kategori pemenang untuk kostum terbaik. Peserta akan mendapatkan race pack, jersey, dan produk sponsor.",
+  "benefit_peserta": [
+    "Kesempatan berpartisipasi dalam lomba lari keluarga",
+    "Lomba kostum dengan kategori pemenang",
+    "Race pack dan produk sponsor"
+  ],
+  "lokasi": "Gedung Jasindo, Kota Tua, Jakarta",
+  "kota": "Jakarta",
+  "tanggal_event": "2019-12-01",
+  "kontak_event": {
+    "Instagram": [
+      "Cine.Run"
+    ],
+    "WhatsApp": "085341832598",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "2 orang tua dan 2 anak maksimal umur 12 tahun": "IDR 300.000",
+    "2 orang tua dan 1 anak maksimal 12 tahun": "IDR 250.000",
+    "additional orang tua / personal": "IDR 100.000",
+    "additional anak": "IDR 50.000"
+  },
+  "kategori": [
+    "2.7K Family Fun Run"
+  ],
+  "jenis_event": "fun run"
+}

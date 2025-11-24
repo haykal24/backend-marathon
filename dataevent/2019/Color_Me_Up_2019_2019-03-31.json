@@ -1,0 +1,23 @@
+{
+  "image": "-",
+  "judul": "Color Me Up! 2019",
+  "isi_informasi": "Pada tanggal 31 Maret 2019, Saparua Park di Bandung akan menjadi tuan rumah acara lari Color Me Up! yang merayakan Hari Kebahagiaan Sedunia dengan berlari penuh warna. Acara ini menawarkan pengalaman lari 5K yang seru dan berwarna.",
+  "benefit_peserta": [
+    "Pengalaman berlari yang menyenangkan",
+    "Aktivitas menarik selama acara",
+    "Kesempatan untuk merayakan kebahagiaan"
+  ],
+  "lokasi": "Saparua Park, Bandung",
+  "kota": "Bandung",
+  "tanggal_event": "2019-03-31",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,26 @@
+{
+  "image": "-",
+  "judul": "Bogor Color Run 2022",
+  "isi_informasi": "Bogor Color Run adalah festival olahraga tahunan di Bogor yang mengusung konsep fun run dengan jarak 5K, di mana peserta akan disemprotkan warna di setiap kilometer.",
+  "benefit_peserta": [
+    "Pengalaman berlari yang menyenangkan",
+    "Kesempatan untuk berinteraksi dengan peserta lain",
+    "Mendapatkan kenang-kenangan dari acara"
+  ],
+  "lokasi": "Gor Pajajaran, Kota Bogor",
+  "kota": "Bogor",
+  "tanggal_event": "2022-10-30",
+  "kontak_event": {
+    "Instagram": [
+      "@bogorcolorrun2022"
+    ],
+    "WhatsApp": "+62 815-1947-8878",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

@@ -1,0 +1,33 @@
+{
+  "image": "-",
+  "judul": "UI Ultra 2023",
+  "isi_informasi": "UI Ultra 2023 adalah lomba Ultra Marathon sejauh 70 km yang berlangsung di kampus Universitas Indonesia, Depok, dengan format individu, kelompok, atau relay. Event ini akan diadakan pada Minggu, 17 Desember 2023, mulai pukul 6 pagi hingga 6 malam, dengan sesi group run di sore hari.",
+  "benefit_peserta": [
+    "Kesempatan berpartisipasi dalam lomba lari jarak jauh",
+    "Diskon 20% untuk pendaftaran Early Bird",
+    "Pengalaman berlari di lingkungan kampus yang indah"
+  ],
+  "lokasi": "Kampus Universitas Indonesia, Depok",
+  "kota": "Depok",
+  "tanggal_event": "2023-12-17",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "70KM Individu": "Tidak tercantum",
+    "70KM Relay 2": "Tidak tercantum",
+    "70KM Relay 5": "Tidak tercantum",
+    "70KM Relay 10": "Tidak tercantum",
+    "70KM Group 10": "Tidak tercantum"
+  },
+  "kategori": [
+    "70KM Individu",
+    "70KM Relay 2",
+    "70KM Relay 5",
+    "70KM Relay 10",
+    "70KM Group 10"
+  ],
+  "jenis_event": "road run"
+}

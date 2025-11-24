@@ -1,0 +1,38 @@
+{
+  "image": "-",
+  "judul": "Kendari Run 2019",
+  "isi_informasi": "Kendari Run 2019 adalah lomba lari yang diadakan pada 20 Oktober 2019, dengan kategori 5K dan 10K. Peserta yang mencapai garis finish akan mendapatkan medali finisher, dan hadiah untuk juara 1-3 di masing-masing kategori. Rute lari melewati ikon Kota Kendari, seperti Tugu Persatuan dan Masjid Apung Al-Alam, serta menyediakan check-point dengan minuman dan snack. Pendaftaran berlangsung dari 9 Agustus hingga 15 Oktober 2019, atau sampai kuota terpenuhi.",
+  "benefit_peserta": [
+    "Medali finisher",
+    "Hadiah untuk juara 1-3",
+    "Jersey Race",
+    "String Bag",
+    "BIB"
+  ],
+  "lokasi": "Tugu Religi, Kendari, Sulawesi Tenggara",
+  "kota": "Kendari",
+  "tanggal_event": "2019-10-20",
+  "kontak_event": {
+    "Instagram": [
+      "@kendarirun2019"
+    ],
+    "WhatsApp": "0812-4574-4474",
+    "Email": "admin@kendarirun.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "Normal": "Rp175.000",
+      "Early Bird": "Rp150.000"
+    },
+    "10K": {
+      "Normal": "Rp225.000",
+      "Early Bird": "Rp200.000"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

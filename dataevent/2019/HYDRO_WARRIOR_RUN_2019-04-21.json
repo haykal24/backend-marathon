@@ -1,0 +1,23 @@
+{
+  "image": "-",
+  "judul": "HYDRO WARRIOR RUN",
+  "isi_informasi": "Acara lari HYDRO WARRIOR RUN akan berlangsung pada 21 April 2019 di Gedung Pancasila USU, Medan. Event ini bertujuan untuk meningkatkan kesadaran tentang Hydrocephalus, sebuah kondisi medis yang dapat berakibat fatal jika tidak ditangani. Selain lomba lari 5K, akan ada berbagai kegiatan menarik seperti Senam Ahoi, konser kemanusiaan, donor darah, dan pemeriksaan kesehatan gratis. Peserta dikenakan biaya registrasi sebesar 150K, yang juga merupakan donasi untuk penderita Hydrocephalus. Setiap peserta akan mendapatkan medali, kaos lari, dan snack.",
+  "benefit_peserta": [
+    "Medali",
+    "Kaos Lari",
+    "Snack"
+  ],
+  "lokasi": "Gedung Pancasila USU (Pendopo USU), Medan, Sumatera Utara",
+  "kota": "Medan",
+  "tanggal_event": "2019-04-21",
+  "kontak_event": {
+    "WhatsApp": "0821-6783-3864",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "150000",
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

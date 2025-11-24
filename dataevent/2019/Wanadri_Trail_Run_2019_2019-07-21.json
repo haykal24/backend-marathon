@@ -1,0 +1,33 @@
+{
+  "image": "-",
+  "judul": "Wanadri Trail Run 2019",
+  "isi_informasi": "Event lari ini berlangsung pada 21 Juli 2019 di Ciater Highland Resort, Subang, Jawa Barat. Terdapat beberapa kategori lomba yaitu 5K, 13K, 25K, dan 50K dengan biaya pendaftaran bervariasi. Pendaftaran dibuka dari 3 Maret hingga 22 Juni 2019 atau sampai kuota terpenuhi.",
+  "benefit_peserta": [
+    "Kesempatan berkompetisi di berbagai kategori",
+    "Pengalaman berlari di alam terbuka",
+    "Mendapatkan medali dan sertifikat"
+  ],
+  "lokasi": "Ciater Highland Resort, Subang, Jawa Barat",
+  "kota": "Subang",
+  "tanggal_event": "2019-07-21",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0812 119 911",
+    "Email": "info@wanadri-run.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "50K": "Rp 600.000",
+    "25K": "Rp 450.000",
+    "13K": "Rp 350.000",
+    "5K": "Rp 300.000",
+    "National Championship 50K": "Rp 300.000"
+  },
+  "kategori": [
+    "5K",
+    "13K",
+    "25K",
+    "50K"
+  ],
+  "jenis_event": "trail run"
+}

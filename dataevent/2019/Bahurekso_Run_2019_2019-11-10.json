@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "Bahurekso Run 2019",
+  "isi_informasi": "Bahurekso Run 2019 akan diadakan pada 10 November 2019 di Stadion Utama Kebondale Kendal, Jawa Tengah. Terdapat kategori 5K dan 10K dengan biaya registrasi yang berbeda.",
+  "benefit_peserta": [
+    "Kesempatan berkompetisi dalam kategori lari",
+    "Mendapatkan pengalaman berlari di acara resmi"
+  ],
+  "lokasi": "Stadion Utama Kebondale Kendal, Jawa Tengah",
+  "kota": "Kendal",
+  "tanggal_event": "2019-11-10",
+  "kontak_event": {
+    "WhatsApp": "087 700 414 445",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "5K Pelajar Lokal Putra": "IDR 25rb",
+    "5K Umum Putri": "IDR 75rb",
+    "10K Umum Putra": "IDR 100rb"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

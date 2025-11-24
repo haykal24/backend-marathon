@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "Funtastic Run",
+  "isi_informasi": "Funtastic Run adalah bagian dari Funtastic Fest Pekalongan 2019, bertujuan untuk mempromosikan gaya hidup sehat dan menarik komunitas lari serta wisatawan untuk merayakan Ulang Tahun Pekalongan ke-113.",
+  "benefit_peserta": [
+    "Mendapatkan T-Shirt lari eksklusif",
+    "Kesempatan berpartisipasi dalam acara besar",
+    "Promosi pariwisata kota Pekalongan"
+  ],
+  "lokasi": "Lapangan Jetayu, Pekalongan, Jawa Tengah",
+  "kota": "Pekalongan",
+  "tanggal_event": "2019-03-03",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "5K": "Rp. 80.000,-",
+    "10K": "Rp. 100.000,-"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

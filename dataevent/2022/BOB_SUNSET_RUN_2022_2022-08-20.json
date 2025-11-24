@@ -1,0 +1,29 @@
+{
+  "image": "-",
+  "judul": "BOB SUNSET RUN 2022",
+  "isi_informasi": "Jogja Pro – Harian Jogja bekerja sama dengan Badan Otorita Borobudur akan menyelenggarakan Jogja Sunset Run dengan tema #BOBSUNSETRUN. Acara ini merupakan lari sore yang menawarkan pengalaman unik dengan latar belakang sunset di pantai selatan Jogja. Kegiatan ini berlangsung pada Sabtu, 20 Agustus 2022, mulai pukul 14.00 WIB di Laguna Pantai Depok, Bantul, Yogyakarta.",
+  "benefit_peserta": [
+    "Medali Finisher",
+    "BIB/Nomor Dada Pelari",
+    "Headband (hanya untuk kategori 10K)",
+    "Asuransi",
+    "Mineral Water"
+  ],
+  "lokasi": "Laguna Pantai Depok, Bantul, Yogyakarta",
+  "kota": "Bantul",
+  "tanggal_event": "2022-08-20",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "5K": 70000,
+    "10K": 90000
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

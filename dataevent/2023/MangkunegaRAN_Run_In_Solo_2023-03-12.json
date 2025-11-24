@@ -1,0 +1,35 @@
+{
+  "image": "-",
+  "judul": "MangkunegaRAN Run In Solo",
+  "isi_informasi": "Mengajak para penggemar lari untuk berpartisipasi dalam Half Marathon, 10K, dan 5K di Kota Solo, menikmati kekayaan budaya dan sejarah Puro Mangkunegaran. Ajak teman-temanmu untuk berlari bersama dan dapatkan diskon 50% untuk pendaftaran.",
+  "benefit_peserta": [
+    "Menikmati keindahan budaya dan sejarah Kota Solo",
+    "Diskon 50% untuk pendaftaran"
+  ],
+  "lokasi": "Puro Mangkunegaran, Kota Solo",
+  "kota": "Solo",
+  "tanggal_event": "2023-03-12",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Early Bird": {
+      "Half Marathon": 325000,
+      "10K": 225000,
+      "5K": 175000
+    },
+    "Normal": {
+      "Half Marathon": 650000,
+      "10K": 450000,
+      "5K": 350000
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "road run"
+}

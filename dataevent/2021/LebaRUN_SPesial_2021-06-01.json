@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "LebaRUN SPesial",
+  "isi_informasi": "Ikuti Virtual Run untuk kategori Marathon Multiple Run dan Half Marathon Multiple Run. Acara ini terbuka untuk semua kalangan.",
+  "benefit_peserta": [
+    "Kesempatan berlari di mana saja",
+    "Partisipasi dalam kategori Marathon dan Half Marathon"
+  ],
+  "lokasi": "Virtual, bisa dilakukan di mana saja",
+  "kota": "bisa dilakukan di mana saja",
+  "tanggal_event": "2021-06-01",
+  "kontak_event": {
+    "Instagram": [
+      "@beyond.run",
+      "@semenpadangrunners"
+    ],
+    "WhatsApp": "081284574065",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Rp 20.000",
+  "kategori": [
+    "21K",
+    "42K"
+  ],
+  "jenis_event": "virtual run"
+}

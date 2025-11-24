@@ -1,0 +1,29 @@
+{
+  "image": "-",
+  "judul": "Run It by Prasmul Olympics 2019",
+  "isi_informasi": "RUN IT yang diselenggarakan oleh Prasmul Olympics adalah acara lari yang bertujuan untuk meningkatkan motivasi dan mendorong peserta untuk melampaui batasan diri. Dengan tema 'Enhance your Potential', acara ini mengajak semua orang untuk berlari dan menunjukkan kemampuan yang dimiliki. Terdapat kategori lomba 5K, 10K, dan Half Marathon yang siap menantang para pelari.",
+  "benefit_peserta": [
+    "Meningkatkan motivasi berlari",
+    "Mendorong peserta untuk melampaui batasan diri",
+    "Pengalaman berlari dalam kategori yang beragam"
+  ],
+  "lokasi": "Universitas Prasetiya Mulya, BSD City, Tangerang",
+  "kota": "Tangerang",
+  "tanggal_event": "2019-03-31",
+  "kontak_event": {
+    "Instagram": [
+      "@prasmul_olympics"
+    ],
+    "WhatsApp": "082134782229",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K",
+    "10K",
+    "21K",
+    "virtual run"
+  ],
+  "jenis_event": "road run"
+}

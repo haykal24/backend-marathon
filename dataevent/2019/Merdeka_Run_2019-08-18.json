@@ -1,0 +1,25 @@
+{
+  "image": "-",
+  "judul": "Merdeka Run",
+  "isi_informasi": "Merdeka Run akan diselenggarakan pada 18 Agustus 2019 di Ciputra Waterpark, Surabaya. Terdapat kategori lari untuk anak-anak dan dewasa.",
+  "benefit_peserta": [
+    "Kesempatan berlari di acara yang meriah",
+    "Mendapatkan pengalaman berkompetisi",
+    "Meningkatkan kesehatan dan kebugaran"
+  ],
+  "lokasi": "Ciputra Waterpark, Citraland, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2019-08-18",
+  "kontak_event": {
+    "WhatsApp": "081214211987",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "1.5K Kids Dash",
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,29 @@
+{
+  "image": "-",
+  "judul": "BOOMAS RUN FEST",
+  "isi_informasi": "BOOMAS RUN FEST adalah kompetisi lari sejauh 5 kilometer yang diselenggarakan oleh PK-OSIS SMA Negeri 1 Kebomas, Gresik. Event ini tidak hanya mencakup lomba lari, tetapi juga berbagai acara seperti senam pagi, penampilan bintang tamu, dan festival warna. Pendaftaran dibuka hingga slot penuh, dengan biaya pendaftaran untuk umum sebesar 100 ribu dan pelajar 90 ribu, termasuk race pack, jersey, medali untuk semua finisher, dan penyegaran.",
+  "benefit_peserta": [
+    "Medali untuk semua finisher",
+    "Race pack yang menarik",
+    "Kesempatan memenangkan hadiah uang tunai"
+  ],
+  "lokasi": "Jl. Jakarta GKB, Gresik, Jawa Timur",
+  "kota": "Gresik",
+  "tanggal_event": "2020-02-23",
+  "kontak_event": {
+    "Instagram": [
+      "@brf_5k"
+    ],
+    "WhatsApp": "085852264878",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Umum": "100000",
+    "Pelajar": "90000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "Sunset CK Run Bali 2023",
+  "isi_informasi": "Dapatkan harga Early Bird hingga 5 Juni. Terdapat kategori 5K seharga IDR 250K dan 10K seharga IDR 300K. Ajak teman dan keluarga untuk merasakan keseruan CK Sunset Run Bali 2023!",
+  "benefit_peserta": [
+    "Kesempatan untuk berlari di acara yang menyenangkan",
+    "Diskon Early Bird",
+    "Berkumpul dengan teman dan keluarga"
+  ],
+  "lokasi": "Tidak tercantum",
+  "kota": "Bali",
+  "tanggal_event": "2023-06-05",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 250K",
+    "10K": "IDR 300K"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,30 @@
+{
+  "image": "-",
+  "judul": "Run To Give Surabaya 2019",
+  "isi_informasi": "Run To Give 2019 di Surabaya kembali hadir! Ini adalah acara lari tahunan yang diselenggarakan oleh hotel Marriott International di Asia Pasifik, dengan seluruh hasil yang akan disumbangkan kepada lembaga sosial. Tahun ini merupakan tahun keenam acara ini di Surabaya, dan dana yang terkumpul akan disalurkan kepada UNHCR.",
+  "benefit_peserta": [
+    "Mendukung kegiatan sosial",
+    "Kesempatan berlari bersama komunitas",
+    "Pengalaman berharga dalam acara lari"
+  ],
+  "lokasi": "Pakuwon Golf & Family Club, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2019-09-22",
+  "kontak_event": {
+    "WhatsApp": "0823-3656-5539",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "5K": "Rp. 150.000",
+    "KIDS DASH": {
+      "7-12 tahun": "Rp. 150.000",
+      "3-6 tahun + 1 dewasa": "Rp. 275.000"
+    }
+  },
+  "kategori": [
+    "5K",
+    "1K Kids Dash"
+  ],
+  "jenis_event": "road run"
+}

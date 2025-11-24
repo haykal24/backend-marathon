@@ -1,0 +1,34 @@
+{
+  "image": "-",
+  "judul": "IRACE Passport Virtual Race Challenge",
+  "isi_informasi": "Bergabunglah dalam IRACE Passport Virtual Race Challenge yang berlangsung dari 10 Juli hingga 25 Desember 2021. Event ini dapat diikuti secara virtual dari mana saja dengan tantangan lari 21K dan bersepeda 100K. Daftar sekarang untuk mendapatkan medali dan jersey resmi IRACE.",
+  "benefit_peserta": [
+    "Medali finisher",
+    "E-bib dan twibbon",
+    "Sertifikat e-finisher",
+    "Kesempatan mendapatkan medali dengan nama terukir (untuk 100 pendaftar pertama)"
+  ],
+  "lokasi": "Virtual",
+  "kota": "Virtual",
+  "tanggal_event": "2021-07-10",
+  "kontak_event": {
+    "Instagram": [
+      "@iraceindonesia"
+    ],
+    "WhatsApp": "08211 333 7249",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Umum": "Rp.150.000",
+    "Add-On": {
+      "Jersey Lari Resmi": "Rp 150.000",
+      "Jersey Sepeda Resmi": "Rp 250.000"
+    }
+  },
+  "kategori": [
+    "21K",
+    "100K"
+  ],
+  "jenis_event": "virtual run"
+}

@@ -17,11 +17,14 @@ class EventsImportFromJson extends Command
                             {--path=backend/dataevent : Path to data event folder}
                             {--source=index : Source format (index or folder)}
                             {--status=published : Event status after import (published or pending_review)}
-                            {--year= : Filter by year when using folder source (e.g., 2025)}
-                            {--limit= : Limit number of files to import (for testing)}
+                            {--year= : Filter by single year when using folder source (e.g., 2025)}
+                            {--year-start= : Start year for range import (inclusive)}
+                            {--year-end= : End year for range import (inclusive)}
+                            {--limit= : Legacy limit option (alias of batch-limit)}
+                            {--batch-limit= : Limit number of events processed per run (useful for periodic migration)}
                             {--dry-run : Preview mode, do not save to database}
                             {--skip-images : Skip image upload process}
-                            {--force : Overwrite existing events (by slug)}';
+                            {--force : Overwrite existing events (by slug or duplicate title/date)}';
 
     protected $description = 'Import events from JSON files in dataevent folder';
 
@@ -29,6 +32,7 @@ class EventsImportFromJson extends Command
     protected int $skippedCount = 0;
     protected int $errorCount = 0;
     protected int $imageProcessedCount = 0;
+    protected array $processedEventKeys = [];
 
     public function handle(): int
     {
@@ -55,11 +59,20 @@ class EventsImportFromJson extends Command
         }
 
         $year = $this->option('year');
-        $limit = $this->option('limit') ? (int) $this->option('limit') : null;
+        $yearStart = $this->option('year-start');
+        $yearEnd = $this->option('year-end');
+        $limitOption = $this->option('limit');
+        $batchLimitOption = $this->option('batch-limit');
+        $batchLimit = null;
+        if ($batchLimitOption !== null && $batchLimitOption !== '') {
+            $batchLimit = (int) $batchLimitOption;
+        } elseif ($limitOption !== null && $limitOption !== '') {
+            $batchLimit = (int) $limitOption;
+        }
         
         $events = match ($source) {
             'index' => $this->readFromIndex($path),
-            'folder' => $this->readFromFolders($path, $year),
+            'folder' => $this->readFromFolders($path, $year, $yearStart, $yearEnd),
             default => throw new \InvalidArgumentException("Invalid source: {$source}"),
         };
 
@@ -69,9 +82,9 @@ class EventsImportFromJson extends Command
         }
 
         // Apply limit if specified
-        if ($limit !== null && $limit > 0) {
-            $events = array_slice($events, 0, $limit);
-            $this->info("Limit applied: importing only {$limit} events");
+        if ($batchLimit !== null && $batchLimit > 0) {
+            $events = array_slice($events, 0, $batchLimit);
+            $this->info("Batch limit applied: importing only {$batchLimit} events this run");
         }
 
         $total = count($events);
@@ -119,19 +132,30 @@ class EventsImportFromJson extends Command
         return $data ?? [];
     }
 
-    protected function readFromFolders(string $path, ?string $year = null): array
+    protected function readFromFolders(string $path, ?string $year = null, ?string $yearStart = null, ?string $yearEnd = null): array
     {
         $events = [];
         $directories = File::directories($path);
+        $yearStart = $yearStart ? (int) $yearStart : null;
+        $yearEnd = $yearEnd ? (int) $yearEnd : null;
 
         foreach ($directories as $directory) {
             $dirName = basename($directory);
-            
-            if (!preg_match('/^file (\d{4})$/', $dirName, $matches)) {
+
+            // Support both "file 2025" and "2025" directory naming conventions
+            if (!preg_match('/^(?:file[\s_-]*)?(\d{4})$/i', $dirName, $matches)) {
                 continue;
             }
 
             if ($year !== null && $matches[1] !== $year) {
+                continue;
+            }
+
+            $numericYear = (int) $matches[1];
+            if ($yearStart !== null && $numericYear < $yearStart) {
+                continue;
+            }
+            if ($yearEnd !== null && $numericYear > $yearEnd) {
                 continue;
             }
 
@@ -161,11 +185,6 @@ class EventsImportFromJson extends Command
 
         $slug = $this->generateUniqueSlug($data['judul'], $force);
 
-        if (!$force && Event::where('slug', $slug)->exists()) {
-            $this->skippedCount++;
-            throw new \Exception("Event with slug '{$slug}' already exists");
-        }
-
         // Extract provinsi dari lokasi
         $provinceName = $this->extractProvinceFromLocation($data['lokasi'], $data['kota']);
 
@@ -184,6 +203,42 @@ class EventsImportFromJson extends Command
 
         if ($dryRun) {
             return;
+        }
+
+        $eventKey = $this->generateEventKey($data['judul'], $eventDate);
+
+        if (!$force) {
+            if (isset($this->processedEventKeys[$eventKey])) {
+                $this->skippedCount++;
+                $this->line("Skipping duplicate in import batch: {$data['judul']} ({$eventDate->toDateString()})");
+                return;
+            }
+
+            $duplicateInDb = Event::where('title', $data['judul'])
+                ->whereDate('event_date', $eventDate->toDateString())
+                ->first();
+
+            if ($duplicateInDb) {
+                $this->skippedCount++;
+                $this->line("Skipping existing event in DB: {$data['judul']} ({$eventDate->toDateString()}) [ID {$duplicateInDb->id}]");
+                return;
+            }
+
+            if (Event::where('slug', $slug)->exists()) {
+                $this->skippedCount++;
+                $this->line("Skipping because slug already exists: {$slug}");
+                return;
+            }
+        }
+
+        if ($force) {
+            $existingDuplicate = Event::where('title', $data['judul'])
+                ->whereDate('event_date', $eventDate->toDateString())
+                ->first();
+
+            if ($existingDuplicate) {
+                $slug = $existingDuplicate->slug;
+            }
         }
 
         DB::beginTransaction();
@@ -265,10 +320,16 @@ class EventsImportFromJson extends Command
             }
 
             DB::commit();
+            $this->processedEventKeys[$eventKey] = true;
         } catch (\Exception $e) {
             DB::rollBack();
             throw $e;
         }
+    }
+
+    protected function generateEventKey(string $title, \Carbon\Carbon $eventDate): string
+    {
+        return strtolower(trim($title)) . '|' . $eventDate->toDateString();
     }
 
     /**

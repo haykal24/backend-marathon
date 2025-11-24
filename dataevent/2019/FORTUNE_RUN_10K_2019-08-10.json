@@ -1,0 +1,25 @@
+{
+  "image": "-",
+  "judul": "FORTUNE RUN 10K",
+  "isi_informasi": "Acara lari FORTUNE RUN 10K akan diadakan pada 10 Agustus 2019 di Boulevard REDTOP HOTEL & CONVENTION CENTER, Jakarta. Kegiatan ini bertujuan untuk memberikan charity kepada yang membutuhkan dan mendukung pendidikan anak di Indonesia. Rute lari mencakup REDTOP hotel – Bundaran HI – REDTOP. Pendaftaran dibuka dari 14 Juli hingga 8 Agustus 2019 dengan biaya Rp. 120.000 per peserta, termasuk kaos dan tas. Hadiah utama berupa sepeda motor.",
+  "benefit_peserta": [
+    "Mendapatkan kaos dan tas",
+    "Kesempatan memenangkan hadiah utama",
+    "Berpartisipasi dalam kegiatan amal"
+  ],
+  "lokasi": "Boulevard REDTOP HOTEL & CONVENTION CENTER, Jakarta",
+  "kota": "Jakarta",
+  "tanggal_event": "2019-08-10",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "individu": "Rp. 120.000"
+  },
+  "kategori": [
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

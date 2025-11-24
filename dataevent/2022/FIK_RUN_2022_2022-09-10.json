@@ -1,0 +1,30 @@
+{
+  "image": "-",
+  "judul": "FIK RUN 2022",
+  "isi_informasi": "FIK RUN 2022 diselenggarakan untuk memperingati Hari Olahraga Nasional ke XXXIX oleh Badan Eksekutif Mahasiswa Fakultas Ilmu Keolahragaan Universitas Negeri Malang. Event ini terbuka untuk pelajar SMA/SMK/MA, mahasiswa, dan masyarakat umum, dengan berbagai fasilitas seperti hiburan, doorprize, senam pagi, permainan tradisional, stand bazar, dan photobooth.",
+  "benefit_peserta": [
+    "Hiburan menarik",
+    "Doorprize",
+    "Senam pagi",
+    "Permainan tradisional",
+    "Stand bazar",
+    "Photobooth"
+  ],
+  "lokasi": "Universitas Negeri Malang, Malang",
+  "kota": "Malang",
+  "tanggal_event": "2022-09-10",
+  "kontak_event": {
+    "WhatsApp": "085812677051",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Umum": "Rp. 125.000",
+    "Pelajar": "Rp. 100.000"
+  },
+  "kategori": [
+    "Umum",
+    "Pelajar"
+  ],
+  "jenis_event": "road run"
+}

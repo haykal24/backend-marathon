@@ -9,6 +9,7 @@ Route::prefix('v1')->group(function () {
     Route::get('/banners', [App\Http\Controllers\Api\V1\AdBannerController::class, 'index']);
 
     // Events
+    Route::get('/events/available-years', [App\Http\Controllers\Api\V1\EventController::class, 'getAvailableYears']);
     Route::get('/events/featured-hero', [App\Http\Controllers\Api\V1\EventController::class, 'getFeaturedHeroEvents']);
     Route::get('/events/calendar-stats', [App\Http\Controllers\Api\V1\EventController::class, 'getCalendarStats']);
     Route::get('/events/slug/{slug}', [App\Http\Controllers\Api\V1\EventController::class, 'showBySlug']);

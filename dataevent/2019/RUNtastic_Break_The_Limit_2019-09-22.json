@@ -1,0 +1,23 @@
+{
+  "image": "-",
+  "judul": "RUNtastic: Break The Limit",
+  "isi_informasi": "Acara lari 5 km dengan tema 'RUNtastic: Break The Limit' akan diadakan pada 22 September 2019 di GOR Pajajaran, Bogor. Selain lari, peserta dapat menikmati hiburan, doorprize, dan konsultasi gizi gratis.",
+  "benefit_peserta": [
+    "Hiburan",
+    "Doorprize",
+    "Konsultasi gizi gratis"
+  ],
+  "lokasi": "GOR Pajajaran, Bogor, Jawa Barat",
+  "kota": "Bogor",
+  "tanggal_event": "2019-09-22",
+  "kontak_event": {
+    "WhatsApp": "089604261970",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Rp 75.000",
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

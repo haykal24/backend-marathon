@@ -109,6 +109,11 @@ class SitemapController extends BaseApiController
             // Rate card: will be handled by StaticPage query below if exists
 
             // 2. Categories Sitemap
+            // Temporarily disable category/province facet URLs in sitemap.
+            // Google Search Console reported hundreds of orphaned pages because these
+            // query-string listings are only reachable via interactive filters.
+            // Keep the code commented so we can restore it once dedicated landing pages exist.
+            /*
             EventCategory::query()
                 ->select(['id', 'slug', 'updated_at'])
                 ->whereHas('events', fn($q) => $q->where('status', 'published'))
@@ -123,9 +128,9 @@ class SitemapController extends BaseApiController
                 ->where('is_active', true)
                 ->each(function (Province $province) use ($pushUrl) {
                     $lastmod = optional($province->updated_at)->toAtomString();
-                    // Use direct URL construction instead of query params for SEO
                     $pushUrl("/event?province={$province->slug}", 'categories', 'daily', 0.8, $lastmod);
                 });
+            */
 
             StaticPage::query()
                 ->select(['slug', 'updated_at'])
@@ -136,6 +141,7 @@ class SitemapController extends BaseApiController
                     $pushUrl("/{$page->slug}", 'pages', 'monthly', 0.4, $lastmod);
                 });
 
+            /*
             FAQ::query()
                 ->select('category')->whereNotNull('category')->groupBy('category')->orderBy('category')
                 ->get()->each(function (FAQ $faq) use ($pushUrl) {
@@ -147,7 +153,9 @@ class SitemapController extends BaseApiController
                 ->get()->each(function (FAQ $faq) use ($pushUrl) {
                     $pushUrl("/faq?keyword=" . urlencode($faq->keyword), 'categories', 'weekly', 0.5);
                 });
+            */
 
+                /*
                 try {
                     BlogCategory::query()
                         ->select(['slug', 'updated_at'])->isVisible()
@@ -163,7 +171,6 @@ class SitemapController extends BaseApiController
                     $tagIds = DB::table('taggables')->where('taggable_type', Post::class)->distinct()->pluck('tag_id')->toArray();
                     if (!empty($tagIds)) {
                         Tag::query()->whereIn('id', $tagIds)->get()->each(function (Tag $tag) use ($pushUrl) {
-                            // Handle JSON slug column (Spatie Tags uses JSON for slug)
                             $slug = is_string($tag->slug) && !empty($tag->slug)
                                 ? trim($tag->slug)
                                 : (is_array($tag->slug) 
@@ -171,14 +178,10 @@ class SitemapController extends BaseApiController
                                     : (is_object($tag->slug)
                                         ? ($tag->slug->en ?? ($tag->slug->id ?? null))
                                         : null));
-                            
-                            // Fallback: generate slug from name if slug is empty
                             if (empty($slug)) {
                                 $name = is_string($tag->name) ? $tag->name : ($tag->name['en'] ?? ($tag->name['id'] ?? reset($tag->name)));
                                 $slug = Str::slug($name ?? '');
                             }
-                            
-                            // Only add to sitemap if slug is valid
                             if (!empty($slug)) {
                                 $pushUrl("/blog?tag=" . urlencode($slug), 'categories', 'weekly', 0.5,
                                     optional($tag->updated_at)->toAtomString());
@@ -188,6 +191,7 @@ class SitemapController extends BaseApiController
                 } catch (\Exception $e) {
                     // Silently skip
                 }
+                */
 
                 // 3. Events Sitemap
                 Event::query()

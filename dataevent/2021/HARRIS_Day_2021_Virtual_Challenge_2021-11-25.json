@@ -1,0 +1,33 @@
+{
+  "image": "-",
+  "judul": "HARRIS Day 2021 Virtual Challenge",
+  "isi_informasi": "HARRIS Day 2021 Virtual Challenge kembali hadir melalui aplikasi 99 Virtual Race. Peserta dapat memilih kategori yang diinginkan dan berkesempatan mendapatkan paket hotel dengan harga khusus. Registrasi dibuka dari 20 September hingga 24 November 2021, sementara periode lomba berlangsung dari 25 November hingga 12 Desember 2021.",
+  "benefit_peserta": [
+    "eBIB",
+    "Finisher Medal",
+    "Finisher eCertificate",
+    "kesempatan memenangkan Doorprize",
+    "paket hotel dengan harga khusus"
+  ],
+  "lokasi": "Virtual, bisa dilakukan dimana saja",
+  "kota": "bisa dilakukan dimana saja",
+  "tanggal_event": "2021-11-25",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Bright (Race Only)": {
+      "Early Bird": 149000,
+      "Normal": 169000
+    },
+    "Fit": 569000,
+    "On the Move": 869000
+  },
+  "kategori": [
+    "19K Multiple Run",
+    "49K Multiple Ride"
+  ],
+  "jenis_event": "virtual run"
+}

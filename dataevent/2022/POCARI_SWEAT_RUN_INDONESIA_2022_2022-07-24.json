@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "POCARI SWEAT RUN INDONESIA 2022",
+  "isi_informasi": "Pocari Sweat menyelenggarakan POCARI SWEAT RUN INDONESIA 2022 pada 24 Juli 2022. Event ini mengusung konsep HYBRID, menggabungkan virtual dan offline secara bersamaan. Peserta virtual dapat berlari di lokasi dan rute pilihan sendiri, baik di luar ruangan maupun dalam ruangan, dengan menggunakan aplikasi berbasis GPS atau sportwatch. Sementara itu, event offline akan berlangsung di Bandung dengan lokasi yang akan diinformasikan lebih lanjut. Pendaftaran dibuka mulai 9 Maret 2022 melalui aplikasi Born To Sweat.",
+  "benefit_peserta": [
+    "Kesempatan untuk berpartisipasi dalam event lari hybrid",
+    "Fleksibilitas dalam memilih lokasi untuk lari virtual",
+    "Akses informasi melalui media sosial dan aplikasi"
+  ],
+  "lokasi": "Bandung, lokasi detail akan diinformasikan lebih lanjut",
+  "kota": "Bandung",
+  "tanggal_event": "2022-07-24",
+  "kontak_event": {
+    "Instagram": [
+      "@PocariSportID"
+    ],
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "virtual",
+    "offline"
+  ],
+  "jenis_event": "road run"
+}

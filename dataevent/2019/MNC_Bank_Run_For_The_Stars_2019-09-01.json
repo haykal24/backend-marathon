@@ -1,0 +1,26 @@
+{
+  "image": "-",
+  "judul": "MNC Bank Run For The Stars",
+  "isi_informasi": "Pada 1 September 2019, MNC Bank Balikpapan mengadakan event lari on road sejauh 7.4 km dalam rangka merayakan HUT Kemerdekaan Republik Indonesia. Rute dimulai dan diakhiri di MNC Bank Balikpapan, melewati Bukit Cinta dan Markoni. Peserta yang mendaftar akan mendapatkan promo produk MNC Bank. Biaya pendaftaran sebesar Rp80.000 mencakup Bib, kupon doorprize, hidrasi, refreshment, jersey untuk 50 finisher teratas, dan medali finisher. Terdapat juga hadiah tabungan untuk 3 podium putra dan putri. Pendaftaran dapat dilakukan di Bank MNC atau melalui kontak yang tertera di eflyer.",
+  "benefit_peserta": [
+    "Promo produk MNC Bank",
+    "Bib dan kupon doorprize",
+    "Hidrasi dan refreshment",
+    "Jersey untuk 50 finisher teratas",
+    "Medali finisher",
+    "Hadiah tabungan untuk podium"
+  ],
+  "lokasi": "MNC Bank, Jl Jend Sudirman No 327, Balikpapan, Kalimantan Timur",
+  "kota": "Balikpapan",
+  "tanggal_event": "2019-09-01",
+  "kontak_event": {
+    "WhatsApp": "085240197653",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "80.000",
+  "kategori": [
+    "7.4K"
+  ],
+  "jenis_event": "road run"
+}

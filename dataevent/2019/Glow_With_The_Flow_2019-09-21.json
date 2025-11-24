@@ -1,0 +1,24 @@
+{
+  "image": "-",
+  "judul": "Glow With The Flow",
+  "isi_informasi": "Bergabunglah dalam acara lari malam yang unik, 'Glow With The Flow', pada 21 September 2019 di Grand Kamala Lagoon Bekasi.",
+  "benefit_peserta": [
+    "Pengalaman lari malam yang berbeda",
+    "Kesempatan untuk berolahraga sambil bersenang-senang"
+  ],
+  "lokasi": "Grand Kamala Lagoon, Bekasi, Jawa Barat",
+  "kota": "Bekasi",
+  "tanggal_event": "2019-09-21",
+  "kontak_event": {
+    "WhatsApp": "0812 9555 9440",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Early Bird": "IDR 125K"
+  },
+  "kategori": [
+    "Fun Run"
+  ],
+  "jenis_event": "fun run"
+}

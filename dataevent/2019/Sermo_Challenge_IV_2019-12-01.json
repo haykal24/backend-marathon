@@ -1,0 +1,26 @@
+{
+  "image": "-",
+  "judul": "Sermo Challenge IV",
+  "isi_informasi": "Sermo Challenge adalah event lari tahunan yang diselenggarakan oleh Playon Jogja/Indorunners Yogyakarta di Waduk Sermo. Dimulai pada tahun 2015 untuk menggalang dana bagi korban gempa di Nepal, event ini terus berkembang dengan peningkatan jumlah peserta dari 90 pada tahun pertama menjadi 350 pada tahun 2017. Tahun ini, kategori baru 5K dan Kid Dash ditambahkan agar lebih banyak orang dapat berpartisipasi.",
+  "benefit_peserta": [
+    "Kesempatan berlari di lokasi yang indah",
+    "Partisipasi dalam kegiatan amal",
+    "Pengalaman berlari bersama komunitas"
+  ],
+  "lokasi": "Waduk Sermo, Kulonprogo, Yogyakarta",
+  "kota": "Kulonprogo",
+  "tanggal_event": "2019-12-01",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K",
+    "10K",
+    "16.8K",
+    "21K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,25 @@
+{
+  "image": "-",
+  "judul": "Palembang Triathlon 2019",
+  "isi_informasi": "Palembang Triathlon akan berlangsung pada 10 Februari 2019 di Jakabaring Sport City, Palembang. Event ini menawarkan pengalaman menarik menjelajahi keindahan kota Palembang, yang merupakan tuan rumah Asian Games 2018. Terdapat kategori jarak Olympic, Sprint, dan Mixed Team Relay Distance, memberikan banyak pilihan bagi peserta individu, relay, dan tim campuran. Registrasi dibuka dengan berbagai pilihan biaya dan hadiah menarik.",
+  "benefit_peserta": [
+    "Menjelajahi keindahan kota Palembang",
+    "Aksesibilitas dan amenitas berskala internasional",
+    "Pilihan kategori yang beragam"
+  ],
+  "lokasi": "Jakabaring Sport City, Palembang",
+  "kota": "Palembang",
+  "tanggal_event": "2019-02-10",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "Olympic",
+    "Sprint",
+    "Mixed Team Relay"
+  ],
+  "jenis_event": "road run"
+}

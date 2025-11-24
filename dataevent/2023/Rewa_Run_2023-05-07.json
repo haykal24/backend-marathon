@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "Rewa Run",
+  "isi_informasi": "Pendaftaran Rewa Run 5km telah dibuka! Event ini akan berlangsung pada Minggu, 7 Mei 2023, di Kabupaten Maros, Sulawesi Selatan, dengan hadiah utama berupa 1 unit rumah. Biaya pendaftaran sebesar Rp150.000,- sudah termasuk jersey, medali, dan tote bag. Untuk mendaftar, kunjungi link di bio Instagram @rewarun, isi form data diri, dan ikuti instruksi yang diberikan. Kuota terbatas, segera amankan tiket Anda!",
+  "benefit_peserta": [
+    "Hadiah utama 1 unit rumah",
+    "Jersey",
+    "Medali",
+    "Tote Bag"
+  ],
+  "lokasi": "Kabupaten Maros, Sulawesi Selatan",
+  "kota": "Maros",
+  "tanggal_event": "2023-05-07",
+  "kontak_event": {
+    "Instagram": [
+      "@rewarun"
+    ],
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Rp150.000,-",
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

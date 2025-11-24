@@ -1,0 +1,24 @@
+{
+  "image": "-",
+  "judul": "Java Colour Run 2020",
+  "isi_informasi": "Event lari Java Colour Run akan diadakan pada 15 Maret 2020 di Java Palace Hotel Cikarang, Jawa Barat. Terdapat kategori Colour Run dengan biaya registrasi early bird sebesar IDR 125.000 hingga 29 Februari dan IDR 150.000 untuk registrasi reguler. Peserta akan mendapatkan racepack yang terdiri dari kaos, kacamata, medali, dan bubuk suci.",
+  "benefit_peserta": [
+    "Racepack (Tshirt, Kacamata, Medali, Holy powder)"
+  ],
+  "lokasi": "Java Palace Hotel Cikarang, Jawa Barat",
+  "kota": "Cikarang",
+  "tanggal_event": "2020-03-15",
+  "kontak_event": {
+    "WhatsApp": "0812-8001-5671",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "early_bird": "IDR 125.000",
+    "reguler": "IDR 150.000"
+  },
+  "kategori": [
+    "Colour Run"
+  ],
+  "jenis_event": "road run"
+}

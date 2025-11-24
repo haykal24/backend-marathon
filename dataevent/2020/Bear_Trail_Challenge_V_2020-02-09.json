@@ -1,0 +1,32 @@
+{
+  "image": "-",
+  "judul": "Bear Trail Challenge V",
+  "isi_informasi": "Bear Trail Challenge edisi ke-5 akan berlangsung pada 9 Februari 2020 di Kopi Daeng Balikpapan. Event ini merupakan agenda rutin @indorunnersbpn sejak 2016. Kali ini, peserta akan menempuh jarak 15 km dengan tantangan baru. Terdapat harga early bird untuk 100 pendaftar pertama sebesar Rp 200.000, yang mencakup medali finisher, jersey, refreshment, dan doorprize. Setelah itu, biaya pendaftaran menjadi Rp 250.000. Peserta disarankan menggunakan sepatu trail dan membawa hidrasi. Waktu maksimal untuk menyelesaikan lomba adalah 3 jam, dengan total hadiah Rp 10 juta untuk 5 pemenang kategori putra dan putri.",
+  "benefit_peserta": [
+    "Medali finisher",
+    "Jersey finisher",
+    "Refreshment",
+    "Isotonik dan air mineral",
+    "Doorprize",
+    "Race bag"
+  ],
+  "lokasi": "Kopi Daeng Balikpapan, Kalimantan Timur",
+  "kota": "Balikpapan",
+  "tanggal_event": "2020-02-09",
+  "kontak_event": {
+    "Instagram": [
+      "@indorunnersbpn"
+    ],
+    "WhatsApp": "0816.200.800",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "early_bird": 200000,
+    "normal": 250000
+  },
+  "kategori": [
+    "15K"
+  ],
+  "jenis_event": "road run"
+}

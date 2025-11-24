@@ -1,0 +1,33 @@
+{
+  "image": "-",
+  "judul": "#BirukanLangit Virtual Challenge 2021",
+  "isi_informasi": "Ikuti #BirukanLangit Virtual Challenge 2021 dari 18 hingga 26 September. Ayo berlari, berjalan, atau bersepeda untuk mengurangi emisi karbon dan menjadikan langit Indonesia lebih biru. Daftar sekarang dan dapatkan medal, bibit pohon, dan e-certificate.",
+  "benefit_peserta": [
+    "Medal",
+    "Bibit pohon",
+    "E-certificate",
+    "Kesempatan memenangkan hadiah"
+  ],
+  "lokasi": "Virtual, bisa dilakukan di mana saja",
+  "kota": "bisa dilakukan di mana saja",
+  "tanggal_event": "2021-09-18",
+  "kontak_event": {
+    "Instagram": [
+      "@yourjourneytozero"
+    ],
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "early_bird": "Rp50.000",
+    "reguler": "Rp100.000",
+    "gratis": "Tidak tercantum"
+  },
+  "kategori": [
+    "Run",
+    "Walk",
+    "Ride"
+  ],
+  "jenis_event": "virtual run"
+}

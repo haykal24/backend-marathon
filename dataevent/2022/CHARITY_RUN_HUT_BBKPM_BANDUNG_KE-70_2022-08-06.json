@@ -1,0 +1,28 @@
+{
+  "image": "-",
+  "judul": "CHARITY RUN HUT BBKPM BANDUNG KE-70",
+  "isi_informasi": "Event lari ini terdiri dari Virtual Run 10K dan Offline Run 5K serta 10K. Aktivitas Virtual berlangsung dari 18 Juli hingga 4 Agustus 2022, sedangkan Offline pada 6 Agustus 2022. Pendaftaran untuk kedua kategori dibuka dari 17 hingga 31 Juli 2022 dengan biaya pendaftaran Rp.150.000. Peserta akan mendapatkan race pack yang terdiri dari jersey, medali, dan doorprize. Hadiah untuk juara Virtual 10K adalah Rp.1.500.000 untuk juara 1, Rp.1.000.000 untuk juara 2, dan Rp.500.000 untuk juara 3. Untuk Offline 10K, hadiah juara 1 adalah Rp.2.000.000, juara 2 Rp.1.500.000, dan juara 3 Rp.1.000.000. Sedangkan untuk Offline 5K, hadiah juara 1 adalah Rp.1.250.000, juara 2 Rp.1.000.000, dan juara 3 Rp.750.000.",
+  "benefit_peserta": [
+    "Jersey",
+    "Medali",
+    "Kesempatan memenangkan doorprize",
+    "Hadiah uang tunai untuk pemenang"
+  ],
+  "lokasi": "Tidak tercantum",
+  "kota": "Bandung",
+  "tanggal_event": "2022-08-06",
+  "kontak_event": {
+    "Instagram": [
+      "bbkpmbandung"
+    ],
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Rp.150.000",
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,23 @@
+{
+  "image": "-",
+  "judul": "Chocolate Glenmore Run",
+  "isi_informasi": "Event lari ini akan berlangsung pada 16 Februari 2019 di Dusun Kakao Glenmore, Banyuwangi.",
+  "benefit_peserta": [
+    "Kesempatan berlari di lokasi yang indah",
+    "Mendapatkan pengalaman berlari yang menyenangkan"
+  ],
+  "lokasi": "Dusun Kakao Glenmore, Banyuwangi",
+  "kota": "Banyuwangi",
+  "tanggal_event": "2019-02-16",
+  "kontak_event": {
+    "WhatsApp": "08113660867",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

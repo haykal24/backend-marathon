@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "Kop Run Indonesia 2021 (Virtual Edition)",
+  "isi_informasi": "Kop Run Indonesia 2021 adalah event lari virtual yang berlangsung dari 14 Juni hingga 17 Agustus 2021. Peserta dapat memilih tantangan lari dari 5 km hingga 100 km dan dapat dilakukan di mana saja.",
+  "benefit_peserta": [
+    "Kesempatan untuk berlari secara virtual",
+    "Pilihan kategori lari yang beragam",
+    "Mendapatkan kaos sesuai ukuran yang dipilih"
+  ],
+  "lokasi": "Virtual, bisa dilakukan di mana saja",
+  "kota": "bisa dilakukan di mana saja",
+  "tanggal_event": "2021-06-14",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K",
+    "10K",
+    "21K",
+    "42K",
+    "100K"
+  ],
+  "jenis_event": "virtual run"
+}

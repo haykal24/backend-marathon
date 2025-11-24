@@ -1,0 +1,42 @@
+{
+  "image": "-",
+  "judul": "INDONESIA BERSATU VIRTUAL RACE",
+  "isi_informasi": "Dalam rangka memperingati HUT Ke-76 Republik Indonesia, IRACE Indonesia mengadakan INDONESIA BERSATU VIRTUAL RACE dengan tema 'Indonesia Tangguh, Indonesia Tumbuh'. Event ini mengajak semua elemen bangsa untuk bersatu dalam menghadapi tantangan pandemi Covid-19. Peserta dapat berolahraga sambil berdonasi mulai dari Rp10.000,- untuk masyarakat yang terdampak Covid-19. Terdapat Giveaway 100 Finisher Medal, dengan pengumuman pemenang di Instagram @iraceindonesia pada 3 September 2021.",
+  "benefit_peserta": [
+    "Berolahraga di mana saja",
+    "Kesempatan berdonasi untuk masyarakat terdampak Covid-19",
+    "Mendapatkan e-bib, twibbon, dan finisher e-certificate",
+    "Kesempatan memenangkan Finisher Medal"
+  ],
+  "lokasi": "Virtual, bisa dilakukan di mana saja",
+  "kota": "bisa dilakukan di mana saja",
+  "tanggal_event": "2021-08-17",
+  "kontak_event": {
+    "Instagram": [
+      "@iraceindonesia"
+    ],
+    "WhatsApp": "08211 333 7249",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Gratis": [
+      "e-bib dan twibbon",
+      "finisher e-certificate"
+    ],
+    "Add-On": {
+      "Medal Indonesia Bersatu": "Rp 100.000,-",
+      "Jersey Run Indonesia Bersatu": "Rp 150.000,-",
+      "Jersey Cycling Indonesia Bersatu": "Rp 250.000,-",
+      "Wind Breaker Indonesia Bersatu": "Rp 350.000,-",
+      "5 Panel Cycling Cap": "Rp 150.000,-"
+    },
+    "Ongkir": "Rp 35.000,-"
+  },
+  "kategori": [
+    "17K Run",
+    "8K Walk",
+    "45K Ride"
+  ],
+  "jenis_event": "virtual run"
+}

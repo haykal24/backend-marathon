@@ -1,0 +1,35 @@
+{
+  "image": "-",
+  "judul": "JakRun 2020",
+  "isi_informasi": "Event JakRun yang awalnya dijadwalkan pada 19 April 2020, ditunda menjadi 12 Juli 2020 di Jakarta Equestrian Park. Penundaan ini dilakukan untuk mengurangi risiko penularan COVID-19. Peserta yang telah mendaftar dapat meminta pengembalian dana melalui email atau tetap mendukung acara untuk mendapatkan kejutan menarik. Event ini diinisiasi oleh PD Dharma Jaya dan didukung oleh berbagai pihak.",
+  "benefit_peserta": [
+    "Kesempatan untuk berpartisipasi dalam acara lari",
+    "Mendapatkan medal all finisher",
+    "Jersey dan no bib + chip",
+    "Refreshment dan race book",
+    "Kejutan menarik bagi peserta yang mendukung"
+  ],
+  "lokasi": "Jakarta Equestrian Park, Jakarta",
+  "kota": "Jakarta",
+  "tanggal_event": "2020-07-12",
+  "kontak_event": {
+    "WhatsApp": "089624400427",
+    "Email": "info@jakrun.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Early Bird": {
+      "Fun Run": 125000,
+      "5K": 150000
+    },
+    "Normal": {
+      "Fun Run": 175000,
+      "5K": 200000
+    }
+  },
+  "kategori": [
+    "2.5K Fun Run",
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

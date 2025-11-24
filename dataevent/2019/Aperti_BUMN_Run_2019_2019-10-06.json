@@ -1,0 +1,37 @@
+{
+  "image": "-",
+  "judul": "Aperti BUMN Run 2019",
+  "isi_informasi": "Aperti BUMN Run 2019 mengajak masyarakat untuk mengadopsi gaya hidup sehat dan memperkenalkan organisasi APERTI BUMN kepada publik melalui kegiatan positif, termasuk perlombaan lari. Acara ini juga berfungsi sebagai sarana promosi bagi produk dan jasa masyarakat serta perusahaan.",
+  "benefit_peserta": [
+    "Mendorong gaya hidup sehat",
+    "Kesempatan berpartisipasi dalam perlombaan lari",
+    "Promosi produk dan jasa"
+  ],
+  "lokasi": "Pantai Festival Ancol, Jakarta",
+  "kota": "Jakarta",
+  "tanggal_event": "2019-10-06",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "Putra/Putri": {
+        "Normal": 200000,
+        "Early Bird": 140000
+      }
+    },
+    "10K": {
+      "Putra/Putri": {
+        "Normal": 250000,
+        "Early Bird": 175000
+      }
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

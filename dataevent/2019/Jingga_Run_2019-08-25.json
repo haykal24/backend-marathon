@@ -1,0 +1,23 @@
+{
+  "image": "-",
+  "judul": "Jingga Run",
+  "isi_informasi": "Jingga Run akan diselenggarakan pada 25 Agustus 2019 dengan kategori 5K dan 10K.",
+  "benefit_peserta": [
+    "Kesempatan berlari di acara yang terorganisir",
+    "Mendapatkan pengalaman berlari yang menyenangkan"
+  ],
+  "lokasi": "Lapangan Hasanuddin, Makassar, Sulawesi Selatan",
+  "kota": "Makassar",
+  "tanggal_event": "2019-08-25",
+  "kontak_event": {
+    "WhatsApp": "082238906510",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

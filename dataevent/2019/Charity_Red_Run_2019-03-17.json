@@ -1,0 +1,23 @@
+{
+  "image": "-",
+  "judul": "Charity Red Run",
+  "isi_informasi": "Event lari Charity Red Run akan diadakan pada 17 Maret 2019 di Lapangan Tiara, Medan. Terdapat kategori 5K dan 8K.",
+  "benefit_peserta": [
+    "Kesempatan berlari untuk tujuan amal",
+    "Mendapatkan informasi tentang event lari lainnya melalui Instagram"
+  ],
+  "lokasi": "Lapangan Tiara, Jl. Cut Mutia, Medan",
+  "kota": "Medan",
+  "tanggal_event": "2019-03-17",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K",
+    "8K"
+  ],
+  "jenis_event": "road run"
+}

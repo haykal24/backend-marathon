@@ -1,0 +1,25 @@
+{
+  "image": "-",
+  "judul": "BSB RUN 2020",
+  "isi_informasi": "Bank Sumsel Babel mengadakan BSB RUN 2020 pada 2 Februari 2020 di Jakabaring Sport City, Palembang. Event ini mengusung konsep Fun Run dengan berbagai zona unik seperti Zona Foam, Bell Ringing Zone, dan Colour Zone, yang menjadikan pengalaman lari lebih menarik. Peserta akan menikmati penampilan DJ dan berkesempatan mendapatkan doorprize. Tiket mulai dari Rp 50.000, termasuk racepack yang terdiri dari T-Shirt, nomor dada, dan medali finisher.",
+  "benefit_peserta": [
+    "Pengalaman lari yang unik dengan berbagai zona",
+    "Kesempatan untuk memenangkan doorprize",
+    "Racepack termasuk T-Shirt, nomor dada, dan medali finisher"
+  ],
+  "lokasi": "Jakabaring Sport City, Palembang, Sumatera Selatan",
+  "kota": "Palembang",
+  "tanggal_event": "2020-02-02",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "mulai_dari": "Rp 50.000"
+  },
+  "kategori": [
+    "Fun Run"
+  ],
+  "jenis_event": "fun run"
+}

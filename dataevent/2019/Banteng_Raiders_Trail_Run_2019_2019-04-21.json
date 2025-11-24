@@ -1,0 +1,31 @@
+{
+  "image": "-",
+  "judul": "Banteng Raiders Trail Run 2019",
+  "isi_informasi": "Banteng Raiders Trail Run adalah acara untuk merayakan HUT Yonif Raider 400/BR ke-66, yang merupakan trail run 10K pertama di Semarang. Peserta akan menikmati pemandangan pedesaan, sungai, dan jembatan. Acara ini juga menampilkan berbagai pertunjukan seni dan hiburan.",
+  "benefit_peserta": [
+    "Goodie Bag",
+    "Jersey",
+    "Medal all Finisher",
+    "Refreshment",
+    "Doorprize"
+  ],
+  "lokasi": "Mako Yonif Raider 400/BR Semarang",
+  "kota": "Semarang",
+  "tanggal_event": "2019-04-21",
+  "kontak_event": {
+    "Instagram": [
+      "@bantengraiderstrailrun"
+    ],
+    "WhatsApp": "085225338877",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "400 orang pertama": "IDR 100,000",
+    "peserta selanjutnya": "IDR 150,000"
+  },
+  "kategori": [
+    "10K"
+  ],
+  "jenis_event": "trail run"
+}

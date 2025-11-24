@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "Rock 'N Run 2019",
+  "isi_informasi": "Rock 'N Run 2019 adalah acara lari amal 5K yang diadakan di Pantai Kuta, Bali pada 1 Desember 2019. Semua hasil dari acara ini akan disumbangkan untuk pembelian truk yang akan digunakan oleh Scholars of Sustenance (SOS) untuk distribusi makanan dan barang di daerah terpencil. Peserta dapat mendaftar dengan biaya IDR 300,000, yang sudah termasuk T-Shirt edisi terbatas, penyegaran, voucher undian, nomor BIB, dan medali untuk semua finisher. Acara ini juga memberikan hadiah menarik untuk pemenang dan kostum terbaik.",
+  "benefit_peserta": [
+    "Medali untuk semua finisher",
+    "T-Shirt edisi terbatas",
+    "Penyegaran dan voucher undian",
+    "Hadiah untuk pemenang dan kostum terbaik"
+  ],
+  "lokasi": "Pantai Kuta, Bali",
+  "kota": "Bali",
+  "tanggal_event": "2019-12-01",
+  "kontak_event": {
+    "Instagram": [],
+    "WhatsApp": "0812 119 911",
+    "Email": "marcom.bali@hardrockhotels.net",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "5K": "IDR 300,000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

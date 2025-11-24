@@ -1,0 +1,35 @@
+{
+  "image": "-",
+  "judul": "IFBEC RUN 2022 - Banten Chapter",
+  "isi_informasi": "IFBEC RUN 2022 adalah lomba lari umum yang diselenggarakan oleh IFBEC Chapter Banten pada 9 Oktober 2022. Acara ini bekerja sama dengan Universitas Multimedia Nusantara (UMN) dan direncanakan menjadi agenda tahunan. Lomba berlangsung di sekitar BSD, Tangerang, dengan kategori 10K, 5K, dan 2,5K, dimulai dan diakhiri di kampus UMN Gading Serpong. Selain lomba, acara ini juga menghadirkan Bazaar UMKM, Food Truck Festival, BMX Exhibition, dan hiburan musik.",
+  "benefit_peserta": [
+    "Jersey Lomba",
+    "Medali (All Finisher)",
+    "Slingbag",
+    "Nomor BIB",
+    "Panduan lomba",
+    "Produk sponsor"
+  ],
+  "lokasi": "Universitas Multimedia Nusantara, Gading Serpong, Tangerang",
+  "kota": "Tangerang",
+  "tanggal_event": "2022-10-09",
+  "kontak_event": {
+    "Instagram": [
+      "@ifbecrunbanten2022"
+    ],
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "2.5K": "Rp. 200.000 (early bird Rp. 175.000)",
+    "5K": "Rp. 250.000 (early bird Rp. 200.000)",
+    "10K": "Rp. 300.000 (early bird Rp. 250.000)"
+  },
+  "kategori": [
+    "2.5K",
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

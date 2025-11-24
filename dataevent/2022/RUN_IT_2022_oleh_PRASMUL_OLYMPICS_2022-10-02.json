@@ -1,0 +1,32 @@
+{
+  "image": "-",
+  "judul": "RUN IT 2022 oleh PRASMUL OLYMPICS",
+  "isi_informasi": "RUN IT 2022 adalah acara lari profesional yang diadakan oleh Prasmul Olympics Universitas Prasetiya Mulya. Dengan tagline 'Escalate Your Spirit', acara ini bertujuan untuk memotivasi peserta kembali beraktivitas setelah pandemi. Event ini berlangsung secara offline dengan dua kategori: 5K dan 10K, di mana kategori 10K dibagi menjadi umum dan master (usia 40 tahun ke atas). Acara ini akan dilaksanakan pada 2 Oktober 2022 di Universitas Prasetiya Mulya, BSD City, Tangerang Selatan.",
+  "benefit_peserta": [
+    "Kesempatan memenangkan hadiah total lebih dari Rp30.000.000,00",
+    "Medali finisher dan racepack",
+    "Diskon promo pendaftaran"
+  ],
+  "lokasi": "Universitas Prasetiya Mulya, BSD City, Tangerang Selatan",
+  "kota": "Tangerang Selatan",
+  "tanggal_event": "2022-10-02",
+  "kontak_event": {
+    "Instagram": [
+      "@prasmul_olympics"
+    ],
+    "WhatsApp": "081805979771",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "5K": 254000,
+    "10K": 319000,
+    "Community Promo (10K)": 286350,
+    "Bundle Ticket 4 Pax (10K)": 305750
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

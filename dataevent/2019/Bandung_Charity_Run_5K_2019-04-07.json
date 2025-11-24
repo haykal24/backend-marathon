@@ -1,0 +1,22 @@
+{
+  "image": "-",
+  "judul": "Bandung Charity Run 5K",
+  "isi_informasi": "Kota Bandung menyelenggarakan event lari #charityrun2019 pada 07 April 2019 untuk memperingati Hari Tuberkulosis Sedunia. Peserta dapat mencatat waktu lari 5 km dengan biaya registrasi Rp 150.000, yang mencakup Race Pack berupa BIB Number, Medal Finisher, dan Jersey.",
+  "benefit_peserta": [
+    "Mencatat waktu lari 5 km",
+    "Mendapatkan Race Pack"
+  ],
+  "lokasi": "Balai Kota Bandung",
+  "kota": "Bandung",
+  "tanggal_event": "2019-04-07",
+  "kontak_event": {
+    "WhatsApp": "0812 2040 3465",
+    "Email": "charityrunfortbc@gmail.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Rp 150.000",
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

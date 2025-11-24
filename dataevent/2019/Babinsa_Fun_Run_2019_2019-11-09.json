@@ -1,0 +1,31 @@
+{
+  "image": "-",
+  "judul": "Babinsa Fun Run 2019",
+  "isi_informasi": "KOREM 052/WIJAYAKRAMA menyelenggarakan BABINSA FUNRUN 5K pada 9 November 2019, mulai pukul 06.00 WIB di LIVING WORLD Alam Sutera, BSD Tangerang. Acara ini merayakan Hari Jadi Korem 052 dan Hari Pahlawan, dengan berbagai hiburan dan doorprize senilai puluhan juta rupiah.",
+  "benefit_peserta": [
+    "Medali untuk 10 Finisher pertama wanita dan pria",
+    "T-shirt",
+    "BIB Number",
+    "Doorprize dan Grandprize"
+  ],
+  "lokasi": "LIVING WORLD Alam Sutera, BSD Tangerang",
+  "kota": "Tangerang",
+  "tanggal_event": "2019-11-09",
+  "kontak_event": {
+    "WhatsApp": "0812 8906 756",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "biaya": "IDR 200 Ribu",
+    "termasuk": [
+      "T-shirt",
+      "BIB Number",
+      "Medali (finisher)"
+    ]
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

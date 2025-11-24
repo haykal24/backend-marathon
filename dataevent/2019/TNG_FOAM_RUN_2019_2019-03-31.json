@@ -1,0 +1,28 @@
+{
+  "image": "-",
+  "judul": "TNG FOAM RUN 2019",
+  "isi_informasi": "TNG FOAM RUN 2019 mengusung tema 'Healthy Lifestyle for Millenials' dan menawarkan pengalaman lari yang berbeda di Kota Tangerang. Acara ini akan diadakan pada 31 Maret 2019 di Lapangan Ahmad Yani, Alun-Alun Kota Tangerang. Tiket dijual seharga Rp. 150.000 per orang, dengan harga presale Rp. 130.000. Pendaftaran ditutup pada 28 Februari 2019. Setelah lari, akan ada penampilan dari Diskopantera, Dipha Barus & Monica Karina, serta banyak doorprize menarik.",
+  "benefit_peserta": [
+    "Kaos TNG Foam Run 2019",
+    "Gelang Tiket",
+    "String Bag",
+    "Kacamata",
+    "Medali"
+  ],
+  "lokasi": "Lapangan Ahmad Yani, Alun-Alun Kota Tangerang",
+  "kota": "Tangerang",
+  "tanggal_event": "2019-03-31",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "presale": 130000,
+    "normal": 150000
+  },
+  "kategori": [
+    "Fun run"
+  ],
+  "jenis_event": "fun run"
+}

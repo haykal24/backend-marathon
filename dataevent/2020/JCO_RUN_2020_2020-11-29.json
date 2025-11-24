@@ -1,0 +1,34 @@
+{
+  "image": "-",
+  "judul": "JCO RUN 2020",
+  "isi_informasi": "JCO RUN 2020 yang semula dijadwalkan pada 5 April 2020, telah diundur menjadi 29 November 2020. Acara ini akan berlangsung di ICE BSD, Tangerang, mulai pukul 06.00 WIB. Peserta dapat menikmati J.CO Donuts dan kopi secara gratis. Pendaftaran dapat dilakukan secara online hingga 8 Maret 2020.",
+  "benefit_peserta": [
+    "Gratis J.CO Donuts dan kopi",
+    "Kemampuan untuk memilih nomor bib sendiri",
+    "Diskon hingga 30% dengan Fiestapoin"
+  ],
+  "lokasi": "ICE BSD, Tangerang",
+  "kota": "Tangerang",
+  "tanggal_event": "2020-11-29",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "10K": "IDR 400 rb",
+    "5K": "IDR 350 rb",
+    "10K Grup (4 pax)": "IDR 1,5 jt",
+    "5K Grup (4 pax)": "IDR 1,3 jt",
+    "10K ALL Female Grup (4 pax)": "IDR 1,5 jt",
+    "5K ALL Female Grup (4 pax)": "IDR 1,3 jt",
+    "5K Senior (over 45 y.o)": "IDR 350 rb",
+    "5K Couple (Male & Female)": "IDR 700 rb",
+    "5K Parent & Child (must be 12+ y.o)": "IDR 700 rb"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,28 @@
+{
+  "image": "-",
+  "judul": "Ramadhan Donation Race",
+  "isi_informasi": "Rayakan bulan Ramadhan dengan berolahraga bersama IRACE, baik berlari maupun bersepeda. Kegiatan ini dapat dilakukan setelah sahur atau sebelum berbuka puasa, dengan tetap mematuhi protokol kesehatan. Selain berolahraga, peserta juga dapat berdonasi untuk anak-anak penderita kanker di Indonesia.",
+  "benefit_peserta": [
+    "e-bib dan twibbon",
+    "finisher e-certificate",
+    "kesempatan memenangkan doorprize"
+  ],
+  "lokasi": "Tidak tercantum",
+  "kota": "Tidak tercantum",
+  "tanggal_event": "2022-04-01",
+  "kontak_event": {
+    "WhatsApp": "08211 333 7249",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "gratis": true,
+    "add_on": {
+      "Medal Ramadhan": "Rp 75.000,-",
+      "Drifit Jersey by Rhel Apparel": "Rp 90.000,-",
+      "Ongkir": "Rp 35.000,-"
+    }
+  },
+  "kategori": [],
+  "jenis_event": "fun run"
+}

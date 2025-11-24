@@ -1,0 +1,23 @@
+{
+  "image": "-",
+  "judul": "Atmajaya Run",
+  "isi_informasi": "Atmajaya Run adalah acara lari tahunan yang sebelumnya dikenal sebagai MAFIA Run, yang merupakan singkatan dari 'Mahasiswa FIA' dari Fakultas Ilmu Administrasi Universitas Atma Jaya Jakarta. Acara ini bertujuan untuk mempererat hubungan antara alumni dan mahasiswa saat ini.",
+  "benefit_peserta": [
+    "Memperluas jaringan alumni",
+    "Menjalin keakraban antara alumni dan mahasiswa"
+  ],
+  "lokasi": "Kampus 3 Unika Atma Jaya BSD, Cisauk, Tangerang, Banten",
+  "kota": "Tangerang",
+  "tanggal_event": "2019-10-13",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

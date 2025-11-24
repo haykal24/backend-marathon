@@ -1,0 +1,26 @@
+{
+  "image": "-",
+  "judul": "UISI Sunset Glow Run 2019",
+  "isi_informasi": "Management Universitas Internasional Semen Indonesia mempersembahkan event lari '7K UISI Sunset Glow Run' yang akan berlangsung pada 5 Oktober 2019, dari pukul 15.00 hingga 17.00 WIB di Wisma Djenderal Achmad Yani, Gresik. Terdapat hadiah dan doorprize dengan total puluhan juta rupiah.",
+  "benefit_peserta": [
+    "Kesempatan memenangkan hadiah dan doorprize",
+    "Pengalaman berlari di acara yang terorganisir"
+  ],
+  "lokasi": "Wisma Djenderal Achmad Yani, Kab. Gresik, Komplek PT. Semen Indonesia Persero Tbk",
+  "kota": "Gresik",
+  "tanggal_event": "2019-10-05",
+  "kontak_event": {
+    "WhatsApp": "085655182304",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Normal": 150000,
+    "Mahasiswa UISI": 135000,
+    "Early Bird (200 Pendaftar Pertama)": 125000
+  },
+  "kategori": [
+    "7K"
+  ],
+  "jenis_event": "road run"
+}

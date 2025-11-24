@@ -1,0 +1,34 @@
+{
+  "image": "-",
+  "judul": "Padma Run 2023",
+  "isi_informasi": "Setelah sukses dengan acara lari amal pertama pada tahun 2019, kami akan mengadakan acara lari yang lebih besar pada 28 Januari 2023. Acara ini bertujuan untuk mengumpulkan dana dan meningkatkan kesadaran publik dalam merayakan Hari Pendidikan Internasional. Kami mengundang pelari dari berbagai kalangan untuk berpartisipasi dalam PADMA RUN 2023 #runhigherforagoodcause.",
+  "benefit_peserta": [
+    "Medali Finisher",
+    "Jersey",
+    "Nomor BIB + Tag RFID",
+    "Tote Bag"
+  ],
+  "lokasi": "Tidak tercantum",
+  "kota": "Tidak tercantum",
+  "tanggal_event": "2023-01-28",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "Early Bird": "IDR 200,000 (Sampai 21 Oktober 2022)",
+      "Normal": "IDR 250,000"
+    },
+    "10K": {
+      "Early Bird": "IDR 400,000 (Sampai 21 Oktober 2022)",
+      "Normal": "IDR 500,000"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

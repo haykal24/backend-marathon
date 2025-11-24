@@ -1,0 +1,26 @@
+{
+  "image": "-",
+  "judul": "Youth Impact Fun Run 2019",
+  "isi_informasi": "Youth Impact Fun Run 2019 akan berlangsung pada 26 Oktober 2019 di Yogyakarta. Event ini menawarkan rute lari sepanjang 5 km di jalanan kota yang nyaman dan bersahabat.",
+  "benefit_peserta": [
+    "Kesempatan berlari di rute yang nyaman",
+    "Mendapatkan pengalaman berlari di kota Yogyakarta",
+    "Bersosialisasi dengan sesama pelari"
+  ],
+  "lokasi": "Gedung Grand Pelita, C.Simanjuntak 91, Yogyakarta",
+  "kota": "Yogyakarta",
+  "tanggal_event": "2019-10-26",
+  "kontak_event": {
+    "WhatsApp": "085642311142",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Umum": "IDR 150rb",
+    "Mahasiswa/Pelajar": "IDR 125rb"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

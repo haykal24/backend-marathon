@@ -1,0 +1,31 @@
+{
+  "image": "-",
+  "judul": "A9 Running Day",
+  "isi_informasi": "Pada tanggal 29 September 2019, akan diadakan acara lari sejauh 5K di Pasar Segar Balikpapan, Kalimantan Timur, sebagai bagian dari peluncuran produk terbaru Oppo A9. Rute lari mengelilingi perumahan Balikpapan Baru, diakhiri dengan hiburan dan permainan. Biaya pendaftaran sebesar Rp 85.000,- mencakup jersey untuk 50 finisher teratas, bib, kupon doorprize, hidrasi, refreshment, dan medali finisher. Terdapat juga hadiah jutaan Rupiah untuk pemenang. Pendaftaran dapat dilakukan di Oppo Service Center atau menghubungi kontak yang tersedia.",
+  "benefit_peserta": [
+    "Jersey untuk 50 finisher teratas",
+    "Bib",
+    "Kupon doorprize",
+    "Hidrasi",
+    "Refreshment",
+    "Medali finisher",
+    "Hadiah jutaan Rupiah untuk pemenang",
+    "Running tees untuk 300 pendaftar pertama"
+  ],
+  "lokasi": "Pasar Segar Balikpapan, Kalimantan Timur",
+  "kota": "Balikpapan",
+  "tanggal_event": "2019-09-29",
+  "kontak_event": {
+    "Instagram": [
+      "@oppobalikpapanfamily"
+    ],
+    "WhatsApp": "0821-2323-2194",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Rp 85.000,-",
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

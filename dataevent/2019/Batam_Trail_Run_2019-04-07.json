@@ -1,0 +1,25 @@
+{
+  "image": "-",
+  "judul": "Batam Trail Run",
+  "isi_informasi": "Batam Trail Run 5K akan diadakan pada 7 April 2019 dengan total hadiah uang sebesar 77 juta. Acara dimulai pukul 08.00 di Tebing Langit Sekupang.",
+  "benefit_peserta": [
+    "Kesempatan memenangkan hadiah uang total 77 juta",
+    "Pengalaman berlari di trek alam yang menantang"
+  ],
+  "lokasi": "Tebing Langit Sekupang, Batam",
+  "kota": "Batam",
+  "tanggal_event": "2019-04-07",
+  "kontak_event": {
+    "WhatsApp": "082173111195",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Dewasa": "Rp.100.000",
+    "Pelajar": "Rp.60.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "trail run"
+}

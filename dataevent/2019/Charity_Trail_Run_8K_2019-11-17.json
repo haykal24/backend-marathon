@@ -1,0 +1,24 @@
+{
+  "image": "-",
+  "judul": "Charity Trail Run 8K",
+  "isi_informasi": "Charity Trail Run 8K akan diadakan pada 17 November 2019 di Pasar Segar Balikpapan. Acara ini bertujuan untuk membantu masyarakat di daerah pedalaman Kalimantan Timur yang belum memiliki akses listrik. Dengan biaya pendaftaran Rp 120.000, peserta akan mendapatkan medali finisher, hadiah untuk pemenang, serta donasi 30% dari biaya pendaftaran untuk lampu tenaga surya bagi 45 Kepala Keluarga di Dusun KAT Sekulit, Kab. Paser. Pendaftaran dibuka hingga 8 November 2019.",
+  "benefit_peserta": [
+    "Medali finisher",
+    "Hadiah untuk pemenang",
+    "Donasi untuk lampu tenaga surya",
+    "Kesempatan untuk beramal"
+  ],
+  "lokasi": "Pasar Segar Balikpapan, Kalimantan Timur",
+  "kota": "Balikpapan",
+  "tanggal_event": "2019-11-17",
+  "kontak_event": {
+    "WhatsApp": "085299296880",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Rp 120.000",
+  "kategori": [
+    "8K"
+  ],
+  "jenis_event": "trail run"
+}

@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "Jakarta Marathon 2020",
+  "isi_informasi": "Jakarta Marathon 2020 akan diadakan pada 25 Oktober 2020 dengan berbagai kategori lomba.",
+  "benefit_peserta": [
+    "Kesempatan berlari di acara bergengsi",
+    "Mendapatkan medali dan sertifikat",
+    "Menjalin komunitas dengan pelari lain"
+  ],
+  "lokasi": "Gelora Bung Karno, Jakarta",
+  "kota": "Jakarta",
+  "tanggal_event": "2020-10-25",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "1.5K Maratoonz",
+    "5K",
+    "10K",
+    "21K",
+    "42K"
+  ],
+  "jenis_event": "road run"
+}

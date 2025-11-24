@@ -1,0 +1,33 @@
+{
+  "image": "-",
+  "judul": "BAF Lions Run 2021 VRun for Diabetes",
+  "isi_informasi": "BAF Lions Run 2021 VRun for Diabetes adalah acara lari virtual yang dapat diikuti secara individu atau kelompok melalui aplikasi lari. Peserta dapat menyelesaikan jarak yang ditentukan dalam beberapa sesi lari.",
+  "benefit_peserta": [
+    "Mendukung kesadaran diabetes",
+    "Fleksibilitas dalam menyelesaikan jarak",
+    "Kesempatan untuk berlari secara individu atau kelompok"
+  ],
+  "lokasi": "Virtual, bisa dilakukan di mana saja",
+  "kota": "bisa dilakukan di mana saja",
+  "tanggal_event": "2021-07-03",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Individu": "Rp.180.000",
+    "Kelompok": "Rp.540.000"
+  },
+  "kategori": [
+    "2,5K",
+    "5K",
+    "10K",
+    "21K",
+    "42K",
+    "10K",
+    "21K",
+    "42K"
+  ],
+  "jenis_event": "virtual run"
+}

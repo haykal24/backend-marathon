@@ -1,0 +1,26 @@
+{
+  "image": "-",
+  "judul": "Binjai Color Run 2019",
+  "isi_informasi": "Event lari Binjai Color Run 2019 akan diadakan pada 6 Januari 2019 di Lapangan Bola ex Asrama 121 Kebun Lada, Binjai, Sumatera Utara. Terdapat beberapa kategori biaya registrasi: Early Bird seharga IDR 60.000 dari 1 Desember hingga 12 Desember 2018, Regular seharga IDR 75.000 dari 13 Desember hingga 23 Desember 2018, dan OnSite seharga IDR 85.000 dari 23 Desember hingga 5 Januari 2019.",
+  "benefit_peserta": [
+    "Kesempatan berolahraga dengan suasana yang menyenangkan",
+    "Mendapatkan pengalaman berlari yang unik dengan tema warna"
+  ],
+  "lokasi": "Lapangan Bola ex Asrama 121 Kebun Lada Binjai, Sumatera Utara",
+  "kota": "Binjai",
+  "tanggal_event": "2019-01-06",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "elglow.management@gmail.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Early Bird": "IDR 60.000",
+    "Regular": "IDR 75.000",
+    "OnSite": "IDR 85.000"
+  },
+  "kategori": [
+    "Fun Run"
+  ],
+  "jenis_event": "fun run"
+}

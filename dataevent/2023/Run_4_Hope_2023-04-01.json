@@ -1,0 +1,26 @@
+{
+  "image": "-",
+  "judul": "Run 4 Hope",
+  "isi_informasi": "RUN4HOPE adalah Charity Fun Run 5km yang diadakan oleh siswa kelas 11 Sekolah Tunas Muda untuk mendonasikan seluruh keuntungan kepada Rumah Harapan Indonesia, tempat singgah bagi anak-anak yang menjalani pengobatan penyakit kronis dari keluarga kurang mampu. Acara ini juga akan diisi dengan bazaar makanan, minuman, dan produk lainnya.",
+  "benefit_peserta": [
+    "Mendukung anak-anak dengan penyakit kronis",
+    "Kesempatan berpartisipasi dalam bazaar",
+    "Berkumpul dengan komunitas lari"
+  ],
+  "lokasi": "Ecopark, Ancol",
+  "kota": "Jakarta",
+  "tanggal_event": "2023-04-01",
+  "kontak_event": {
+    "Instagram": [
+      "@projectrun4hope"
+    ],
+    "WhatsApp": "08128162269",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

@@ -1,0 +1,47 @@
+{
+  "image": "-",
+  "judul": "SHA RUN FOR SOLO 2023",
+  "isi_informasi": "SHA RUN adalah acara lari dengan jarak 21K, 10K, dan 5K yang berlangsung di Kota Solo, mengajak para pecinta lari dari berbagai kalangan. Bertajuk Solo Heritage Amazing Run, rute acara melewati lokasi-lokasi bersejarah di Solo, diharapkan dapat menarik wisatawan. Acara ini juga menjadi kegiatan tahunan yang bertepatan dengan Hari Olahraga Nasional dan merupakan bagian dari tanggung jawab sosial PT. SHA SOLO melalui SHA Foundation.",
+  "benefit_peserta": [
+    "Kesempatan berlari di rute bersejarah",
+    "Mendukung kegiatan sosial",
+    "Menjalin komunitas lari"
+  ],
+  "lokasi": "Tidak tercantum",
+  "kota": "Solo",
+  "tanggal_event": "2023-09-03",
+  "kontak_event": {
+    "Instagram": [
+      "@sharunforsolo2023"
+    ],
+    "WhatsApp": "0887-3443-101",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Early Bird": {
+      "21K": {
+        "WNA": 560000,
+        "WNI": 385000
+      },
+      "10K": 280000,
+      "5K": 175000,
+      "5K Pelajar": 75000
+    },
+    "Normal Price": {
+      "21K": {
+        "WNA": 800000,
+        "WNI": 550000
+      },
+      "10K": 400000,
+      "5K": 250000,
+      "5K Pelajar": 75000
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "road run"
+}

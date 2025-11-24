@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "Carangsari Heritage Run 2022",
+  "isi_informasi": "Carangsari Heritage Run adalah lomba lari dengan kategori 5KM dan 10KM yang ditujukan untuk penggemar lari dan masyarakat umum. Peserta dapat menikmati keindahan alam, budaya, dan sejarah Desa Carangsari, tempat lahir pahlawan nasional I Gusti Ngurah Rai. Event ini diharapkan dapat mendukung pemulihan pariwisata di Bali dan mengajak masyarakat untuk menjalani gaya hidup aktif dengan tetap mematuhi protokol kesehatan.",
+  "benefit_peserta": [
+    "Menikmati keindahan alam dan budaya",
+    "Mendukung pemulihan pariwisata Bali",
+    "Mendorong gaya hidup aktif"
+  ],
+  "lokasi": "Desa Carangsari, Bali",
+  "kota": "Badung",
+  "tanggal_event": "2022-05-29",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Early Bird": "5 sampai 15 Maret 2022",
+    "Periode Normal": "16 Maret – 15 Mei 2022"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

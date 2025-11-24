@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "JawaraVR 60K Run Ekiden",
+  "isi_informasi": "JawaraVR mengundang kamu dan teman untuk menyelesaikan tantangan berlari sejauh 60K secara virtual, di mana masing-masing peserta berlari 30K selama periode acara. Pastikan untuk menghubungkan tracker seperti Strava, Garmin, atau Suunto dengan platform JawaraVR.",
+  "benefit_peserta": [
+    "2 Medal dan E-Certificate (Standard 1)",
+    "2 Jersey dan E-Certificate (Standard 2)",
+    "2 Medal, 2 Jersey, dan E-Certificate (Premium)"
+  ],
+  "lokasi": "Virtual, bisa dilakukan dimana saja",
+  "kota": "bisa dilakukan dimana saja",
+  "tanggal_event": "2021-10-01",
+  "kontak_event": {
+    "WhatsApp": "+6281 2462 39395",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Standard 1": "Rp 190.000",
+    "Standard 2": "Rp 210.000",
+    "Premium": "Rp 350.000"
+  },
+  "kategori": [
+    "60KM Running"
+  ],
+  "jenis_event": "virtual run"
+}

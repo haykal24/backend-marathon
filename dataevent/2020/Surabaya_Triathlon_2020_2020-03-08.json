@@ -1,0 +1,25 @@
+{
+  "image": "-",
+  "judul": "Surabaya Triathlon 2020",
+  "isi_informasi": "Surabaya Triathlon 2020 akan berlangsung pada 8 Maret 2020 di Ciputra Waterpark, Citraland, Surabaya. Event ini mengajak para pelari, perenang, dan pesepeda untuk mencoba tantangan triathlon dengan jarak 500m renang, 22k bersepeda, dan 5k berlari. Ini adalah acara non-kompetitif yang menawarkan pengalaman seru. Biaya pendaftaran adalah Rp. 390.000,- dan peserta akan mendapatkan Finisher Tee, Race Bag, BIB Number, medali finisher, serta produk dari sponsor.",
+  "benefit_peserta": [
+    "Finisher Tee",
+    "Race Bag",
+    "BIB Number",
+    "Medal finisher",
+    "Products from sponsor"
+  ],
+  "lokasi": "Ciputra Waterpark, Citraland, Surabaya, Jawa Timur",
+  "kota": "Surabaya",
+  "tanggal_event": "2020-03-08",
+  "kontak_event": {
+    "WhatsApp": "0817-303-093",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Rp. 390.000,-",
+  "kategori": [
+    "Triathlon"
+  ],
+  "jenis_event": "road run"
+}

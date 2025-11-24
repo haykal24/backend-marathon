@@ -1,0 +1,33 @@
+{
+  "image": "-",
+  "judul": "CHEERS TRAIL RUN 2023",
+  "isi_informasi": "CHEERS TRAIL RUN 2023 akan berlangsung pada hari Minggu, 25 Juni 2023, di Kaliandra Eco Resort, Prigen, Pasuruan, Jawa Timur. Terdapat dua kategori lomba yaitu 5K dan 12K dengan waktu start pukul 07.00 WIB.",
+  "benefit_peserta": [
+    "Kesempatan berlari di alam terbuka",
+    "Mendapatkan pengalaman berlari yang menyenangkan",
+    "Mendukung gaya hidup sehat"
+  ],
+  "lokasi": "Kaliandra Eco Resort, Prigen, Pasuruan, Jawa Timur",
+  "kota": "Pasuruan",
+  "tanggal_event": "2023-06-25",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Early Bird": {
+      "5K": "Rp 190.000",
+      "12K": "Rp 290.000"
+    },
+    "Reguler": {
+      "5K": "Rp 230.000",
+      "12K": "Rp 375.000"
+    }
+  },
+  "kategori": [
+    "5K",
+    "12K"
+  ],
+  "jenis_event": "trail run"
+}

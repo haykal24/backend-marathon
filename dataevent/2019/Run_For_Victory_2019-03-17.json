@@ -1,0 +1,24 @@
+{
+  "image": "-",
+  "judul": "Run For Victory",
+  "isi_informasi": "Ayo ikuti Bekasi Run For Victory 'COLOR RUN' pada Minggu, 17 Maret 2019. Acara ini merupakan 5K Fun Run yang diadakan di Car Free Day Kota Bekasi, dengan berbagai keseruan seperti color bomb, race pack, dan door prize. Biaya registrasi sebesar 75K sudah termasuk T-shirt, wristband, dan goodie bag.",
+  "benefit_peserta": [
+    "Keseruan berlari dengan teman-teman",
+    "Pengalaman berlari yang unik dengan color bomb",
+    "Mendapatkan race pack dan goodie bag",
+    "Kesempatan memenangkan door prize"
+  ],
+  "lokasi": "Car free day Kota Bekasi",
+  "kota": "Bekasi",
+  "tanggal_event": "2019-03-17",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "75K",
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

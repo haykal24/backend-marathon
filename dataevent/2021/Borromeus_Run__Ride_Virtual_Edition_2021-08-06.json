@@ -1,0 +1,30 @@
+{
+  "image": "-",
+  "judul": "Borromeus Run & Ride Virtual Edition",
+  "isi_informasi": "Registrasi untuk Borromeus Run & Ride Virtual Edition telah dibuka. Nikmati diskon 30% untuk tiket Early Bird pada Full Package. Terdapat dua periode registrasi: Early Bird dari 4 hingga 10 Juni 2021 dan Regular dari 11 Juni hingga 30 Juli 2021. Periode Challenge berlangsung dari 6 hingga 22 Agustus 2021. Tersedia kategori 9K Run, 18K Run, 18K Ride, dan 100K Ride dengan dua jenis paket yang dapat dipilih.",
+  "benefit_peserta": [
+    "E-BIB",
+    "E-Certificate",
+    "Medal Finisher",
+    "Coaching Clinic"
+  ],
+  "lokasi": "Virtual, bisa dilakukan di mana saja",
+  "kota": "bisa dilakukan di mana saja",
+  "tanggal_event": "2021-08-06",
+  "kontak_event": {
+    "WhatsApp": "+62 812-8594-6082",
+    "Email": "info@borromeusrunride.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Early Bird": "Diskon 30% untuk Full Package",
+    "Regular": "Tidak tercantum"
+  },
+  "kategori": [
+    "9K Run",
+    "18K Run",
+    "18K Ride",
+    "100K Ride"
+  ],
+  "jenis_event": "virtual run"
+}

@@ -1,0 +1,33 @@
+{
+  "image": "-",
+  "judul": "PRURide Indonesia Virtual Ride 2021",
+  "isi_informasi": "PRURide Indonesia Virtual Ride 2021 hadir kembali dari 1 hingga 17 Agustus 2021, menawarkan berbagai kategori seperti 70K/135K Ride, 30K Fun Ride, 10K/21K/42K Run, dan 5K/10K Walk. Pendaftaran Early Bird dibuka dengan biaya Rp. 75.000, termasuk jersey, asuransi, tiket ke virtual Sportsfest, dan medali MedaMove. Daftar di bit.ly/PRURIDEVR2021 sebelum 15 April 2021.",
+  "benefit_peserta": [
+    "Infinimove jersey",
+    "Asuransi",
+    "Tiket ke virtual Sportsfest",
+    "Medali MedaMove"
+  ],
+  "lokasi": "Tidak tercantum",
+  "kota": "Tidak tercantum",
+  "tanggal_event": "2021-08-01",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Early Bird": "Rp. 75.000"
+  },
+  "kategori": [
+    "70K Ride",
+    "135K Ride",
+    "30K Fun Ride",
+    "10K Run",
+    "21K Run",
+    "42K Run",
+    "5K Walk",
+    "10K Walk"
+  ],
+  "jenis_event": "virtual run"
+}

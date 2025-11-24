@@ -1,0 +1,28 @@
+{
+  "image": "-",
+  "judul": "Mandiri Jogja Marathon 2023",
+  "isi_informasi": "Mandiri Jogja Marathon adalah lomba lari tahunan yang diselenggarakan oleh Bank Mandiri sejak 2017 di Yogyakarta. Event ini tidak hanya berfokus pada olahraga, tetapi juga sebagai destinasi wisata keluarga. Dengan latar belakang keindahan alam, keramahan masyarakat, dan kuliner Yogyakarta, event ini menawarkan kategori Marathon, Half Marathon, 10K, dan 5K Fun Run. Acara tahun 2023 akan berlangsung pada 18 Juni 2023 di Prambanan, Yogyakarta.",
+  "benefit_peserta": [
+    "Kesempatan untuk berolahraga sambil menikmati keindahan alam",
+    "Pengalaman kuliner khas Yogyakarta",
+    "Kesempatan berlibur bersama keluarga"
+  ],
+  "lokasi": "Prambanan, Yogyakarta",
+  "kota": "Yogyakarta",
+  "tanggal_event": "2023-06-18",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Tidak tercantum": "Tidak tercantum"
+  },
+  "kategori": [
+    "Marathon",
+    "Half Marathon",
+    "10K",
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

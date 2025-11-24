@@ -1,0 +1,23 @@
+{
+  "image": "-",
+  "judul": "SKYRUN 2020",
+  "isi_informasi": "SKYRUN 2020 adalah kompetisi lari tahunan yang diadakan oleh siswa SMA Labschool Kebayoran dengan rute sejauh 5 kilometer. Event ini mengusung tema Toxic Apocalypse.",
+  "benefit_peserta": [
+    "Kesempatan berkompetisi",
+    "Pengalaman berlari di rute yang menarik",
+    "Mendapatkan informasi tentang event lari lainnya"
+  ],
+  "lokasi": "SMA Labschool Kebayoran, Jakarta",
+  "kota": "Jakarta",
+  "tanggal_event": "2020-02-02",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

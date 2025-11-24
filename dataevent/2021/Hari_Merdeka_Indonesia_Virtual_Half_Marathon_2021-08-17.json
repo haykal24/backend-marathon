@@ -1,0 +1,25 @@
+{
+  "image": "-",
+  "judul": "Hari Merdeka Indonesia Virtual Half Marathon",
+  "isi_informasi": "Ikuti Hari Merdeka Indonesia Virtual Half Marathon! Dapatkan paket lari yang mencakup medali finisher, kaos dry-fit, dan finisher tee (hanya untuk 21KM). Pendaftaran dibuka hingga 16 Juli 2021 dengan biaya Rp 35.000,-. Lari dapat dilakukan di rumah dan langkah dapat diakumulasikan. Pengiriman paket akan dilakukan secara bertahap mulai 20 September hingga 31 Oktober 2021.",
+  "benefit_peserta": [
+    "Medali Finisher",
+    "Kaos dry-fit",
+    "Finisher tee (hanya 21KM)"
+  ],
+  "lokasi": "Virtual bisa dilakukan dimana saja",
+  "kota": "Virtual bisa dilakukan dimana saja",
+  "tanggal_event": "2021-08-17",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Rp 35.000,-",
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "virtual run"
+}

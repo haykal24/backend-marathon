@@ -1,0 +1,26 @@
+{
+  "image": "-",
+  "judul": "Sentul Hill Trail Run 2019",
+  "isi_informasi": "Sentul Hill Trail Run adalah lomba lari trail yang berlangsung di kawasan dataran tinggi Sentul, Kabupaten Bogor, Jawa Barat. Acara ini merupakan lomba tahunan dengan empat kategori, yaitu 115 KM (ITRA ENDURANCE POINT 5 - dalam peninjauan ITRA), 65 KM (ITRA ENDURANCE POINT 3 - dalam peninjauan ITRA), 35 KM (ITRA ENDURANCE POINT 2 - dalam peninjauan ITRA), dan 18 KM (ITRA ENDURANCE POINT 1 - dalam peninjauan ITRA). Semua kategori akan dimulai dan diakhiri di Taman Budaya, Sentul City, Bogor.",
+  "benefit_peserta": [
+    "Kesempatan untuk berkompetisi di trek yang menantang",
+    "Mendapatkan poin ITRA untuk kategori tertentu",
+    "Pengalaman berlari di alam yang indah"
+  ],
+  "lokasi": "Taman Budaya, Sentul City, Bogor",
+  "kota": "Bogor",
+  "tanggal_event": "2019-06-29",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "18K",
+    "35K",
+    "65K",
+    "115K"
+  ],
+  "jenis_event": "trail run"
+}

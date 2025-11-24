@@ -1,0 +1,25 @@
+{
+  "image": "-",
+  "judul": "Subang Trail Run Summerfest 2020",
+  "isi_informasi": "Subang Trail Run Summerfest 2020 adalah perlombaan lari yang menantang dengan rute yang bervariasi, meliputi jalur pegunungan dan jalan aspal. Event ini akan diadakan di Kebun Teh Ciater, Subang, yang menawarkan pemandangan alam yang indah.",
+  "benefit_peserta": [
+    "Menikmati keindahan alam Subang",
+    "Menghadapi tantangan rute yang beragam"
+  ],
+  "lokasi": "Kebun Teh Ciater, Subang, Jawa Barat",
+  "kota": "Subang",
+  "tanggal_event": "2020-03-29",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Early Bird": 250000,
+    "Normal": 300000
+  },
+  "kategori": [
+    "20.2K"
+  ],
+  "jenis_event": "trail run"
+}

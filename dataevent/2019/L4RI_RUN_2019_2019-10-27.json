@@ -1,0 +1,28 @@
+{
+  "image": "-",
+  "judul": "L4RI RUN 2019",
+  "isi_informasi": "L4RI Run 2019 diadakan pada 27 Oktober 2019 di Halaman Benteng Vastenburg Surakarta, Jawa Tengah. Event ini bertujuan untuk mempererat persaudaraan antar masyarakat dan meningkatkan kesadaran hidup sehat melalui olahraga lari. Terdapat dua kategori yaitu 3K Fun Walk dan 10K Fun Run. Acara ini juga dimeriahkan dengan food bazar, hiburan, dan doorprize menarik.",
+  "benefit_peserta": [
+    "Meningkatkan kesadaran akan hidup sehat",
+    "Mempererat tali persaudaraan",
+    "Kesempatan untuk memenangkan doorprize",
+    "Menikmati hiburan dan food bazar"
+  ],
+  "lokasi": "Halaman Benteng Vastenburg Surakarta, Jawa Tengah",
+  "kota": "Surakarta",
+  "tanggal_event": "2019-10-27",
+  "kontak_event": {
+    "WhatsApp": "08211-211-6810",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "3K Fun Walk": "Rp 110.000,-",
+    "10K Fun Run": "Rp 140.000,-"
+  },
+  "kategori": [
+    "3K Fun Walk",
+    "10K Fun Run"
+  ],
+  "jenis_event": "fun run"
+}

@@ -1,0 +1,25 @@
+{
+  "image": "-",
+  "judul": "UKWMS Fun Run",
+  "isi_informasi": "UKWMS Fun Run adalah bagian dari perayaan Dies Natalies ke-2 Fakultas Kewirausahaan Universitas Katolik Widya Mandala Surabaya dengan tema Sparkling Blue. Acara ini bertujuan merayakan ulang tahun fakultas dan mengajak komunitas untuk berpartisipasi.",
+  "benefit_peserta": [
+    "Merayakan ulang tahun Fakultas Kewirausahaan",
+    "Membangun kebersamaan dengan komunitas"
+  ],
+  "lokasi": "UKWMS Pakuwon City, Surabaya",
+  "kota": "Surabaya",
+  "tanggal_event": "2019-03-03",
+  "kontak_event": {
+    "WhatsApp": "081231182459",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Early Bird": "Rp 75.000 (sampai 26 Februari 2019)",
+    "Normal": "Rp 100.000"
+  },
+  "kategori": [
+    "Fun Run"
+  ],
+  "jenis_event": "fun run"
+}

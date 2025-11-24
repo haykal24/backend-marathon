@@ -1,0 +1,30 @@
+{
+  "image": "-",
+  "judul": "FUN RUN UMBdg",
+  "isi_informasi": "FUN RUN UMBdg akan diadakan pada 4 Agustus 2019 di Area Kampus Universitas Muhammadiyah Bandung. Terdapat dua kategori, yaitu 'couple goals runner' dan 'single fighter runner', dengan berbagai kegiatan menarik seperti lomba swafoto. Pendaftaran dibuka dari 4 Juli hingga 1 Agustus 2019.",
+  "benefit_peserta": [
+    "Medali finisher",
+    "Tumbler",
+    "Kesempatan mengikuti lomba swafoto"
+  ],
+  "lokasi": "Area Kampus Universitas Muhammadiyah Bandung, Jawa Barat",
+  "kota": "Bandung",
+  "tanggal_event": "2019-08-04",
+  "kontak_event": {
+    "WhatsApp": "089501471019",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Couple": "Rp. 250.000",
+    "Single": "Rp. 150.000",
+    "Komunitas (min. 10 orang)": "Rp. 130.000",
+    "Early bird Couple": "Rp. 210.000",
+    "Early bird Single": "Rp. 110.000",
+    "Early bird Komunitas (min. 10 orang)": "Rp. 120.000"
+  },
+  "kategori": [
+    "3.4K Fun Run"
+  ],
+  "jenis_event": "fun run"
+}

@@ -1,0 +1,35 @@
+{
+  "image": "-",
+  "judul": "Mekongga Run 2019",
+  "isi_informasi": "Mekongga Run 2019 akan diselenggarakan pada 17 November 2019 di Area CFD Pantai Mandra Kolaka, Sulawesi Tenggara. Terdapat hadiah uang tunai dan doorprize menarik. Pendaftaran dibuka dari 12 Agustus hingga 10 Oktober 2019 atau sampai kuota terpenuhi. Biaya registrasi untuk kategori 5K adalah Rp175.000 (Early Bird Rp150.000), dan untuk kategori 10K adalah Rp225.000 (Early Bird Rp200.000). Peserta akan mendapatkan jersey race, medali finisher, dan BIB.",
+  "benefit_peserta": [
+    "Hadiah uang tunai",
+    "Doorprize menarik",
+    "Jersey race",
+    "Medali finisher",
+    "BIB"
+  ],
+  "lokasi": "Area CFD Pantai Mandra Kolaka, Sulawesi Tenggara",
+  "kota": "Kolaka",
+  "tanggal_event": "2019-11-17",
+  "kontak_event": {
+    "WhatsApp": "0821_9252_9111",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "5K": {
+      "Normal": "Rp175.000",
+      "Early Bird": "Rp150.000"
+    },
+    "10K": {
+      "Normal": "Rp225.000",
+      "Early Bird": "Rp200.000"
+    }
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,32 @@
+{
+  "image": "-",
+  "judul": "Run In The Sky 2021",
+  "isi_informasi": "Event Run In The Sky 2021 berlangsung secara virtual dari 1 hingga 30 Maret 2021, dengan tantangan final di Terminal 3 Bandara Soekarno Hatta. Terdapat kategori lari 21K dan 42K, serta sepeda 60K dan 120K. Pendaftaran dibuka dari 8 hingga 28 Februari 2021.",
+  "benefit_peserta": [
+    "Medal",
+    "Masker",
+    "E-BIB",
+    "E-Certificate",
+    "Kesempatan mengikuti final challenge di Bandara Soekarno Hatta"
+  ],
+  "lokasi": "Virtual, dimana saja & final challenge di Terminal 3 Bandara Soekarno Hatta",
+  "kota": "Tangerang",
+  "tanggal_event": "2021-03-01",
+  "kontak_event": {
+    "WhatsApp": "+62 896-4333-9643",
+    "Email": "info@airportruninthesky.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Mini package": "IDR 100K",
+    "Medium package": "IDR 150K",
+    "Full package": "IDR 250K"
+  },
+  "kategori": [
+    "21K",
+    "42K",
+    "60K",
+    "120K"
+  ],
+  "jenis_event": "virtual run"
+}

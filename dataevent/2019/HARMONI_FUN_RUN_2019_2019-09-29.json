@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "HARMONI FUN RUN 2019",
+  "isi_informasi": "Harmoni Fun Run 2019 akan diadakan pada 29 September 2019 di Halaman Gubernuran Semarang. Peserta dapat mendaftar dengan biaya presale sebesar Rp85.000, yang mencakup race pack berisi jersey, nomor dada, wristband eksklusif, dan medali untuk semua finisher. Acara ini juga menawarkan cek kesehatan gratis, edukasi kesehatan jantung, bazaar makanan, hiburan, dan hadiah total jutaan rupiah.",
+  "benefit_peserta": [
+    "Race pack berisi jersey, nomor dada, dan wristband eksklusif",
+    "Medali untuk semua finisher",
+    "Cek kesehatan gratis",
+    "Edukasi kesehatan jantung",
+    "Bazaar makanan dan hiburan"
+  ],
+  "lokasi": "Halaman Gubernuran Semarang, Jawa Tengah",
+  "kota": "Semarang",
+  "tanggal_event": "2019-09-29",
+  "kontak_event": {
+    "WhatsApp": "085740338579",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "presale": "Rp85.000"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

@@ -1,0 +1,22 @@
+{
+  "image": "-",
+  "judul": "City Trail Run 2019",
+  "isi_informasi": "City Trail Run (CTR) adalah lomba lari trail yang memanfaatkan lanskap perkotaan. Pada tahun 2019, acara ini diadakan di Semarang.",
+  "benefit_peserta": [
+    "Pengalaman lari di lanskap kota",
+    "Kesempatan untuk berkompetisi di kategori 10K"
+  ],
+  "lokasi": "Lapangan Tembak Diponegoro, Semarang, Jawa Tengah",
+  "kota": "Semarang",
+  "tanggal_event": "2019-11-24",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Rp 200.000,-",
+  "kategori": [
+    "10K"
+  ],
+  "jenis_event": "trail run"
+}

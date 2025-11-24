@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "Merah Putih VR 76",
+  "isi_informasi": "Event lari virtual ini berlangsung dari 15 hingga 17 Agustus 2021. Peserta dapat berlari di mana saja dan harus menyelesaikan jarak minimal 17K. Pendaftaran dibuka dari 1 hingga 31 Juli 2021, dengan biaya pendaftaran Rp 98.000 ditambah ongkir Rp 10.000. Peserta akan menerima racepack yang terdiri dari medali, E-BIB, dan E-Certificate. Hadiah total untuk pemenang mencapai Rp 2.500.000. Peserta wajib memiliki akun Strava dan mengikuti klub Strava Semut Hitam Management.",
+  "benefit_peserta": [
+    "Medali",
+    "E-BIB",
+    "E-Certificate",
+    "Kesempatan memenangkan hadiah total Rp 2.500.000"
+  ],
+  "lokasi": "Virtual, bisa dilakukan di mana saja",
+  "kota": "bisa dilakukan di mana saja",
+  "tanggal_event": "2021-08-15",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "pendaftaran": "Rp 98.000",
+    "ongkir": "Rp 10.000"
+  },
+  "kategori": [
+    "17K"
+  ],
+  "jenis_event": "virtual run"
+}

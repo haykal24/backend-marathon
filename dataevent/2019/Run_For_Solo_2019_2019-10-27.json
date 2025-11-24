@@ -1,0 +1,32 @@
+{
+  "image": "-",
+  "judul": "Run For Solo 2019",
+  "isi_informasi": "Event lari 'Run For Solo 2019' akan diadakan pada 27 Oktober 2019 di Plaza Bung Karno, Stadion Manahan, Solo. Terdapat beberapa kategori lomba yaitu 5K, 10K, dan 21K dengan biaya registrasi bervariasi.",
+  "benefit_peserta": [
+    "Kesempatan berlari di event bergengsi",
+    "Mendapatkan medali dan sertifikat",
+    "Meningkatkan kesehatan dan kebugaran"
+  ],
+  "lokasi": "Plaza Bung Karno – Stadion Manahan, Solo, Jawa Tengah",
+  "kota": "Solo",
+  "tanggal_event": "2019-10-27",
+  "kontak_event": {
+    "WhatsApp": "0857-3030-1050",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "5K Pelajar Solo": "IDR 100.000",
+    "5K Pelajar Umum": "IDR 130.000",
+    "5K Fun Run": "IDR 150.000",
+    "10K Nasional": "IDR 200.000",
+    "21K Nasional": "IDR 300.000",
+    "21K International": "IDR 350.000"
+  },
+  "kategori": [
+    "5K",
+    "10K",
+    "21K"
+  ],
+  "jenis_event": "road run"
+}

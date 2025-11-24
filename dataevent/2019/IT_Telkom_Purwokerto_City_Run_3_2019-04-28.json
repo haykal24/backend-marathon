@@ -1,0 +1,25 @@
+{
+  "image": "-",
+  "judul": "IT Telkom Purwokerto City Run 3",
+  "isi_informasi": "IT Telkom Purwokerto City Run 3 adalah acara lari tahunan yang merupakan bagian dari peringatan Dies Natalis Institut Teknologi Telkom Purwokerto. Acara ini melibatkan masyarakat umum dan pelajar dengan jarak lari 10 Kilometer dan 5 Kilometer, dimulai dan diakhiri di Alun-alun Purwokerto. Tema acara adalah 'Together We Run, Together We Fun', dengan rute yang melewati lokasi-lokasi strategis di Purwokerto.",
+  "benefit_peserta": [
+    "Meningkatkan kesehatan dan kebugaran",
+    "Kesempatan untuk menjelajahi kota Purwokerto",
+    "Mendapatkan pengalaman berlari bersama komunitas"
+  ],
+  "lokasi": "Alun-alun Purwokerto, Jawa Tengah",
+  "kota": "Purwokerto",
+  "tanggal_event": "2019-04-28",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K Pelajar",
+    "5K Umum",
+    "10K Umum"
+  ],
+  "jenis_event": "road run"
+}

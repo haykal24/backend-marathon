@@ -186,6 +186,34 @@ class EventController extends BaseApiController
         return $this->successResponse($stats, 'Calendar statistics retrieved successfully.');
     }
 
+    /**
+     * Get list of years that have published events.
+     */
+    public function getAvailableYears(): JsonResponse
+    {
+        $years = Cache::remember('event_available_years', 3600, function () {
+            return Event::where('status', 'published')
+                ->whereNotNull('event_date')
+                ->selectRaw('DISTINCT YEAR(event_date) as year')
+                ->orderByDesc('year')
+                ->pluck('year')
+                ->map(fn ($year) => (int) $year)
+                ->filter(fn ($year) => $year > 0)
+                ->values()
+                ->all();
+        });
+
+        if (empty($years)) {
+            $years = [now()->year];
+        }
+
+        return $this->successResponse([
+            'years' => $years,
+            'min_year' => min($years),
+            'max_year' => max($years),
+        ], 'Available event years retrieved successfully.');
+    }
+
     public function getFeaturedHeroEvents(): JsonResponse
     {
         $featuredEvents = Cache::remember('featured_hero_events_v2', 60, function () {

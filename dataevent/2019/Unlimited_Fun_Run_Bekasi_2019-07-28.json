@@ -1,0 +1,28 @@
+{
+  "image": "-",
+  "judul": "Unlimited Fun Run Bekasi",
+  "isi_informasi": "Event lari ini akan dilaksanakan pada 28 Juli 2019, yang sebelumnya dijadwalkan pada 28 April 2019. Terdapat dua kategori yang ditawarkan, yaitu 3K dan 5K.",
+  "benefit_peserta": [
+    "Kesempatan berlari dalam suasana yang menyenangkan",
+    "Diskon untuk komunitas",
+    "Mendapatkan pengalaman berlari yang berbeda"
+  ],
+  "lokasi": "Decathlon Summarecon Bekasi",
+  "kota": "Bekasi",
+  "tanggal_event": "2019-07-28",
+  "kontak_event": {
+    "WhatsApp": "0857-7199-9666",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "awal": "175000",
+    "setelah_15_april": "200000",
+    "diskon_komunitas": "150000"
+  },
+  "kategori": [
+    "3K",
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

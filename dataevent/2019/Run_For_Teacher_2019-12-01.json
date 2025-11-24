@@ -1,0 +1,23 @@
+{
+  "image": "-",
+  "judul": "Run For Teacher",
+  "isi_informasi": "Event lari 'Run For Teacher' akan berlangsung pada 1 Desember 2019 di Terminal Maros, Sulawesi Selatan. Peserta dapat mendaftar dan mendapatkan informasi lebih lanjut melalui kontak yang disediakan.",
+  "benefit_peserta": [
+    "Mendukung pendidikan",
+    "Meningkatkan kesehatan",
+    "Kesempatan berinteraksi dengan komunitas"
+  ],
+  "lokasi": "Terminal Maros, Sulawesi Selatan",
+  "kota": "Maros",
+  "tanggal_event": "2019-12-01",
+  "kontak_event": {
+    "WhatsApp": "081242994858",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "road run"
+}

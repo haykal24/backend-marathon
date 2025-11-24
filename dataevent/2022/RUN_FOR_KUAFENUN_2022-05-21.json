@@ -1,0 +1,25 @@
+{
+  "image": "-",
+  "judul": "RUN FOR KUAFENUN",
+  "isi_informasi": "PPI Tiongkok Bidang Sosial dan Bidang Olahraga mempersembahkan acara lari 'Run for Kuafenun' dengan jarak 3 KM yang diadakan di Jakarta, Surabaya, dan Bandung. Acara ini juga bertujuan untuk berdonasi.",
+  "benefit_peserta": [
+    "Medali",
+    "E-sertifikat"
+  ],
+  "lokasi": "Akan Diumumkan",
+  "kota": "Jakarta",
+  "tanggal_event": "2022-05-21",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Periode I": "Rp 99.000",
+    "Periode II": "Rp 129.000"
+  },
+  "kategori": [
+    "3K"
+  ],
+  "jenis_event": "road run"
+}

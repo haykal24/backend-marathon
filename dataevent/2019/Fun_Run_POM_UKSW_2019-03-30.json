@@ -1,0 +1,22 @@
+{
+  "image": "-",
+  "judul": "Fun Run POM UKSW",
+  "isi_informasi": "Pendaftaran untuk Fun Run POM UKSW 2019 telah dibuka. Bergabunglah dalam acara lari ini dan dapatkan race pack menarik hanya dengan biaya pendaftaran sebesar 50 ribu. Acara ini terbuka untuk umum, jadi ajaklah teman dan keluarga untuk berpartisipasi.",
+  "benefit_peserta": [
+    "Mendapatkan race pack",
+    "Kesempatan berlari bersama teman dan keluarga"
+  ],
+  "lokasi": "UKSW, Salatiga, Jawa Tengah",
+  "kota": "Salatiga",
+  "tanggal_event": "2019-03-30",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "50.000",
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

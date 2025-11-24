@@ -1,0 +1,32 @@
+{
+  "image": "-",
+  "judul": "Ultra Trail Petung 2019",
+  "isi_informasi": "Ultra Trail Petung adalah lomba lari lintas alam yang berlangsung pada 24 November 2019, dengan rute melalui tanah, hutan, sungai, dan pegunungan Dieng Utara. Terdapat tiga kategori jarak: 15K, 30K, dan 50K, yang menawarkan pengalaman berlari di alam dengan pemandangan indah dan udara segar. Rute ini melewati beberapa tempat wisata di Petungkriyono.",
+  "benefit_peserta": [
+    "Nomor Dada",
+    "Running Tee",
+    "Finisher Tee",
+    "Medali Finisher",
+    "Water Station di beberapa titik",
+    "Pemandangan indah",
+    "Trek yang menantang",
+    "Udara yang segar"
+  ],
+  "lokasi": "Lapangan Desa Kasimpar, Petungkriyono, Pekalongan, Jawa Tengah",
+  "kota": "Pekalongan",
+  "tanggal_event": "2019-11-24",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Early Bird": "1 – 31 September 2019"
+  },
+  "kategori": [
+    "15K",
+    "30K",
+    "50K"
+  ],
+  "jenis_event": "trail run"
+}

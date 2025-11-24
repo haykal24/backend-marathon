@@ -1,0 +1,24 @@
+{
+  "image": "-",
+  "judul": "AccorHotels Fun Run",
+  "isi_informasi": "Event lari ini akan diadakan pada 17 Maret 2019 di Pullman Ciawi Vimala Hills, Bogor. Peserta akan mendapatkan kaos lari, medali finisher, brunch setelah perlombaan, dan hadiah lucky draw.",
+  "benefit_peserta": [
+    "Kaos lari (dry fit)",
+    "Medali finisher",
+    "Brunch setelah perlombaan",
+    "Hadiah lucky draw"
+  ],
+  "lokasi": "Pullman Ciawi Vimala Hills, Bogor",
+  "kota": "Bogor",
+  "tanggal_event": "2019-03-17",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Tidak tercantum",
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

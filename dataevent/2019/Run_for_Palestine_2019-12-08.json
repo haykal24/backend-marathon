@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "Run for Palestine",
+  "isi_informasi": "Ikuti acara lari sambil berdonasi untuk Palestina dengan tema 'Indonesian Heroes for Palestine'. Acara 5K ini akan berlangsung di CFD Thamrin, dari BNI 46 hingga Patung Kuda Indosat, dan dilengkapi dengan mini concert.",
+  "benefit_peserta": [
+    "Kesempatan berdonasi untuk Palestina",
+    "Mendapatkan racepack",
+    "Pengalaman fun run"
+  ],
+  "lokasi": "CFD Sudirman, Jakarta",
+  "kota": "Jakarta",
+  "tanggal_event": "2019-12-08",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Single": "Rp 150.000,-",
+    "Double": "Rp 200.000,-",
+    "Paket Family Fun Walk (5 orang)": "Rp 400.000,-"
+  },
+  "kategori": [
+    "5K"
+  ],
+  "jenis_event": "fun run"
+}

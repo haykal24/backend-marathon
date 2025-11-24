@@ -1,0 +1,26 @@
+{
+  "image": "-",
+  "judul": "Soppeng Fun Run 2020",
+  "isi_informasi": "Soppeng Fun Run 2020 adalah event lari perdana di Kabupaten Soppeng yang berlangsung pada 15 Maret 2020, dengan jarak 8.1 kilometer. Peserta akan menikmati keindahan koloni kalong di pusat kota Soppeng.",
+  "benefit_peserta": [
+    "Menikmati pemandangan eksotis",
+    "Kesempatan berkompetisi dengan pelari lain",
+    "Mendapatkan pengalaman berlari di event resmi"
+  ],
+  "lokasi": "Masjid Raya Soppeng, Jalan Pemuda, Soppeng, Sulawesi Selatan",
+  "kota": "Soppeng",
+  "tanggal_event": "2020-03-15",
+  "kontak_event": {
+    "Instagram": [
+      "@Soppengfunrun2020"
+    ],
+    "WhatsApp": "+62822 7127 9292",
+    "Email": "soppengfunrun2020@gmail.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Rp. 150.000,-/peserta",
+  "kategori": [
+    "8.1K"
+  ],
+  "jenis_event": "road run"
+}

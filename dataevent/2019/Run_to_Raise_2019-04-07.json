@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "Run to Raise",
+  "isi_informasi": "Event lari 'Run to Raise' akan diselenggarakan pada 7 April 2019 di FEB Universitas Indonesia, Depok. Terdapat dua kategori lomba yaitu 5K dan 10K dengan biaya registrasi Rp 150.000 untuk 5K dan Rp 200.000 untuk 10K. Diskon tersedia untuk pembelian dalam jumlah tertentu. Jika tidak dihubungi dalam 24 jam setelah mengisi form, peserta dapat menghubungi tim ticketing. Refund dapat diajukan dengan syarat tertentu dan harus dilakukan 14 hari sebelum acara.",
+  "benefit_peserta": [
+    "Kesempatan berlari di acara yang terorganisir",
+    "Diskon untuk pembelian tiket dalam jumlah tertentu",
+    "Pengalaman berharga dalam komunitas lari"
+  ],
+  "lokasi": "FEB Universitas Indonesia, Depok",
+  "kota": "Depok",
+  "tanggal_event": "2019-04-07",
+  "kontak_event": {
+    "WhatsApp": "08111904330",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "5K": "Rp 150.000",
+    "10K": "Rp 200.000"
+  },
+  "kategori": [
+    "5K",
+    "10K"
+  ],
+  "jenis_event": "road run"
+}

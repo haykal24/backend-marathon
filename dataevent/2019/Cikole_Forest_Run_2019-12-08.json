@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "Cikole Forest Run",
+  "isi_informasi": "Cikole Forest Run 2019 akan berlangsung pada 8 Desember 2019, menawarkan kategori 6.5K dan 15K. Pendaftaran sudah dibuka dan tiket dapat dibeli di www.cikoleforestrun.co.id atau www.depotix.com. Peserta akan mendapatkan racepack yang berisi jersey, nomor BIB, refreshment, medali, dan asuransi. Terdapat total hadiah jutaan rupiah untuk kategori 15K dan doorprize untuk semua peserta. Acara ini juga menampilkan penampilan spesial dari @orkes_psk.",
+  "benefit_peserta": [
+    "Racepack lengkap",
+    "Total hadiah jutaan rupiah",
+    "Doorprize untuk semua peserta"
+  ],
+  "lokasi": "Green Grass Cikole, Lembang, Kabupaten Bandung Barat",
+  "kota": "Lembang",
+  "tanggal_event": "2019-12-08",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "6.5K": "Rp. 250.000",
+    "15K": "Rp. 350.000"
+  },
+  "kategori": [
+    "6.5K",
+    "15K"
+  ],
+  "jenis_event": "fun run"
+}

@@ -1,0 +1,27 @@
+{
+  "image": "-",
+  "judul": "Lomba Lintas Lembah dan Bukit (L3B) 2019",
+  "isi_informasi": "Lomba Lintas Lembah dan Bukit (L3B) 2019 adalah acara tahunan yang diselenggarakan oleh Fakultas Pertanian, Universitas Padjadjaran, pertama kali diadakan pada tahun 1962. Acara ini mencakup perlombaan lari dan pertunjukan seni setelah lomba, serta bazar makanan dan minuman. Terdapat dua jenis perlombaan: Trail Run sejauh 21 KM dan Fun Trekking sejauh 10 KM.",
+  "benefit_peserta": [
+    "Pengalaman berlari di alam terbuka",
+    "Kesempatan untuk berkompetisi",
+    "Hiburan dari pertunjukan seni"
+  ],
+  "lokasi": "Universitas Padjadjaran – MT. Manglayang, Jawa Barat",
+  "kota": "Jawa Barat",
+  "tanggal_event": "2019-10-20",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": {
+    "Fun Trekking": "Tidak tercantum",
+    "Trail Run": "Tidak tercantum"
+  },
+  "kategori": [
+    "10K Fun Trekking",
+    "21K Trail Run"
+  ],
+  "jenis_event": "road run"
+}

@@ -1,0 +1,30 @@
+{
+  "image": "-",
+  "judul": "PLN Mobile Virtual Charity Run & Ride 2021",
+  "isi_informasi": "PLN menyelenggarakan PLN Mobile Virtual Charity Run & Ride 2021 dari 16 Oktober hingga 7 November 2021. Event ini bertujuan untuk mengedukasi masyarakat tentang pola hidup sehat selama pandemi dan menyalurkan donasi untuk daerah yang belum terjangkau listrik. Peserta dapat berlari atau bersepeda secara virtual di mana saja.",
+  "benefit_peserta": [
+    "Mendukung donasi untuk daerah yang membutuhkan",
+    "Menerapkan pola hidup sehat",
+    "Berpartisipasi dalam kegiatan sosial"
+  ],
+  "lokasi": "Virtual, bisa dilakukan di mana saja",
+  "kota": "bisa dilakukan di mana saja",
+  "tanggal_event": "2021-10-16",
+  "kontak_event": {
+    "WhatsApp": "0812 119 911",
+    "Email": "kontak@indonesiamarathon.com",
+    "Website": "www.indonesiamarathon.com"
+  },
+  "biaya_registrasi": "Gratis",
+  "kategori": [
+    "5K",
+    "10K",
+    "21K",
+    "42K",
+    "20K",
+    "40K",
+    "75K",
+    "100K"
+  ],
+  "jenis_event": "virtual run"
+}
