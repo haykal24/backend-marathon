@@ -49,7 +49,6 @@ class SitemapController extends BaseApiController
             }
 
             $items = collect();
-            $includeFacetUrls = filter_var(env('SITEMAP_INCLUDE_FACET_URLS', false), FILTER_VALIDATE_BOOLEAN);
 
             // Add _sitemap parameter back
             $pushUrl = function (string $path, string $_sitemap, string $changefreq = 'weekly', float $priority = 0.5, ?string $lastmod = null) use (&$items,
@@ -109,28 +108,26 @@ class SitemapController extends BaseApiController
             
             // Rate card: will be handled by StaticPage query below if exists
 
-            // 2. Categories / Facet Sitemap (disabled by default to avoid orphan URLs)
-            if ($includeFacetUrls) {
-                // Event Types (Fun Run, Marathon, Trail Run, etc.) - ACTIVE di frontend
-                EventType::query()
-                    ->select(['id', 'slug', 'name', 'updated_at'])
-                    ->where('is_active', true)
-                    ->whereHas('events', fn($q) => $q->where('status', 'published'))
-                    ->each(function (EventType $type) use ($pushUrl) {
-                        $lastmod = optional($type->updated_at)->toAtomString();
-                        $pushUrl("/event?type={$type->slug}", 'categories', 'daily', 0.8, $lastmod);
-                    });
+            // 2. Categories / Facet Sitemap
+            // Event Types (Fun Run, Marathon, Trail Run, etc.) - ACTIVE di frontend
+            EventType::query()
+                ->select(['id', 'slug', 'name', 'updated_at'])
+                ->where('is_active', true)
+                ->whereHas('events', fn($q) => $q->where('status', 'published'))
+                ->each(function (EventType $type) use ($pushUrl) {
+                    $lastmod = optional($type->updated_at)->toAtomString();
+                    $pushUrl("/event?type={$type->slug}", 'categories', 'daily', 0.8, $lastmod);
+                });
 
-                // Provinces - ACTIVE di frontend
-                Province::query()
-                    ->select(['slug', 'updated_at'])
-                    ->whereHas('events', fn($q) => $q->where('status', 'published'))
-                    ->where('is_active', true)
-                    ->each(function (Province $province) use ($pushUrl) {
-                        $lastmod = optional($province->updated_at)->toAtomString();
-                        $pushUrl("/event?province={$province->slug}", 'categories', 'daily', 0.8, $lastmod);
-                    });
-            }
+            // Provinces - ACTIVE di frontend
+            Province::query()
+                ->select(['slug', 'updated_at'])
+                ->whereHas('events', fn($q) => $q->where('status', 'published'))
+                ->where('is_active', true)
+                ->each(function (Province $province) use ($pushUrl) {
+                    $lastmod = optional($province->updated_at)->toAtomString();
+                    $pushUrl("/event?province={$province->slug}", 'categories', 'daily', 0.8, $lastmod);
+                });
 
             StaticPage::query()
                 ->select(['slug', 'updated_at'])
@@ -141,54 +138,56 @@ class SitemapController extends BaseApiController
                     $pushUrl("/{$page->slug}", 'pages', 'monthly', 0.4, $lastmod);
                 });
 
-            if ($includeFacetUrls) {
-                FAQ::query()
-                    ->select('category')->whereNotNull('category')->groupBy('category')->orderBy('category')
-                    ->get()->each(function (FAQ $faq) use ($pushUrl) {
-                        $pushUrl("/faq?category=" . urlencode($faq->category), 'categories', 'weekly', 0.6);
+            // FAQ Categories
+            FAQ::query()
+                ->select('category')->whereNotNull('category')->groupBy('category')->orderBy('category')
+                ->get()->each(function (FAQ $faq) use ($pushUrl) {
+                    $pushUrl("/faq?category=" . urlencode($faq->category), 'categories', 'weekly', 0.6);
+                });
+
+            // FAQ Keywords
+            FAQ::query()
+                ->select('keyword')->whereNotNull('keyword')->groupBy('keyword')->orderBy('keyword')
+                ->get()->each(function (FAQ $faq) use ($pushUrl) {
+                    $pushUrl("/faq?keyword=" . urlencode($faq->keyword), 'categories', 'weekly', 0.5);
+                });
+
+            // Blog Categories
+            try {
+                BlogCategory::query()
+                    ->select(['slug', 'updated_at'])->isVisible()
+                    ->each(function (BlogCategory $category) use ($pushUrl) {
+                        $lastmod = optional($category->updated_at)->toAtomString();
+                        $pushUrl("/blog?category={$category->slug}", 'categories', 'weekly', 0.6, $lastmod);
                     });
+            } catch (\Exception $e) {
+                // Silently skip
+            }
 
-                FAQ::query()
-                    ->select('keyword')->whereNotNull('keyword')->groupBy('keyword')->orderBy('keyword')
-                    ->get()->each(function (FAQ $faq) use ($pushUrl) {
-                        $pushUrl("/faq?keyword=" . urlencode($faq->keyword), 'categories', 'weekly', 0.5);
+            // Blog Tags
+            try {
+                $tagIds = DB::table('taggables')->where('taggable_type', Post::class)->distinct()->pluck('tag_id')->toArray();
+                if (!empty($tagIds)) {
+                    Tag::query()->whereIn('id', $tagIds)->get()->each(function (Tag $tag) use ($pushUrl) {
+                        $slug = is_string($tag->slug) && !empty($tag->slug)
+                            ? trim($tag->slug)
+                            : (is_array($tag->slug) 
+                                ? ($tag->slug['en'] ?? ($tag->slug['id'] ?? reset($tag->slug)))
+                                : (is_object($tag->slug)
+                                    ? ($tag->slug->en ?? ($tag->slug->id ?? null))
+                                    : null));
+                        if (empty($slug)) {
+                            $name = is_string($tag->name) ? $tag->name : ($tag->name['en'] ?? ($tag->name['id'] ?? reset($tag->name)));
+                            $slug = Str::slug($name ?? '');
+                        }
+                        if (!empty($slug)) {
+                            $pushUrl("/blog?tag=" . urlencode($slug), 'categories', 'weekly', 0.5,
+                                optional($tag->updated_at)->toAtomString());
+                        }
                     });
-
-                try {
-                    BlogCategory::query()
-                        ->select(['slug', 'updated_at'])->isVisible()
-                        ->each(function (BlogCategory $category) use ($pushUrl) {
-                            $lastmod = optional($category->updated_at)->toAtomString();
-                            $pushUrl("/blog?category={$category->slug}", 'categories', 'weekly', 0.6, $lastmod);
-                        });
-                } catch (\Exception $e) {
-                    // Silently skip
                 }
-
-                try {
-                    $tagIds = DB::table('taggables')->where('taggable_type', Post::class)->distinct()->pluck('tag_id')->toArray();
-                    if (!empty($tagIds)) {
-                        Tag::query()->whereIn('id', $tagIds)->get()->each(function (Tag $tag) use ($pushUrl) {
-                            $slug = is_string($tag->slug) && !empty($tag->slug)
-                                ? trim($tag->slug)
-                                : (is_array($tag->slug) 
-                                    ? ($tag->slug['en'] ?? ($tag->slug['id'] ?? reset($tag->slug)))
-                                    : (is_object($tag->slug)
-                                        ? ($tag->slug->en ?? ($tag->slug->id ?? null))
-                                        : null));
-                            if (empty($slug)) {
-                                $name = is_string($tag->name) ? $tag->name : ($tag->name['en'] ?? ($tag->name['id'] ?? reset($tag->name)));
-                                $slug = Str::slug($name ?? '');
-                            }
-                            if (!empty($slug)) {
-                                $pushUrl("/blog?tag=" . urlencode($slug), 'categories', 'weekly', 0.5,
-                                    optional($tag->updated_at)->toAtomString());
-                            }
-                        });
-                    }
-                } catch (\Exception $e) {
-                    // Silently skip
-                }
+            } catch (\Exception $e) {
+                // Silently skip
             }
 
                 // 3. Events Sitemap
