@@ -49,6 +49,7 @@ class SitemapController extends BaseApiController
             }
 
             $items = collect();
+            $includeFacetUrls = filter_var(env('SITEMAP_INCLUDE_FACET_URLS', false), FILTER_VALIDATE_BOOLEAN);
 
             // Add _sitemap parameter back
             $pushUrl = function (string $path, string $_sitemap, string $changefreq = 'weekly', float $priority = 0.5, ?string $lastmod = null) use (&$items,
@@ -108,29 +109,25 @@ class SitemapController extends BaseApiController
             
             // Rate card: will be handled by StaticPage query below if exists
 
-            // 2. Categories Sitemap
-            // Temporarily disable category/province facet URLs in sitemap.
-            // Google Search Console reported hundreds of orphaned pages because these
-            // query-string listings are only reachable via interactive filters.
-            // Keep the code commented so we can restore it once dedicated landing pages exist.
-            /*
-            EventCategory::query()
-                ->select(['id', 'slug', 'updated_at'])
-                ->whereHas('events', fn($q) => $q->where('status', 'published'))
-                ->each(function (EventCategory $category) use ($pushUrl) {
-                    $lastmod = optional($category->updated_at)->toAtomString();
-                    $pushUrl("/event?category={$category->slug}", 'categories', 'daily', 0.8, $lastmod);
-                });
+            // 2. Categories / Facet Sitemap (disabled by default to avoid orphan URLs)
+            if ($includeFacetUrls) {
+                EventCategory::query()
+                    ->select(['id', 'slug', 'updated_at'])
+                    ->whereHas('events', fn($q) => $q->where('status', 'published'))
+                    ->each(function (EventCategory $category) use ($pushUrl) {
+                        $lastmod = optional($category->updated_at)->toAtomString();
+                        $pushUrl("/event?category={$category->slug}", 'categories', 'daily', 0.8, $lastmod);
+                    });
 
-            Province::query()
-                ->select(['slug', 'updated_at'])
-                ->whereHas('events', fn($q) => $q->where('status', 'published'))
-                ->where('is_active', true)
-                ->each(function (Province $province) use ($pushUrl) {
-                    $lastmod = optional($province->updated_at)->toAtomString();
-                    $pushUrl("/event?province={$province->slug}", 'categories', 'daily', 0.8, $lastmod);
-                });
-            */
+                Province::query()
+                    ->select(['slug', 'updated_at'])
+                    ->whereHas('events', fn($q) => $q->where('status', 'published'))
+                    ->where('is_active', true)
+                    ->each(function (Province $province) use ($pushUrl) {
+                        $lastmod = optional($province->updated_at)->toAtomString();
+                        $pushUrl("/event?province={$province->slug}", 'categories', 'daily', 0.8, $lastmod);
+                    });
+            }
 
             StaticPage::query()
                 ->select(['slug', 'updated_at'])
@@ -141,21 +138,19 @@ class SitemapController extends BaseApiController
                     $pushUrl("/{$page->slug}", 'pages', 'monthly', 0.4, $lastmod);
                 });
 
-            /*
-            FAQ::query()
-                ->select('category')->whereNotNull('category')->groupBy('category')->orderBy('category')
-                ->get()->each(function (FAQ $faq) use ($pushUrl) {
-                    $pushUrl("/faq?category=" . urlencode($faq->category), 'categories', 'weekly', 0.6);
-                });
+            if ($includeFacetUrls) {
+                FAQ::query()
+                    ->select('category')->whereNotNull('category')->groupBy('category')->orderBy('category')
+                    ->get()->each(function (FAQ $faq) use ($pushUrl) {
+                        $pushUrl("/faq?category=" . urlencode($faq->category), 'categories', 'weekly', 0.6);
+                    });
 
-            FAQ::query()
-                ->select('keyword')->whereNotNull('keyword')->groupBy('keyword')->orderBy('keyword')
-                ->get()->each(function (FAQ $faq) use ($pushUrl) {
-                    $pushUrl("/faq?keyword=" . urlencode($faq->keyword), 'categories', 'weekly', 0.5);
-                });
-            */
+                FAQ::query()
+                    ->select('keyword')->whereNotNull('keyword')->groupBy('keyword')->orderBy('keyword')
+                    ->get()->each(function (FAQ $faq) use ($pushUrl) {
+                        $pushUrl("/faq?keyword=" . urlencode($faq->keyword), 'categories', 'weekly', 0.5);
+                    });
 
-                /*
                 try {
                     BlogCategory::query()
                         ->select(['slug', 'updated_at'])->isVisible()
@@ -191,7 +186,7 @@ class SitemapController extends BaseApiController
                 } catch (\Exception $e) {
                     // Silently skip
                 }
-                */
+            }
 
                 // 3. Events Sitemap
                 Event::query()
