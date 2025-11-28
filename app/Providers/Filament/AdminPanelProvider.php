@@ -7,8 +7,11 @@ use Filament\Http\Middleware\AuthenticateSession;
 use Filament\Http\Middleware\DisableBladeIconComponents;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;
 use BezhanSalleh\FilamentShield\FilamentShieldPlugin;
+use BezhanSalleh\GoogleAnalytics\GoogleAnalyticsPlugin;
+use Muazzam\SlickScrollbar\SlickScrollbarPlugin;
 use Filament\Pages\Dashboard;
 use Filament\Panel;
+
 use Filament\PanelProvider;
 use Filament\Support\Assets\Css;
 use Filament\Widgets\AccountWidget;
@@ -18,6 +21,7 @@ use Illuminate\Cookie\Middleware\EncryptCookies;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
+use Illuminate\Support\Facades\File;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 
 class AdminPanelProvider extends PanelProvider
@@ -39,12 +43,7 @@ class AdminPanelProvider extends PanelProvider
             ->assets([
                 Css::make('buttons', asset('css/filament/buttons.css')),
             ])
-            ->plugins([
-                BlogPlugin::make(),
-                FilamentShieldPlugin::make()
-                    ->navigationGroup('Pengaturan Akses') // Prefix "~" untuk muncul di bawah
-                    ->navigationSort(2), // Roles setelah Users
-            ])
+            ->plugins($this->resolvePlugins())
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\Filament\Resources')
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\Filament\Pages')
             ->pages([
@@ -80,5 +79,37 @@ class AdminPanelProvider extends PanelProvider
                 'Pengaturan Akses',
             ])
             ->spa(hasPrefetching: true);
+    }
+
+    protected function resolvePlugins(): array
+    {
+        $plugins = [
+            BlogPlugin::make(),
+            FilamentShieldPlugin::make()
+                ->navigationGroup('Pengaturan Akses')
+                ->navigationSort(2),
+            SlickScrollbarPlugin::make()
+                ->size('4px')
+                ->palette('primary'),
+        ];
+
+        if ($this->shouldEnableGoogleAnalytics()) {
+            $plugins[] = GoogleAnalyticsPlugin::make();
+        }
+
+        return $plugins;
+    }
+
+    protected function shouldEnableGoogleAnalytics(): bool
+    {
+        if (! config('analytics.enabled', true)) {
+            return false;
+        }
+
+        $credentialsPath = config('analytics.service_account_credentials_json');
+
+        return filled(config('analytics.property_id'))
+            && is_string($credentialsPath)
+            && File::exists($credentialsPath);
     }
 }

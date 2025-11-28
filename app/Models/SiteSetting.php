@@ -273,7 +273,7 @@ class SiteSetting extends Model implements HasMedia
     {
         $this->addMediaCollection('default')
             ->singleFile()
-            ->useDisk('public')
+            ->useDisk(config('media-library.disk_name', 'r2'))
             ->useFallbackUrl('/images/placeholder.jpg');
     }
 

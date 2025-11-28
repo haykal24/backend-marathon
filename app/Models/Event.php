@@ -129,7 +129,7 @@ class Event extends Model implements HasMedia
     {
         $this->addMediaCollection('default')
             ->singleFile()
-            ->useDisk('public');
+            ->useDisk(config('media-library.disk_name', 'r2'));
         // Removed useFallbackUrl - biarkan null jika tidak ada image
         // Frontend akan handle fallback dengan bg-primary gradient
     }

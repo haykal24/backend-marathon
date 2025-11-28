@@ -137,7 +137,7 @@ class AdBannerSeeder extends Seeder
             try {
                 $banner->addMedia($tempPath)
                     ->usingName($banner->name)
-                    ->toMediaCollection('default');
+                    ->toMediaCollection('default', config('media-library.disk_name', 'r2'));
             } finally {
                 if (File::exists($tempPath)) {
                     File::delete($tempPath);

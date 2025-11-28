@@ -89,7 +89,7 @@ class RunningCommunitySeeder extends Seeder
                 try {
                     $community->addMedia($tempPath)
                         ->usingName('Logo ' . $community->name)
-                        ->toMediaCollection('default');
+                        ->toMediaCollection('default', config('media-library.disk_name', 'r2'));
                 } finally {
                     // Clean up temp file
                     if (File::exists($tempPath)) {

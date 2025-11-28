@@ -97,7 +97,7 @@ class VendorSeeder extends Seeder
                 try {
                     $vendor->addMedia($tempPath)
                         ->usingName('Logo ' . $vendor->name)
-                        ->toMediaCollection('default');
+                        ->toMediaCollection('default', config('media-library.disk_name', 'r2'));
                 } finally {
                     // Clean up temp file
                     if (File::exists($tempPath)) {

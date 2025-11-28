@@ -80,7 +80,7 @@ class SiteSettingSeeder extends Seeder
                     try {
                         $siteSetting->addMedia($tempPath)
                             ->usingName($key)
-                            ->toMediaCollection('default');
+                            ->toMediaCollection('default', config('media-library.disk_name', 'r2'));
                     } finally {
                         if (File::exists($tempPath)) {
                             File::delete($tempPath);
