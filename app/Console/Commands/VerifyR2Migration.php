@@ -6,6 +6,7 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Stephenjude\FilamentBlog\Models\Post;
 
 class VerifyR2Migration extends Command
 {
@@ -77,20 +78,59 @@ class VerifyR2Migration extends Command
             $this->info("✓ Tidak ada file media tersisa di storage/app/public");
         }
 
+        // 3. Cek blog images
+        $this->newLine();
+        $this->info("Checking blog post banner images...");
+        
+        try {
+            $blogPostsWithBanner = Post::whereNotNull('banner')
+                ->where('banner', '!=', '')
+                ->count();
+            
+            $blogPostsWithLocalBanner = Post::whereNotNull('banner')
+                ->where('banner', '!=', '')
+                ->where('banner', 'not like', 'http%')
+                ->count();
+            
+            if ($blogPostsWithBanner > 0) {
+                $this->line("Total blog posts with banner: {$blogPostsWithBanner}");
+                $this->line("Blog posts with local banner (need migration): {$blogPostsWithLocalBanner}");
+                
+                if ($blogPostsWithLocalBanner > 0) {
+                    $this->warn("⚠️  Masih ada {$blogPostsWithLocalBanner} blog posts dengan banner lokal!");
+                    $this->comment("   Jalankan: php artisan blog:migrate-images-to-r2");
+                } else {
+                    $this->info("✓ Semua blog banner sudah di R2 atau external URL");
+                }
+            } else {
+                $this->info("✓ Tidak ada blog posts dengan banner");
+            }
+        } catch (\Exception $e) {
+            $this->warn("⚠️  Could not check blog posts: {$e->getMessage()}");
+        }
+
         $this->newLine();
         $this->info("📋 Checklist sebelum menghapus:");
         $this->line("  1. ✓ Semua media sudah di R2 (verified)");
-        $this->line("  2. ⬜ Test akses gambar di frontend (pastikan semua gambar tampil dari R2)");
-        $this->line("  3. ⬜ Test upload media baru (pastikan tersimpan ke R2)");
-        $this->line("  4. ⬜ Backup folder storage/app/public (opsional, untuk safety)");
+        $this->line("  2. ⬜ Semua blog banner sudah di R2 (jalankan: php artisan blog:migrate-images-to-r2)");
+        $this->line("  3. ⬜ Test akses gambar di frontend (pastikan semua gambar tampil dari R2)");
+        $this->line("  4. ⬜ Test upload media baru (pastikan tersimpan ke R2)");
+        $this->line("  5. ⬜ Backup folder storage/app/public (opsional, untuk safety)");
         $this->newLine();
 
-        if ($mediaFilesCount > 0) {
+        if ($mediaFilesCount > 0 || $blogPostsWithLocalBanner > 0) {
             $this->comment("Setelah semua checklist selesai, jalankan:");
-            $this->line("  rm -rf storage/app/public/[0-9]*");
-            $this->line("  (Hanya hapus folder numeric, jangan hapus folder lain seperti 'images', dll)");
+            if ($mediaFilesCount > 0) {
+                $this->line("  rm -rf storage/app/public/[0-9]*");
+                $this->line("  (Hapus folder numeric untuk Spatie Media Library)");
+            }
+            if ($blogPostsWithLocalBanner > 0) {
+                $this->line("  rm -rf storage/app/public/blog");
+                $this->line("  (Hapus folder blog setelah migrasi banner)");
+            }
+            $this->line("  (Jangan hapus folder lain seperti 'images', dll)");
         } else {
-            $this->info("✅ Semua sudah bersih! Folder public media sudah kosong.");
+            $this->info("✅ Semua sudah bersih! Folder public media dan blog sudah kosong.");
         }
 
         return self::SUCCESS;
