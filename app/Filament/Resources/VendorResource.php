@@ -71,6 +71,21 @@ class VendorResource extends Resource
                             ->label('Logo Vendor')
                             ->helperText('Logo vendor (akan otomatis dikonversi ke WebP)'),
                     ]),
+                Section::make('Gallery')
+                    ->description('Foto-foto produk, portfolio, atau showcase vendor')
+                    ->schema([
+                        Components\SpatieMediaLibraryFileUpload::make('gallery')
+                            ->collection('gallery')
+                            ->image()
+                            ->multiple()
+                            ->maxFiles(10)
+                            ->label('Gallery Foto')
+                            ->helperText('Upload maksimal 10 foto (akan otomatis dikonversi ke WebP)')
+                            ->imageEditor()
+                            ->reorderable()
+                            ->downloadable()
+                            ->openable(),
+                    ]),
                 Section::make('Kontak & Status')
                     ->description('Informasi kontak dan status listing')
                     ->schema([

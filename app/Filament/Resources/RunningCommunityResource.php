@@ -71,6 +71,21 @@ class RunningCommunityResource extends Resource
                             ->helperText('Tampilkan sebagai listing berbayar/featured')
                             ->default(false),
                     ]),
+                Section::make('Gallery')
+                    ->description('Foto-foto aktivitas komunitas, event, atau showcase')
+                    ->schema([
+                        Components\SpatieMediaLibraryFileUpload::make('gallery')
+                            ->collection('gallery')
+                            ->image()
+                            ->multiple()
+                            ->maxFiles(10)
+                            ->label('Gallery Foto')
+                            ->helperText('Upload maksimal 10 foto (akan otomatis dikonversi ke WebP)')
+                            ->imageEditor()
+                            ->reorderable()
+                            ->downloadable()
+                            ->openable(),
+                    ]),
             ]);
     }
 
