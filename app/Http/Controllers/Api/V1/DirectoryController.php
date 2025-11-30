@@ -19,7 +19,7 @@ class DirectoryController extends BaseApiController
     {
         // Optimized query: select only needed columns
         $query = Vendor::query()
-            ->select(['id', 'name', 'type', 'description', 'website', 'email', 'phone', 'city', 'is_featured', 'created_at']);
+            ->select(['id', 'name', 'slug', 'type', 'description', 'website', 'email', 'phone', 'city', 'is_featured', 'created_at']);
 
         // Filter by type
         if ($request->has('type')) {
@@ -60,7 +60,7 @@ class DirectoryController extends BaseApiController
     {
         // Optimized query: select only needed columns
         $query = RunningCommunity::query()
-            ->select(['id', 'name', 'location', 'instagram_handle', 'contact_info', 'is_featured', 'created_at']);
+            ->select(['id', 'name', 'slug', 'location', 'instagram_handle', 'contact_info', 'is_featured', 'created_at']);
 
         // Filter by location (consolidated field now)
         if ($request->has('city')) {
@@ -118,4 +118,3 @@ class DirectoryController extends BaseApiController
         );
     }
 }
-
