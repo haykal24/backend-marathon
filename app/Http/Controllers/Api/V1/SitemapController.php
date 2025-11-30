@@ -143,6 +143,7 @@ class SitemapController extends BaseApiController
             $pushUrl('/blog/kategori', 'pages', 'weekly', 0.7, optional($latestBlogUpdate)->toAtomString() ?? now()->toAtomString());
             
             // Cities (Kota/Kabupaten) - Dynamic Routes
+            // No limit - index all cities for better SEO coverage
             try {
                 $cities = DB::table('events')
                     ->select('city', 'province', DB::raw('COUNT(*) as event_count'))
@@ -152,7 +153,6 @@ class SitemapController extends BaseApiController
                     ->groupBy('city', 'province')
                     ->having('event_count', '>', 0)
                     ->orderByDesc('event_count')
-                    ->limit(100) // Limit top 100 kota untuk crawl budget
                     ->get();
 
                 foreach ($cities as $city) {
@@ -281,9 +281,11 @@ class SitemapController extends BaseApiController
             }
 
                 // 3. Events Sitemap
+                // No limit - index all published events for better SEO
                 Event::query()
-                    ->select(['slug', 'updated_at', 'status'])->where('status', 'published')
-                    ->orderByDesc('updated_at')->limit(1000)
+                    ->select(['slug', 'updated_at', 'status'])
+                    ->where('status', 'published')
+                    ->orderByDesc('updated_at')
                     ->each(function (Event $event) use ($pushUrl) {
                         $lastmod = optional($event->updated_at)->toAtomString();
                         $pushUrl("/event/{$event->slug}", 'events', 'daily', 0.8, $lastmod);
