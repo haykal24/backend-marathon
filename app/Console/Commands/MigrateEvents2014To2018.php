@@ -22,7 +22,8 @@ class MigrateEvents2014To2018 extends Command
                             {--dry-run : Preview mode, do not save to database}
                             {--with-images : Upload images (default: skip-images, karena data 2014-2018 tidak ada images)}
                             {--batch-limit= : Limit number of events per year (useful for testing)}
-                            {--force : Overwrite existing events}';
+                            {--force : Overwrite existing events}
+                            {--path= : Custom path to dataevent folder (default: auto-detect)}';
 
     protected $description = 'Migrate events from 2014-2018 folders (batch import)';
 
@@ -61,13 +62,37 @@ class MigrateEvents2014To2018 extends Command
 
             $command = "events:import-from-json";
             
-            // Resolve path: base_path() = backend/, jadi untuk akses backend/dataevent dari root
-            // kita perlu naik 1 level dulu: ../backend/dataevent
-            // Atau gunakan path absolut langsung
-            $dataEventPath = dirname(base_path()) . DIRECTORY_SEPARATOR . 'backend' . DIRECTORY_SEPARATOR . 'dataevent';
+            // Resolve path: coba beberapa lokasi yang mungkin
+            $dataEventPath = $this->option('path');
+            
+            if (!$dataEventPath) {
+                // Coba path relatif dari base_path() (backend/dataevent)
+                $relativePath = base_path('dataevent');
+                if (is_dir($relativePath)) {
+                    $dataEventPath = $relativePath;
+                } else {
+                    // Coba path naik 1 level (../backend/dataevent)
+                    $parentPath = dirname(base_path()) . DIRECTORY_SEPARATOR . 'backend' . DIRECTORY_SEPARATOR . 'dataevent';
+                    if (is_dir($parentPath)) {
+                        $dataEventPath = $parentPath;
+                    } else {
+                        // Fallback: gunakan default relatif
+                        $dataEventPath = 'backend/dataevent';
+                    }
+                }
+            }
+            
+            // Validasi path exists
+            if (!is_dir($dataEventPath)) {
+                $this->error("Path not found: {$dataEventPath}");
+                $totalErrors++;
+                $progressBar->setMessage("❌ Year {$year} failed (path not found)");
+                $progressBar->advance();
+                continue;
+            }
             
             $arguments = [
-                '--path' => $dataEventPath, // Path absolut yang benar
+                '--path' => $dataEventPath,
                 '--source' => 'folder',
                 '--year' => (string) $year,
                 '--status' => $status,
