@@ -115,4 +115,3 @@ class MigrateBlogImagesToR2 extends Command
         return $errorCount > 0 ? self::FAILURE : self::SUCCESS;
     }
 }
-

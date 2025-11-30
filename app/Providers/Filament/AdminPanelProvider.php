@@ -15,7 +15,6 @@ use Filament\Panel;
 use Filament\PanelProvider;
 use Filament\Support\Assets\Css;
 use Filament\Widgets\AccountWidget;
-use Stephenjude\FilamentBlog\BlogPlugin;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
 use Illuminate\Cookie\Middleware\EncryptCookies;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
@@ -84,13 +83,12 @@ class AdminPanelProvider extends PanelProvider
     protected function resolvePlugins(): array
     {
         $plugins = [
-            BlogPlugin::make(),
             FilamentShieldPlugin::make()
                 ->navigationGroup('Pengaturan Akses')
                 ->navigationSort(2),
             SlickScrollbarPlugin::make()
                 ->size('4px')
-                ->palette('primary'),
+                ->palette('gray'),
         ];
 
         if ($this->shouldEnableGoogleAnalytics()) {

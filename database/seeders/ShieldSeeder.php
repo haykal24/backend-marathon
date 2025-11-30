@@ -52,8 +52,8 @@ class ShieldSeeder extends Seeder
                 return true;
             }
             
-            // Allow all Blog permissions
-            if (str_contains($name, 'Post') || str_contains($name, 'Category') || str_contains($name, 'Author')) {
+            // Allow all Blog permissions (Post, Category, Author, Tag)
+            if (str_contains($name, 'Post') || str_contains($name, 'Category') || str_contains($name, 'Author') || str_contains($name, 'Tag')) {
                 return true;
             }
             

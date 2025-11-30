@@ -12,9 +12,10 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use Stephenjude\FilamentBlog\Models\Post;
-use Stephenjude\FilamentBlog\Models\Category as BlogCategory;
-use Spatie\Tags\Tag;
+use App\Models\BlogPost;
+use App\Models\BlogCategory;
+use App\Models\RunningCommunity;
+use App\Models\Vendor;
 
 class SitemapController extends BaseApiController
 {
@@ -75,8 +76,10 @@ class SitemapController extends BaseApiController
             // Get latest update timestamps for dynamic pages
             $latestEventUpdate = Event::where('status', 'published')
                 ->max('updated_at');
-            $latestBlogUpdate = Post::whereNotNull('published_at')
+            $latestBlogUpdate = BlogPost::visibleOnIndonesiaMarathon()
+                ->whereNotNull('published_at')
                 ->where('published_at', '<=', now())
+                ->where('status', 'published')
                 ->max('updated_at');
             $latestUpdate = $latestEventUpdate && $latestBlogUpdate
                 ? max($latestEventUpdate, $latestBlogUpdate)
@@ -102,31 +105,94 @@ class SitemapController extends BaseApiController
             $pushUrl('/ekosistem/race-management', 'pages', 'weekly', 0.7, now()->toAtomString());
             $pushUrl('/ekosistem/vendor-jersey', 'pages', 'weekly', 0.7, now()->toAtomString());
             $pushUrl('/ekosistem/vendor-fotografer', 'pages', 'weekly', 0.7, now()->toAtomString());
+
+            // Ecosystem Detail Pages (Vendors & Communities)
+            try {
+                // Running Communities
+                RunningCommunity::query()
+                    ->select(['slug', 'updated_at'])
+                    ->whereNotNull('slug')
+                    ->each(function (RunningCommunity $community) use ($pushUrl) {
+                        $lastmod = optional($community->updated_at)->toAtomString();
+                        $pushUrl("/ekosistem/komunitas-lari/{$community->slug}", 'categories', 'weekly', 0.6, $lastmod);
+                    });
+
+                // Vendors
+                Vendor::query()
+                    ->select(['slug', 'updated_at'])
+                    ->whereNotNull('slug')
+                    ->each(function (Vendor $vendor) use ($pushUrl) {
+                        $lastmod = optional($vendor->updated_at)->toAtomString();
+                        $pushUrl("/ekosistem/vendor/{$vendor->slug}", 'categories', 'weekly', 0.6, $lastmod);
+                    });
+            } catch (\Exception $e) {
+                // Silently skip
+            }
             
             // Event submit page: use current time
             $pushUrl('/event/submit', 'pages', 'weekly', 0.6, now()->toAtomString());
             
+            // Programmatic SEO Pages (index pages - untuk breadcrumb & sitemap)
+            $pushUrl('/event/provinsi', 'pages', 'weekly', 0.8, now()->toAtomString());
+            $pushUrl('/event/kategori', 'pages', 'weekly', 0.8, now()->toAtomString());
+            $pushUrl('/event/kota', 'pages', 'weekly', 0.7, now()->toAtomString());
+            $pushUrl('/event/bulan', 'pages', 'weekly', 0.7, now()->toAtomString());
+            
+            // Blog Programmatic SEO Pages (index pages)
+            $pushUrl('/blog/tag', 'pages', 'weekly', 0.7, optional($latestBlogUpdate)->toAtomString() ?? now()->toAtomString());
+            $pushUrl('/blog/kategori', 'pages', 'weekly', 0.7, optional($latestBlogUpdate)->toAtomString() ?? now()->toAtomString());
+            
+            // Cities (Kota/Kabupaten) - Dynamic Routes
+            try {
+                $cities = DB::table('events')
+                    ->select('city', 'province', DB::raw('COUNT(*) as event_count'))
+                    ->where('status', 'published')
+                    ->whereNotNull('city')
+                    ->where('city', '!=', '')
+                    ->groupBy('city', 'province')
+                    ->having('event_count', '>', 0)
+                    ->orderByDesc('event_count')
+                    ->limit(100) // Limit top 100 kota untuk crawl budget
+                    ->get();
+
+                foreach ($cities as $city) {
+                    $citySlug = Str::slug($city->city);
+                    $pushUrl("/event/kota/{$citySlug}", 'categories', 'daily', 0.8, now()->toAtomString());
+                }
+            } catch (\Exception $e) {
+                // Silently skip
+            }
+
+            // Months - Dynamic Routes (12 bulan dari sekarang ke depan)
+            for ($i = 0; $i < 12; $i++) {
+                $date = now()->addMonths($i);
+                $monthSlug = $date->format('Y-m'); // 2025-01
+                $pushUrl("/event/bulan/{$monthSlug}", 'categories', 'weekly', 0.7, now()->toAtomString());
+            }
+            
             // Rate card: will be handled by StaticPage query below if exists
 
             // 2. Categories / Facet Sitemap
-            // Event Types (Fun Run, Marathon, Trail Run, etc.) - ACTIVE di frontend
+            // Event Types - Dynamic Routes (Programmatic SEO)
             EventType::query()
                 ->select(['id', 'slug', 'name', 'updated_at'])
                 ->where('is_active', true)
                 ->whereHas('events', fn($q) => $q->where('status', 'published'))
                 ->each(function (EventType $type) use ($pushUrl) {
                     $lastmod = optional($type->updated_at)->toAtomString();
-                    $pushUrl("/event?type={$type->slug}", 'categories', 'daily', 0.8, $lastmod);
+                    // Dynamic route untuk SEO yang lebih kuat
+                    $pushUrl("/event/kategori/{$type->slug}", 'categories', 'daily', 0.9, $lastmod);
                 });
 
-            // Provinces - ACTIVE di frontend
+            // Provinces - Dynamic Routes (Programmatic SEO)
             Province::query()
                 ->select(['slug', 'updated_at'])
                 ->whereHas('events', fn($q) => $q->where('status', 'published'))
                 ->where('is_active', true)
                 ->each(function (Province $province) use ($pushUrl) {
                     $lastmod = optional($province->updated_at)->toAtomString();
-                    $pushUrl("/event?province={$province->slug}", 'categories', 'daily', 0.8, $lastmod);
+                    // Dynamic route untuk SEO yang lebih kuat
+                    $pushUrl("/event/provinsi/{$province->slug}", 'categories', 'daily', 0.9, $lastmod);
                 });
 
             StaticPage::query()
@@ -152,39 +218,63 @@ class SitemapController extends BaseApiController
                     $pushUrl("/faq?keyword=" . urlencode($faq->keyword), 'categories', 'weekly', 0.5);
                 });
 
-            // Blog Categories
+            // Blog Categories - Dynamic Routes (Programmatic SEO)
             try {
                 BlogCategory::query()
-                    ->select(['slug', 'updated_at'])->isVisible()
+                    ->select(['slug', 'updated_at'])
+                    ->where('is_visible', true)
                     ->each(function (BlogCategory $category) use ($pushUrl) {
                         $lastmod = optional($category->updated_at)->toAtomString();
-                        $pushUrl("/blog?category={$category->slug}", 'categories', 'weekly', 0.6, $lastmod);
+                        // Dynamic route untuk SEO yang lebih kuat
+                        $pushUrl("/blog/kategori/{$category->slug}", 'categories', 'daily', 0.8, $lastmod);
                     });
             } catch (\Exception $e) {
                 // Silently skip
             }
 
-            // Blog Tags
+            // Blog Tags - Dynamic Routes (Programmatic SEO - hanya untuk indonesiamarathon.com)
             try {
-                $tagIds = DB::table('taggables')->where('taggable_type', Post::class)->distinct()->pluck('tag_id')->toArray();
+                // Get tag IDs dari blog posts yang visible di indonesiamarathon.com
+                $blogPostIds = BlogPost::visibleOnIndonesiaMarathon()
+                    ->where('status', 'published')
+                    ->whereNotNull('published_at')
+                    ->where('published_at', '<=', now())
+                    ->pluck('id')
+                    ->toArray();
+                
+                if (empty($blogPostIds)) {
+                    $tagIds = [];
+                } else {
+                    $tagIds = DB::table('taggables')
+                        ->where('taggable_type', BlogPost::class)
+                        ->whereIn('taggable_id', $blogPostIds)
+                        ->distinct()
+                        ->pluck('tag_id')
+                        ->toArray();
+                }
+                
                 if (!empty($tagIds)) {
-                    Tag::query()->whereIn('id', $tagIds)->get()->each(function (Tag $tag) use ($pushUrl) {
-                        $slug = is_string($tag->slug) && !empty($tag->slug)
-                            ? trim($tag->slug)
-                            : (is_array($tag->slug) 
-                                ? ($tag->slug['en'] ?? ($tag->slug['id'] ?? reset($tag->slug)))
-                                : (is_object($tag->slug)
-                                    ? ($tag->slug->en ?? ($tag->slug->id ?? null))
-                                    : null));
-                        if (empty($slug)) {
-                            $name = is_string($tag->name) ? $tag->name : ($tag->name['en'] ?? ($tag->name['id'] ?? reset($tag->name)));
-                            $slug = Str::slug($name ?? '');
-                        }
-                        if (!empty($slug)) {
-                            $pushUrl("/blog?tag=" . urlencode($slug), 'categories', 'weekly', 0.5,
-                                optional($tag->updated_at)->toAtomString());
-                        }
-                    });
+                    DB::table('tags')
+                        ->whereIn('id', $tagIds)
+                        ->get()
+                        ->each(function ($tag) use ($pushUrl) {
+                            // Parse slug (handle JSON if needed)
+                            $slug = is_string($tag->slug) && !empty($tag->slug)
+                                ? trim($tag->slug)
+                                : null;
+                            
+                            if (!$slug && isset($tag->name)) {
+                                $name = is_string($tag->name) ? $tag->name : (is_array($tag->name) ? ($tag->name['id'] ?? $tag->name['en'] ?? reset($tag->name)) : null);
+                                if ($name) {
+                                    $slug = Str::slug($name);
+                                }
+                            }
+                            
+                            if (!empty($slug)) {
+                                // Dynamic route untuk SEO yang lebih kuat
+                                $pushUrl("/blog/tag/{$slug}", 'categories', 'daily', 0.7, null);
+                            }
+                        });
                 }
             } catch (\Exception $e) {
                 // Silently skip
@@ -199,13 +289,17 @@ class SitemapController extends BaseApiController
                         $pushUrl("/event/{$event->slug}", 'events', 'daily', 0.8, $lastmod);
                     });
 
-                // 4. Blog Sitemap
-                Post::query()
-                    ->select(['slug', 'updated_at', 'published_at'])->whereNotNull('published_at')
-                    ->where('published_at', '<=', now())->orderByDesc('published_at')
-                    ->each(function (Post $post) use ($pushUrl) {
+                // 4. Blog Sitemap (Custom Blog System - hanya untuk indonesiamarathon.com)
+                BlogPost::query()
+                    ->visibleOnIndonesiaMarathon() // Filter untuk indonesiamarathon.com
+                    ->select(['slug', 'updated_at', 'published_at'])
+                    ->whereNotNull('published_at')
+                    ->where('published_at', '<=', now())
+                    ->where('status', 'published')
+                    ->orderByDesc('published_at')
+                    ->each(function (BlogPost $post) use ($pushUrl) {
                         $lastmod = optional($post->updated_at ?? $post->published_at)->toAtomString();
-                        $pushUrl("/blog/{$post->slug}", 'blog', 'weekly', 0.6, $lastmod);
+                        $pushUrl("/blog/{$post->slug}", 'blog', 'weekly', 0.7, $lastmod);
                     });
 
                 return $items->values()->all();

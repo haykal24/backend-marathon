@@ -10,6 +10,7 @@ Route::prefix('v1')->group(function () {
 
     // Events
     Route::get('/events/available-years', [App\Http\Controllers\Api\V1\EventController::class, 'getAvailableYears']);
+    Route::get('/events/cities', [App\Http\Controllers\Api\V1\EventController::class, 'getCities']);
     Route::get('/events/featured-hero', [App\Http\Controllers\Api\V1\EventController::class, 'getFeaturedHeroEvents']);
     Route::get('/events/calendar-stats', [App\Http\Controllers\Api\V1\EventController::class, 'getCalendarStats']);
     Route::get('/events/slug/{slug}', [App\Http\Controllers\Api\V1\EventController::class, 'showBySlug']);
@@ -31,9 +32,12 @@ Route::prefix('v1')->group(function () {
     Route::get('/blog/posts', [App\Http\Controllers\Api\V1\BlogController::class, 'posts']);
     Route::get('/blog/posts/{slug}', [App\Http\Controllers\Api\V1\BlogController::class, 'show']);
     Route::get('/blog/categories', [App\Http\Controllers\Api\V1\BlogController::class, 'categories']);
+    Route::get('/blog/tags', [App\Http\Controllers\Api\V1\BlogController::class, 'tags']);
     
     Route::get('/vendors', [App\Http\Controllers\Api\V1\DirectoryController::class, 'vendors']);
+    Route::get('/vendors/{slug}', [App\Http\Controllers\Api\V1\DirectoryController::class, 'vendorBySlug']);
     Route::get('/running-communities', [App\Http\Controllers\Api\V1\DirectoryController::class, 'runningCommunities']);
+    Route::get('/running-communities/{slug}', [App\Http\Controllers\Api\V1\DirectoryController::class, 'runningCommunityBySlug']);
     
     // Static pages
     Route::get('/pages', [App\Http\Controllers\Api\V1\PageController::class, 'index']);

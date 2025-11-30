@@ -69,7 +69,24 @@ class PendingEventResource extends Resource
                             ->unique(ignoreRecord: true),
                         Components\RichEditor::make('description')
                             ->required()
-                            ->helperText('Deskripsi lengkap event untuk SEO dan informasi peserta'),
+                            ->helperText('Deskripsi lengkap event untuk SEO dan informasi peserta')
+                            ->toolbarButtons([
+                                'bold',
+                                'italic',
+                                'underline',
+                                'strike',
+                                'link',
+                                'bulletList',
+                                'orderedList',
+                                'blockquote',
+                                'codeBlock',
+                                'h2',
+                                'h3',
+                                'attachFiles',
+                            ])
+                            ->fileAttachmentsDisk(config('filesystems.default', 'r2'))
+                            ->fileAttachmentsDirectory('events/attachments')
+                            ->fileAttachmentsVisibility('public'),
                         Components\SpatieMediaLibraryFileUpload::make('image')
                             ->collection('default')
                             ->image()

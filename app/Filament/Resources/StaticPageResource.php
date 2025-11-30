@@ -73,7 +73,24 @@ MD
                         Components\RichEditor::make('content')
                             ->required()
                             ->label('Isi Halaman')
-                            ->helperText('Konten lengkap halaman statis'),
+                            ->helperText('Konten lengkap halaman statis')
+                            ->toolbarButtons([
+                                'bold',
+                                'italic',
+                                'underline',
+                                'strike',
+                                'link',
+                                'bulletList',
+                                'orderedList',
+                                'blockquote',
+                                'codeBlock',
+                                'h2',
+                                'h3',
+                                'attachFiles',
+                            ])
+                            ->fileAttachmentsDisk(config('filesystems.default', 'r2'))
+                            ->fileAttachmentsDirectory('static-pages/attachments')
+                            ->fileAttachmentsVisibility('public'),
                     ]),
                 Section::make('SEO')
                     ->description('Optimasi untuk mesin pencari (otomatis terisi dari title dan content)')

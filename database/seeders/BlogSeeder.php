@@ -2,9 +2,9 @@
 
 namespace Database\Seeders;
 
-use Stephenjude\FilamentBlog\Models\Author;
-use Stephenjude\FilamentBlog\Models\Category;
-use Stephenjude\FilamentBlog\Models\Post;
+use App\Models\BlogAuthor;
+use App\Models\BlogCategory;
+use App\Models\BlogPost;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
@@ -34,7 +34,7 @@ class BlogSeeder extends Seeder
 
         $authorIds = [];
         foreach ($authors as $authorData) {
-            $author = Author::firstOrCreate(
+            $author = BlogAuthor::firstOrCreate(
                 ['email' => $authorData['email']],
                 $authorData
             );
@@ -71,7 +71,7 @@ class BlogSeeder extends Seeder
 
         $categoryIds = [];
         foreach ($categories as $categoryData) {
-            $category = Category::firstOrCreate(
+            $category = BlogCategory::firstOrCreate(
                 ['slug' => $categoryData['slug']],
                 $categoryData
             );
@@ -288,7 +288,7 @@ class BlogSeeder extends Seeder
             $tags = $postData['tags'] ?? [];
             unset($postData['tags']);
 
-            $post = Post::updateOrCreate(
+            $post = BlogPost::updateOrCreate(
                 ['slug' => $postData['slug']],
                 $postData
             );

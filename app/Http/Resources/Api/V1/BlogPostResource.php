@@ -4,7 +4,7 @@ namespace App\Http\Resources\Api\V1;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
-use Stephenjude\FilamentBlog\Models\Post;
+use App\Models\BlogPost;
 use Illuminate\Support\Str;
 
 class BlogPostResource extends JsonResource
@@ -16,7 +16,7 @@ class BlogPostResource extends JsonResource
      */
     public function toArray(Request $request): array
     {
-        /** @var Post $this */
+        /** @var BlogPost $this */
         $isDetailRequest = $request->route('slug') !== null;
 
         return [

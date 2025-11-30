@@ -71,7 +71,24 @@ class EventResource extends Resource
                             ->unique(ignoreRecord: true),
                         Components\RichEditor::make('description')
                             ->required()
-                            ->helperText('Deskripsi lengkap event untuk SEO dan informasi peserta'),
+                            ->helperText('Deskripsi lengkap event untuk SEO dan informasi peserta')
+                            ->toolbarButtons([
+                                'bold',
+                                'italic',
+                                'underline',
+                                'strike',
+                                'link',
+                                'bulletList',
+                                'orderedList',
+                                'blockquote',
+                                'codeBlock',
+                                'h2',
+                                'h3',
+                                'attachFiles',
+                            ])
+                            ->fileAttachmentsDisk(config('filesystems.default', 'r2'))
+                            ->fileAttachmentsDirectory('events/attachments')
+                            ->fileAttachmentsVisibility('public'),
                         Components\SpatieMediaLibraryFileUpload::make('image')
                             ->collection('default')
                             ->image()
@@ -265,6 +282,7 @@ class EventResource extends Resource
                     ->onColor('success')
                     ->offColor('gray'),
                 Tables\Columns\TextColumn::make('status')
+                    ->label('Status')
                     ->badge()
                     ->formatStateUsing(fn (string $state): string => match ($state) {
                         'published' => 'Published',
@@ -277,7 +295,36 @@ class EventResource extends Resource
                         'pending_review' => 'warning',
                         'draft' => 'gray',
                         default => 'gray',
-                    }),
+                    })
+                    ->icon(fn (string $state): string => match ($state) {
+                        'published' => 'heroicon-o-check-circle',
+                        'pending_review' => 'heroicon-o-clock',
+                        'draft' => 'heroicon-o-document-text',
+                        default => 'heroicon-o-document-text',
+                    })
+                    ->sortable()
+                    ->searchable()
+                    ->action(
+                        Actions\Action::make('change_status')
+                            ->label('Ubah Status')
+                            ->icon('heroicon-o-arrow-path')
+                            ->form([
+                                Components\Select::make('status')
+                                    ->label('Status Baru')
+                                    ->options([
+                                        'published' => 'Published',
+                                        'pending_review' => 'Pending Review',
+                                        'draft' => 'Draft',
+                                    ])
+                                    ->default(fn ($record) => $record->status)
+                                    ->required(),
+                            ])
+                            ->action(function ($record, array $data) {
+                                $record->update(['status' => $data['status']]);
+                            })
+                            ->modalHeading('Ubah Status Event')
+                            ->modalSubmitActionLabel('Simpan')
+                    ),
                 Tables\Columns\TextColumn::make('user.name')
                     ->label('Submitter')
                     ->sortable(),

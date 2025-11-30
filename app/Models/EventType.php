@@ -71,9 +71,18 @@ class EventType extends Model implements HasMedia
 
     /**
      * Hitung jumlah event (semua status)
+     * 
+     * Note: Gunakan withCount('events') di query untuk menghindari N+1
+     * Accessor ini fallback jika withCount tidak di-load
      */
     public function getEventCountAttribute(): int
     {
+        // Jika withCount sudah di-load, gunakan itu (menghindari N+1)
+        if (array_key_exists('events_count', $this->attributes)) {
+            return (int) $this->attributes['events_count'];
+        }
+        
+        // Fallback ke query (hanya jika withCount tidak ada)
         return $this->events()->count();
     }
 }

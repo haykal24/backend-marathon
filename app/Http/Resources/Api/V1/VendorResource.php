@@ -14,10 +14,14 @@ class VendorResource extends JsonResource
      */
     public function toArray(Request $request): array
     {
-        return [
+        $isDetailRequest = $request->route('slug') !== null;
+
+        $data = [
             'id' => $this->id,
             'name' => $this->name,
+            'slug' => $this->slug,
             'type' => $this->normalizeType($this->type),
+            'type_raw' => $this->type, // Raw type untuk filtering
             'description' => $this->description,
             'city' => $this->city,
             'logo' => $this->getFirstMediaUrl('default', 'webp') ?: null,
@@ -28,6 +32,22 @@ class VendorResource extends JsonResource
             'created_at' => $this->created_at?->toIso8601String(),
             'updated_at' => $this->updated_at?->toIso8601String(),
         ];
+
+        // Add gallery for detail page
+        if ($isDetailRequest) {
+            $gallery = $this->getMedia('gallery')->map(function ($media) {
+                return [
+                    'id' => $media->id,
+                    'url' => $media->getUrl('webp') ?: $media->getUrl(),
+                    'thumb_url' => $media->getUrl('thumb') ?: $media->getUrl(),
+                    'name' => $media->name,
+                ];
+            });
+
+            $data['gallery'] = $gallery->values()->all();
+        }
+
+        return $data;
     }
 
     /**

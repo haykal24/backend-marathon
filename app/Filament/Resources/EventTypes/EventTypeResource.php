@@ -13,6 +13,7 @@ use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
 use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
 
 class EventTypeResource extends Resource
 {
@@ -35,6 +36,12 @@ class EventTypeResource extends Resource
     public static function getNavigationBadge(): ?string
     {
         return static::getModel()::where('is_active', true)->count() ?: null;
+    }
+    
+    public static function getEloquentQuery(): Builder
+    {
+        return parent::getEloquentQuery()
+            ->withCount('events');
     }
 
     public static function form(Schema $schema): Schema

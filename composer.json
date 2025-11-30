@@ -18,7 +18,7 @@
         "muazzam/slick-scrollbar": "^1.0",
         "ralphjsmit/laravel-filament-seo": "^2.0",
         "spatie/laravel-medialibrary": "^11.17",
-        "stephenjude/filament-blog": "^4.2"
+        "spatie/laravel-tags": "^4.10"
     },
     "require-dev": {
         "beyondcode/laravel-query-detector": "^2.1",

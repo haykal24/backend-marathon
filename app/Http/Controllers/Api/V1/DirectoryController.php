@@ -93,5 +93,29 @@ class DirectoryController extends BaseApiController
             RunningCommunityResource::collection($communities)
         );
     }
+
+    /**
+     * Get single vendor by slug
+     */
+    public function vendorBySlug(string $slug): JsonResponse
+    {
+        $vendor = Vendor::where('slug', $slug)->firstOrFail();
+
+        return $this->successResponse(
+            new VendorResource($vendor)
+        );
+    }
+
+    /**
+     * Get single running community by slug
+     */
+    public function runningCommunityBySlug(string $slug): JsonResponse
+    {
+        $community = RunningCommunity::where('slug', $slug)->firstOrFail();
+
+        return $this->successResponse(
+            new RunningCommunityResource($community)
+        );
+    }
 }
 

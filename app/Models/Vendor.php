@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 use Spatie\Image\Enums\Fit;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
@@ -13,8 +14,26 @@ class Vendor extends Model implements HasMedia
 {
     use HasFactory, InteractsWithMedia;
 
+    protected static function boot()
+    {
+        parent::boot();
+
+        static::creating(function ($vendor) {
+            if (empty($vendor->slug)) {
+                $vendor->slug = Str::slug($vendor->name);
+            }
+        });
+
+        static::updating(function ($vendor) {
+            if ($vendor->isDirty('name') && empty($vendor->slug)) {
+                $vendor->slug = Str::slug($vendor->name);
+            }
+        });
+    }
+
     protected $fillable = [
         'name',
+        'slug',
         'type',
         'description',
         'website',
@@ -30,10 +49,15 @@ class Vendor extends Model implements HasMedia
 
     public function registerMediaCollections(): void
     {
+        // Logo collection (single file)
         $this->addMediaCollection('default')
             ->singleFile()
             ->useDisk(config('media-library.disk_name', 'r2'))
             ->useFallbackUrl('/images/placeholder.jpg');
+
+        // Gallery collection (multiple files)
+        $this->addMediaCollection('gallery')
+            ->useDisk(config('media-library.disk_name', 'r2'));
     }
 
     public function registerMediaConversions(?Media $media = null): void
@@ -59,5 +83,27 @@ class Vendor extends Model implements HasMedia
             ->fit(Fit::Max, 400, 400)
             ->nonQueued()
             ->performOnCollections('default');
+
+        // Gallery conversions
+        $this->addMediaConversion('webp')
+            ->format('webp')
+            ->quality(80)
+            ->width(1200)
+            ->height(800)
+            ->fit(Fit::Max, 1200, 800)
+            ->sharpen(10)
+            ->withResponsiveImages()
+            ->nonQueued()
+            ->performOnCollections('gallery');
+
+        // Gallery thumbnail
+        $this->addMediaConversion('thumb')
+            ->format('webp')
+            ->quality(75)
+            ->width(400)
+            ->height(300)
+            ->fit(Fit::Max, 400, 300)
+            ->nonQueued()
+            ->performOnCollections('gallery');
     }
 }

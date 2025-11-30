@@ -214,6 +214,38 @@ class EventController extends BaseApiController
         ], 'Available event years retrieved successfully.');
     }
 
+    /**
+     * Get list of cities that have published events.
+     * Returns: city, province, event_count
+     */
+    public function getCities(): JsonResponse
+    {
+        $cities = Cache::remember('event_cities_list', 3600, function () {
+            return Event::where('status', 'published')
+                ->whereNotNull('city')
+                ->where('city', '!=', '')
+                ->select('city', 'province')
+                ->selectRaw('COUNT(*) as event_count')
+                ->groupBy('city', 'province')
+                ->orderByDesc('event_count')
+                ->orderBy('city')
+                ->limit(100) // Top 100 cities
+                ->get()
+                ->map(function ($item) {
+                    return [
+                        'city' => $item->city,
+                        'province' => $item->province ?? '',
+                        'event_count' => (int) $item->event_count,
+                    ];
+                })
+                ->values()
+                ->all();
+        });
+
+        // Return as direct array (not wrapped in data key) to match composable expectation
+        return response()->json($cities);
+    }
+
     public function getFeaturedHeroEvents(): JsonResponse
     {
         $featuredEvents = Cache::remember('featured_hero_events_v2', 60, function () {
