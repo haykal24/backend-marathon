@@ -13,23 +13,50 @@ class ProvinceController extends BaseApiController
 {
     public function index(Request $request): JsonResponse
     {
-        // Optimized with caching
-        $cacheKey = $request->boolean('featured') ? 'provinces:featured' : 'provinces:all';
+        // Support pagination
+        $perPage = min($request->get('per_page', 20), 50);
+        $page = $request->get('page', 1);
+        $featured = $request->boolean('featured');
         
-        $provinces = Cache::remember($cacheKey, 3600, fn () => 
-            Province::query()
+        $cacheKey = ($featured ? 'provinces:featured' : 'provinces:all') . "_page_{$page}_per_{$perPage}";
+        
+        $result = Cache::remember($cacheKey, 3600, function () use ($perPage, $page, $featured) {
+            $query = Province::query()
                 ->where('is_active', true)
-                ->when($request->boolean('featured'), fn ($q) => $q->where('is_featured_frontend', true))
+                ->when($featured, fn ($q) => $q->where('is_featured_frontend', true))
                 ->select(['id', 'name', 'slug', 'description', 'is_featured_frontend'])
                 ->withCount('events')
-                ->orderBy('name')
+                ->orderBy('name');
+            
+            // Get total count for pagination
+            $total = $query->count();
+            
+            // Apply pagination
+            $provinces = $query->skip(($page - 1) * $perPage)
+                ->take($perPage)
                 ->get()
                 ->map(function ($province) {
                     return new ProvinceResource($province);
-                })
-        );
+                });
+            
+            return [
+                'data' => $provinces,
+                'total' => $total,
+                'per_page' => $perPage,
+                'current_page' => $page,
+                'last_page' => (int) ceil($total / $perPage),
+            ];
+        });
 
-        return $this->successResponse($provinces);
+        $paginator = new \Illuminate\Pagination\LengthAwarePaginator(
+            $result['data'],
+            $result['total'],
+            $result['per_page'],
+            $result['current_page'],
+            ['path' => $request->url()]
+        );
+        
+        return $this->paginatedResponse($paginator, $result['data']);
     }
 
     public function show(string $slug): JsonResponse

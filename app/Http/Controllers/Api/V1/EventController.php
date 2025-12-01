@@ -218,18 +218,30 @@ class EventController extends BaseApiController
      * Get list of cities that have published events.
      * Returns: city, province, event_count
      */
-    public function getCities(): JsonResponse
+    public function getCities(Request $request): JsonResponse
     {
-        $cities = Cache::remember('event_cities_list', 3600, function () {
-            return Event::where('status', 'published')
+        // Support pagination
+        $perPage = min($request->get('per_page', 20), 50);
+        $page = $request->get('page', 1);
+        
+        $cacheKey = "event_cities_list_page_{$page}_per_{$perPage}";
+        
+        $cities = Cache::remember($cacheKey, 3600, function () use ($perPage, $page) {
+            $query = Event::where('status', 'published')
                 ->whereNotNull('city')
                 ->where('city', '!=', '')
                 ->select('city', 'province')
                 ->selectRaw('COUNT(*) as event_count')
                 ->groupBy('city', 'province')
                 ->orderByDesc('event_count')
-                ->orderBy('city')
-                ->limit(100) // Top 100 cities
+                ->orderBy('city');
+            
+            // Get total count for pagination
+            $total = $query->count();
+            
+            // Apply pagination
+            $items = $query->skip(($page - 1) * $perPage)
+                ->take($perPage)
                 ->get()
                 ->map(function ($item) {
                     return [
@@ -240,10 +252,26 @@ class EventController extends BaseApiController
                 })
                 ->values()
                 ->all();
+            
+            return [
+                'data' => $items,
+                'total' => $total,
+                'per_page' => $perPage,
+                'current_page' => $page,
+                'last_page' => (int) ceil($total / $perPage),
+            ];
         });
 
-        // Return as direct array (not wrapped in data key) to match composable expectation
-        return response()->json($cities);
+        // Return paginated response using LengthAwarePaginator
+        $paginator = new \Illuminate\Pagination\LengthAwarePaginator(
+            $cities['data'],
+            $cities['total'],
+            $cities['per_page'],
+            $cities['current_page'],
+            ['path' => $request->url()]
+        );
+        
+        return $this->paginatedResponse($paginator, $cities['data']);
     }
 
     public function getFeaturedHeroEvents(): JsonResponse

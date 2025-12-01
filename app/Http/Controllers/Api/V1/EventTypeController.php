@@ -10,20 +10,46 @@ use Illuminate\Support\Facades\Cache;
 
 class EventTypeController extends BaseApiController
 {
-    public function index(): JsonResponse
+    public function index(\Illuminate\Http\Request $request): JsonResponse
     {
-        // Optimized with caching and column selection
-        $types = Cache::remember('event_types:all', 3600, fn () => 
-            EventType::where('is_active', true)
+        // Support pagination
+        $perPage = min($request->get('per_page', 20), 50);
+        $page = $request->get('page', 1);
+        
+        $cacheKey = "event_types:all_page_{$page}_per_{$perPage}";
+        
+        $result = Cache::remember($cacheKey, 3600, function () use ($perPage, $page) {
+            $query = EventType::where('is_active', true)
                 ->select(['id', 'name', 'slug', 'description'])
                 ->withCount('events')
-                ->orderBy('name')
-                ->get()
-        );
+                ->orderBy('name');
+            
+            // Get total count for pagination
+            $total = $query->count();
+            
+            // Apply pagination
+            $types = $query->skip(($page - 1) * $perPage)
+                ->take($perPage)
+                ->get();
+            
+            return [
+                'data' => $types,
+                'total' => $total,
+                'per_page' => $perPage,
+                'current_page' => $page,
+                'last_page' => (int) ceil($total / $perPage),
+            ];
+        });
 
-        return $this->successResponse(
-            EventTypeResource::collection($types)
+        $paginator = new \Illuminate\Pagination\LengthAwarePaginator(
+            $result['data'],
+            $result['total'],
+            $result['per_page'],
+            $result['current_page'],
+            ['path' => $request->url()]
         );
+        
+        return $this->paginatedResponse($paginator, EventTypeResource::collection($result['data']));
     }
 
     public function show(string $slug): JsonResponse
