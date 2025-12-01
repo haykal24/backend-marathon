@@ -95,8 +95,12 @@ class BlogTagResource extends Resource
                     ->sortable(),
                 Tables\Columns\TextColumn::make('taggables_count')
                     ->label('Digunakan di')
-                    ->counts('taggables')
-                    ->sortable()
+                    ->getStateUsing(function ($record) {
+                        return \Illuminate\Support\Facades\DB::table('taggables')
+                            ->where('tag_id', $record->id)
+                            ->where('taggable_type', 'App\Models\BlogPost')
+                            ->count();
+                    })
                     ->suffix(' blog'),
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Dibuat')
@@ -128,4 +132,3 @@ class BlogTagResource extends Resource
         ];
     }
 }
-

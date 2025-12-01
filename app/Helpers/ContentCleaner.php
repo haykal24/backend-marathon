@@ -48,6 +48,30 @@ class ContentCleaner
         // Remove leading/trailing whitespace from entire content
         $content = trim($content);
         
+        // Convert line breaks to HTML (only if not excerpt and content doesn't already have HTML tags)
+        if (!$isExcerpt && !preg_match('/<[a-z][\s\S]*>/i', $content)) {
+            // Split by double line breaks to create paragraphs
+            $paragraphs = preg_split('/\n\s*\n/', $content);
+            $paragraphs = array_filter(array_map('trim', $paragraphs)); // Remove empty paragraphs
+            
+            if (count($paragraphs) > 1) {
+                // Multiple paragraphs: wrap each in <p> tags
+                $htmlContent = '';
+                foreach ($paragraphs as $paragraph) {
+                    if (empty(trim($paragraph))) {
+                        continue;
+                    }
+                    // Convert single line breaks within paragraph to <br>
+                    $paragraph = nl2br($paragraph, false);
+                    $htmlContent .= '<p>' . $paragraph . '</p>' . "\n";
+                }
+                $content = trim($htmlContent);
+            } else {
+                // Single paragraph or no double breaks: just convert \n to <br>
+                $content = nl2br($content, false);
+            }
+        }
+        
         // For excerpt, convert to plain text
         if ($isExcerpt) {
             // Remove HTML tags
