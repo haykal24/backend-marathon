@@ -20,6 +20,7 @@ class RunningCommunityResource extends JsonResource
             'id' => $this->id,
             'name' => $this->name,
             'slug' => $this->slug,
+            'description' => $this->description,
             'location' => $this->location,
             'city' => $this->city,
             'instagram_handle' => $this->instagram_handle,

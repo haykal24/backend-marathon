@@ -11,6 +11,7 @@ use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Section;
 use Filament\Tables;
 use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
 
 class RunningCommunityResource extends Resource
 {
@@ -19,6 +20,12 @@ class RunningCommunityResource extends Resource
     public static function getNavigationIcon(): ?string
     {
         return 'heroicon-o-user-group';
+    }
+
+    public static function getEloquentQuery(): Builder
+    {
+        return parent::getEloquentQuery()
+            ->with('media');
     }
 
     public static function getNavigationSort(): ?int
@@ -48,10 +55,18 @@ class RunningCommunityResource extends Resource
                             ->required()
                             ->maxLength(255)
                             ->label('Nama Komunitas'),
+                        Components\Textarea::make('description')
+                            ->label('Deskripsi')
+                            ->rows(4)
+                            ->helperText('Deskripsi lengkap tentang komunitas'),
+                        Components\TextInput::make('city')
+                            ->maxLength(100)
+                            ->label('Kota')
+                            ->helperText('Kota lokasi komunitas'),
                         Components\Textarea::make('location')
-                            ->label('Lokasi')
+                            ->label('Lokasi Detail')
                             ->rows(3)
-                            ->helperText('Deskripsi singkat lokasi atau kota komunitas'),
+                            ->helperText('Alamat atau deskripsi lokasi lengkap komunitas'),
                         Components\TextInput::make('instagram_handle')
                             ->maxLength(100)
                             ->prefix('@')
@@ -60,7 +75,7 @@ class RunningCommunityResource extends Resource
                         Components\TextInput::make('contact_info')
                             ->maxLength(255)
                             ->label('Kontak')
-                            ->helperText('Informasi kontak (WhatsApp, dll)'),
+                            ->helperText('Informasi kontak (WhatsApp, email, dll)'),
                         Components\SpatieMediaLibraryFileUpload::make('logo')
                             ->collection('default')
                             ->image()
@@ -104,9 +119,21 @@ class RunningCommunityResource extends Resource
                 Tables\Columns\TextColumn::make('name')
                     ->searchable()
                     ->sortable(),
+                Tables\Columns\TextColumn::make('description')
+                    ->label('Deskripsi')
+                    ->limit(100)
+                    ->tooltip(fn ($record) => $record->description)
+                    ->width('300px'),
                 Tables\Columns\TextColumn::make('city')
                     ->searchable()
                     ->sortable(),
+                Tables\Columns\TextColumn::make('location')
+                    ->label('Lokasi')
+                    ->limit(30)
+                    ->wrap(),
+                Tables\Columns\TextColumn::make('instagram_handle')
+                    ->label('Instagram')
+                    ->formatStateUsing(fn ($state) => $state ? "@{$state}" : '—'),
                 Tables\Columns\IconColumn::make('is_featured')
                     ->label('Featured')
                     ->boolean(),

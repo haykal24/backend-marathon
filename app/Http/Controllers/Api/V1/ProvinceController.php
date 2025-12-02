@@ -70,4 +70,29 @@ class ProvinceController extends BaseApiController
             new ProvinceResource($province)
         );
     }
+
+    public function store(Request $request): JsonResponse
+    {
+        $validator = \Illuminate\Support\Facades\Validator::make($request->all(), [
+            'name' => 'required|string|max:255|unique:provinces,name',
+        ]);
+
+        if ($validator->fails()) {
+            return $this->validationErrorResponse($validator);
+        }
+
+        $province = Province::create([
+            'name' => $request->name,
+            'is_active' => true,
+        ]);
+
+        Cache::forget('provinces:all');
+        Cache::forget('provinces:featured');
+
+        return $this->successResponse(
+            new ProvinceResource($province),
+            'Province created successfully',
+            201
+        );
+    }
 }

@@ -346,7 +346,7 @@ class EventController extends BaseApiController
             'description' => 'nullable|string|max:10000', // Limit description length
             'location_name' => 'required|string|max:255',
             'city' => 'required|string|max:100',
-            'province' => 'nullable|string|max:100',
+            'province' => 'required|string|max:100',
             'event_date' => 'required|date|after_or_equal:today', // Prevent past dates
             'event_end_date' => 'nullable|date|after_or_equal:event_date',
             'event_type' => 'required|string|exists:event_types,slug',
@@ -411,10 +411,26 @@ class EventController extends BaseApiController
             'status' => 'pending_review',
         ];
 
-        // Check for duplicate slug
-        $existingSlug = Event::where('slug', $sanitized['slug'])->exists();
-        if ($existingSlug) {
-            $sanitized['slug'] = $sanitized['slug'] . '-' . time();
+        // Check for duplicate event: same title + location + event_date
+        $duplicateEvent = Event::where('title', $sanitized['title'])
+            ->where('location_name', $sanitized['location_name'])
+            ->where('event_date', $sanitized['event_date'])
+            ->where('user_id', $request->user()->id) // Same user
+            ->first();
+
+        if ($duplicateEvent) {
+            return $this->errorResponse(
+                'Event dengan judul, lokasi, dan tanggal yang sama sudah pernah Anda kirim sebelumnya.',
+                422
+            );
+        }
+
+        // Check for duplicate slug and make it unique
+        $baseSlug = $sanitized['slug'];
+        $counter = 1;
+        while (Event::where('slug', $sanitized['slug'])->exists()) {
+            $sanitized['slug'] = $baseSlug . '-' . $counter;
+            $counter++;
         }
 
         $event = Event::create($sanitized);

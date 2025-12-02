@@ -11,6 +11,7 @@ use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Section;
 use Filament\Tables;
 use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
 
 class VendorResource extends Resource
 {
@@ -19,6 +20,12 @@ class VendorResource extends Resource
     public static function getNavigationIcon(): ?string
     {
         return 'heroicon-o-building-office';
+    }
+
+    public static function getEloquentQuery(): Builder
+    {
+        return parent::getEloquentQuery()
+            ->with('media');
     }
 
     public static function getNavigationSort(): ?int
@@ -126,6 +133,11 @@ class VendorResource extends Resource
                 Tables\Columns\TextColumn::make('name')
                     ->searchable()
                     ->sortable(),
+                Tables\Columns\TextColumn::make('description')
+                    ->label('Deskripsi')
+                    ->limit(100)
+                    ->tooltip(fn ($record) => $record->description)
+                    ->width('300px'),
                 Tables\Columns\TextColumn::make('type')
                     ->badge()
                     ->formatStateUsing(fn (string $state): string => match ($state) {
@@ -135,6 +147,22 @@ class VendorResource extends Resource
                         'fotografer' => 'Fotografer',
                         default => ucwords(str_replace('_', ' ', $state)),
                     }),
+                Tables\Columns\TextColumn::make('city')
+                    ->searchable()
+                    ->sortable(),
+                Tables\Columns\TextColumn::make('website')
+                    ->label('Website')
+                    ->limit(30)
+                    ->url(fn ($record) => $record->website)
+                    ->openUrlInNewTab(),
+                Tables\Columns\TextColumn::make('email')
+                    ->label('Email')
+                    ->copyable()
+                    ->copyMessage('Email copied!'),
+                Tables\Columns\TextColumn::make('phone')
+                    ->label('Telepon')
+                    ->copyable()
+                    ->copyMessage('Phone copied!'),
                 Tables\Columns\IconColumn::make('is_featured')
                     ->label('Featured')
                     ->boolean(),

@@ -16,5 +16,12 @@ class EditRunningCommunity extends EditRecord
             Actions\DeleteAction::make(),
         ];
     }
+
+    protected function mutateFormDataBeforeFill(array $data): array
+    {
+        // Ensure media is loaded to prevent N+1 queries
+        $this->record->load('media');
+        return $data;
+    }
 }
 

@@ -34,6 +34,7 @@ class RunningCommunity extends Model implements HasMedia
     protected $fillable = [
         'name',
         'slug',
+        'description',
         'location',
         'city',
         'instagram_handle',

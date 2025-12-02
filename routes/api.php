@@ -66,6 +66,7 @@ Route::prefix('v1')->group(function () {
         Route::post('/events', [App\Http\Controllers\Api\V1\EventController::class, 'store']);
         Route::post('/event-types', [App\Http\Controllers\Api\V1\EventTypeController::class, 'store']);
         Route::post('/event-categories', [App\Http\Controllers\Api\V1\EventCategoryController::class, 'store']);
+        Route::post('/provinces', [App\Http\Controllers\Api\V1\ProvinceController::class, 'store']);
         
         Route::get('/user', [App\Http\Controllers\Api\V1\AuthController::class, 'user']);
         Route::post('/logout', [App\Http\Controllers\Api\V1\AuthController::class, 'logout']);
