@@ -227,22 +227,22 @@ class EventController extends BaseApiController
         $cacheKey = "event_cities_list_page_{$page}_per_{$perPage}";
         
         $cities = Cache::remember($cacheKey, 3600, function () use ($perPage, $page) {
-            $query = Event::where('status', 'published')
+            // Get all distinct city-province combinations with count
+            $allCities = Event::where('status', 'published')
                 ->whereNotNull('city')
                 ->where('city', '!=', '')
-                ->select('city', 'province')
-                ->selectRaw('COUNT(*) as event_count')
+                ->selectRaw('city, COALESCE(province, "") as province, COUNT(*) as event_count')
                 ->groupBy('city', 'province')
                 ->orderByDesc('event_count')
-                ->orderBy('city');
+                ->orderBy('city')
+                ->get();
             
-            // Get total count for pagination
-            $total = $query->count();
+            $total = $allCities->count();
             
-            // Apply pagination
-            $items = $query->skip(($page - 1) * $perPage)
+            // Apply pagination manually
+            $items = $allCities
+                ->skip(($page - 1) * $perPage)
                 ->take($perPage)
-                ->get()
                 ->map(function ($item) {
                     return [
                         'city' => $item->city,

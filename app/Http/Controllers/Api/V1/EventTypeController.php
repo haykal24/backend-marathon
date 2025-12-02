@@ -31,7 +31,7 @@ class EventTypeController extends BaseApiController
             $types = $query->skip(($page - 1) * $perPage)
                 ->take($perPage)
                 ->get();
-            
+
             return [
                 'data' => $types,
                 'total' => $total,

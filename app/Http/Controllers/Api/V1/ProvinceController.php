@@ -55,7 +55,7 @@ class ProvinceController extends BaseApiController
             $result['current_page'],
             ['path' => $request->url()]
         );
-        
+
         return $this->paginatedResponse($paginator, $result['data']);
     }
 
