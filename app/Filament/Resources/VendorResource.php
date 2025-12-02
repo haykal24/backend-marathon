@@ -92,7 +92,6 @@ class VendorResource extends Resource
                             ->reorderable()
                             ->downloadable()
                             ->openable()
-                            ->preservingOriginal()
                             ->disk(config('media-library.disk_name', 'r2')),
                     ]),
                 Section::make('Kontak & Status')
