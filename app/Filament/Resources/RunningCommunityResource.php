@@ -94,6 +94,8 @@ class RunningCommunityResource extends Resource
                             ->image()
                             ->multiple()
                             ->maxFiles(10)
+                            ->preservingOriginal()
+                            ->disk(config('media-library.disk_name', 'r2'))
                             ->label('Gallery Foto')
                             ->helperText('Upload maksimal 10 foto (akan otomatis dikonversi ke WebP)')
                             ->imageEditor()

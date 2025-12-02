@@ -60,7 +60,7 @@ class DirectoryController extends BaseApiController
     {
         // Optimized query: select only needed columns
         $query = RunningCommunity::query()
-            ->select(['id', 'name', 'slug', 'location', 'instagram_handle', 'contact_info', 'is_featured', 'created_at']);
+            ->select(['id', 'name', 'slug', 'description', 'location', 'city', 'instagram_handle', 'contact_info', 'is_featured', 'created_at']);
 
         // Filter by location (consolidated field now)
         if ($request->has('city')) {

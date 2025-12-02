@@ -38,7 +38,8 @@ class RunningCommunityResource extends JsonResource
             $gallery = $this->getMedia('gallery')->map(function ($media) {
                 return [
                     'id' => $media->id,
-                    'url' => $media->getUrl('webp') ?: $media->getUrl(),
+                    'url' => $media->getUrl('webp') ?: $media->getUrl(), // Optimized untuk thumbnail
+                    'original_url' => $media->getUrl(), // Original full size untuk lightbox
                     'thumb_url' => $media->getUrl('thumb') ?: $media->getUrl(),
                     'name' => $media->name,
                 ];
