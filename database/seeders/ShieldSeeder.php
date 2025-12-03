@@ -72,13 +72,14 @@ class ShieldSeeder extends Seeder
 
         $editor->syncPermissions($editorPermissions);
 
-        // Create Super Admin user
-        $superAdminUser = User::firstOrCreate(
-            ['email' => 'admin@marathon.id'],
+        // Create / update Super Admin user
+        // Gunakan phone_number sebagai kunci utama (unik) supaya seeder aman di-run berulang
+        $superAdminUser = User::updateOrCreate(
+            ['phone_number' => '081234567890'],
             [
+                'email' => 'admin@marathon.id',
                 'name' => 'Super Admin',
-                'phone_number' => '081234567890',
-                'password' => bcrypt('password'), // Change this in production!
+                'password' => bcrypt('password'), // TODO: ganti di production
                 'email_verified_at' => now(),
             ]
         );
