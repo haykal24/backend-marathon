@@ -64,10 +64,20 @@ class VendorResource extends Resource
                                 'fotografer' => 'Fotografer',
                             ])
                             ->label('Tipe Vendor'),
-                        Components\Textarea::make('description')
+                        Components\RichEditor::make('description')
                             ->label('Deskripsi')
-                            ->rows(4)
-                            ->helperText('Deskripsi lengkap tentang vendor'),
+                            ->columnSpanFull()
+                            ->toolbarButtons([
+                                'bold',
+                                'italic',
+                                'link',
+                                'bulletList',
+                                'orderedList',
+                                'blockquote',
+                                'undo',
+                                'redo',
+                            ])
+                            ->helperText('Deskripsi lengkap tentang vendor (mendukung format teks dasar)'),
                         Components\TextInput::make('city')
                             ->maxLength(100)
                             ->label('Kota')
@@ -106,6 +116,11 @@ class VendorResource extends Resource
                             ->email()
                             ->maxLength(255)
                             ->label('Email'),
+                        Components\TextInput::make('instagram_handle')
+                            ->maxLength(100)
+                            ->prefix('@')
+                            ->label('Instagram')
+                            ->helperText('Handle Instagram tanpa @'),
                         Components\TextInput::make('phone')
                             ->tel()
                             ->maxLength(50)

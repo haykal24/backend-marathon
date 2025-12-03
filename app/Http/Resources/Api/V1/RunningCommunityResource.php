@@ -24,6 +24,7 @@ class RunningCommunityResource extends JsonResource
             'location' => $this->location,
             'city' => $this->city,
             'instagram_handle' => $this->instagram_handle,
+            'website' => $this->website,
             'contact_info' => $this->contact_info,
             'logo_url' => $this->getFirstMediaUrl('default', 'webp') ?: null,
             'is_featured' => $this->is_featured,

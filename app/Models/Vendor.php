@@ -40,6 +40,7 @@ class Vendor extends Model implements HasMedia
         'email',
         'phone',
         'city',
+        'instagram_handle',
         'is_featured',
     ];
 

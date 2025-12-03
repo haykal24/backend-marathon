@@ -38,6 +38,7 @@ class RunningCommunity extends Model implements HasMedia
         'location',
         'city',
         'instagram_handle',
+        'website',
         'contact_info',
         'is_featured',
     ];

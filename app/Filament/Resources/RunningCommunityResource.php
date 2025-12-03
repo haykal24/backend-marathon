@@ -55,10 +55,20 @@ class RunningCommunityResource extends Resource
                             ->required()
                             ->maxLength(255)
                             ->label('Nama Komunitas'),
-                        Components\Textarea::make('description')
+                        Components\RichEditor::make('description')
                             ->label('Deskripsi')
-                            ->rows(4)
-                            ->helperText('Deskripsi lengkap tentang komunitas'),
+                            ->columnSpanFull()
+                            ->toolbarButtons([
+                                'bold',
+                                'italic',
+                                'link',
+                                'bulletList',
+                                'orderedList',
+                                'blockquote',
+                                'undo',
+                                'redo',
+                            ])
+                            ->helperText('Deskripsi lengkap tentang komunitas (mendukung format teks dasar)'),
                         Components\TextInput::make('city')
                             ->maxLength(100)
                             ->label('Kota')
@@ -72,6 +82,11 @@ class RunningCommunityResource extends Resource
                             ->prefix('@')
                             ->label('Instagram')
                             ->helperText('Handle Instagram tanpa @'),
+                        Components\TextInput::make('website')
+                            ->url()
+                            ->maxLength(255)
+                            ->label('Website')
+                            ->helperText('URL website atau link profil utama komunitas (opsional)'),
                         Components\TextInput::make('contact_info')
                             ->maxLength(255)
                             ->label('Kontak')

@@ -33,6 +33,7 @@ class VendorResource extends JsonResource
             'website' => $this->website,
             'email' => $this->email,
             'phone' => $this->phone,
+            'instagram_handle' => $this->instagram_handle,
             'is_featured' => $this->is_featured,
             'created_at' => $this->created_at?->toIso8601String(),
             'updated_at' => $this->updated_at?->toIso8601String(),
