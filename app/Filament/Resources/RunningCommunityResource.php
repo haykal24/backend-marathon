@@ -137,8 +137,9 @@ class RunningCommunityResource extends Resource
                     ->sortable(),
                 Tables\Columns\TextColumn::make('description')
                     ->label('Deskripsi')
+                    ->formatStateUsing(fn (?string $state) => $state ? strip_tags($state) : null)
                     ->limit(100)
-                    ->tooltip(fn ($record) => $record->description)
+                    ->tooltip(fn ($record) => $record->description ? strip_tags($record->description) : null)
                     ->width('300px'),
                 Tables\Columns\TextColumn::make('city')
                     ->searchable()
