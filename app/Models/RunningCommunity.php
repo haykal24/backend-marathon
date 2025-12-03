@@ -84,12 +84,13 @@ class RunningCommunity extends Model implements HasMedia
             ->performOnCollections('default');
 
         // Gallery conversions
+        // Sedikit dinaikkan quality agar tidak terlalu buram di feed
         $this->addMediaConversion('webp')
             ->format('webp')
-            ->quality(80)
-            ->width(1200)
-            ->height(800)
-            ->fit(Fit::Max, 1200, 800)
+            ->quality(90)
+            ->width(1400)
+            ->height(900)
+            ->fit(Fit::Max, 1400, 900)
             ->sharpen(10)
             ->withResponsiveImages()
             ->nonQueued()
@@ -98,10 +99,10 @@ class RunningCommunity extends Model implements HasMedia
         // Gallery thumbnail
         $this->addMediaConversion('thumb')
             ->format('webp')
-            ->quality(75)
-            ->width(400)
-            ->height(300)
-            ->fit(Fit::Max, 400, 300)
+            ->quality(85)
+            ->width(500)
+            ->height(375)
+            ->fit(Fit::Max, 500, 375)
             ->nonQueued()
             ->performOnCollections('gallery');
     }

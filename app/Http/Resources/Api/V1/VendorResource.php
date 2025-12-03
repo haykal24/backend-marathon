@@ -16,6 +16,8 @@ class VendorResource extends JsonResource
     {
         $isDetailRequest = $request->route('slug') !== null;
 
+        $logoUrl = $this->getFirstMediaUrl('default', 'webp') ?: null;
+
         $data = [
             'id' => $this->id,
             'name' => $this->name,
@@ -24,7 +26,10 @@ class VendorResource extends JsonResource
             'type_raw' => $this->type, // Raw type untuk filtering
             'description' => $this->description,
             'city' => $this->city,
-            'logo' => $this->getFirstMediaUrl('default', 'webp') ?: null,
+            // Konsistensi dengan RunningCommunityResource & frontend types:
+            // kirim baik 'logo' maupun 'logo_url'
+            'logo' => $logoUrl,
+            'logo_url' => $logoUrl,
             'website' => $this->website,
             'email' => $this->email,
             'phone' => $this->phone,
